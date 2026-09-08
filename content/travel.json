@@ -479,5 +479,211 @@
         "example": "Nowhere was the heat more intense than in the enclosed courtyard."
       }
     ]
+  },
+  {
+    "id": "trip-28",
+    "level": "B1",
+    "title": "Убить время на вокзале",
+    "text": "We had to kill time at the station, so we left our bags in a locker and went to look for coffee.",
+    "translation": "На вокзале пришлось убивать время, поэтому мы сдали сумки в камеру хранения и пошли искать кофе.",
+    "phrases": [
+      {
+        "id": "trip-kill-time",
+        "text": "kill time",
+        "meaning": "убивать время, чем-то занять ожидание",
+        "note": "Kill time — заполнить вынужденную паузу. Не обязательно приятно, главное — не стоять без дела.",
+        "example": "We killed time in a bookshop until boarding started."
+      }
+    ]
+  },
+  {
+    "id": "trip-29",
+    "level": "B1",
+    "title": "Не как на фото",
+    "text": "The room did not match the photos, but it was clean and the location more than made up for the decor.",
+    "translation": "Номер не совпал с фотографиями, зато был чистым, а расположение с лихвой компенсировало отделку.",
+    "phrases": [
+      {
+        "id": "trip-more-than-made-up",
+        "text": "more than made up for",
+        "meaning": "с лихвой компенсировало",
+        "note": "Make up for a disappointment — возместить недостаток. More than подчёркивает, что плюс перевесил минус.",
+        "example": "The breakfast more than made up for the tiny bathroom."
+      }
+    ]
+  },
+  {
+    "id": "trip-30",
+    "level": "B1",
+    "title": "Запасной шарф",
+    "text": "I always pack a scarf I can fall back on if the evenings turn cold. It takes no space and solves a lot of complaints.",
+    "translation": "Я всегда кладу шарф, на который можно положиться, если вечера похолодают. Места не занимает, а претензий снимает много.",
+    "phrases": [
+      {
+        "id": "trip-fall-back-on",
+        "text": "fall back on",
+        "meaning": "прибегнуть к запасному варианту",
+        "note": "Fall back on something — использовать то, что держали про запас, когда основной план не сработал.",
+        "example": "If the ferry is cancelled, we can fall back on the night train."
+      }
+    ]
+  },
+  {
+    "id": "trip-31",
+    "level": "B1",
+    "title": "Обсчёт на такси",
+    "text": "We got ripped off on the taxi from the airport. Next time I will check the going rate before I get in.",
+    "translation": "Нас обсчитали на такси из аэропорта. В следующий раз проверю обычную цену, прежде чем садиться.",
+    "phrases": [
+      {
+        "id": "trip-ripped-off",
+        "text": "got ripped off",
+        "meaning": "нас обманули с ценой, ободрали",
+        "note": "Rip someone off — взять завышенную цену или обмануть. A rip-off — сама накрутка. Разговорное и резкое.",
+        "example": "The souvenir stall ripped us off, but we were too tired to argue."
+      },
+      {
+        "id": "trip-going-rate",
+        "text": "the going rate",
+        "meaning": "обычная, ходовая цена",
+        "note": "The going rate — сколько сейчас обычно берут за такую услугу. Полезно сверять до сделки.",
+        "example": "Ask a local what the going rate is for that ride."
+      }
+    ]
+  },
+  {
+    "id": "trip-32",
+    "level": "B1",
+    "title": "Выехать на рассвете",
+    "text": "If we set off at dawn, we should reach the pass before the tour buses fill the road.",
+    "translation": "Если выедем на рассвете, должны добраться до перевала, пока туристические автобусы не забили дорогу.",
+    "phrases": [
+      {
+        "id": "trip-set-off-at-dawn",
+        "text": "set off at dawn",
+        "meaning": "отправиться на рассвете",
+        "note": "Set off — начать путь. At dawn — на рассвете, раньше at sunrise в повседневной речи почти то же.",
+        "example": "We set off at dawn to avoid the heat."
+      }
+    ]
+  },
+  {
+    "id": "trip-33",
+    "level": "B2",
+    "title": "Не для групповых туров",
+    "text": "I am not cut out for group tours: the schedule is tight, and there is little room to linger where you actually want to.",
+    "translation": "Я не создан для групповых туров: график жёсткий, и почти нет возможности задержаться там, где действительно хочется.",
+    "phrases": [
+      {
+        "id": "trip-not-cut-out-for",
+        "text": "not cut out for",
+        "meaning": "не создан для, не подходит по складу",
+        "note": "Be cut out for something — годиться по характеру. Часто в отрицании о работе, формате путешествия, роли.",
+        "example": "She is not cut out for rushing through twelve sights a day."
+      }
+    ]
+  },
+  {
+    "id": "trip-34",
+    "level": "B2",
+    "title": "Крюк окупился",
+    "text": "The detour added an hour, but it paid dividends: the valley was empty, and the light was far better than at midday.",
+    "translation": "Крюк добавил час, но окупился: долина была пустой, а свет куда лучше полуденного.",
+    "phrases": [
+      {
+        "id": "trip-paid-dividends",
+        "text": "paid dividends",
+        "meaning": "окупился, принёс отдачу позже",
+        "note": "Pay dividends — усилия или риск позже дают заметную пользу. Не обязательно про деньги; часто про впечатления и качество.",
+        "example": "Learning a few local phrases paid dividends at every ticket window."
+      }
+    ]
+  },
+  {
+    "id": "trip-35",
+    "level": "B2",
+    "title": "Не в сезон",
+    "text": "We travelled off-season on purpose. Prices were lower, and we had the galleries more or less to ourselves.",
+    "translation": "Мы нарочно поехали не в сезон. Цены были ниже, и галереи были почти в нашем полном распоряжении.",
+    "phrases": [
+      {
+        "id": "trip-off-season",
+        "text": "off-season",
+        "meaning": "не в сезон",
+        "note": "Off-season — период низкой туристической нагрузки. Через дефис как определение: an off-season ticket.",
+        "example": "Off-season ferry tickets were half the summer price."
+      },
+      {
+        "id": "trip-to-ourselves",
+        "text": "to ourselves",
+        "meaning": "в нашем полном распоряжении",
+        "note": "Have a place to yourself / to ourselves — почти без других людей. More or less смягчает: не буквально пусто, но близко.",
+        "example": "At eight in the morning we had the beach to ourselves."
+      }
+    ]
+  },
+  {
+    "id": "trip-36",
+    "level": "B2",
+    "title": "Не рассчитывать на погоду",
+    "text": "Do not take good weather for granted in October. The wind can turn a gentle walk into a slog in minutes.",
+    "translation": "Не принимай хорошую погоду в октябре как данность. Ветер за минуты превратит лёгкую прогулку в изнурительный путь.",
+    "phrases": [
+      {
+        "id": "trip-for-granted",
+        "text": "take good weather for granted",
+        "meaning": "считать хорошую погоду само собой разумеющейся",
+        "note": "Take something for granted — не ценить и не закладывать запас, потому что кажется гарантированным.",
+        "example": "Do not take the last bus for granted after a mountain walk."
+      }
+    ]
+  },
+  {
+    "id": "trip-37",
+    "level": "C1",
+    "title": "Логика чужого города",
+    "text": "Strange as the city first appeared, its logic announced itself slowly, in small courtesies and in the way people used the river at dusk.",
+    "translation": "Каким бы странным ни казался город поначалу, его логика проявлялась медленно — в мелких любезностях и в том, как люди пользовались рекой в сумерках.",
+    "phrases": [
+      {
+        "id": "trip-strange-as",
+        "text": "Strange as the city first appeared",
+        "meaning": "каким бы странным ни казался город поначалу",
+        "note": "Прилагательное + as + подлежащее + глагол — уступительная инверсия. Нейтрально: although the city first appeared strange.",
+        "example": "Harsh as the landscape first appeared, it grew beautiful in low light."
+      }
+    ]
+  },
+  {
+    "id": "trip-38",
+    "level": "C1",
+    "title": "Вечер на удачу",
+    "text": "To arrive without a reservation is, in high season, to outsource your evening to luck, which is a poorer guide than even a mediocre guidebook.",
+    "translation": "Приехать без брони в высокий сезон — значит отдать вечер на откуп удаче, а она худший проводник, чем даже посредственный путеводитель.",
+    "phrases": [
+      {
+        "id": "trip-outsource-your-evening",
+        "text": "outsource your evening to luck",
+        "meaning": "отдать вечер на откуп удаче",
+        "note": "Outsource обычно про работу, переданную на сторону. Здесь иронический перенос: вы снимаете с себя планирование и платите непредсказуемостью.",
+        "example": "To skip the map is to outsource the day to whoever speaks first."
+      }
+    ]
+  },
+  {
+    "id": "trip-39",
+    "level": "C1",
+    "title": "Аутентичность по расписанию",
+    "text": "What the guidebook called authentic was, on closer inspection, a performance carefully timed for the afternoon coaches.",
+    "translation": "То, что путеводитель называл аутентичным, при ближайшем рассмотрении оказалось представлением, тщательно приуроченным к дневным автобусам.",
+    "phrases": [
+      {
+        "id": "trip-on-closer-inspection",
+        "text": "on closer inspection",
+        "meaning": "при ближайшем рассмотрении",
+        "note": "Вводит уточнение, которое портит первый, более выгодный взгляд. Часто после запятой, как оговорка.",
+        "example": "On closer inspection the quiet square was waiting for a tour group."
+      }
+    ]
   }
 ]

@@ -520,5 +520,218 @@
         "example": "When speed is rewarded alone, the metric ceases to measure care."
       }
     ]
+  },
+  {
+    "id": "it-31",
+    "level": "B1",
+    "title": "Сборка ещё идёт",
+    "text": "The build is still running, so there is nothing to do but sit tight. I will ping you when it finishes.",
+    "translation": "Сборка ещё идёт, так что остаётся только спокойно ждать. Напишу, когда закончится.",
+    "phrases": [
+      {
+        "id": "it-sit-tight",
+        "text": "sit tight",
+        "meaning": "спокойно ждать, не дёргаться",
+        "note": "Sit tight — не вмешиваться, пока процесс сам не закончится. Разговорное, без упрёка в бездействии.",
+        "example": "Sit tight until the upload completes, or you may corrupt the file."
+      },
+      {
+        "id": "it-ping-you",
+        "text": "ping you",
+        "meaning": "коротко написать, пнуть сообщением",
+        "note": "Ping someone — короткое служебное напоминание, не полноценный разговор. Из сетевого ping, но в команде это просто «стукнуться».",
+        "example": "Ping me if the tests go red."
+      }
+    ]
+  },
+  {
+    "id": "it-32",
+    "level": "B1",
+    "title": "Повторить ошибку",
+    "text": "Can you reproduce the bug on your machine? It only shows up for me after a hard refresh.",
+    "translation": "Можешь воспроизвести ошибку у себя? У меня она появляется только после жёсткого обновления страницы.",
+    "phrases": [
+      {
+        "id": "it-reproduce-the-bug",
+        "text": "reproduce the bug",
+        "meaning": "воспроизвести ошибку",
+        "note": "Reproduce a bug — получить тот же сбой по шагам. Если не воспроизводится, его гораздо труднее чинить.",
+        "example": "I cannot fix what I cannot reproduce on my machine."
+      },
+      {
+        "id": "it-hard-refresh",
+        "text": "hard refresh",
+        "meaning": "жёсткое обновление с очисткой кэша",
+        "note": "Hard refresh заставляет браузер заново скачать страницу, а не взять старую копию. Часто лечит «у меня не так, как у тебя».",
+        "example": "Try a hard refresh before you file the ticket."
+      }
+    ]
+  },
+  {
+    "id": "it-33",
+    "level": "B1",
+    "title": "Комментарий в задаче",
+    "text": "I left a comment on the ticket rather than pinging you on chat. It is easier to track that way.",
+    "translation": "Я оставил комментарий в задаче, а не пинговал тебя в чате. Так проще потом найти след.",
+    "phrases": [
+      {
+        "id": "it-left-a-comment",
+        "text": "left a comment",
+        "meaning": "оставил комментарий",
+        "note": "Leave a comment on a ticket / document — зафиксировать мысль там, где её найдут позже. Надёжнее устного «я тебе писал».",
+        "example": "I left a comment with the steps to reproduce."
+      }
+    ]
+  },
+  {
+    "id": "it-34",
+    "level": "B1",
+    "title": "Сначала для своих",
+    "text": "We should turn the feature on for staff first. If it breaks, everyone else will be none the wiser.",
+    "translation": "Стоит сначала включить функцию для сотрудников. Если сломается, остальные так ничего и не узнают.",
+    "phrases": [
+      {
+        "id": "it-none-the-wiser",
+        "text": "none the wiser",
+        "meaning": "так ничего и не узнать, не стать умнее",
+        "note": "Be none the wiser — не получить новой информации. Здесь пользователи не заметят неудачный внутренний запуск.",
+        "example": "If we test it internally, customers will be none the wiser."
+      }
+    ]
+  },
+  {
+    "id": "it-35",
+    "level": "B1",
+    "title": "Сигнал и шум",
+    "text": "The logs are noisy, so it is hard to tell the signal from the noise. I will add a filter before we keep guessing.",
+    "translation": "Логи шумные, поэтому трудно отличить сигнал от шума. Добавлю фильтр, прежде чем продолжать гадать.",
+    "phrases": [
+      {
+        "id": "it-signal-from-noise",
+        "text": "tell the signal from the noise",
+        "meaning": "отличить полезный сигнал от шума",
+        "note": "Tell A from B — различить. Signal versus noise — важные события против потока побочных сообщений.",
+        "example": "Without labels you cannot tell the signal from the noise in these logs."
+      }
+    ]
+  },
+  {
+    "id": "it-36",
+    "level": "B2",
+    "title": "Загнать себя в угол",
+    "text": "We are painting ourselves into a corner by supporting every old version. At some point we have to draw a line.",
+    "translation": "Поддерживая каждую старую версию, мы загоняем себя в угол. В какой-то момент придётся провести черту.",
+    "phrases": [
+      {
+        "id": "it-into-a-corner",
+        "text": "painting ourselves into a corner",
+        "meaning": "загоняем себя в угол",
+        "note": "Paint yourself into a corner — своими же решениями оставить себе всё меньше выхода. Образ покрашенного пола вокруг ног.",
+        "example": "One-off exceptions are painting us into a corner."
+      },
+      {
+        "id": "it-draw-a-line",
+        "text": "draw a line",
+        "meaning": "провести черту, поставить предел",
+        "note": "Draw a line — назвать границу, за которую больше не идём. Draw a line under something — подвести итог и закрыть тему.",
+        "example": "We should draw a line at browsers older than two years."
+      }
+    ]
+  },
+  {
+    "id": "it-37",
+    "level": "B2",
+    "title": "Не сжигать мосты",
+    "text": "The migration is reversible for now, but that window will close once we delete the old tables. We should not burn our boats yet.",
+    "translation": "Миграция пока обратима, но это окно закроется, как только удалим старые таблицы. Мосты сжигать ещё рано.",
+    "phrases": [
+      {
+        "id": "it-burn-our-boats",
+        "text": "burn our boats",
+        "meaning": "сжечь мосты, отрезать путь назад",
+        "note": "Burn your boats / bridges — сделать шаг, после которого возврат почти невозможен. Boats чуть более образно про экспедицию без пути домой.",
+        "example": "Do not burn your boats until the new system has a quiet week."
+      }
+    ]
+  },
+  {
+    "id": "it-38",
+    "level": "B2",
+    "title": "Тонкий ломтик",
+    "text": "I would rather ship a thin slice than wait for a perfect version that tries to please every edge case on day one.",
+    "translation": "Я лучше выпущу тонкий ломтик, чем буду ждать идеальной версии, которая в первый день пытается угодить каждому крайнему случаю.",
+    "phrases": [
+      {
+        "id": "it-thin-slice",
+        "text": "a thin slice",
+        "meaning": "тонкий ломтик, узкий но законченный кусок",
+        "note": "Thin slice — маленькая, но целостная поставка ценности, а не полуфабрикат. Близко к вертикальному срезу, не к половине экрана.",
+        "example": "Ship a thin slice of search before you rebuild the whole catalogue."
+      }
+    ]
+  },
+  {
+    "id": "it-39",
+    "level": "B2",
+    "title": "Разбор без виноватых",
+    "text": "The incident report should be blameless. We are here to fix the system, not to find a convenient person to blame.",
+    "translation": "Разбор инцидента должен быть без поиска виноватых. Мы здесь, чтобы чинить систему, а не назначать удобного виновника.",
+    "phrases": [
+      {
+        "id": "it-blameless",
+        "text": "blameless",
+        "meaning": "без поиска виноватых",
+        "note": "A blameless postmortem разбирает причины в системе и процессе. Цель — чтобы сбой не повторился, а не чтобы кого-то наказать.",
+        "example": "A blameless write-up is easier to be honest in."
+      }
+    ]
+  },
+  {
+    "id": "it-40",
+    "level": "C1",
+    "title": "Логи вместо барьера",
+    "text": "Useful though extra logging may be, it is no substitute for an interface that makes the dangerous action harder to perform by accident.",
+    "translation": "Каким бы полезным ни был дополнительный журнал, он не заменяет интерфейс, в котором опасное действие труднее совершить случайно.",
+    "phrases": [
+      {
+        "id": "it-useful-though-logging",
+        "text": "Useful though extra logging may be",
+        "meaning": "каким бы полезным ни был дополнительный журнал",
+        "note": "Прилагательное + though + подлежащее + глагол — уступка. Дальше следует более важный конструктивный аргумент.",
+        "example": "Useful though extra logging may be, it will not undo a deleted account."
+      }
+    ]
+  },
+  {
+    "id": "it-41",
+    "level": "C1",
+    "title": "Зелёные тесты как тревога",
+    "text": "Not a single test failed, which ought to have worried us more: the suite had quietly stopped covering the path that broke.",
+    "translation": "Не упал ни один тест, и это должно было встревожить сильнее: набор тихо перестал покрывать путь, который сломался.",
+    "phrases": [
+      {
+        "id": "it-not-a-single-test",
+        "text": "Not a single test failed",
+        "meaning": "не упал ни один тест",
+        "note": "Not a single + существительное усиливает отсутствие. Здесь успех тестов — ложный покой, а не доказательство качества.",
+        "example": "Not a single test failed, yet the checkout was broken for real users."
+      }
+    ]
+  },
+  {
+    "id": "it-42",
+    "level": "C1",
+    "title": "Видимость не понимание",
+    "text": "To equate more tools with more control is to mistake visibility for understanding; a dashboard can reassure without explaining.",
+    "translation": "Приравнивать большее число инструментов к большему контролю — значит путать видимость с пониманием; панель может успокаивать, ничего не объясняя.",
+    "phrases": [
+      {
+        "id": "it-mistake-visibility",
+        "text": "mistake visibility for understanding",
+        "meaning": "принимать видимость за понимание",
+        "note": "Mistake A for B — принять одно за другое. Visibility — что что-то отображается; understanding — что вы можете действовать по сути.",
+        "example": "Do not mistake visibility for understanding just because the graph is green."
+      }
+    ]
   }
 ]

@@ -479,5 +479,211 @@
         "example": "Far from resolving the tension, the email made it public."
       }
     ]
+  },
+  {
+    "id": "people-28",
+    "level": "B1",
+    "title": "Не ставить в неловкое положение",
+    "text": "I did not want to put you on the spot in front of everyone, so I saved the awkward question for later.",
+    "translation": "Я не хотел ставить тебя в неловкое положение при всех, поэтому оставил неудобный вопрос на потом.",
+    "phrases": [
+      {
+        "id": "people-on-the-spot",
+        "text": "put you on the spot",
+        "meaning": "поставить тебя в неловкое положение",
+        "note": "Put someone on the spot — заставить отвечать сразу, часто при других людях. On the spot также может значить немедленно.",
+        "example": "The unexpected toast put her on the spot."
+      }
+    ]
+  },
+  {
+    "id": "people-29",
+    "level": "B1",
+    "title": "Заговорить на прогулке",
+    "text": "She opened up about the move once we were walking, which is often easier than sitting face to face.",
+    "translation": "Она заговорила о переезде, когда мы уже шли, а так часто проще, чем сидеть лицом к лицу.",
+    "phrases": [
+      {
+        "id": "people-opened-up-about",
+        "text": "opened up about",
+        "meaning": "откровенно заговорила о",
+        "note": "Open up about something — начать делиться тем, что обычно держат при себе. Open up to someone — довериться человеку.",
+        "example": "He opened up about the job only after a long walk."
+      }
+    ]
+  },
+  {
+    "id": "people-30",
+    "level": "B1",
+    "title": "Не держать зла",
+    "text": "I will not hold it against you if you cannot make it. These things happen, and we can always reschedule.",
+    "translation": "Я не буду держать на тебя зла, если не получится прийти. Такое бывает, всегда можно перенести.",
+    "phrases": [
+      {
+        "id": "people-hold-it-against-you",
+        "text": "hold it against you",
+        "meaning": "держать на тебя зло, ставить в вину",
+        "note": "Hold something against someone — помнить промах и учитывать его позже. Часто в отрицании: I will not hold it against you.",
+        "example": "Please do not hold it against me if I leave early."
+      }
+    ]
+  },
+  {
+    "id": "people-31",
+    "level": "B1",
+    "title": "Холодный приём",
+    "text": "He has been giving me the cold shoulder since Friday, and I still do not know what I did wrong.",
+    "translation": "С пятницы он меня демонстративно игнорирует, и я до сих пор не понимаю, в чём провинился.",
+    "phrases": [
+      {
+        "id": "people-cold-shoulder",
+        "text": "the cold shoulder",
+        "meaning": "холодный приём, демонстративное игнорирование",
+        "note": "Give someone the cold shoulder — намеренно быть холодным и неразговорчивым. Это не случайная занятость.",
+        "example": "She gave him the cold shoulder at the party."
+      }
+    ]
+  },
+  {
+    "id": "people-32",
+    "level": "B1",
+    "title": "Навстречу друг другу",
+    "text": "Let us meet halfway on the time: I can do Thursday evening if you can skip the Friday slot.",
+    "translation": "Давай сойдёмся на времени посередине: я могу в четверг вечером, если ты уберёшь пятничный слот.",
+    "phrases": [
+      {
+        "id": "people-meet-halfway",
+        "text": "meet halfway",
+        "meaning": "пойти навстречу, найти компромисс",
+        "note": "Meet someone halfway — каждая сторона уступает часть. Буквально — встретиться на полпути; здесь о договорённости.",
+        "example": "If you can start later, I will meet you halfway on the budget."
+      }
+    ]
+  },
+  {
+    "id": "people-33",
+    "level": "B2",
+    "title": "Прикусить язык",
+    "text": "I bit my tongue during the toast, but the comment has been eating away at me ever since.",
+    "translation": "Я прикусил язык во время тоста, но реплика с тех пор меня подтачивает.",
+    "phrases": [
+      {
+        "id": "people-bit-my-tongue",
+        "text": "bit my tongue",
+        "meaning": "прикусил язык, промолчал",
+        "note": "Bite your tongue — удержать резкое или честное замечание. Прошедшая форма bite — bit.",
+        "example": "I bit my tongue rather than correct her in public."
+      },
+      {
+        "id": "people-eating-away-at-me",
+        "text": "eating away at me",
+        "meaning": "подтачивает меня изнутри",
+        "note": "Eat away at someone — мысль или обида не отпускает и постепенно портит настроение. Часто about something unsaid.",
+        "example": "The unfinished argument kept eating away at me."
+      }
+    ]
+  },
+  {
+    "id": "people-34",
+    "level": "B2",
+    "title": "Помириться до праздника",
+    "text": "We should bury the hatchet before the wedding. Nobody wants to spend the day steering around old grudges.",
+    "translation": "Стоит помириться до свадьбы. Никто не хочет весь день обходить старые обиды стороной.",
+    "phrases": [
+      {
+        "id": "people-bury-the-hatchet",
+        "text": "bury the hatchet",
+        "meaning": "помириться, прекратить вражду",
+        "note": "Bury the hatchet — официально закончить ссору. Образ зарытого томагавка как знака мира.",
+        "example": "After years of silence they finally buried the hatchet."
+      }
+    ]
+  },
+  {
+    "id": "people-35",
+    "level": "B2",
+    "title": "Прозрачный отказ",
+    "text": "She saw through the polite excuse at once. There is little point dressing up a refusal as a scheduling conflict.",
+    "translation": "Она сразу раскусила вежливую отговорку. Нет смысла выдавать отказ за конфликт в расписании.",
+    "phrases": [
+      {
+        "id": "people-saw-through",
+        "text": "saw through",
+        "meaning": "раскусила, поняла истинный смысл",
+        "note": "See through an excuse or act — не дать себя обмануть внешним видом слов. See someone through a hard time — другой смысл: поддержать.",
+        "example": "He saw through my attempt to change the subject."
+      },
+      {
+        "id": "people-dressing-up",
+        "text": "dressing up a refusal",
+        "meaning": "приукрашивать отказ",
+        "note": "Dress something up as something — подать неприятное в более приемлемой оболочке. Здесь отказ маскируют под логистику.",
+        "example": "Dressing up a refusal as concern rarely fools anyone."
+      }
+    ]
+  },
+  {
+    "id": "people-36",
+    "level": "B2",
+    "title": "Чем дольше молчишь",
+    "text": "I have been meaning to reach out for months, yet the longer I wait, the more awkward the first message feels.",
+    "translation": "Я месяцами собираюсь написать, но чем дольше жду, тем неловче кажется первое сообщение.",
+    "phrases": [
+      {
+        "id": "people-reach-out",
+        "text": "reach out",
+        "meaning": "выйти на связь, первым написать",
+        "note": "Reach out — инициировать контакт, часто после паузы или когда человеку может быть нужна поддержка. В корпоративном английском звучит штампованно, в личном — тепло.",
+        "example": "I should reach out before another year slips by."
+      }
+    ]
+  },
+  {
+    "id": "people-37",
+    "level": "C1",
+    "title": "Извинение для себя",
+    "text": "Were I to raise the subject now, I suspect the apology would sound more like a bid for relief than a genuine reckoning with the harm done.",
+    "translation": "Подними я тему сейчас, боюсь, извинение прозвучало бы скорее как просьба о собственном облегчении, чем как настоящее признание причинённого вреда.",
+    "phrases": [
+      {
+        "id": "people-were-i-to-raise",
+        "text": "Were I to raise the subject",
+        "meaning": "подними я эту тему",
+        "note": "Were I to + инфинитив — формальная инверсия вместо if I were to. Подчёркивает гипотетичность и осторожность.",
+        "example": "Were I to call tonight, it might only reopen the wound."
+      }
+    ]
+  },
+  {
+    "id": "people-38",
+    "level": "C1",
+    "title": "Отказ без слова нет",
+    "text": "Nothing if not tactful, he managed to decline without ever using the word no, which left me unsure whether I had been refused at all.",
+    "translation": "Что ни говори, а тактичности ему не занимать: он сумел отказать, ни разу не сказав «нет», и я так и не понял, отказали ли мне вообще.",
+    "phrases": [
+      {
+        "id": "people-nothing-if-not",
+        "text": "Nothing if not tactful",
+        "meaning": "что ни говори, а тактичный; в высшей степени тактичный",
+        "note": "Nothing if not + прилагательное — человек уж точно обладает этим качеством, иногда с иронией. Ставится как вводная характеристика.",
+        "example": "Nothing if not consistent, she arrived exactly on the hour."
+      }
+    ]
+  },
+  {
+    "id": "people-39",
+    "level": "C1",
+    "title": "Молчание не согласие",
+    "text": "Only then did I understand that her silence was not agreement but a refusal to perform enthusiasm she did not feel.",
+    "translation": "Лишь тогда я понял, что её молчание было не согласием, а отказом изображать энтузиазм, которого она не чувствовала.",
+    "phrases": [
+      {
+        "id": "people-only-then-did-i",
+        "text": "Only then did I understand",
+        "meaning": "лишь тогда я понял",
+        "note": "Only then + инверсия вспомогательного глагола выделяет момент осознания. Нейтрально: I only understood then.",
+        "example": "Only then did I see that the joke had landed badly."
+      }
+    ]
   }
 ]

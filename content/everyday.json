@@ -486,5 +486,225 @@
         "example": "In no way does extra storage solve a habit of buying too much."
       }
     ]
+  },
+  {
+    "id": "day-28",
+    "level": "B1",
+    "title": "Поспать подольше",
+    "text": "I usually sleep in on Sundays, but today I woke up at seven and could not get back to sleep.",
+    "translation": "По воскресеньям я обычно сплю подольше, но сегодня проснулся в семь и не смог заснуть снова.",
+    "phrases": [
+      {
+        "id": "day-sleep-in",
+        "text": "sleep in",
+        "meaning": "спать дольше обычного, не вставать по будильнику",
+        "note": "Sleep in — сознательно или по привычке встать позже. Не путайте с oversleep — проспать и опоздать.",
+        "example": "You can sleep in tomorrow. There is no rush."
+      },
+      {
+        "id": "day-get-back-to-sleep",
+        "text": "get back to sleep",
+        "meaning": "заснуть снова",
+        "note": "Get back to sleep — вернуться ко сну после пробуждения. Go back to sleep — тот же смысл, чуть более разговорный.",
+        "example": "I read for ten minutes and got back to sleep."
+      }
+    ]
+  },
+  {
+    "id": "day-29",
+    "level": "B1",
+    "title": "Руки заняты",
+    "text": "Could you pop out and grab a bite for us? I have my hands full with the cooking.",
+    "translation": "Можешь быстро сходить и взять нам перекусить? У меня руки заняты готовкой.",
+    "phrases": [
+      {
+        "id": "day-pop-out",
+        "text": "pop out",
+        "meaning": "быстро выскочить, ненадолго выйти",
+        "note": "Pop out — короткая отлучка, обычно по делу рядом с домом. Более британское и разговорное, чем go out.",
+        "example": "I will pop out for milk and be right back."
+      },
+      {
+        "id": "day-grab-a-bite",
+        "text": "grab a bite",
+        "meaning": "перекусить на скорую руку",
+        "note": "Grab a bite (to eat) — поесть быстро, без полноценного обеда. Grab подчёркивает спешку, а не качество еды.",
+        "example": "We can grab a bite near the station."
+      },
+      {
+        "id": "day-hands-full",
+        "text": "have my hands full",
+        "meaning": "быть полностью занятым",
+        "note": "Have your hands full — дел столько, что больше не взять. Часто не буквально про руки, а про нагрузку.",
+        "example": "I have my hands full with the kids this afternoon."
+      }
+    ]
+  },
+  {
+    "id": "day-30",
+    "level": "B1",
+    "title": "Пригодилось",
+    "text": "This extra charger came in handy when the cafe sockets were all taken. I will keep it in my bag from now on.",
+    "translation": "Запасная зарядка пригодилась, когда в кафе были заняты все розетки. С этих пор буду носить её в сумке.",
+    "phrases": [
+      {
+        "id": "day-came-in-handy",
+        "text": "came in handy",
+        "meaning": "пригодилась",
+        "note": "Come in handy — оказаться кстати, часто о вещи, которую взяли «на всякий случай». Прошедшее: came in handy.",
+        "example": "A spare tote bag came in handy at the market."
+      }
+    ]
+  },
+  {
+    "id": "day-31",
+    "level": "B1",
+    "title": "Пока что так",
+    "text": "For the time being we are sharing one bathroom, so mornings have to be planned a little more carefully.",
+    "translation": "Пока что мы делим одну ванную, так что утра приходится планировать чуть внимательнее.",
+    "phrases": [
+      {
+        "id": "day-for-the-time-being",
+        "text": "For the time being",
+        "meaning": "пока что, на данный момент",
+        "note": "Временное положение дел, которое, как ожидается, изменится. Близко к for now, чуть формальнее.",
+        "example": "For the time being we will eat in the kitchen."
+      }
+    ]
+  },
+  {
+    "id": "day-32",
+    "level": "B1",
+    "title": "Отойти после понедельника",
+    "text": "After a rough Monday I bounced back faster than I expected. A walk and an early night did most of the work.",
+    "translation": "После тяжёлого понедельника я восстановился быстрее, чем ждал. Прогулка и ранний сон сделали почти всё.",
+    "phrases": [
+      {
+        "id": "day-bounced-back",
+        "text": "bounced back",
+        "meaning": "восстановился, пришёл в себя",
+        "note": "Bounce back — быстро оправиться после усталости, болезни или неудачи. Образ мяча, который отскакивает.",
+        "example": "She bounced back after a terrible first day in the new flat."
+      }
+    ]
+  },
+  {
+    "id": "day-33",
+    "level": "B2",
+    "title": "Привычка оставлять посуду",
+    "text": "Leaving the dishes overnight has become second nature, which is precisely why the sink looks worse every morning.",
+    "translation": "Оставлять посуду на ночь вошло в привычку, и именно поэтому раковина каждое утро выглядит хуже.",
+    "phrases": [
+      {
+        "id": "day-second-nature",
+        "text": "second nature",
+        "meaning": "вторая натура, автоматическая привычка",
+        "note": "Become second nature — делать что-то уже не задумываясь. Может быть и полезным навыком, и вредной рутиной.",
+        "example": "Checking the windows before bed has become second nature."
+      }
+    ]
+  },
+  {
+    "id": "day-34",
+    "level": "B2",
+    "title": "Капля за каплей",
+    "text": "I booked the plumber on a whim after the tap started dripping. To make matters worse, it began leaking in earnest that night.",
+    "translation": "Я вызвал сантехника по внезапному порыву, когда кран начал капать. В довершение всё ночью потекло уже всерьёз.",
+    "phrases": [
+      {
+        "id": "day-on-a-whim",
+        "text": "on a whim",
+        "meaning": "по внезапному порыву, без долгого плана",
+        "note": "On a whim — решение почти без раздумий. Whim — каприз или внезапное желание, не обязательно глупое.",
+        "example": "We painted the hall yellow on a whim and still like it."
+      },
+      {
+        "id": "day-to-make-matters-worse",
+        "text": "To make matters worse",
+        "meaning": "в довершение бед, хуже того",
+        "note": "Вводит следующее осложнение после уже плохой ситуации. Обычно стоит в начале предложения или после точки.",
+        "example": "To make matters worse, the shop had already closed."
+      }
+    ]
+  },
+  {
+    "id": "day-35",
+    "level": "B2",
+    "title": "Терпение на исходе",
+    "text": "The late trains are starting to wear thin. I can take a delay now and then, but not three times in one week.",
+    "translation": "Опоздания поездов начинают испытывать терпение. Разовую задержку я переживу, но не три раза за неделю.",
+    "phrases": [
+      {
+        "id": "day-wear-thin",
+        "text": "wear thin",
+        "meaning": "иссякать, начинать раздражать",
+        "note": "Patience wears thin — терпение на исходе. My excuses are wearing thin — отговорки уже не работают.",
+        "example": "His jokes began to wear thin after the third retelling."
+      }
+    ]
+  },
+  {
+    "id": "day-36",
+    "level": "B2",
+    "title": "Правило пяти минут",
+    "text": "As a rule of thumb, if a chore takes less than five minutes I do it at once. Otherwise it sits there and grows.",
+    "translation": "Как правило, если дело занимает меньше пяти минут, я делаю его сразу. Иначе оно лежит и разрастается.",
+    "phrases": [
+      {
+        "id": "day-rule-of-thumb",
+        "text": "As a rule of thumb",
+        "meaning": "как практическое правило, примерно",
+        "note": "Rule of thumb — простой ориентир, не точная формула. Полезен в быту, где не нужны строгие измерения.",
+        "example": "As a rule of thumb, rice needs twice its volume in water."
+      }
+    ]
+  },
+  {
+    "id": "day-37",
+    "level": "C1",
+    "title": "Едва сел",
+    "text": "No sooner had I sat down with a book than the washing machine beeped, as if the household itself objected to rest.",
+    "translation": "Едва я сел с книгой, как пискнула стиральная машина, словно сам дом возражал против отдыха.",
+    "phrases": [
+      {
+        "id": "day-no-sooner-had-i",
+        "text": "No sooner had I sat down",
+        "meaning": "едва я сел",
+        "note": "No sooner had + подлежащее + причастие + than — инверсия: второе событие следует сразу за первым. Нейтрально: I had no sooner sat down than...",
+        "example": "No sooner had I boiled the kettle than the doorbell rang."
+      }
+    ]
+  },
+  {
+    "id": "day-38",
+    "level": "C1",
+    "title": "Не сами дела",
+    "text": "It is not so much the chores I resent as the way they fragment the evening into tasks too small to feel finished and too many to ignore.",
+    "translation": "Меня раздражает не столько сама домашняя работа, сколько то, как она дробит вечер на задачи слишком мелкие, чтобы ощутить завершённость, и слишком многочисленные, чтобы их игнорировать.",
+    "phrases": [
+      {
+        "id": "day-not-so-much",
+        "text": "It is not so much",
+        "meaning": "дело не столько в",
+        "note": "It is not so much A as B смещает акцент: настоящее возражение — B, хотя A лежит на поверхности.",
+        "example": "It is not so much the noise I mind as the lack of an end to it."
+      }
+    ]
+  },
+  {
+    "id": "day-39",
+    "level": "C1",
+    "title": "Тишина как проблема",
+    "text": "Scarcely had the quiet returned when I reached for a podcast, as though silence were a problem rather than the point of the hour.",
+    "translation": "Едва тишина вернулась, я потянулся к подкасту, словно молчание было проблемой, а не смыслом этого часа.",
+    "phrases": [
+      {
+        "id": "day-scarcely-had",
+        "text": "Scarcely had the quiet returned",
+        "meaning": "едва тишина вернулась",
+        "note": "Scarcely had + подлежащее + причастие + when — та же схема, что no sooner... than. Подчёркивает, как мало длилось спокойствие.",
+        "example": "Scarcely had I hung up when the phone rang again."
+      }
+    ]
   }
 ]

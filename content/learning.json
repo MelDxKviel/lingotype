@@ -458,5 +458,204 @@
         "example": "To the extent that drills help, they help by making a pattern automatic."
       }
     ]
+  },
+  {
+    "id": "learn-28",
+    "level": "B1",
+    "title": "Список на повтор",
+    "text": "I keep a running list of phrases I want to recycle in conversation. If I do not use them soon, they fade.",
+    "translation": "Я веду текущий список выражений, которые хочу снова пустить в разговор. Если не использовать их скоро, они выцветают.",
+    "phrases": [
+      {
+        "id": "learn-running-list",
+        "text": "a running list",
+        "meaning": "текущий, постоянно пополняемый список",
+        "note": "Running здесь — непрерывный, идущий, а не про бег. Список живой: пункты добавляются и вычёркиваются.",
+        "example": "Keep a running list of words you actually needed today."
+      }
+    ]
+  },
+  {
+    "id": "learn-29",
+    "level": "B1",
+    "title": "Собери предложение",
+    "text": "Could you slow down a little? I can follow the idea, but I am still piecing the sentences together.",
+    "translation": "Можешь чуть сбавить темп? Мысль я улавливаю, но предложения всё ещё собираю по частям.",
+    "phrases": [
+      {
+        "id": "learn-piecing-together",
+        "text": "piecing the sentences together",
+        "meaning": "собирать предложения по частям",
+        "note": "Piece something together — собрать целое из обрывков. На слух это нормальный этап, а не провал понимания.",
+        "example": "I was piecing the sentences together from stress and word order."
+      }
+    ]
+  },
+  {
+    "id": "learn-30",
+    "level": "B1",
+    "title": "Тень за диктором",
+    "text": "I shadow short clips on the way to work. Copying the rhythm does more for my speaking than silent reading ever did.",
+    "translation": "По дороге на работу я повторяю короткие ролики следом за диктором. Копирование ритма даёт речи больше, чем когда-либо давало молчаливое чтение.",
+    "phrases": [
+      {
+        "id": "learn-shadow",
+        "text": "shadow short clips",
+        "meaning": "повторять короткие ролики следом, теневое повторение",
+        "note": "Shadowing — говорить почти одновременно с записью, копируя ритм и интонацию. Не про слежку, а про тренировку речи.",
+        "example": "I shadow short clips rather than long lectures, so I can keep up."
+      }
+    ]
+  },
+  {
+    "id": "learn-31",
+    "level": "B1",
+    "title": "Чтобы слово прилипло",
+    "text": "When a word will not stick, I put it on a flashcard with a sentence I actually said. Invented examples slip away faster.",
+    "translation": "Когда слово не прилипает, я кладу его на карточку вместе с фразой, которую сам произнёс. Выдуманные примеры ускользают быстрее.",
+    "phrases": [
+      {
+        "id": "learn-will-not-stick",
+        "text": "will not stick",
+        "meaning": "не запоминается, не прилипает",
+        "note": "Stick — удержаться в памяти. If it will not stick — слово узнаётся, но не всплывает, когда нужно.",
+        "example": "Dates will not stick unless I attach a story to them."
+      }
+    ]
+  },
+  {
+    "id": "learn-32",
+    "level": "B1",
+    "title": "Пара держит в тонусе",
+    "text": "I paired up with a classmate for twenty minutes of conversation twice a week. Knowing someone is waiting keeps me honest.",
+    "translation": "Я договорился заниматься в паре с однокурсником: двадцать минут разговора дважды в неделю. Знание, что кто-то ждёт, не даёт мне врать себе.",
+    "phrases": [
+      {
+        "id": "learn-paired-up-with",
+        "text": "paired up with",
+        "meaning": "составил пару с, договорился заниматься вдвоём",
+        "note": "Pair up with someone — договориться заниматься вдвоём. Pair up — глагол с up; a pair — сама пара.",
+        "example": "I paired up with a neighbour who also wanted speaking practice."
+      },
+      {
+        "id": "learn-keeps-me-honest",
+        "text": "keeps me honest",
+        "meaning": "не даёт мне врать себе, держит в тонусе",
+        "note": "Keep someone honest — внешнее обстоятельство мешает схалтурить. Здесь — живой человек вместо одной силы воли.",
+        "example": "A weekly call keeps me honest when motivation dips."
+      }
+    ]
+  },
+  {
+    "id": "learn-33",
+    "level": "B2",
+    "title": "Подсмотреть — не вспомнить",
+    "text": "There is no substitute for retrieving a word from memory. Looking it up again feels productive, but it does not build the same path.",
+    "translation": "Вспоминанию слова из памяти нет замены. Снова посмотреть его кажется продуктивным, но тот же путь в голове не строится.",
+    "phrases": [
+      {
+        "id": "learn-no-substitute-for",
+        "text": "no substitute for",
+        "meaning": "нет замены, не заменить",
+        "note": "There is no substitute for X — ничто другое не даёт того же эффекта, как бы ни было удобнее.",
+        "example": "There is no substitute for saying the sentence out loud."
+      }
+    ]
+  },
+  {
+    "id": "learn-34",
+    "level": "B2",
+    "title": "Конспект не равен учёбе",
+    "text": "I used to equate busy notes with learning. In fact, the more I transcribed, the less I processed.",
+    "translation": "Раньше я приравнивал густые конспекты к учёбе. На деле чем больше переписывал, тем меньше обрабатывал.",
+    "phrases": [
+      {
+        "id": "learn-equate-with",
+        "text": "equate busy notes with",
+        "meaning": "приравнивать подробные конспекты к",
+        "note": "Equate A with B — считать два явления одним и тем же. Часто ошибка: внешний вид работы принимается за результат.",
+        "example": "Do not equate busy notes with a firm grasp of the idea."
+      }
+    ]
+  },
+  {
+    "id": "learn-35",
+    "level": "B2",
+    "title": "Полезное трение",
+    "text": "A little friction in practice is useful. If every exercise feels easy, you are probably staying inside what you already know.",
+    "translation": "Небольшое трение в практике полезно. Если каждое упражнение даётся легко, вы, скорее всего, остаётесь внутри уже известного.",
+    "phrases": [
+      {
+        "id": "learn-a-little-friction",
+        "text": "A little friction",
+        "meaning": "небольшое сопротивление, лёгкая трудность",
+        "note": "Friction здесь — усилие на границе умения, не раздражение в коллективе. Слишком гладкая практика не двигает навык.",
+        "example": "A little friction in the drill is a sign you are stretching, not failing."
+      }
+    ]
+  },
+  {
+    "id": "learn-36",
+    "level": "B2",
+    "title": "Запись своей речи",
+    "text": "I record myself once a week, painful as that is. The playback shows patterns I never notice while I am speaking.",
+    "translation": "Я записываю себя раз в неделю, как бы ни было это мучительно. Прослушивание показывает схемы, которых я не замечаю, пока говорю.",
+    "phrases": [
+      {
+        "id": "learn-painful-as-that-is",
+        "text": "painful as that is",
+        "meaning": "как бы ни было это мучительно",
+        "note": "Прилагательное + as that is — короткая уступка внутри предложения. Признаёт неприятность и всё равно оставляет действие.",
+        "example": "I review the mistakes, painful as that is, on the same day."
+      }
+    ]
+  },
+  {
+    "id": "learn-37",
+    "level": "C1",
+    "title": "Слова без нужды сказать",
+    "text": "However diligently one collects vocabulary, it remains inert until it is pressed into the service of something one actually wants to say.",
+    "translation": "Как ни прилежно собирать лексику, она остаётся мёртвым грузом, пока её не принудят служить тому, что человеку действительно хочется сказать.",
+    "phrases": [
+      {
+        "id": "learn-pressed-into-service",
+        "text": "pressed into the service of",
+        "meaning": "призвана служить, поставлена на службу",
+        "note": "Press something into service — заставить ресурс работать на конкретную задачу. Здесь слова оживают только в реальном намерении.",
+        "example": "New phrases stay fragile until they are pressed into the service of a real story."
+      }
+    ]
+  },
+  {
+    "id": "learn-38",
+    "level": "C1",
+    "title": "Знание для экзамена",
+    "text": "To study only what is testable is to train for display rather than for use, and the two kinds of knowledge part company the moment the exam is over.",
+    "translation": "Учить только то, что проверяемо, — значит тренироваться для показа, а не для применения, и эти два вида знания расходятся в тот момент, когда экзамен заканчивается.",
+    "phrases": [
+      {
+        "id": "learn-part-company",
+        "text": "part company",
+        "meaning": "расходиться, переставать совпадать",
+        "note": "Part company — разойтись путями. О людях — перестать общаться; о явлениях — перестать совпадать после общей точки.",
+        "example": "Memorised answers and real conversation part company very quickly."
+      }
+    ]
+  },
+  {
+    "id": "learn-39",
+    "level": "C1",
+    "title": "Точность без разгрома",
+    "text": "Were feedback always gentle, we might never notice the errors that have become invisible through repetition; the art is to be precise without being crushing.",
+    "translation": "Будь обратная связь всегда мягкой, мы могли бы так и не заметить ошибок, ставших невидимыми от повторения; искусство в том, чтобы быть точным, не раздавливая.",
+    "phrases": [
+      {
+        "id": "learn-were-feedback-always",
+        "text": "Were feedback always gentle",
+        "meaning": "будь обратная связь всегда мягкой",
+        "note": "Инверсия were + подлежащее вместо if. Гипотеза о слишком щадящем режиме, из-за которого слепые пятна сохраняются.",
+        "example": "Were feedback always gentle, fossilised mistakes would linger longer."
+      }
+    ]
   }
 ]

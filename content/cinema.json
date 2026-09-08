@@ -492,5 +492,211 @@
         "example": "Brief though it is, the epilogue changes the whole tone."
       }
     ]
+  },
+  {
+    "id": "film-31",
+    "level": "B1",
+    "title": "Не смотреть в экран",
+    "text": "I had to look away during the last scene. I do not mind tension, but I have no stomach for graphic injury.",
+    "translation": "В последней сцене пришлось отвести взгляд. Напряжение мне не мешает, но натуралистичные травмы я не выношу.",
+    "phrases": [
+      {
+        "id": "film-look-away",
+        "text": "look away",
+        "meaning": "отвести взгляд",
+        "note": "Look away — сознательно не смотреть, обычно из брезгливости или страха. Look away from the screen — от экрана.",
+        "example": "Several people looked away when the credits warned about flashing lights."
+      },
+      {
+        "id": "film-no-stomach-for",
+        "text": "have no stomach for",
+        "meaning": "не выносить, не иметь вкуса к",
+        "note": "Have no stomach for something — психологически не переносить. Stomach здесь не про голод, а про устойчивость.",
+        "example": "I have no stomach for true-crime reconstructions late at night."
+      }
+    ]
+  },
+  {
+    "id": "film-32",
+    "level": "B1",
+    "title": "На самом интересном месте",
+    "text": "The episode ended on a cliffhanger, which is cheap if it happens every week, but this one actually earned it.",
+    "translation": "Серия оборвалась на самом интересном месте; если так каждую неделю — дёшево, но здесь это было заслуженно.",
+    "phrases": [
+      {
+        "id": "film-cliffhanger",
+        "text": "ended on a cliffhanger",
+        "meaning": "оборвалась на самом интересном месте",
+        "note": "Cliffhanger — обрыв в момент максимального напряжения, чтобы зритель ждал продолжения. Из старых историй, где герой висел над обрывом.",
+        "example": "If every episode ended on a cliffhanger, I would stop trusting the writers."
+      }
+    ]
+  },
+  {
+    "id": "film-33",
+    "level": "B1",
+    "title": "Дубляж и оригинал",
+    "text": "I watched it dubbed first and then with subtitles. The original voices carried a lot that the dub had flattened.",
+    "translation": "Сначала посмотрел в дубляже, потом с субтитрами. Оригинальные голоса несли многое из того, что дубляж сгладил.",
+    "phrases": [
+      {
+        "id": "film-carried-a-lot",
+        "text": "carried a lot",
+        "meaning": "несли много смысла и оттенка",
+        "note": "Carry здесь — удерживать и передавать смысл, а не физически нести. Flatten — сделать плоским, лишить оттенка.",
+        "example": "Her pause carried a lot that the translation had to spell out."
+      }
+    ]
+  },
+  {
+    "id": "film-34",
+    "level": "B1",
+    "title": "Дать двадцать минут",
+    "text": "It is a slow starter, so give it twenty minutes. If you are still cold on it after that, switch off with a clear conscience.",
+    "translation": "Он медленно заводится, так что дай ему двадцать минут. Если после этого всё ещё равнодушен — выключай со спокойной совестью.",
+    "phrases": [
+      {
+        "id": "film-slow-starter",
+        "text": "a slow starter",
+        "meaning": "медленно заводится",
+        "note": "A slow starter — начало вялое, смысл набирается позже. Не обязательно плохой фильм, но требует терпения.",
+        "example": "It is a slow starter, yet the second half is tightly wound."
+      },
+      {
+        "id": "film-cold-on-it",
+        "text": "cold on it",
+        "meaning": "равнодушен к этому, не зацепило",
+        "note": "Be cold on something — так и не возникло интереса. Go cold on a plan — охладеть к задумке.",
+        "example": "I was still cold on it after the first episode, so I stopped."
+      }
+    ]
+  },
+  {
+    "id": "film-35",
+    "level": "B1",
+    "title": "Сверить впечатления",
+    "text": "We talked over the credits and compared notes. It is more fun when you have someone to argue with afterwards.",
+    "translation": "Мы разговаривали под титры и сверяли впечатления. Так интереснее, когда есть с кем потом поспорить.",
+    "phrases": [
+      {
+        "id": "film-compared-notes",
+        "text": "compared notes",
+        "meaning": "сверили впечатления и наблюдения",
+        "note": "Compare notes — обменяться тем, что каждый заметил, не обязательно в учёбе. После фильма это часть удовольствия.",
+        "example": "We compared notes and realised we had rooted for opposite characters."
+      }
+    ]
+  },
+  {
+    "id": "film-36",
+    "level": "B2",
+    "title": "Влияния на виду",
+    "text": "The show wears its influences on its sleeve, but it still finds a tone of its own in the quieter episodes.",
+    "translation": "Сериал носит свои влияния на рукаве, но в более тихих сериях всё же находит собственный тон.",
+    "phrases": [
+      {
+        "id": "film-on-its-sleeve",
+        "text": "wears its influences on its sleeve",
+        "meaning": "не скрывает свои влияния, носит их на виду",
+        "note": "Wear your heart on your sleeve — не прятать чувства. Wear influences on your sleeve — цитаты и родство с другими работами очевидны.",
+        "example": "The film wears its influences on its sleeve, from the lighting to the rain."
+      }
+    ]
+  },
+  {
+    "id": "film-37",
+    "level": "B2",
+    "title": "Слишком много нитей",
+    "text": "I am divided on the finale. It was brave, but it left too many threads hanging for the sake of being ambiguous.",
+    "translation": "К финалу я отношусь двойственно. Он смелый, но слишком много нитей осталось висеть ради самой двусмысленности.",
+    "phrases": [
+      {
+        "id": "film-threads-hanging",
+        "text": "left too many threads hanging",
+        "meaning": "оставил слишком много сюжетных нитей оборванными",
+        "note": "Leave a thread hanging — не закрыть линию. For the sake of — ради заявленной цели, здесь ради туманности как стиля.",
+        "example": "A short film can leave threads hanging; a long series usually should not."
+      }
+    ]
+  },
+  {
+    "id": "film-38",
+    "level": "B2",
+    "title": "Без подмигивания камере",
+    "text": "The comedy lands because nobody winks at the camera. The characters take themselves seriously, which makes the absurdity funnier.",
+    "translation": "Комедия срабатывает, потому что никто не подмигивает камере. Герои относятся к себе серьёзно, и от этого абсурд смешнее.",
+    "phrases": [
+      {
+        "id": "film-winks-at-the-camera",
+        "text": "winks at the camera",
+        "meaning": "подмигивает камере, выходит из роли к зрителю",
+        "note": "Wink at the camera — разрушить иллюзию и намекнуть, что всё это шутка. The joke lands — шутка достигает цели, «заходит».",
+        "example": "The sketch is funnier if no one winks at the camera."
+      }
+    ]
+  },
+  {
+    "id": "film-39",
+    "level": "B2",
+    "title": "Награда за внимательность",
+    "text": "It rewards a close watching: throwaway lines in episode two become load-bearing in episode seven.",
+    "translation": "Он награждает внимательный просмотр: брошенные реплики во второй серии становятся несущими в седьмой.",
+    "phrases": [
+      {
+        "id": "film-close-watching",
+        "text": "a close watching",
+        "meaning": "внимательный, пристальный просмотр",
+        "note": "Close watching / close reading — смотреть так, будто детали не случайны. Load-bearing — несущий, как стена в здании, без которой конструкция падает.",
+        "example": "The series rewards a close watching more than a half-distracted binge."
+      }
+    ]
+  },
+  {
+    "id": "film-40",
+    "level": "C1",
+    "title": "Мрачно, но не нигилистично",
+    "text": "Bleak though the outlook is, the film is not nihilistic; it insists that small loyalties still count when larger systems have failed.",
+    "translation": "Как ни мрачен кругозор, фильм не нигилистичен; он настаивает, что мелкие привязанности всё ещё имеют вес, когда крупные системы отказали.",
+    "phrases": [
+      {
+        "id": "film-bleak-though",
+        "text": "Bleak though the outlook is",
+        "meaning": "как ни мрачен кругозор",
+        "note": "Прилагательное + though + подлежащее + глагол — уступка. Дальше опровергается напрашивающийся вывод (значит, всё бессмысленно).",
+        "example": "Bleak though the outlook is, the last scene is almost tender."
+      }
+    ]
+  },
+  {
+    "id": "film-41",
+    "level": "C1",
+    "title": "Реализм как набор штампов",
+    "text": "What masquerades as realism is often only a narrower set of cliches, shot in grey and spoken softly.",
+    "translation": "То, что маскируется под реализм, часто оказывается лишь более узким набором штампов, снятым в серых тонах и произнесённым тихо.",
+    "phrases": [
+      {
+        "id": "film-masquerades-as",
+        "text": "masquerades as realism",
+        "meaning": "маскируется под реализм",
+        "note": "Masquerade as — выдавать себя за. Здесь стиль (серый цвет, тихая речь) принимается за правду о мире, хотя это тоже условность.",
+        "example": "What masquerades as realism can be just as mannered as a musical."
+      }
+    ]
+  },
+  {
+    "id": "film-42",
+    "level": "C1",
+    "title": "Музыка как признание",
+    "text": "So sparing is the score that when music finally enters, it feels less like accompaniment than like a confession the pictures would not make alone.",
+    "translation": "Саундтрек настолько скуп, что когда музыка наконец входит, она ощущается не столько сопровождением, сколько признанием, которого картинка сама бы не сделала.",
+    "phrases": [
+      {
+        "id": "film-so-sparing-is",
+        "text": "So sparing is the score",
+        "meaning": "саундтрек настолько скуп",
+        "note": "So + прилагательное + is + подлежащее — инверсия степени. Дальше that-придаточное с эффектом редкого приёма.",
+        "example": "So sparing is the score that a single piano line changes the whole scene."
+      }
+    ]
   }
 ]

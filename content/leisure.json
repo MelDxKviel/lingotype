@@ -472,5 +472,211 @@
         "example": "Not for nothing is that cafe packed every Saturday morning."
       }
     ]
+  },
+  {
+    "id": "free-28",
+    "level": "B1",
+    "title": "Выпустить пар",
+    "text": "I need to blow off some steam after this week. A long swim usually does the trick better than another hour of television.",
+    "translation": "После этой недели мне нужно выпустить пар. Длинное плавание обычно срабатывает лучше, чем ещё час телевизора.",
+    "phrases": [
+      {
+        "id": "free-blow-off-steam",
+        "text": "blow off some steam",
+        "meaning": "выпустить пар, сбросить напряжение",
+        "note": "Blow off steam — разрядиться через движение или шум, а не через разговор. Some steam звучит чуть мягче, чем all my steam.",
+        "example": "A loud concert helped us blow off some steam."
+      },
+      {
+        "id": "free-does-the-trick",
+        "text": "does the trick",
+        "meaning": "срабатывает, решает задачу",
+        "note": "Do the trick — простое средство даёт нужный эффект. Не обязательно изящно, главное — работает.",
+        "example": "A short nap usually does the trick before an evening out."
+      }
+    ]
+  },
+  {
+    "id": "free-29",
+    "level": "B1",
+    "title": "Внезапно свободный день",
+    "text": "The class was cancelled, so I had the afternoon to myself. I ended up rearranging the bookshelf for no good reason.",
+    "translation": "Занятие отменили, и послеобеденное время оказалось полностью моим. В итоге я зачем-то переставил книжную полку.",
+    "phrases": [
+      {
+        "id": "free-to-myself",
+        "text": "had the afternoon to myself",
+        "meaning": "послеобеденное время было полностью моим",
+        "note": "Have time / a place to yourself — никто не претендует на это время. Не have myself, а to myself.",
+        "example": "I had the house to myself and cooked something slow."
+      }
+    ]
+  },
+  {
+    "id": "free-30",
+    "level": "B1",
+    "title": "Фортепиано заржавело",
+    "text": "I am rusty on the piano, but if I play a little every evening I should get back into it before the holiday.",
+    "translation": "На пианино я уже «заржавел», но если буду играть понемногу каждый вечер, к праздникам должен войти обратно в форму.",
+    "phrases": [
+      {
+        "id": "free-rusty",
+        "text": "rusty",
+        "meaning": "растерявший навык, «заржавевший»",
+        "note": "Be rusty on / at a skill — давно не практиковался, поэтому выходит неловко. Не про металл, а про навык.",
+        "example": "My French is rusty, but a week there would help."
+      },
+      {
+        "id": "free-get-back-into-it",
+        "text": "get back into it",
+        "meaning": "снова втянуться",
+        "note": "Get back into a hobby — вернуться после перерыва. It отсылает к занятию, уже названному раньше.",
+        "example": "Once the nights get longer I will get back into it."
+      }
+    ]
+  },
+  {
+    "id": "free-31",
+    "level": "B1",
+    "title": "Скинуться на билет",
+    "text": "We chipped in for a shared season ticket. It is cheaper, and it makes us actually show up.",
+    "translation": "Мы скинулись на общий сезонный билет. Так дешевле, и это заставляет нас реально приходить.",
+    "phrases": [
+      {
+        "id": "free-chipped-in",
+        "text": "chipped in",
+        "meaning": "скинулись, внесли свою долю",
+        "note": "Chip in — каждый даёт часть суммы или помощи. Разговорное и дружеское, не про официальный взнос.",
+        "example": "Everyone chipped in for a decent bottle of wine."
+      }
+    ]
+  },
+  {
+    "id": "free-32",
+    "level": "B1",
+    "title": "Отговорить себя",
+    "text": "I keep meaning to try the evening pottery class. If I do not sign up this month, I will talk myself out of it again.",
+    "translation": "Я всё собираюсь попробовать вечернюю гончарную студию. Если не запишусь в этом месяце, снова себя отговорю.",
+    "phrases": [
+      {
+        "id": "free-talk-myself-out",
+        "text": "talk myself out of it",
+        "meaning": "отговорить себя",
+        "note": "Talk yourself out of something — найти причины не делать задуманное. Talk someone into it — наоборот, уговорить.",
+        "example": "Do not talk yourself out of it before the first class."
+      }
+    ]
+  },
+  {
+    "id": "free-33",
+    "level": "B2",
+    "title": "Медленный разгон",
+    "text": "The novel is a slow burn, which put some readers off, but the last fifty pages are worth the patience.",
+    "translation": "Роман разгорается медленно, и это кого-то отпугивает, зато последние пятьдесят страниц стоят терпения.",
+    "phrases": [
+      {
+        "id": "free-slow-burn",
+        "text": "a slow burn",
+        "meaning": "медленный разгон, история, которая набирает силу",
+        "note": "A slow burn — удовольствие или напряжение нарастают не сразу. Может относиться к книге, сериалу, роману.",
+        "example": "Give it three chapters; it is a slow burn rather than a thriller."
+      }
+    ]
+  },
+  {
+    "id": "free-34",
+    "level": "B2",
+    "title": "Нет слуха, пока не услышал",
+    "text": "I have no ear for jazz, or so I thought, until a live trio last Friday made the whole case in forty minutes.",
+    "translation": "У меня нет слуха на джаз — так я думал, пока живое трио в прошлую пятницу не доказало обратное за сорок минут.",
+    "phrases": [
+      {
+        "id": "free-no-ear-for",
+        "text": "have no ear for",
+        "meaning": "не воспринимать, не иметь чутья на",
+        "note": "Have an ear for music / languages — природная чуткость. Have no ear for — кажется, что жанр «не твоё», иногда преждевременно.",
+        "example": "I thought I had no ear for opera until that one aria."
+      }
+    ]
+  },
+  {
+    "id": "free-35",
+    "level": "B2",
+    "title": "Ради атмосферы",
+    "text": "We went to the match more for the atmosphere than the football, and in that respect it did not disappoint.",
+    "translation": "Мы пошли на матч больше ради атмосферы, чем ради футбола, и в этом отношении он не разочаровал.",
+    "phrases": [
+      {
+        "id": "free-in-that-respect",
+        "text": "in that respect",
+        "meaning": "в этом отношении",
+        "note": "Ограничивает оценку одним названным критерием. Можно не любить игру, но признать атмосферу.",
+        "example": "The seats were cramped, but in that respect the view was perfect."
+      }
+    ]
+  },
+  {
+    "id": "free-36",
+    "level": "B2",
+    "title": "Коллекция или склад",
+    "text": "There is a fine line between collecting and hoarding. I am still not sure which side of it my vinyl habit sits on.",
+    "translation": "Между коллекционированием и накопительством тонкая грань. Я до сих пор не уверен, по какую сторону от неё сидит моя привычка к винилу.",
+    "phrases": [
+      {
+        "id": "free-fine-line",
+        "text": "a fine line between",
+        "meaning": "тонкая грань между",
+        "note": "A fine line between A and B — два явления похожи, и легко соскользнуть из приемлемого в избыточное.",
+        "example": "There is a fine line between dedication and neglecting everything else."
+      }
+    ]
+  },
+  {
+    "id": "free-37",
+    "level": "C1",
+    "title": "Один холст, а не десять залов",
+    "text": "Fond as I am of crowded galleries, I leave more nourished by an hour with one painting than by a dutiful march through ten rooms.",
+    "translation": "Как ни люблю я многолюдные галереи, больше выношу из часа с одной картиной, чем из послушного марша через десять залов.",
+    "phrases": [
+      {
+        "id": "free-fond-as-i-am",
+        "text": "Fond as I am",
+        "meaning": "как ни люблю я",
+        "note": "Прилагательное + as + подлежащее + глагол — уступка перед возражением. Нейтрально: although I am fond of...",
+        "example": "Fond as I am of festivals, I need a quiet day afterwards."
+      }
+    ]
+  },
+  {
+    "id": "free-38",
+    "level": "C1",
+    "title": "Увлечение как отчёт",
+    "text": "To measure a hobby by output is to import a workplace logic into the one part of the week that was meant to escape it.",
+    "translation": "Измерять увлечение по выработке — значит переносить рабочую логику в ту единственную часть недели, которая как раз должна была от неё ускользать.",
+    "phrases": [
+      {
+        "id": "free-measure-by-output",
+        "text": "To measure a hobby by output",
+        "meaning": "измерять увлечение по выработке",
+        "note": "Инфинитив в роли подлежащего задаёт тезис. Output здесь — измеримый результат, как на работе, а не радость процесса.",
+        "example": "To measure a hobby by output is to turn rest into another deadline."
+      }
+    ]
+  },
+  {
+    "id": "free-39",
+    "level": "C1",
+    "title": "Мнимое чувство вины",
+    "text": "Rarely is the so-called guilty pleasure actually guilty; more often it is simply pleasure we have not yet found a respectable name for.",
+    "translation": "Редко так называемое запретное удовольствие в самом деле виновно; чаще это просто удовольствие, которому мы ещё не подобрали респектабельного имени.",
+    "phrases": [
+      {
+        "id": "free-rarely-is-the",
+        "text": "Rarely is the so-called",
+        "meaning": "редко так называемое",
+        "note": "Отрицательное rarely в начале вызывает инверсию: is the pleasure. So-called ставит кавычки вокруг ярлыка, в котором сомневаются.",
+        "example": "Rarely is the so-called waste of time as empty as it looks from outside."
+      }
+    ]
   }
 ]

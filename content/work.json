@@ -465,5 +465,197 @@
         "example": "The more we rush, the more mistakes we have to undo."
       }
     ]
+  },
+  {
+    "id": "work-28",
+    "level": "B1",
+    "title": "Ввести в курс",
+    "text": "Could you fill me in on what I missed? I was in another call and only caught the last five minutes.",
+    "translation": "Можешь ввести меня в курс того, что я пропустил? Я был на другом звонке и застал только последние пять минут.",
+    "phrases": [
+      {
+        "id": "work-fill-me-in",
+        "text": "fill me in",
+        "meaning": "ввести меня в курс",
+        "note": "Fill someone in on something — кратко рассказать упущенное. Не fill in a form — заполнить бланк.",
+        "example": "Fill me in after the standup if I have to leave early."
+      }
+    ]
+  },
+  {
+    "id": "work-29",
+    "level": "B1",
+    "title": "Прогнать через юристов",
+    "text": "I will run it by legal before we send anything out. A five-minute check now may save a messy rewrite later.",
+    "translation": "Я прогоню это через юристов, прежде чем что-то рассылать. Пятиминутная проверка сейчас может избавить от мучительной переписки потом.",
+    "phrases": [
+      {
+        "id": "work-run-it-by",
+        "text": "run it by",
+        "meaning": "согласовать, показать на проверку",
+        "note": "Run something by someone — коротко получить мнение или одобрение до следующего шага. Разговорное, но уместное на работе.",
+        "example": "Run the wording by me before it goes to the client."
+      }
+    ]
+  },
+  {
+    "id": "work-30",
+    "level": "B1",
+    "title": "Нехватка людей",
+    "text": "We are a bit short-staffed this week, so I may be slower than usual on non-urgent requests.",
+    "translation": "На этой неделе нас маловато в штате, так что по несрочным просьбам я могу отвечать медленнее обычного.",
+    "phrases": [
+      {
+        "id": "work-short-staffed",
+        "text": "short-staffed",
+        "meaning": "нехватка сотрудников",
+        "note": "Be short-staffed — людей меньше, чем нужно для обычного темпа. Через дефис как прилагательное.",
+        "example": "The help desk is short-staffed until Wednesday."
+      }
+    ]
+  },
+  {
+    "id": "work-31",
+    "level": "B1",
+    "title": "Отложить до цифр",
+    "text": "Let us park this until Monday, when we will have the numbers. There is no use deciding in the dark.",
+    "translation": "Давай отложим это до понедельника, когда будут цифры. Нет смысла решать вслепую.",
+    "phrases": [
+      {
+        "id": "work-park-this",
+        "text": "park this",
+        "meaning": "временно отложить вопрос",
+        "note": "Park a topic — сознательно не решать сейчас, чтобы вернуться с лучшими данными. Нейтральнее, чем forget about it.",
+        "example": "Let us park this until we hear from finance."
+      }
+    ]
+  },
+  {
+    "id": "work-32",
+    "level": "B1",
+    "title": "Снять с тебя",
+    "text": "I can take that off your plate if you are stuck in meetings all afternoon.",
+    "translation": "Могу снять это с тебя, если ты весь день на встречах.",
+    "phrases": [
+      {
+        "id": "work-off-your-plate",
+        "text": "take that off your plate",
+        "meaning": "снять это с тебя, разгрузить",
+        "note": "Have a lot on your plate — много задач. Take something off someone's plate — взять часть нагрузки на себя.",
+        "example": "I can take the slides off your plate this week."
+      }
+    ]
+  },
+  {
+    "id": "work-33",
+    "level": "B2",
+    "title": "Пинать решение",
+    "text": "We keep kicking the decision down the road, which only makes the eventual choice more painful.",
+    "translation": "Мы всё откладываем решение на потом, отчего окончательный выбор становится только болезненнее.",
+    "phrases": [
+      {
+        "id": "work-down-the-road",
+        "text": "kicking the decision down the road",
+        "meaning": "откладывать решение всё дальше",
+        "note": "Kick the can down the road — оттягивать неприятный выбор. Здесь тот же образ: дорога впереди, решение не здесь.",
+        "example": "Kicking the decision down the road will not make the budget larger."
+      }
+    ]
+  },
+  {
+    "id": "work-34",
+    "level": "B2",
+    "title": "Порядок цифр",
+    "text": "The estimate was in the right ballpark, but it did not account for review time, and that is where we always slip.",
+    "translation": "Оценка была того же порядка, но не учитывала время на ревью, а именно там мы всегда проседаем.",
+    "phrases": [
+      {
+        "id": "work-right-ballpark",
+        "text": "in the right ballpark",
+        "meaning": "примерно того же порядка, близко к реальности",
+        "note": "In the right ballpark / in the ballpark — оценка не точная, но не абсурдная. Из бейсбола: попасть на поле, не обязательно в цель.",
+        "example": "Your figure is in the right ballpark; we can refine it tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "work-35",
+    "level": "B2",
+    "title": "Обещать меньше",
+    "text": "I would rather under-promise and over-deliver than set a date we can meet only if nothing else goes wrong.",
+    "translation": "Я лучше пообещаю меньше и сделаю больше, чем поставлю дату, которую успеем, только если больше ничего не пойдёт не так.",
+    "phrases": [
+      {
+        "id": "work-under-promise",
+        "text": "under-promise and over-deliver",
+        "meaning": "обещать скромнее и сделать больше",
+        "note": "Рабочая максима: занизить ожидание и превысить его. Через дефис в обеих частях. Противоположность — over-promise and under-deliver.",
+        "example": "If we under-promise and over-deliver, trust recovers faster."
+      }
+    ]
+  },
+  {
+    "id": "work-36",
+    "level": "B2",
+    "title": "Палка о двух концах",
+    "text": "The new tool is a double-edged sword: it saves time on reports, but it also invites people to request more of them.",
+    "translation": "Новый инструмент — палка о двух концах: экономит время на отчётах, но и провоцирует просить их ещё больше.",
+    "phrases": [
+      {
+        "id": "work-double-edged-sword",
+        "text": "a double-edged sword",
+        "meaning": "палка о двух концах",
+        "note": "Выгода приходит вместе с обратной стороной. После двоеточия обычно называют оба лезвия.",
+        "example": "Remote work is a double-edged sword for people who struggle to switch off."
+      }
+    ]
+  },
+  {
+    "id": "work-37",
+    "level": "C1",
+    "title": "Когда попросили следы",
+    "text": "Only when the client asked for a paper trail did it become clear how much of our process lived in unsearchable conversations.",
+    "translation": "Лишь когда клиент попросил бумажный след, стало ясно, какая часть нашего процесса жила в неподдающихся поиску разговорах.",
+    "phrases": [
+      {
+        "id": "work-only-when-the-client",
+        "text": "Only when the client asked",
+        "meaning": "лишь когда клиент попросил",
+        "note": "Only when + обстоятельство требует инверсии в главной части: did it become clear. Подчёркивает запоздалое осознание.",
+        "example": "Only when the audit began did the missing notes matter."
+      }
+    ]
+  },
+  {
+    "id": "work-38",
+    "level": "C1",
+    "title": "Если рамки снова разъедутся",
+    "text": "Should the scope expand again, we will need to say so plainly rather than absorbing the extra work out of a misplaced sense of helpfulness.",
+    "translation": "Если объём снова разрастётся, нужно сказать об этом прямо, а не вбирать лишнюю работу из ложного чувства полезности.",
+    "phrases": [
+      {
+        "id": "work-should-the-scope",
+        "text": "Should the scope expand",
+        "meaning": "если объём разрастётся",
+        "note": "Should + подлежащее + инфинитив — формальное условие вместо if. Звучит как готовность к вероятному, не к фантастическому.",
+        "example": "Should the deadline move, we will renegotiate the extras."
+      }
+    ]
+  },
+  {
+    "id": "work-39",
+    "level": "C1",
+    "title": "Репетиция отсрочки",
+    "text": "The meeting was less a decision than a rehearsal of reasons for delaying one, and everyone left with plausible deniability.",
+    "translation": "Встреча была не столько решением, сколько репетицией причин его отложить, и все разошлись с правдоподобной возможностью отнекиваться.",
+    "phrases": [
+      {
+        "id": "work-plausible-deniability",
+        "text": "plausible deniability",
+        "meaning": "правдоподобная возможность отрицать",
+        "note": "Состояние, в котором человек может честно или почти честно сказать, что не принимал решения. Часто о размытой ответственности.",
+        "example": "Vague notes left everyone with plausible deniability and no owner."
+      }
+    ]
   }
 ]
