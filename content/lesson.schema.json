@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lingotype topic",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "level", "title", "text", "translation", "phrases"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]{1,48}$" },
+      "level": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
+      "title": { "type": "string", "minLength": 1 },
+      "text": { "type": "string", "minLength": 20, "maxLength": 240, "pattern": "^[ -~]+$" },
+      "translation": { "type": "string", "minLength": 1 },
+      "phrases": {
+        "type": "array", "minItems": 1, "maxItems": 3,
+        "items": {
+          "type": "object", "additionalProperties": false,
+          "required": ["id", "text", "meaning", "note", "example"],
+          "properties": {
+            "id": { "type": "string", "pattern": "^[a-z0-9-]{1,48}$" },
+            "text": { "type": "string", "minLength": 1 },
+            "meaning": { "type": "string", "minLength": 1 },
+            "note": { "type": "string", "minLength": 1 },
+            "example": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,462 @@
+[
+  {
+    "id": "learn-01",
+    "level": "A1",
+    "title": "Спросить ещё раз",
+    "text": "Could you say that again, please? I want to write the new word in my notebook.",
+    "translation": "Не могли бы вы повторить, пожалуйста? Я хочу записать новое слово в блокнот.",
+    "phrases": [
+      {
+        "id": "say-that-again",
+        "text": "say that again",
+        "meaning": "повторить сказанное",
+        "note": "Could you say that again, please? — вежливая просьба повторить, если вы не расслышали или не поняли.",
+        "example": "Sorry, could you say that again?"
+      }
+    ]
+  },
+  {
+    "id": "learn-02",
+    "level": "A1",
+    "title": "Немного каждый день",
+    "text": "I learn a little English every day. I read a short text and write down one new word.",
+    "translation": "Я учу английский понемногу каждый день. Я читаю короткий текст и записываю одно новое слово.",
+    "phrases": [
+      {
+        "id": "write-down",
+        "text": "write down",
+        "meaning": "записывать, делать заметку",
+        "note": "Write down подчёркивает, что вы записываете, чтобы не забыть. С местоимением: write it down.",
+        "example": "Please write down your address."
+      }
+    ]
+  },
+  {
+    "id": "learn-03",
+    "level": "A2",
+    "title": "Маленькие шаги",
+    "text": "Learning a language takes time. Keep going, even if you only practise for a few minutes each day.",
+    "translation": "Изучение языка требует времени. Продолжай, даже если занимаешься всего несколько минут в день.",
+    "phrases": [
+      {
+        "id": "keep-going",
+        "text": "Keep going",
+        "meaning": "продолжай, не останавливайся",
+        "note": "Способ подбодрить человека. Keep + -ing означает продолжать действие: keep reading, keep practising.",
+        "example": "You are doing well. Keep going!"
+      }
+    ]
+  },
+  {
+    "id": "learn-04",
+    "level": "A2",
+    "title": "Дать себе отдых",
+    "text": "When I feel tired, I take a break and stretch my hands. A short rest helps me focus again.",
+    "translation": "Когда я устаю, я делаю перерыв и разминаю кисти. Короткий отдых помогает снова сосредоточиться.",
+    "phrases": [
+      {
+        "id": "take-a-break",
+        "text": "take a break",
+        "meaning": "сделать перерыв",
+        "note": "Break здесь существительное: перерыв. Take a break from work — временно отвлечься от работы.",
+        "example": "Let's take a break for five minutes."
+      }
+    ]
+  },
+  {
+    "id": "learn-05",
+    "level": "B1",
+    "title": "Привыкнуть к новому",
+    "text": "Touch typing felt strange at first, but I am getting the hang of it. I can now focus on the words instead of the keys.",
+    "translation": "Сначала слепая печать казалась непривычной, но я начинаю осваиваться. Теперь я могу сосредоточиться на словах, а не на клавишах.",
+    "phrases": [
+      {
+        "id": "getting-the-hang-of-it",
+        "text": "getting the hang of it",
+        "meaning": "начинаю осваиваться, улавливаю суть",
+        "note": "Get the hang of something — научиться справляться с чем-то через практику. Разговорное выражение для освоения навыка.",
+        "example": "This game is tricky, but I am getting the hang of it."
+      }
+    ]
+  },
+  {
+    "id": "learn-06",
+    "level": "B1",
+    "title": "Ошибки помогают",
+    "text": "Making mistakes is part of the process. Instead of rushing, slow down and pay attention to the things you find difficult.",
+    "translation": "Ошибки — часть процесса. Вместо спешки замедлись и обрати внимание на то, что даётся трудно.",
+    "phrases": [
+      {
+        "id": "pay-attention-to",
+        "text": "pay attention to",
+        "meaning": "обращать внимание на",
+        "note": "После to можно поставить существительное или -ing: pay attention to spelling. Буквально платить ничего не нужно.",
+        "example": "Pay attention to the ending of each word."
+      }
+    ]
+  },
+  {
+    "id": "learn-07",
+    "level": "B2",
+    "title": "Проверить понимание",
+    "text": "Being familiar with a phrase does not necessarily mean you can use it confidently. Try coming up with your own example rather than simply recognising the one you have already seen.",
+    "translation": "Знакомство с выражением не обязательно означает, что вы можете уверенно его использовать. Попробуйте придумать собственный пример, а не просто узнавать уже виденный.",
+    "phrases": [
+      {
+        "id": "learn-coming-up-with",
+        "text": "coming up with",
+        "meaning": "придумать, найти идею или решение",
+        "note": "Come up with an idea — придумать идею. Сочетание обычно подразумевает самостоятельный поиск, а не случайную встречу с готовым ответом.",
+        "example": "Coming up with a memorable example takes practice."
+      }
+    ]
+  },
+  {
+    "id": "learn-08",
+    "level": "C1",
+    "title": "Обратная связь",
+    "text": "However reassuring immediate success may feel, it tells us little about whether a skill will endure. What matters is the ability to retrieve and adapt what we have learned once the familiar cues are gone.",
+    "translation": "Каким бы обнадёживающим ни был немедленный успех, он мало говорит о том, сохранится ли навык. Важна способность вспомнить и применить усвоенное, когда привычные подсказки исчезнут.",
+    "phrases": [
+      {
+        "id": "learn-what-matters",
+        "text": "What matters",
+        "meaning": "то, что действительно важно",
+        "note": "What matters is... выделяет главный критерий. What здесь вводит целое придаточное, которое служит подлежащим.",
+        "example": "What matters is whether you can explain the idea in your own words."
+      }
+    ]
+  },
+  {
+    "id": "learn-09",
+    "level": "C2",
+    "title": "Границы уверенности",
+    "text": "Intellectual humility entails neither reflexive self-doubt nor the indiscriminate deferral of judgement, but a willingness to hold even one's most coherent explanations open to revision in the light of recalcitrant evidence.",
+    "translation": "Интеллектуальная скромность предполагает не автоматическое сомнение в себе и не постоянный отказ от суждения, а готовность пересмотреть даже самые стройные объяснения перед лицом не укладывающихся в них свидетельств.",
+    "phrases": [
+      {
+        "id": "learn-in-the-light-of",
+        "text": "in the light of",
+        "meaning": "в свете, с учётом",
+        "note": "Вводит сведения, которые меняют оценку ситуации. В американском английском также употребляется in light of без the.",
+        "example": "We revised our explanation in the light of the new findings."
+      }
+    ]
+  },
+  {
+    "id": "learn-10",
+    "level": "B1",
+    "title": "Путать слова",
+    "text": "I keep mixing up those two words. I will look them up again and write a sentence with each so the difference sticks.",
+    "translation": "Я всё время путаю эти два слова. Снова посмотрю их в словаре и напишу по предложению с каждым, чтобы разница закрепилась.",
+    "phrases": [
+      {
+        "id": "learn-mixing-up",
+        "text": "mixing up",
+        "meaning": "путать между собой",
+        "note": "Mix up two similar things — перепутать. Mix-up как существительное — путаница. С местоимением: mix them up.",
+        "example": "I keep mixing up affect and effect in a hurry."
+      },
+      {
+        "id": "learn-look-them-up",
+        "text": "look them up",
+        "meaning": "посмотреть их в словаре или справочнике",
+        "note": "Look something up — найти справку. Местоимение стоит между look и up: look them up, не look up them.",
+        "example": "If you are unsure, look the phrase up in a corpus."
+      }
+    ]
+  },
+  {
+    "id": "learn-11",
+    "level": "B1",
+    "title": "Не ругать себя",
+    "text": "Do not be too hard on yourself if progress feels slow. Skills like this tend to click all of a sudden after a plateau.",
+    "translation": "Не будь слишком суров к себе, если прогресс кажется медленным. Такие навыки часто внезапно «щёлкают» после плато.",
+    "phrases": [
+      {
+        "id": "learn-too-hard-on-yourself",
+        "text": "too hard on yourself",
+        "meaning": "слишком суров к себе",
+        "note": "Be hard on someone — строго судить. Be hard on yourself — чрезмерная самокритика, которая мешает практике.",
+        "example": "You are being too hard on yourself over one bad session."
+      },
+      {
+        "id": "learn-all-of-a-sudden",
+        "text": "all of a sudden",
+        "meaning": "внезапно, вдруг",
+        "note": "Разговорный синоним suddenly. All of a sudden, не all of the sudden в стандартном варианте.",
+        "example": "The spelling started to click all of a sudden last month."
+      }
+    ]
+  },
+  {
+    "id": "learn-12",
+    "level": "B1",
+    "title": "Пробежать глазами мало",
+    "text": "I skimmed the chapter last night, but I need to go over it properly before I can discuss it with any confidence.",
+    "translation": "Вчера вечером я пробежал главу глазами, но мне нужно нормально её повторить, прежде чем уверенно обсуждать.",
+    "phrases": [
+      {
+        "id": "learn-go-over-it",
+        "text": "go over it",
+        "meaning": "ещё раз внимательно пройти",
+        "note": "Go over notes, a chapter, or a plan — повторно разобрать, чтобы лучше понять или запомнить. Не go over в значении закончиться.",
+        "example": "Let us go over the examples once more before the test."
+      }
+    ]
+  },
+  {
+    "id": "learn-13",
+    "level": "B1",
+    "title": "Вслух и внимательнее",
+    "text": "Reading aloud helps me notice mistakes I would otherwise gloss over. It is slower, but it pays off.",
+    "translation": "Чтение вслух помогает замечать ошибки, которые иначе я бы пропустил. Это медленнее, но окупается.",
+    "phrases": [
+      {
+        "id": "learn-gloss-over",
+        "text": "gloss over",
+        "meaning": "скользить мимо, не замечать",
+        "note": "Gloss over mistakes — не обратить внимания, иногда намеренно сгладить. Здесь — не заметить при быстром чтении.",
+        "example": "Silent reading lets me gloss over endings I cannot yet hear."
+      },
+      {
+        "id": "learn-pays-off",
+        "text": "pays off",
+        "meaning": "окупается, приносит результат",
+        "note": "Pay off — усилия позже дают результат. Не путайте с pay off a loan — погасить кредит.",
+        "example": "Short daily drills pay off more than a monthly marathon."
+      }
+    ]
+  },
+  {
+    "id": "learn-14",
+    "level": "B1",
+    "title": "Короткая регулярность",
+    "text": "I set aside twenty minutes every morning for vocabulary. A short, regular session is easier to keep up than a long one at the weekend.",
+    "translation": "Я выделяю двадцать минут каждое утро на лексику. Короткую регулярную сессию проще поддерживать, чем длинную по выходным.",
+    "phrases": [
+      {
+        "id": "learn-keep-up",
+        "text": "keep up",
+        "meaning": "поддерживать, не бросать ритм",
+        "note": "Keep up a habit — продолжать в том же темпе. Keep up with someone — не отставать от человека или новостей.",
+        "example": "Three pages a day is easy to keep up even when I am busy."
+      }
+    ]
+  },
+  {
+    "id": "learn-15",
+    "level": "B1",
+    "title": "Говорить вокруг слова",
+    "text": "If I cannot recall a word, I try to talk around it rather than freeze. That habit has made conversations far less stressful.",
+    "translation": "Если не могу вспомнить слово, стараюсь описать его своими словами, а не замирать. Эта привычка сделала разговоры куда менее стрессовыми.",
+    "phrases": [
+      {
+        "id": "learn-talk-around-it",
+        "text": "talk around it",
+        "meaning": "описать своими словами, обойти пробел",
+        "note": "Talk around a missing word — передать смысл описанием. Полезный приём беглости, не замена точному слову навсегда.",
+        "example": "If the verb will not come, talk around it with a simpler phrase."
+      }
+    ]
+  },
+  {
+    "id": "learn-16",
+    "level": "B1",
+    "title": "Понять общий смысл",
+    "text": "I have started reading the news in English. At first I only got the gist, but now I can follow most of the argument.",
+    "translation": "Я начал читать новости на английском. Сначала улавливал только суть, а теперь слежу за большей частью рассуждения.",
+    "phrases": [
+      {
+        "id": "learn-got-the-gist",
+        "text": "got the gist",
+        "meaning": "уловил суть",
+        "note": "Get the gist — понять основную мысль, не все детали. Полезно как промежуточная цель, не как потолок.",
+        "example": "I got the gist of the lecture even without the slides."
+      }
+    ]
+  },
+  {
+    "id": "learn-17",
+    "level": "B2",
+    "title": "Узнать и суметь",
+    "text": "It is one thing to recognise a grammar rule and another to apply it under pressure. The gap between the two is where most of the work happens.",
+    "translation": "Одно дело узнать грамматическое правило и совсем другое — применить его под давлением. Именно в этом разрыве и происходит большая часть работы.",
+    "phrases": [
+      {
+        "id": "learn-one-thing-to",
+        "text": "It is one thing to",
+        "meaning": "одно дело...",
+        "note": "It is one thing to A and another to B подчёркивает, что второе заметно труднее первого, хотя оба связаны.",
+        "example": "It is one thing to copy a sentence and another to invent one."
+      }
+    ]
+  },
+  {
+    "id": "learn-18",
+    "level": "B2",
+    "title": "Не зубрить ночью",
+    "text": "I used to cram the night before a test, but the words would vanish by Monday. Spacing the practice out has made a noticeable difference.",
+    "translation": "Раньше я зубрил накануне теста, но к понедельнику слова исчезали. Распределение практики по дням дало заметную разницу.",
+    "phrases": [
+      {
+        "id": "learn-cram",
+        "text": "cram",
+        "meaning": "зубрить в последний момент",
+        "note": "Cram — учить много и спешно перед проверкой. Обычно плохо удерживается. Cram in — втиснуть ещё порцию.",
+        "example": "If you cram, you may pass tomorrow and forget by Friday."
+      },
+      {
+        "id": "learn-spacing-out",
+        "text": "Spacing the practice out",
+        "meaning": "распределять практику по времени",
+        "note": "Space something out — делать с промежутками, а не всё сразу. В учёбе это spaced repetition в бытовом виде.",
+        "example": "Spacing the practice out over a week beat a single long session."
+      }
+    ]
+  },
+  {
+    "id": "learn-19",
+    "level": "B2",
+    "title": "Не отбить охоту говорить",
+    "text": "A teacher who corrects every slip can put you off speaking altogether. Selective feedback is usually more effective in the long term.",
+    "translation": "Преподаватель, который исправляет каждую оговорку, может вовсе отбить охоту говорить. Выборочная обратная связь обычно эффективнее в долгую.",
+    "phrases": [
+      {
+        "id": "learn-put-you-off",
+        "text": "put you off",
+        "meaning": "отбить охоту",
+        "note": "Put someone off doing something — отговорить или вызвать неприязнь. Put off a meeting — отложить встречу, другой смысл.",
+        "example": "Harsh comments put me off writing for months."
+      }
+    ]
+  },
+  {
+    "id": "learn-20",
+    "level": "B2",
+    "title": "Не только учебник",
+    "text": "I have started keeping a list of phrases I actually hear, as opposed to ones that only appear in textbooks. The former are far more useful.",
+    "translation": "Я начал вести список выражений, которые реально слышу, в отличие от тех, что встречаются только в учебниках. Первые куда полезнее.",
+    "phrases": [
+      {
+        "id": "learn-as-opposed-to",
+        "text": "as opposed to",
+        "meaning": "в отличие от",
+        "note": "Чётко противопоставляет две категории. После of / to обычно существительное или -ing, не целое предложение с that.",
+        "example": "I need phrases for conversation, as opposed to essay formulas."
+      }
+    ]
+  },
+  {
+    "id": "learn-21",
+    "level": "B2",
+    "title": "Не пропускать базу",
+    "text": "There is a temptation to skip the boring basics, but they underpin everything that comes later. Skipping them only creates a shaky foundation.",
+    "translation": "Есть искушение пропустить скучную базу, но именно она держит всё, что будет потом. Пропуск лишь создаёт шаткое основание.",
+    "phrases": [
+      {
+        "id": "learn-underpin",
+        "text": "underpin",
+        "meaning": "лежать в основе, поддерживать",
+        "note": "Underpin — быть невидимой опорой. Часто о принципах, навыках и доказательствах, на которых держится остальное.",
+        "example": "Solid pronunciation underpins confident speaking later on."
+      }
+    ]
+  },
+  {
+    "id": "learn-22",
+    "level": "B2",
+    "title": "Сменить материал",
+    "text": "When I hit a plateau, I change the material rather than the amount of time. A fresh context often reveals gaps I had stopped noticing.",
+    "translation": "Когда я упираюсь в плато, меняю материал, а не количество времени. Новый контекст часто выявляет пробелы, которые я перестал замечать.",
+    "phrases": [
+      {
+        "id": "learn-hit-a-plateau",
+        "text": "hit a plateau",
+        "meaning": "упереться в плато",
+        "note": "Hit a plateau — прогресс временно останавливается. Обычный этап, а не доказательство, что вы больше не растёте.",
+        "example": "Most learners hit a plateau when recognition outruns production."
+      }
+    ]
+  },
+  {
+    "id": "learn-23",
+    "level": "C1",
+    "title": "Заученный ответ",
+    "text": "However fluent a memorised answer may sound, it collapses the moment the question is phrased even slightly differently from the one you prepared.",
+    "translation": "Как бы бегло ни звучал заученный ответ, он рассыпается в тот момент, когда вопрос сформулирован хоть немного иначе, чем тот, к которому вы готовились.",
+    "phrases": [
+      {
+        "id": "learn-however-fluent",
+        "text": "However fluent a memorised answer may sound",
+        "meaning": "как бы бегло ни звучал заученный ответ",
+        "note": "However + прилагательное + подлежащее + глагол — уступительная конструкция. Не путайте с however в значении однако.",
+        "example": "However polished the phrase may sound, it is useless if you cannot adapt it."
+      }
+    ]
+  },
+  {
+    "id": "learn-24",
+    "level": "C1",
+    "title": "Знакомое — ещё не освоенное",
+    "text": "To mistake familiarity for mastery is perhaps the most common error among intermediate learners: recognising a form is not the same as producing it.",
+    "translation": "Принять знакомость за мастерство — пожалуй, самая частая ошибка среди учащихся среднего уровня: узнать форму не то же самое, что породить её самому.",
+    "phrases": [
+      {
+        "id": "learn-mistake-familiarity",
+        "text": "To mistake familiarity for mastery",
+        "meaning": "принять знакомость за мастерство",
+        "note": "Mistake A for B — принять одно за другое. Инфинитив в начале делает всю фразу подлежащим рассуждения.",
+        "example": "To mistake familiarity for mastery is to stop practising too soon."
+      }
+    ]
+  },
+  {
+    "id": "learn-25",
+    "level": "C1",
+    "title": "Когда практика не в радость",
+    "text": "Were practice always enjoyable, fewer people would abandon it; the difficulty is persisting on the days when the work feels thankless.",
+    "translation": "Будь практика всегда приятной, её бросали бы реже; трудность в том, чтобы продолжать в дни, когда работа кажется неблагодарной.",
+    "phrases": [
+      {
+        "id": "learn-were-practice-always",
+        "text": "Were practice always enjoyable",
+        "meaning": "будь практика всегда приятной",
+        "note": "Инверсия were + подлежащее вместо if: гипотетическое настоящее. Вторая часть — would + инфинитив.",
+        "example": "Were revision always exciting, we would hardly need discipline."
+      }
+    ]
+  },
+  {
+    "id": "learn-26",
+    "level": "C1",
+    "title": "Без любопытства",
+    "text": "In the absence of genuine curiosity, even the most efficient method becomes a chore, and a chore is the first thing we drop when life gets busy.",
+    "translation": "При отсутствии настоящего любопытства даже самый эффективный метод становится повинностью, а повинность — первое, что мы бросаем, когда жизнь уплотняется.",
+    "phrases": [
+      {
+        "id": "learn-in-the-absence-of",
+        "text": "In the absence of",
+        "meaning": "при отсутствии",
+        "note": "Формальная замена without, часто в начале предложения. За ней существительное, не придаточное с that.",
+        "example": "In the absence of regular speaking, even solid grammar stays fragile."
+      }
+    ]
+  },
+  {
+    "id": "learn-27",
+    "level": "C1",
+    "title": "Полезность исправления",
+    "text": "To the extent that correction is useful, it is useful because it is timely and specific, not because it is exhaustive.",
+    "translation": "В той мере, в какой исправление полезно, оно полезно потому, что своевременно и конкретно, а не потому, что исчерпывающе.",
+    "phrases": [
+      {
+        "id": "learn-to-the-extent-that",
+        "text": "To the extent that",
+        "meaning": "в той мере, в какой",
+        "note": "Ограничивает утверждение: полезность верна лишь при названных условиях. Формальнее, чем as far as.",
+        "example": "To the extent that drills help, they help by making a pattern automatic."
+      }
+    ]
+  }
+]

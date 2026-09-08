@@ -1,0 +1,476 @@
+[
+  {
+    "id": "free-01",
+    "level": "A1",
+    "title": "Прогулка",
+    "text": "Let's go for a walk in the park. We can sit by the lake and watch the birds.",
+    "translation": "Давай прогуляемся в парке. Мы можем посидеть у озера и понаблюдать за птицами.",
+    "phrases": [
+      {
+        "id": "go-for-a-walk",
+        "text": "go for a walk",
+        "meaning": "пойти на прогулку",
+        "note": "Go for a + занятие: go for a walk, go for a swim. Для бега часто говорят go for a run.",
+        "example": "I go for a walk after dinner."
+      }
+    ]
+  },
+  {
+    "id": "free-02",
+    "level": "A1",
+    "title": "Вечер дома",
+    "text": "I like to listen to music and read a book after dinner. It is my favourite time of day.",
+    "translation": "Я люблю слушать музыку и читать книгу после ужина. Это моё любимое время дня.",
+    "phrases": [
+      {
+        "id": "listen-to",
+        "text": "listen to",
+        "meaning": "слушать",
+        "note": "Перед тем, что слушаем, нужен to: listen to music, listen to a friend. Само Listen! может быть отдельным призывом.",
+        "example": "I listen to this song every day."
+      }
+    ]
+  },
+  {
+    "id": "free-03",
+    "level": "A2",
+    "title": "Попробовать новое",
+    "text": "I have never tried painting before, but I would like to give it a go. It looks like a nice way to relax.",
+    "translation": "Я никогда раньше не пробовал рисовать красками, но хотел бы попробовать. Кажется, это хороший способ расслабиться.",
+    "phrases": [
+      {
+        "id": "give-it-a-go",
+        "text": "give it a go",
+        "meaning": "попробовать",
+        "note": "Неформальное выражение, особенно частое в британском английском. Близкий вариант: give it a try.",
+        "example": "You might enjoy dancing. Give it a go!"
+      }
+    ]
+  },
+  {
+    "id": "free-04",
+    "level": "A2",
+    "title": "В свободное время",
+    "text": "In my spare time, I enjoy taking photos of the city. There is always something new to notice.",
+    "translation": "В свободное время я люблю фотографировать город. Всегда можно заметить что-то новое.",
+    "phrases": [
+      {
+        "id": "spare-time",
+        "text": "In my spare time",
+        "meaning": "в моё свободное время",
+        "note": "Spare time и free time — свободное от работы и обязанностей время. Местоимение меняется: in your spare time.",
+        "example": "What do you do in your spare time?"
+      }
+    ]
+  },
+  {
+    "id": "free-05",
+    "level": "B1",
+    "title": "Увлечься книгой",
+    "text": "I picked up a novel at the library and got carried away. Before I knew it, I had spent the whole afternoon reading.",
+    "translation": "Я взял роман в библиотеке и так увлёкся, что не заметил, как провёл весь день за чтением.",
+    "phrases": [
+      {
+        "id": "got-carried-away",
+        "text": "got carried away",
+        "meaning": "увлёкся и потерял чувство меры или времени",
+        "note": "Get carried away — слишком увлечься. Может быть приятным увлечением или предупреждением не перестараться.",
+        "example": "I got carried away and bought too many books."
+      }
+    ]
+  },
+  {
+    "id": "free-06",
+    "level": "B1",
+    "title": "Планы без плана",
+    "text": "We do not need to plan every minute of the weekend. Let's play it by ear and see what we feel like doing.",
+    "translation": "Нам не нужно планировать каждую минуту выходных. Давай решать по ходу дела и смотреть, чем захочется заняться.",
+    "phrases": [
+      {
+        "id": "play-it-by-ear",
+        "text": "play it by ear",
+        "meaning": "действовать по обстоятельствам",
+        "note": "Изначально — играть музыку на слух. В разговоре: решать по ходу дела, без жёсткого плана.",
+        "example": "If it rains, we will play it by ear."
+      }
+    ]
+  },
+  {
+    "id": "free-07",
+    "level": "B2",
+    "title": "Найти время для увлечения",
+    "text": "I nearly gave up pottery after the first few classes, but my teacher encouraged me to stick with it. Once I stopped worrying about the result, I began to enjoy the process itself.",
+    "translation": "После первых занятий я чуть не бросил гончарное дело, но преподаватель убедил меня продолжать. Когда я перестал переживать о результате, то начал получать удовольствие от самого процесса.",
+    "phrases": [
+      {
+        "id": "free-stick-with-it",
+        "text": "stick with it",
+        "meaning": "продолжать, не бросать начатое",
+        "note": "Stick with something — продолжать заниматься чем-либо, несмотря на трудности или желание переключиться.",
+        "example": "The first lessons are frustrating, but stick with it."
+      }
+    ]
+  },
+  {
+    "id": "free-08",
+    "level": "C1",
+    "title": "Заниматься ради удовольствия",
+    "text": "There is something liberating about pursuing an interest without feeling obliged to excel at it, let alone turn it into a source of income or another measure of personal achievement.",
+    "translation": "В занятии любимым делом без обязанности преуспеть в нём, не говоря уже о превращении его в источник дохода или очередное мерило личных достижений, есть что-то освобождающее.",
+    "phrases": [
+      {
+        "id": "free-let-alone",
+        "text": "let alone",
+        "meaning": "не говоря уже о",
+        "note": "Вводит ещё менее вероятную или более трудную возможность после предыдущей. Часто после отрицания: I cannot afford a bike, let alone a car.",
+        "example": "I do not need to master the instrument, let alone perform on stage."
+      }
+    ]
+  },
+  {
+    "id": "free-09",
+    "level": "C2",
+    "title": "Право на праздность",
+    "text": "To justify leisure solely by its restorative value is to smuggle the demands of productivity into the very sphere meant to afford respite from them, as though enjoyment required an ulterior purpose.",
+    "translation": "Оправдывать досуг лишь его восстанавливающей ценностью — значит незаметно вносить требования продуктивности в ту самую сферу, которая должна давать от них передышку, словно удовольствию нужна скрытая цель.",
+    "phrases": [
+      {
+        "id": "free-afford-respite",
+        "text": "afford respite",
+        "meaning": "дать передышку, предоставить временное облегчение",
+        "note": "Afford здесь значит предоставить, а не иметь финансовую возможность. Respite — короткое освобождение от трудностей или напряжения.",
+        "example": "The quiet garden afforded respite from the demands of the day."
+      }
+    ]
+  },
+  {
+    "id": "free-10",
+    "level": "B1",
+    "title": "Отстать от сериала",
+    "text": "I have fallen behind on the series everyone is talking about. This weekend I will try to catch up on a few episodes.",
+    "translation": "Я отстал от сериала, о котором все говорят. В эти выходные попробую наверстать несколько серий.",
+    "phrases": [
+      {
+        "id": "free-fallen-behind-on",
+        "text": "fallen behind on",
+        "meaning": "отстать по",
+        "note": "Fall behind on something — не успевать следить за сериалом, работой или платежами. Catch up on — наверстать.",
+        "example": "I have fallen behind on the reading for the club."
+      },
+      {
+        "id": "free-catch-up-on",
+        "text": "catch up on",
+        "meaning": "наверстать",
+        "note": "Catch up on episodes, sleep, or news — восполнить упущенное. Отличается от catch up with a friend — встретиться и поболтать.",
+        "example": "I need to catch up on last week's episodes tonight."
+      }
+    ]
+  },
+  {
+    "id": "free-11",
+    "level": "B1",
+    "title": "Обойтись малым",
+    "text": "The hobby looked expensive at first, but you can get by with second-hand gear until you are sure it is for you.",
+    "translation": "Сначала увлечение казалось дорогим, но можно обойтись подержанным снаряжением, пока не убедишься, что это твоё.",
+    "phrases": [
+      {
+        "id": "free-get-by-with",
+        "text": "get by with",
+        "meaning": "обойтись чем-либо",
+        "note": "Get by — справляться на минимуме. Get by with X — этого достаточно, хотя и не идеально.",
+        "example": "You can get by with a cheap tripod for the first months."
+      }
+    ]
+  },
+  {
+    "id": "free-12",
+    "level": "B1",
+    "title": "Потерять счёт времени",
+    "text": "I lost track of time in the museum and had to skip the last room. Next visit I will start at the other end.",
+    "translation": "В музее я потерял счёт времени и не успел в последний зал. В следующий раз начну с другого конца.",
+    "phrases": [
+      {
+        "id": "free-lost-track-of-time",
+        "text": "lost track of time",
+        "meaning": "потерял счёт времени",
+        "note": "Lose track of time — не заметить, как время прошло, обычно из-за увлечения. Lose track of someone — потерять связь.",
+        "example": "We lost track of time and missed the last tour."
+      }
+    ]
+  },
+  {
+    "id": "free-13",
+    "level": "B1",
+    "title": "Настолки вечером",
+    "text": "Do you fancy joining us for a board game night? Nothing competitive, just a relaxed way to wind down.",
+    "translation": "Не хочешь присоединиться к вечеру настолок? Без соревновательности, просто спокойный способ расслабиться.",
+    "phrases": [
+      {
+        "id": "free-do-you-fancy",
+        "text": "Do you fancy",
+        "meaning": "не хочешь ли, не желаешь ли",
+        "note": "Британское разговорное приглашение: fancy + -ing. В американском чаще: do you want to / would you like to.",
+        "example": "Do you fancy a walk along the river later?"
+      },
+      {
+        "id": "free-wind-down",
+        "text": "wind down",
+        "meaning": "расслабиться, сбавить обороты",
+        "note": "Wind down after work — постепенно перейти из рабочего режима в вечерний. Wind up — наоборот, закончить или завести.",
+        "example": "A quiet puzzle helps me wind down before bed."
+      }
+    ]
+  },
+  {
+    "id": "free-14",
+    "level": "B1",
+    "title": "Хватит на сегодня",
+    "text": "I used to binge-watch whole seasons in a weekend. These days I would rather watch one episode and call it a night.",
+    "translation": "Раньше я проглатывал целые сезоны за выходные. Теперь лучше посмотрю одну серию и на этом закончу вечер.",
+    "phrases": [
+      {
+        "id": "free-call-it-a-night",
+        "text": "call it a night",
+        "meaning": "на этом закончить вечер",
+        "note": "Разговорное предложение остановиться, потому что уже достаточно поздно или сделано достаточно. Пара к call it a day.",
+        "example": "It is getting late. Shall we call it a night?"
+      }
+    ]
+  },
+  {
+    "id": "free-15",
+    "level": "B1",
+    "title": "Достать билет",
+    "text": "The concert was sold out, but a friend managed to get hold of a spare ticket at the last minute.",
+    "translation": "Концерт был распродан, но друг сумел в последний момент раздобыть лишний билет.",
+    "phrases": [
+      {
+        "id": "free-get-hold-of",
+        "text": "get hold of",
+        "meaning": "раздобыть, связаться с",
+        "note": "Get hold of a ticket — достать билет. Get hold of a person — дозвониться или найти человека.",
+        "example": "I could not get hold of a programme anywhere."
+      },
+      {
+        "id": "free-at-the-last-minute",
+        "text": "at the last minute",
+        "meaning": "в последнюю минуту",
+        "note": "Очень поздно относительно срока. Last-minute через дефис — прилагательное: a last-minute ticket.",
+        "example": "They found seats at the last minute when a couple cancelled."
+      }
+    ]
+  },
+  {
+    "id": "free-16",
+    "level": "B1",
+    "title": "Меньше ленты",
+    "text": "I am trying to cut back on scrolling in the evening. A paperback by the bed has been a healthier way to drift off.",
+    "translation": "Я стараюсь меньше листать ленту вечером. Книга у кровати оказалась более здоровым способом уснуть.",
+    "phrases": [
+      {
+        "id": "free-cut-back-on",
+        "text": "cut back on",
+        "meaning": "сократить",
+        "note": "Cut back on something — уменьшить привычку или расход. Близко к cut down on; cut back часто про привычки и бюджет.",
+        "example": "I need to cut back on late-night videos if I want to sleep."
+      },
+      {
+        "id": "free-drift-off",
+        "text": "drift off",
+        "meaning": "провалиться в сон",
+        "note": "Drift off — постепенно заснуть, без усилия. Drift off during a film — нечаянно уснуть.",
+        "example": "I usually drift off after a few pages."
+      }
+    ]
+  },
+  {
+    "id": "free-17",
+    "level": "B2",
+    "title": "Не бросать бег",
+    "text": "I have been meaning to take up running for months, but something always gets in the way. This time I signed up with a friend so I cannot back out as easily.",
+    "translation": "Я месяцами собираюсь начать бегать, но всегда что-то мешает. На этот раз записался вместе с другом, чтобы было труднее дать заднюю.",
+    "phrases": [
+      {
+        "id": "free-take-up-running",
+        "text": "take up running",
+        "meaning": "взяться за бег как за новое занятие",
+        "note": "Take up a hobby — начать регулярно заниматься. Take up space — занимать место, другой смысл.",
+        "example": "She took up running after she moved closer to the park."
+      },
+      {
+        "id": "free-gets-in-the-way",
+        "text": "gets in the way",
+        "meaning": "мешает, встаёт на пути",
+        "note": "Get in the way of plans — мешать осуществлению. Не обязательно физическая преграда.",
+        "example": "Meetings always get in the way of my lunchtime walk."
+      },
+      {
+        "id": "free-back-out",
+        "text": "back out",
+        "meaning": "дать заднюю, отказаться",
+        "note": "Back out of an arrangement — выйти из договорённости в последний момент. Может звучать как нарушение обещания.",
+        "example": "I promised to join, so I will not back out now."
+      }
+    ]
+  },
+  {
+    "id": "free-18",
+    "level": "B2",
+    "title": "Книга постепенно затягивает",
+    "text": "The book did not grab me at first, but it grew on me after a few chapters. By the end I was sorry to leave the characters behind.",
+    "translation": "Сначала книга меня не зацепила, но через несколько глав стала нравиться всё больше. К концу было жаль расставаться с героями.",
+    "phrases": [
+      {
+        "id": "free-grew-on-me",
+        "text": "grew on me",
+        "meaning": "постепенно стала нравиться",
+        "note": "Grow on someone — сначала нейтрально или сомнительно, затем симпатия растёт. Часто о музыке, местах и людях.",
+        "example": "The city grew on me once I stopped comparing it with home."
+      }
+    ]
+  },
+  {
+    "id": "free-19",
+    "level": "B2",
+    "title": "Чудеса для настроения",
+    "text": "I am not particularly sporty, but a long bike ride does wonders for my mood after a week indoors.",
+    "translation": "Я не особенно спортивный, но длинная велосипедная прогулка творит чудеса с настроением после недели в четырёх стенах.",
+    "phrases": [
+      {
+        "id": "free-does-wonders-for",
+        "text": "does wonders for",
+        "meaning": "творит чудеса с, очень помогает",
+        "note": "Do wonders for something — давать заметно лучший эффект, чем ожидаешь от простого действия.",
+        "example": "A short nap does wonders for my patience in the afternoon."
+      }
+    ]
+  },
+  {
+    "id": "free-20",
+    "level": "B2",
+    "title": "Другие планы у погоды",
+    "text": "We had our hearts set on an outdoor picnic, but the weather had other ideas. Indoor chess turned out to be just as good.",
+    "translation": "Мы нацелились на пикник на улице, но у погоды были другие планы. Шахматы дома оказались ничуть не хуже.",
+    "phrases": [
+      {
+        "id": "free-hearts-set-on",
+        "text": "had our hearts set on",
+        "meaning": "очень рассчитывали, нацелились",
+        "note": "Have your heart set on something — сильно хотеть заранее. Разочарование сильнее, если план срывается.",
+        "example": "They had their hearts set on seeing the fireworks from the roof."
+      }
+    ]
+  },
+  {
+    "id": "free-21",
+    "level": "B2",
+    "title": "Бросить скучную книгу",
+    "text": "There is no shame in abandoning a book that is not working for you. Life is too short to finish things out of sheer stubbornness.",
+    "translation": "Не стыдно бросить книгу, которая тебе не идёт. Жизнь слишком коротка, чтобы дочитывать из чистого упрямства.",
+    "phrases": [
+      {
+        "id": "free-life-is-too-short",
+        "text": "Life is too short",
+        "meaning": "жизнь слишком коротка",
+        "note": "Life is too short to + инфинитив — отказ тратить время на то, что не приносит радости или смысла.",
+        "example": "Life is too short to sit through a film you actively dislike."
+      }
+    ]
+  },
+  {
+    "id": "free-22",
+    "level": "B2",
+    "title": "Гитара или пульт",
+    "text": "I keep telling myself I will practise the guitar after dinner, yet I invariably end up on the sofa with the remote instead.",
+    "translation": "Я всё твержу себе, что после ужина займусь гитарой, и всё равно неизменно оказываюсь на диване с пультом.",
+    "phrases": [
+      {
+        "id": "free-invariably-end-up",
+        "text": "invariably end up",
+        "meaning": "неизменно оказываюсь",
+        "note": "End up + предлог места или -ing описывает фактический итог, часто не тот, что планировали. Invariably — без исключений.",
+        "example": "We invariably end up talking until midnight."
+      }
+    ]
+  },
+  {
+    "id": "free-23",
+    "level": "C1",
+    "title": "Досуг как список задач",
+    "text": "Seldom do I finish a weekend feeling that I have truly rested, largely because I treat leisure as another set of tasks to be ticked off.",
+    "translation": "Редко я заканчиваю выходные с ощущением настоящего отдыха, во многом потому, что обращаюсь с досугом как с очередным списком дел на галочки.",
+    "phrases": [
+      {
+        "id": "free-seldom-do-i",
+        "text": "Seldom do I",
+        "meaning": "редко я",
+        "note": "Отрицательное наречие seldom в начале требует инверсии: do I finish. Усиливает признание неприятной закономерности.",
+        "example": "Seldom do I leave a gallery without buying a postcard."
+      }
+    ]
+  },
+  {
+    "id": "free-24",
+    "level": "C1",
+    "title": "Музыка в толпе",
+    "text": "Enjoyable though the festival was, the crowds made it hard to hear the music, still less to feel any real connection with it.",
+    "translation": "Как ни приятен был фестиваль, из-за толпы было трудно расслышать музыку, не говоря уже о том, чтобы почувствовать с ней настоящую связь.",
+    "phrases": [
+      {
+        "id": "free-still-less",
+        "text": "still less",
+        "meaning": "тем более не, не говоря уже",
+        "note": "После отрицательного или затруднённого первого действия вводит ещё менее вероятное. Близко к let alone, чуть формальнее.",
+        "example": "I could barely follow the plot, still less the philosophical asides."
+      }
+    ]
+  },
+  {
+    "id": "free-25",
+    "level": "C1",
+    "title": "Увлечение как бренд",
+    "text": "To treat every hobby as a personal brand in the making is to drain it of the privacy in which genuine interest tends to take root.",
+    "translation": "Обращаться с каждым увлечением как с зарождающимся личным брендом — значит лишать его той приватности, в которой обычно укореняется настоящий интерес.",
+    "phrases": [
+      {
+        "id": "free-take-root",
+        "text": "take root",
+        "meaning": "укорениться",
+        "note": "О привычке, интересе или идее, которые постепенно становятся устойчивыми. Образ растения, пускающего корни.",
+        "example": "New habits take root more easily when nobody is watching."
+      }
+    ]
+  },
+  {
+    "id": "free-26",
+    "level": "C1",
+    "title": "Камера чуть снаружи",
+    "text": "If anything, the less I document an afternoon, the more fully I seem to inhabit it; the camera, for all its uses, keeps me slightly outside the moment.",
+    "translation": "Если уж на то пошло, чем меньше я документирую день, тем полнее в нём живу; камера при всей своей пользе держит меня чуть снаружи мгновения.",
+    "phrases": [
+      {
+        "id": "free-if-anything",
+        "text": "If anything",
+        "meaning": "если уж на то пошло; скорее даже",
+        "note": "Корректирует предыдущую мысль в сторону более сильного или неожиданного утверждения, часто после отрицания.",
+        "example": "The walk was not dull. If anything, it was too short."
+      }
+    ]
+  },
+  {
+    "id": "free-27",
+    "level": "C1",
+    "title": "Охрана воскресенья",
+    "text": "Not for nothing do people guard their Sunday mornings: once that quiet is surrendered to errands, the week has, in effect, already begun.",
+    "translation": "Недаром люди берегут воскресные утра: стоит отдать эту тишину делам, как неделя, по сути, уже началась.",
+    "phrases": [
+      {
+        "id": "free-not-for-nothing",
+        "text": "Not for nothing",
+        "meaning": "недаром, не зря",
+        "note": "Not for nothing do + подлежащее + глагол — инверсия. Значит: есть веская причина, по которой люди так поступают.",
+        "example": "Not for nothing is that cafe packed every Saturday morning."
+      }
+    ]
+  }
+]

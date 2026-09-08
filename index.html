@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f7fa" />
+    <meta name="description" content="Практикуйте слепую печать и английский вместе: короткие тексты, живые выражения и маленькие победы каждый день." />
+    <title>Lingotype — печатай и понимай</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./src/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">К практике</a>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="./" aria-label="Lingotype, главная"><img class="brand-icon" src="./favicon.svg" alt="" width="39" height="39" /><span>lingotype<span class="brand-dot">.</span></span></a>
+        <div class="sidebar-caption">ПЕЧАТАЙ. ПОНИМАЙ. ЗАПОМИНАЙ.</div>
+        <nav class="main-nav" aria-label="Основная навигация">
+          <button class="nav-item active" data-view="practice" aria-current="page"><span data-icon="keyboard"></span>Практика<span class="nav-active-dot"></span></button>
+          <button class="nav-item" data-view="phrases"><span data-icon="bookmark"></span>Мои фразы<span id="saved-count" class="nav-count">0</span></button>
+          <button class="nav-item" data-view="awards"><span data-icon="award"></span>Достижения</button>
+        </nav>
+        <div class="sidebar-bottom">
+          <div class="daily-card"><div class="daily-heading"><span data-icon="sprout"></span>Маленький шаг каждый день</div><p id="daily-description">Три текста — хорошее начало.</p><div class="daily-progress"><span id="daily-fill"></span></div><div class="daily-meta"><span>Сегодня</span><strong id="daily-count">0 / 3 текста</strong></div></div>
+          <button id="how-button" class="subtle-button"><span data-icon="help"></span>Как заниматься</button>
+          <div class="sidebar-footnote">В своём темпе. В удовольствие.</div>
+        </div>
+      </aside>
+      <main id="main" tabindex="-1">
+        <header class="page-header"><div><div class="eyebrow">ДВА НАВЫКА. ОДНА ПРИВЫЧКА.</div><h1 id="page-title">Поймай свой ритм<span>.</span></h1><p id="page-description">Тренируй пальцы. Находи новые слова.</p></div><div class="streak-pill"><span data-icon="flame"></span><strong id="streak-count">0</strong><span id="streak-label">дней подряд</span></div></header>
+        <section id="practice-view" aria-label="Тренировка">
+          <div class="practice-toolbar"><div class="mode-control" role="group" aria-label="Режим тренировки"><button data-mode="practice" class="selected" aria-pressed="true"><span data-icon="type"></span>Практика</button><button data-mode="review" aria-pressed="false"><span data-icon="repeat"></span>Повторение<span id="review-count" class="tiny-count">0</span></button></div><div class="filters"><label class="select-wrap"><span class="sr-only">Тема</span><select id="topic-select"><option value="all">Все темы</option></select><span data-icon="chevron-down"></span></label><label class="select-wrap level-select"><span class="sr-only">Уровень английского</span><select id="level-select"><option value="A1">A1 · Начальный</option><option value="A2" selected>A2 · Базовый</option><option value="B1">B1 · Средний</option><option value="B2">B2 · Выше среднего</option><option value="C1">C1 · Продвинутый</option><option value="C2">C2 · Мастерство</option></select><span data-icon="chevron-down"></span></label></div></div>
+          <article id="practice-card" class="practice-card" aria-busy="true"><div class="loading-state">Готовим первый текст…</div></article>
+          <section id="keyboard-section" class="keyboard-section" aria-label="Подсказки для слепой печати"><div class="keyboard-heading"><p><span class="hint-dot"></span><span id="finger-hint">Положи указательные пальцы на F и J</span></p><button id="keyboard-toggle" class="text-button" aria-expanded="true">Скрыть клавиатуру</button></div><div id="keyboard" class="keyboard" aria-hidden="true"></div></section>
+          <div class="practice-note"><span data-icon="leaf"></span><p><strong>Точность важнее скорости.</strong> Не смотри на руки, расслабь плечи и печатай без спешки.</p></div>
+          <div class="session-footer"><span><span class="status-dot"></span>Без таймера на результат</span><span>Короткая практика — большая привычка</span></div>
+        </section>
+        <section id="phrases-view" hidden aria-label="Сохранённые выражения"></section>
+        <section id="awards-view" hidden aria-label="Прогресс и награды"></section>
+        <footer class="page-footer"><span>Чуть увереннее с каждым словом.</span><button id="storage-button" class="text-button"><span data-icon="shield"></span>Прогресс в этом браузере</button></footer>
+        <div id="storage-warning" class="storage-warning" role="status" hidden>Cookies недоступны. Можно заниматься, но прогресс сохранится только до закрытия страницы.</div>
+      </main>
+    </div>
+    <dialog id="phrase-dialog" class="phrase-dialog" aria-labelledby="phrase-title"></dialog>
+    <dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"></dialog>
+    <div id="toast" class="toast" role="status" hidden></div>
+    <noscript><div class="noscript">Для тренировки нужен JavaScript. Включите его в настройках браузера.</div></noscript>
+  </body>
+</html>

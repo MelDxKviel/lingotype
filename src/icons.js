@@ -1,0 +1,25 @@
+const paths = {
+  volume: '<path d="m11 4-6 5H2v6h3l6 5ZM15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/>',
+  muted: '<path d="m11 4-6 5H2v6h3l6 5ZM16 9l6 6M22 9l-6 6"/>',
+  keyboard: '<rect x="2" y="5" width="20" height="14" rx="3"/><path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 12h.01M10 12h.01M14 12h.01M18 12h.01M7 15h10"/>',
+  bookmark: '<path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4Z"/>',
+  award: '<circle cx="12" cy="8" r="5"/><path d="m8.3 12-1.8 9 5.5-3 5.5 3-1.8-9M10 8l1.3 1.3L14 6.7"/>',
+  sprout: '<path d="M12 21v-9M12 16c-6 0-9-3-9-8 6 0 9 3 9 8ZM12 12c0-5 3-8 9-8 0 5-3 8-9 8Z"/>',
+  help: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1 .5-1.5 1-1.5 2M12 16h.01"/>',
+  flame: '<path d="M12 3c1 4 5 5 5 9 2-1 2-3 2-3s3 4 1 8c-3 6-12 6-15 0-2-4 0-7 3-10 0 3 1 4 2 4 0-3 2-4 2-8Z"/>',
+  type: '<path d="M4 6V3h16v3M12 3v18M8 21h8"/>',
+  repeat: '<path d="m17 2 4 4-4 4M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4M21 13v2a3 3 0 0 1-3 3H3"/>',
+  'chevron-down': '<path d="m6 9 6 6 6-6"/>',
+  'arrow-right': '<path d="M4 12h16m-6-6 6 6-6 6"/>',
+  restart: '<path d="M3 10a9 9 0 1 1 1.5 7M3 4v6h6"/>',
+  leaf: '<path d="M20 3c-2 3-10-2-15 5a7 7 0 0 0 10 10c5-4 3-9 5-15ZM3 21 14 10"/>',
+  shield: '<path d="m12 3 8 3v6c0 4-4 7-8 9-4-2-8-5-8-9V6ZM9 12l2 2 4-4"/>',
+  close: '<path d="m6 6 12 12M18 6 6 18"/>',
+  play: '<path d="m9 5 11 7-11 7Z"/>',
+  external: '<path d="M14 3h7v7M21 3l-11 11M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/>',
+  check: '<path d="m5 12 4 4L19 6"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+};
+export function icon(name) { return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.type}</svg>`; }
+export function hydrateIcons(root = document) { root.querySelectorAll('[data-icon]').forEach(el => { el.innerHTML = icon(el.dataset.icon); }); }

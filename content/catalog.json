@@ -1,0 +1,12 @@
+{
+  "topics": [
+    { "id": "everyday", "title": "На каждый день", "file": "everyday.json" },
+    { "id": "people", "title": "Общение", "file": "people.json" },
+    { "id": "work", "title": "Работа", "file": "work.json" },
+    { "id": "travel", "title": "Путешествия", "file": "travel.json" },
+    { "id": "leisure", "title": "Свободное время", "file": "leisure.json" },
+    { "id": "learning", "title": "Учёба и привычки", "file": "learning.json" },
+    { "id": "it", "title": "IT и технологии", "file": "it.json" },
+    { "id": "cinema", "title": "Кино и сериалы", "file": "cinema.json" }
+  ]
+}

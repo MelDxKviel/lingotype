@@ -1,0 +1,483 @@
+[
+  {
+    "id": "people-01",
+    "level": "A1",
+    "title": "Первое знакомство",
+    "text": "Hi, I am Anna. Nice to meet you! Do you live near here?",
+    "translation": "Привет, я Анна. Приятно познакомиться! Ты живёшь здесь поблизости?",
+    "phrases": [
+      {
+        "id": "nice-to-meet-you",
+        "text": "Nice to meet you",
+        "meaning": "приятно познакомиться",
+        "note": "Говорят при первом знакомстве. При встрече с уже знакомым человеком подойдёт Nice to see you.",
+        "example": "Nice to meet you, Tom."
+      }
+    ]
+  },
+  {
+    "id": "people-02",
+    "level": "A1",
+    "title": "До скорого",
+    "text": "Thank you for your help. See you soon! Have a nice day.",
+    "translation": "Спасибо за помощь. До скорого! Хорошего дня.",
+    "phrases": [
+      {
+        "id": "see-you-soon",
+        "text": "See you soon",
+        "meaning": "до скорого",
+        "note": "Дружеское прощание, если вы надеетесь скоро снова увидеться. Soon не обозначает точную дату.",
+        "example": "I have to go now. See you soon!"
+      }
+    ]
+  },
+  {
+    "id": "people-03",
+    "level": "A2",
+    "title": "Встретиться за кофе",
+    "text": "We have not talked for a while. Let's catch up over a cup of coffee this weekend.",
+    "translation": "Мы давно не общались. Давай встретимся за чашкой кофе на выходных и расскажем, что нового.",
+    "phrases": [
+      {
+        "id": "catch-up",
+        "text": "catch up",
+        "meaning": "пообщаться и обменяться новостями",
+        "note": "В разговоре с друзьями catch up — наверстать общение. В других ситуациях выражение может означать догнать или наверстать работу.",
+        "example": "Let's catch up after lunch."
+      }
+    ]
+  },
+  {
+    "id": "people-04",
+    "level": "A2",
+    "title": "Без обид",
+    "text": "I am sorry I am late. No worries, we still have plenty of time before the film starts.",
+    "translation": "Извини, что опоздал. Ничего страшного, до начала фильма у нас ещё много времени.",
+    "phrases": [
+      {
+        "id": "no-worries",
+        "text": "No worries",
+        "meaning": "ничего страшного; не за что",
+        "note": "Неформальный ответ на извинение или благодарность. Помогает показать, что всё в порядке.",
+        "example": "Thanks for waiting. No worries!"
+      }
+    ]
+  },
+  {
+    "id": "people-05",
+    "level": "B1",
+    "title": "Поддержать друга",
+    "text": "You do not have to figure it all out today. Take a break, and we can talk it through when you feel ready.",
+    "translation": "Тебе не обязательно во всём разобраться сегодня. Отдохни, и мы сможем всё обсудить, когда ты будешь готов.",
+    "phrases": [
+      {
+        "id": "figure-it-all-out",
+        "text": "figure it all out",
+        "meaning": "во всём разобраться",
+        "note": "Figure out — понять или найти решение, немного поразмыслив. Местоимение it ставится между figure и out.",
+        "example": "Give me a minute. I will figure it out."
+      },
+      {
+        "id": "talk-it-through",
+        "text": "talk it through",
+        "meaning": "подробно обсудить",
+        "note": "Обсудить вопрос шаг за шагом, чтобы лучше его понять или принять решение.",
+        "example": "Let's talk it through before we decide."
+      }
+    ]
+  },
+  {
+    "id": "people-06",
+    "level": "B1",
+    "title": "Найти общий язык",
+    "text": "We did not agree at first, but we found common ground after listening to each other's ideas.",
+    "translation": "Сначала мы не соглашались, но нашли общие точки зрения, выслушав идеи друг друга.",
+    "phrases": [
+      {
+        "id": "common-ground",
+        "text": "common ground",
+        "meaning": "общие интересы или точки соприкосновения",
+        "note": "Find common ground — найти то, в чём обе стороны согласны. Полезно для обсуждений и совместных решений.",
+        "example": "We found common ground on the main issue."
+      }
+    ]
+  },
+  {
+    "id": "people-07",
+    "level": "B2",
+    "title": "Услышать чужую сторону",
+    "text": "I was about to interrupt when I realised I had missed her point. Once I let her finish, it became clear that we had been talking at cross purposes all along.",
+    "translation": "Я уже собирался перебить её, когда понял, что упустил суть. Дав ей закончить, я осознал, что всё это время мы говорили о разном и не понимали друг друга.",
+    "phrases": [
+      {
+        "id": "people-at-cross-purposes",
+        "text": "at cross purposes",
+        "meaning": "не понимая друг друга; подразумевая разное",
+        "note": "Talk at cross purposes — вести разговор, исходя из разных представлений о предмете, и поэтому не понимать собеседника.",
+        "example": "We were talking at cross purposes: I meant this Friday, not next Friday."
+      }
+    ]
+  },
+  {
+    "id": "people-08",
+    "level": "C1",
+    "title": "Разумное сомнение",
+    "text": "Reluctant as I was to take his account at face value, I felt that challenging it outright would close off the very conversation through which the truth might eventually emerge.",
+    "translation": "Хотя я и не хотел принимать его рассказ за чистую монету, мне казалось, что прямое возражение оборвёт именно тот разговор, в ходе которого правда могла бы постепенно выясниться.",
+    "phrases": [
+      {
+        "id": "people-at-face-value",
+        "text": "at face value",
+        "meaning": "за чистую монету, без проверки скрытого смысла",
+        "note": "Take something at face value — принять услышанное или увиденное таким, каким оно кажется, не ставя под сомнение.",
+        "example": "I would not take that compliment at face value."
+      }
+    ]
+  },
+  {
+    "id": "people-09",
+    "level": "C2",
+    "title": "Вежливая двусмысленность",
+    "text": "Her ostensibly conciliatory reply was so carefully hedged that it afforded neither a firm commitment nor an outright refusal, leaving both parties ample room to read into it whatever suited them.",
+    "translation": "Её внешне примирительный ответ был так тщательно оговорён, что не содержал ни твёрдого обязательства, ни прямого отказа, позволяя обеим сторонам вычитать в нём то, что им было удобно.",
+    "phrases": [
+      {
+        "id": "people-read-into-it",
+        "text": "read into it",
+        "meaning": "приписать сказанному свой смысл",
+        "note": "Read something into something — усмотреть значение, которое могло не подразумеваться. Часто предупреждают: do not read too much into it.",
+        "example": "He paused, but I would not read too much into it."
+      }
+    ]
+  },
+  {
+    "id": "people-10",
+    "level": "B1",
+    "title": "Сорваться на ближнего",
+    "text": "I did not mean to snap at you earlier. I was tired, and I took it out on the nearest person, which was unfair.",
+    "translation": "Я не хотел срываться на тебя раньше. Я устал и выместил это на ближайшем человеке, а это было несправедливо.",
+    "phrases": [
+      {
+        "id": "people-snap-at-you",
+        "text": "snap at you",
+        "meaning": "сорваться, резко ответить",
+        "note": "Snap at someone — сказать резко из-за раздражения, часто короче и грубее, чем человек заслужил.",
+        "example": "Sorry I snapped at you. The news caught me off balance."
+      },
+      {
+        "id": "people-took-it-out-on",
+        "text": "took it out on",
+        "meaning": "выместил на",
+        "note": "Take it out on someone — направить злость или стресс на человека, который не является причиной.",
+        "example": "Do not take a bad day out on your friends."
+      }
+    ]
+  },
+  {
+    "id": "people-11",
+    "level": "B1",
+    "title": "Как это прозвучит",
+    "text": "If you have a minute, I would like to pick your brain about this awkward message. I am not sure how it will come across.",
+    "translation": "Если есть минутка, хочу посоветоваться с тобой об этом неловком сообщении. Не уверен, как оно прозвучит.",
+    "phrases": [
+      {
+        "id": "people-pick-your-brain",
+        "text": "pick your brain",
+        "meaning": "посоветоваться, воспользоваться твоим опытом",
+        "note": "Неформальная просьба коротко воспользоваться чужими знаниями. Вежливо добавить: if you have a minute.",
+        "example": "Can I pick your brain about the invitation wording?"
+      },
+      {
+        "id": "people-come-across",
+        "text": "come across",
+        "meaning": "произвести впечатление, прозвучать",
+        "note": "Здесь — как слова воспринимаются другим человеком. В другом значении come across something — случайно наткнуться.",
+        "example": "I hope this does not come across as rude."
+      }
+    ]
+  },
+  {
+    "id": "people-12",
+    "level": "B1",
+    "title": "Разрядить обстановку",
+    "text": "She has a knack for putting people at ease, even when the conversation starts out rather stiff.",
+    "translation": "У неё есть дар располагать людей, даже когда разговор поначалу довольно скованный.",
+    "phrases": [
+      {
+        "id": "people-putting-people-at-ease",
+        "text": "putting people at ease",
+        "meaning": "располагать людей, снимать напряжение",
+        "note": "Put someone at ease — помочь человеку расслабиться в неловкой или новой ситуации. Put at ease, не to ease.",
+        "example": "A little humour goes a long way towards putting guests at ease."
+      }
+    ]
+  },
+  {
+    "id": "people-13",
+    "level": "B1",
+    "title": "Не выпадать из круга",
+    "text": "I will keep you in the loop once I hear back from them. There is no point speculating until we have a clear answer.",
+    "translation": "Я буду держать тебя в курсе, как только они ответят. Нет смысла строить догадки, пока нет ясного ответа.",
+    "phrases": [
+      {
+        "id": "people-in-the-loop",
+        "text": "keep you in the loop",
+        "meaning": "держать тебя в курсе",
+        "note": "Be in the loop — быть среди тех, кого информируют. Out of the loop — исключённым из потока новостей.",
+        "example": "Please keep me in the loop if the time changes."
+      }
+    ]
+  },
+  {
+    "id": "people-14",
+    "level": "B1",
+    "title": "Ходить вокруг да около",
+    "text": "He beat around the bush for ten minutes before admitting he had forgotten the tickets.",
+    "translation": "Он десять минут ходил вокруг да около, прежде чем признаться, что забыл билеты.",
+    "phrases": [
+      {
+        "id": "people-beat-around-the-bush",
+        "text": "beat around the bush",
+        "meaning": "ходить вокруг да около",
+        "note": "Говорить намёками и оттягивать главное. Stop beating around the bush — просьба сказать прямо. В британском также beat about the bush.",
+        "example": "Stop beating around the bush and tell me what happened."
+      }
+    ]
+  },
+  {
+    "id": "people-15",
+    "level": "B1",
+    "title": "Прямо сказать",
+    "text": "I owe you an apology for cancelling twice. I should have been upfront about how busy this month has been.",
+    "translation": "Я должен извиниться за то, что дважды отменил встречу. Надо было сразу честно сказать, насколько плотный у меня этот месяц.",
+    "phrases": [
+      {
+        "id": "people-owe-you-an-apology",
+        "text": "owe you an apology",
+        "meaning": "должен тебе извинение",
+        "note": "Owe someone an apology — признать, что извинение заслужено. Более лично, чем просто sorry.",
+        "example": "I owe you an apology for missing your call."
+      },
+      {
+        "id": "people-been-upfront",
+        "text": "been upfront",
+        "meaning": "быть откровенным сразу",
+        "note": "Be upfront about something — не скрывать неудобный факт. Близко к be frank, но с оттенком своевременности.",
+        "example": "She was upfront about the risks from the start."
+      }
+    ]
+  },
+  {
+    "id": "people-16",
+    "level": "B1",
+    "title": "Не давить",
+    "text": "I could tell she was holding something back, but I did not want to press her. She will talk when she is ready.",
+    "translation": "Я чувствовал, что она что-то недоговаривает, но не хотел давить. Она заговорит, когда будет готова.",
+    "phrases": [
+      {
+        "id": "people-holding-something-back",
+        "text": "holding something back",
+        "meaning": "что-то недоговаривать",
+        "note": "Hold back information or feelings — сознательно не говорить всего. Hold someone back — мешать продвижению.",
+        "example": "I sensed he was holding something back about the argument."
+      },
+      {
+        "id": "people-press-her",
+        "text": "press her",
+        "meaning": "давить на неё расспросами",
+        "note": "Press someone — настойчиво добиваться ответа. I do not want to press you — вежливый отказ от допроса.",
+        "example": "I will not press you if you would rather not say."
+      }
+    ]
+  },
+  {
+    "id": "people-17",
+    "level": "B2",
+    "title": "Прояснить недоразумение",
+    "text": "I would rather clear the air now than let a small misunderstanding grow into something neither of us intended.",
+    "translation": "Я лучше проясню всё сейчас, чем позволю мелкому недоразумению вырасти во что-то, чего никто из нас не хотел.",
+    "phrases": [
+      {
+        "id": "people-clear-the-air",
+        "text": "clear the air",
+        "meaning": "разрядить обстановку, прояснить конфликт",
+        "note": "Честно обсудить напряжение, чтобы оно перестало висеть между людьми. Часто после ссоры или неловкости.",
+        "example": "A short, honest talk helped us clear the air."
+      }
+    ]
+  },
+  {
+    "id": "people-18",
+    "level": "B2",
+    "title": "Не то впечатление",
+    "text": "Her remark was not meant to offend, but it still rubbed me the wrong way. I need a moment before I reply.",
+    "translation": "Её реплика не была задумана как обида, но всё равно неприятно задела. Мне нужна минута, прежде чем ответить.",
+    "phrases": [
+      {
+        "id": "people-rubbed-the-wrong-way",
+        "text": "rubbed me the wrong way",
+        "meaning": "неприятно задело, вызвало раздражение",
+        "note": "Rub someone the wrong way — вызвать раздражение, иногда непропорциональное. Прошедшая форма: rubbed.",
+        "example": "His joke rubbed several people the wrong way."
+      }
+    ]
+  },
+  {
+    "id": "people-19",
+    "level": "B2",
+    "title": "Отдалиться",
+    "text": "We have drifted apart over the past year, not through any quarrel, but simply because we stopped making time for each other.",
+    "translation": "За последний год мы отдалились не из-за ссоры, а просто потому, что перестали находить друг для друга время.",
+    "phrases": [
+      {
+        "id": "people-drifted-apart",
+        "text": "drifted apart",
+        "meaning": "отдалились друг от друга",
+        "note": "Постепенное охлаждение отношений без драматического разрыва. Drift — дрейфовать, расходиться по течению.",
+        "example": "Old classmates often drift apart after university."
+      }
+    ]
+  },
+  {
+    "id": "people-20",
+    "level": "B2",
+    "title": "Вставить слово",
+    "text": "He has a habit of talking over people, which makes it hard to get a word in, however polite you try to be.",
+    "translation": "У него привычка перебивать, из-за чего трудно вставить слово, как ни старайся быть вежливым.",
+    "phrases": [
+      {
+        "id": "people-get-a-word-in",
+        "text": "get a word in",
+        "meaning": "вставить слово",
+        "note": "Часто в полной форме get a word in edgeways. О ситуации, где собеседник не оставляет паузы.",
+        "example": "She spoke so quickly I could hardly get a word in."
+      }
+    ]
+  },
+  {
+    "id": "people-21",
+    "level": "B2",
+    "title": "Не принимать сторону",
+    "text": "I am not taking sides; I just think both of you are talking past each other rather than listening.",
+    "translation": "Я не принимаю ничью сторону; мне кажется, вы говорите мимо друг друга, а не слушаете.",
+    "phrases": [
+      {
+        "id": "people-taking-sides",
+        "text": "taking sides",
+        "meaning": "принимать чью-либо сторону",
+        "note": "Take sides — встать на одну сторону в споре. I am not taking sides — отказ стать судьёй.",
+        "example": "A good mediator avoids taking sides too early."
+      },
+      {
+        "id": "people-talking-past",
+        "text": "talking past each other",
+        "meaning": "говорить мимо друг друга",
+        "note": "Каждый отвечает не на сказанное, а на свою версию чужих слов. Близко к talking at cross purposes.",
+        "example": "They were talking past each other about two different deadlines."
+      }
+    ]
+  },
+  {
+    "id": "people-22",
+    "level": "B2",
+    "title": "Не спешить с выводами",
+    "text": "Give her the benefit of the doubt until we know what actually happened. Jumping to conclusions will only make things worse.",
+    "translation": "Давайте истолкуем сомнения в её пользу, пока не узнаем, что произошло на самом деле. Поспешные выводы только ухудшат дело.",
+    "phrases": [
+      {
+        "id": "people-benefit-of-the-doubt",
+        "text": "the benefit of the doubt",
+        "meaning": "истолковать сомнения в пользу человека",
+        "note": "Give someone the benefit of the doubt — истолковать сомнения в их пользу, пока нет доказательств обратного.",
+        "example": "I will give him the benefit of the doubt this once."
+      },
+      {
+        "id": "people-jumping-to-conclusions",
+        "text": "Jumping to conclusions",
+        "meaning": "поспешные выводы",
+        "note": "Jump to conclusions — решить слишком рано, не имея фактов. Часто предупреждение: do not jump to conclusions.",
+        "example": "Jumping to conclusions made the argument harder to repair."
+      }
+    ]
+  },
+  {
+    "id": "people-23",
+    "level": "C1",
+    "title": "Честность и жестокость",
+    "text": "Much as I value candour, there is a difference between speaking honestly and using honesty as a pretext for being unkind.",
+    "translation": "Как бы я ни ценил прямоту, есть разница между честной речью и использованием честности как предлога для грубости.",
+    "phrases": [
+      {
+        "id": "people-as-a-pretext-for",
+        "text": "as a pretext for",
+        "meaning": "как предлог для",
+        "note": "Pretext — мнимая причина, прикрывающая настоящий мотив. As a pretext for + существительное или -ing.",
+        "example": "He used humour as a pretext for saying something cruel."
+      }
+    ]
+  },
+  {
+    "id": "people-24",
+    "level": "C1",
+    "title": "Если бы не терпение",
+    "text": "Were it not for her patience, that conversation would have collapsed into accusations before either of us had made our point.",
+    "translation": "Если бы не её терпение, разговор скатился бы к обвинениям ещё до того, как кто-то из нас успел высказать суть.",
+    "phrases": [
+      {
+        "id": "people-were-it-not-for",
+        "text": "Were it not for",
+        "meaning": "если бы не",
+        "note": "Формальная инверсия вместо if it were not for. Вводит условие, без которого результат был бы хуже.",
+        "example": "Were it not for your reminder, I would have forgotten the call."
+      }
+    ]
+  },
+  {
+    "id": "people-25",
+    "level": "C1",
+    "title": "Шутка не туда",
+    "text": "Little did I realise that my attempt to lighten the mood would come across as dismissive of a worry she had been holding back for weeks.",
+    "translation": "Я и не подозревал, что попытка разрядить обстановку прозвучит как пренебрежение тревогой, которую она неделями в себе держала.",
+    "phrases": [
+      {
+        "id": "people-little-did-i-realise",
+        "text": "Little did I realise",
+        "meaning": "я и не подозревал",
+        "note": "Little + инверсия вспомогательного глагола выражает, что говорящий тогда не понимал последствий. Формально и выразительно.",
+        "example": "Little did we realise how much that remark would sting later."
+      }
+    ]
+  },
+  {
+    "id": "people-26",
+    "level": "C1",
+    "title": "Не оставлять обиду",
+    "text": "Reluctant though I was to reopen the subject, leaving it untouched would have allowed the resentment to harden into something far harder to undo.",
+    "translation": "Хотя мне и не хотелось возвращаться к теме, оставить её нетронутой значило бы дать обиде затвердеть во что-то куда более трудное для исправления.",
+    "phrases": [
+      {
+        "id": "people-reluctant-though-i-was",
+        "text": "Reluctant though I was",
+        "meaning": "как ни не хотелось мне",
+        "note": "Прилагательное + though + подлежащее + глагол — уступительная инверсия. Нейтрально: although I was reluctant.",
+        "example": "Tired though I was, I stayed until she had finished."
+      }
+    ]
+  },
+  {
+    "id": "people-27",
+    "level": "C1",
+    "title": "Шутка во вред",
+    "text": "Far from calming the situation, my well-meant joke only made her feel that her concern was being treated as a triviality.",
+    "translation": "Шутка, сказанная из лучших побуждений, вовсе не успокоила обстановку, а лишь дала ей почувствовать, что её тревогу считают мелочью.",
+    "phrases": [
+      {
+        "id": "people-far-from-calming",
+        "text": "Far from calming",
+        "meaning": "вовсе не успокоив",
+        "note": "Far from + -ing резко опровергает ожидаемый результат: вместо A произошло противоположное.",
+        "example": "Far from resolving the tension, the email made it public."
+      }
+    ]
+  }
+]

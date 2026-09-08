@@ -1,0 +1,490 @@
+[
+  {
+    "id": "day-01",
+    "level": "A1",
+    "title": "Доброе утро",
+    "text": "I get up early. I open the window and make a cup of tea.",
+    "translation": "Я рано встаю. Я открываю окно и готовлю чашку чая.",
+    "phrases": [
+      {
+        "id": "get-up",
+        "text": "get up",
+        "meaning": "вставать с постели",
+        "note": "Get up — именно встать. Wake up — проснуться: можно проснуться, но ещё лежать в кровати.",
+        "example": "I usually get up at seven."
+      }
+    ]
+  },
+  {
+    "id": "day-02",
+    "level": "A1",
+    "title": "Кофе с собой",
+    "text": "I would like a small coffee, please. Can I have it to go?",
+    "translation": "Я бы хотел маленький кофе, пожалуйста. Можно с собой?",
+    "phrases": [
+      {
+        "id": "to-go",
+        "text": "to go",
+        "meaning": "с собой, навынос",
+        "note": "Так заказывают еду и напитки навынос, особенно в американском английском. В Британии часто говорят to take away.",
+        "example": "Two teas to go, please."
+      }
+    ]
+  },
+  {
+    "id": "day-03",
+    "level": "A2",
+    "title": "Без спешки",
+    "text": "Every morning, I take my time and enjoy a cup of coffee. It helps me get ready for the day.",
+    "translation": "Каждое утро я не спешу и наслаждаюсь чашкой кофе. Это помогает мне подготовиться к новому дню.",
+    "phrases": [
+      {
+        "id": "take-my-time",
+        "text": "take my time",
+        "meaning": "не спешить, делать в своём темпе",
+        "note": "Take your time — мягкое «не торопись». Меняйте притяжательное местоимение: I take my time, she takes her time.",
+        "example": "Take your time. We are not in a hurry."
+      },
+      {
+        "id": "get-ready",
+        "text": "get ready",
+        "meaning": "готовиться, собираться",
+        "note": "Get ready for + событие или предмет. Get ready to + действие: get ready to leave — собираться уходить.",
+        "example": "We need to get ready for the trip."
+      }
+    ]
+  },
+  {
+    "id": "day-04",
+    "level": "A2",
+    "title": "По дороге домой",
+    "text": "We have run out of milk. I will pick some up on my way home from work.",
+    "translation": "У нас закончилось молоко. Я куплю немного по дороге домой с работы.",
+    "phrases": [
+      {
+        "id": "run-out-of",
+        "text": "run out of",
+        "meaning": "израсходовать; остаться без чего-либо",
+        "note": "Run out of используют с тем, что может закончиться: milk, money, time. Здесь have run out — результат уже есть: молока нет.",
+        "example": "We have run out of bread."
+      },
+      {
+        "id": "on-my-way",
+        "text": "on my way",
+        "meaning": "по пути, по дороге",
+        "note": "On my way home — по дороге домой; перед home предлог to не нужен. Но: on my way to work.",
+        "example": "I will call you on my way home."
+      }
+    ]
+  },
+  {
+    "id": "day-05",
+    "level": "B1",
+    "title": "Освободить вечер",
+    "text": "I try to get things done before dinner so that I can switch off and spend the evening with my family.",
+    "translation": "Я стараюсь закончить дела до ужина, чтобы отвлечься от забот и провести вечер с семьёй.",
+    "phrases": [
+      {
+        "id": "get-things-done",
+        "text": "get things done",
+        "meaning": "заканчивать дела, справляться с задачами",
+        "note": "Выражение подчёркивает результат. Get something done также может означать организовать выполнение работы другим человеком.",
+        "example": "I get things done more easily in the morning."
+      },
+      {
+        "id": "switch-off",
+        "text": "switch off",
+        "meaning": "отвлечься от работы, расслабиться",
+        "note": "Буквально — выключить прибор. О человеке это образно: перестать думать о делах и отдохнуть.",
+        "example": "A walk helps me switch off after work."
+      }
+    ]
+  },
+  {
+    "id": "day-06",
+    "level": "B1",
+    "title": "Небольшие перемены",
+    "text": "I used to check my phone first thing in the morning. These days, I leave it on the shelf and enjoy a quiet breakfast.",
+    "translation": "Раньше я проверял телефон первым делом с утра. Теперь я оставляю его на полке и спокойно завтракаю.",
+    "phrases": [
+      {
+        "id": "used-to",
+        "text": "used to",
+        "meaning": "раньше обычно делал, а теперь уже нет",
+        "note": "Used to + начальная форма глагола описывает прошлую привычку. Не путайте с be used to + -ing: быть привыкшим к чему-либо.",
+        "example": "I used to drink coffee at night."
+      }
+    ]
+  },
+  {
+    "id": "day-07",
+    "level": "B2",
+    "title": "Поменять привычку",
+    "text": "I had been putting off sorting through my old things for months. Once I finally got around to it, I realised how much space I could free up without giving away anything I actually needed.",
+    "translation": "Я месяцами откладывал разбор старых вещей. Когда руки наконец дошли, я понял, сколько места можно освободить, не отдавая ничего действительно нужного.",
+    "phrases": [
+      {
+        "id": "day-got-around-to-it",
+        "text": "got around to it",
+        "meaning": "наконец дошли руки до этого",
+        "note": "Get around to something — найти время на отложенное дело. Если дальше глагол, нужна форма -ing: get around to cleaning.",
+        "example": "I finally got around to fixing that shelf."
+      }
+    ]
+  },
+  {
+    "id": "day-08",
+    "level": "C1",
+    "title": "Границы доступности",
+    "text": "Much as I appreciate being able to work from anywhere, I have come to resent the assumption that being reachable amounts to being available, regardless of the hour.",
+    "translation": "Как бы я ни ценил возможность работать откуда угодно, меня всё больше раздражает убеждение, будто возможность связаться со мной означает мою готовность работать в любое время суток.",
+    "phrases": [
+      {
+        "id": "day-much-as",
+        "text": "Much as I appreciate",
+        "meaning": "как бы высоко я ни ценил",
+        "note": "Much as + подлежащее + глагол — уступительная конструкция: although I greatly appreciate. Признаёт достоинство перед возражением.",
+        "example": "Much as I enjoy company, I sometimes need an evening alone."
+      }
+    ]
+  },
+  {
+    "id": "day-09",
+    "level": "C2",
+    "title": "Иллюзия продуктивности",
+    "text": "The relentless pursuit of efficiency can be self-defeating: in paring away every supposedly idle moment, we risk forfeiting the unstructured time in which worthwhile ideas take shape.",
+    "translation": "Неустанная погоня за эффективностью может обернуться против нас: убирая каждую якобы праздную минуту, мы рискуем лишиться свободного времени, в котором обретают форму стоящие идеи.",
+    "phrases": [
+      {
+        "id": "day-take-shape",
+        "text": "take shape",
+        "meaning": "обретать форму, постепенно складываться",
+        "note": "О замысле, плане или понимании, которое постепенно становится определённым. Выражение не ограничивается физической формой.",
+        "example": "The idea began to take shape during an aimless afternoon walk."
+      }
+    ]
+  },
+  {
+    "id": "day-10",
+    "level": "B1",
+    "title": "Неожиданная замена планов",
+    "text": "Something came up at the last minute, so I had to cancel dinner. I will make it up to you next week.",
+    "translation": "В последнюю минуту всплыло срочное дело, так что мне пришлось отменить ужин. Я заглажу вину на следующей неделе.",
+    "phrases": [
+      {
+        "id": "day-came-up",
+        "text": "came up",
+        "meaning": "неожиданно возникло",
+        "note": "Something came up — появилось непредвиденное обстоятельство, обычно мешающее планам. Не путайте с come up with — придумать.",
+        "example": "Sorry I missed the call. Something came up at work."
+      },
+      {
+        "id": "day-make-it-up-to-you",
+        "text": "make it up to you",
+        "meaning": "загладить вину перед тобой",
+        "note": "Make it up to someone — компенсировать разочарование или причинённые неудобства. Это не make up в значении выдумывать.",
+        "example": "Let me make it up to you with lunch on Friday."
+      }
+    ]
+  },
+  {
+    "id": "day-11",
+    "level": "B1",
+    "title": "Неважно себя чувствовать",
+    "text": "I have been feeling under the weather since yesterday, so I will stay in and rest instead of going to the shops.",
+    "translation": "Со вчерашнего дня я чувствую себя неважно, поэтому останусь дома и отдохну вместо похода по магазинам.",
+    "phrases": [
+      {
+        "id": "day-under-the-weather",
+        "text": "under the weather",
+        "meaning": "неважно себя чувствовать",
+        "note": "Мягкий способ сказать, что вы приболели или чувствуете себя плохо, без описания симптомов.",
+        "example": "She stayed home because she was feeling under the weather."
+      },
+      {
+        "id": "day-stay-in",
+        "text": "stay in",
+        "meaning": "остаться дома",
+        "note": "Stay in противопоставляется go out. Stay in tonight — провести вечер дома, а не в городе.",
+        "example": "We decided to stay in and cook rather than eat out."
+      }
+    ]
+  },
+  {
+    "id": "day-12",
+    "level": "B1",
+    "title": "По делам",
+    "text": "I need to run a few errands before lunch: pick up the dry cleaning, drop off a parcel, and stock up on groceries.",
+    "translation": "Мне нужно сделать несколько дел до обеда: забрать вещи из химчистки, отправить посылку и закупиться продуктами.",
+    "phrases": [
+      {
+        "id": "day-run-a-few-errands",
+        "text": "run a few errands",
+        "meaning": "сделать несколько мелких дел",
+        "note": "Errands — короткие практические поручения в городе: банк, почта, магазин. Run errands — стандартное сочетание.",
+        "example": "I will run a few errands and then come over."
+      },
+      {
+        "id": "day-stock-up-on",
+        "text": "stock up on",
+        "meaning": "закупиться впрок",
+        "note": "Stock up on something — купить с запасом, обычно перед нехваткой, праздниками или поездкой.",
+        "example": "We should stock up on rice before the weekend."
+      }
+    ]
+  },
+  {
+    "id": "day-13",
+    "level": "B1",
+    "title": "Вечер без спешки",
+    "text": "After a long day, I like to put my feet up with a cup of tea and let the noise of the city fade into the background.",
+    "translation": "После долгого дня я люблю закинуть ноги на диван с чашкой чая и дать городскому шуму раствориться на фоне.",
+    "phrases": [
+      {
+        "id": "day-put-my-feet-up",
+        "text": "put my feet up",
+        "meaning": "отдохнуть, закинув ноги",
+        "note": "Put your feet up — расслабиться дома, часто буквально положив ноги на подставку или диван. Разговорное и дружелюбное.",
+        "example": "Come in and put your feet up. Dinner will be ready soon."
+      }
+    ]
+  },
+  {
+    "id": "day-14",
+    "level": "B1",
+    "title": "Меньше кофе",
+    "text": "I am trying to cut down on coffee because it makes me restless in the evening. Herbal tea has been a decent substitute so far.",
+    "translation": "Я стараюсь меньше пить кофе, потому что от него вечером трудно успокоиться. Пока травяной чай неплохо его заменяет.",
+    "phrases": [
+      {
+        "id": "day-cut-down-on",
+        "text": "cut down on",
+        "meaning": "сократить потребление",
+        "note": "Cut down on + существительное: уменьшить количество, не обязательно бросать совсем. Cut out — исключить полностью.",
+        "example": "The doctor told him to cut down on sugar."
+      }
+    ]
+  },
+  {
+    "id": "day-15",
+    "level": "B1",
+    "title": "Не запускать дела",
+    "text": "If I do not keep on top of the laundry, it piles up by Thursday and I spend the whole evening catching up.",
+    "translation": "Если я не держу стирку под контролем, к четвергу она накапливается, и я трачу весь вечер на то, чтобы наверстать.",
+    "phrases": [
+      {
+        "id": "day-keep-on-top-of",
+        "text": "keep on top of",
+        "meaning": "не запускать, держать под контролем",
+        "note": "Keep on top of chores, email, or bills — не давать делам накопиться. Близко к stay on top of.",
+        "example": "A short daily tidy helps me keep on top of the mess."
+      },
+      {
+        "id": "day-piles-up",
+        "text": "piles up",
+        "meaning": "накапливается",
+        "note": "О вещах, задачах или письмах, которые накапливаются, если ими не заниматься. Существительное: a pile of laundry.",
+        "example": "Unread messages pile up if I ignore them for a day."
+      }
+    ]
+  },
+  {
+    "id": "day-16",
+    "level": "B1",
+    "title": "Соседи без предупреждения",
+    "text": "The neighbours dropped by unannounced, so I put the cleaning on hold and put the kettle on instead.",
+    "translation": "Соседи заглянули без предупреждения, так что я отложил уборку и поставил чайник.",
+    "phrases": [
+      {
+        "id": "day-dropped-by",
+        "text": "dropped by",
+        "meaning": "заглянули ненадолго",
+        "note": "Drop by / drop in — зайти коротко, часто без долгой договорённости. Более формально: pay a visit.",
+        "example": "Feel free to drop by if you are in the area."
+      },
+      {
+        "id": "day-on-hold",
+        "text": "on hold",
+        "meaning": "на паузе, отложено",
+        "note": "Put something on hold — временно остановить. Также говорят о телефонном ожидании: hold the line.",
+        "example": "We put the renovation on hold until spring."
+      }
+    ]
+  },
+  {
+    "id": "day-17",
+    "level": "B2",
+    "title": "Цена пропущенного завтрака",
+    "text": "Skipping breakfast may save ten minutes, but in the long run it leaves me irritable and far less focused at work.",
+    "translation": "Пропуск завтрака экономит десять минут, но в долгосрочной перспективе я становлюсь раздражительным и куда менее собранным на работе.",
+    "phrases": [
+      {
+        "id": "day-in-the-long-run",
+        "text": "in the long run",
+        "meaning": "в долгосрочной перспективе",
+        "note": "Сравнивает быструю выгоду с более поздним эффектом. Противоположность: in the short run / in the short term.",
+        "example": "Walking costs time now, but it pays off in the long run."
+      }
+    ]
+  },
+  {
+    "id": "day-18",
+    "level": "B2",
+    "title": "Бессонные вечера",
+    "text": "Late nights have started to take a toll on my concentration. Even simple chores feel twice as long as they used to.",
+    "translation": "Поздние вечера начали сказываться на концентрации. Даже простые домашние дела занимают вдвое больше времени, чем раньше.",
+    "phrases": [
+      {
+        "id": "day-take-a-toll-on",
+        "text": "take a toll on",
+        "meaning": "сказываться, наносить ущерб",
+        "note": "Take a toll on health, patience, or relationships — постепенно истощать. Toll буквально — плата за проезд.",
+        "example": "The noise is taking a toll on her sleep."
+      }
+    ]
+  },
+  {
+    "id": "day-19",
+    "level": "B2",
+    "title": "На всякий случай",
+    "text": "I packed an extra charger on the off chance the hotel socket would not fit my adapter. It proved a wise precaution.",
+    "translation": "Я взял запасную зарядку на случай, если розетка в отеле не подойдёт к адаптеру. Осторожность оказалась оправданной.",
+    "phrases": [
+      {
+        "id": "day-on-the-off-chance",
+        "text": "on the off chance",
+        "meaning": "на маловероятный случай",
+        "note": "Делать что-то, хотя вероятность невелика. Off chance — слабый, но не нулевой шанс.",
+        "example": "I called on the off chance you were still in town."
+      }
+    ]
+  },
+  {
+    "id": "day-20",
+    "level": "B2",
+    "title": "На потом",
+    "text": "I put the kitchen renovation on the back burner until the busy season at work is over. There is no point starting what I cannot finish.",
+    "translation": "Я отложил ремонт кухни на потом, пока на работе не закончится горячий сезон. Нет смысла начинать то, что не смогу закончить.",
+    "phrases": [
+      {
+        "id": "day-on-the-back-burner",
+        "text": "on the back burner",
+        "meaning": "отложено на потом, не в приоритете",
+        "note": "Образ с задней конфорки плиты: блюдо томится, пока главное готовится спереди. Put something on the back burner.",
+        "example": "We have put the extra features on the back burner."
+      }
+    ]
+  },
+  {
+    "id": "day-21",
+    "level": "B2",
+    "title": "Цена удобства",
+    "text": "Ordering in every night is convenient, but it comes at the expense of both my budget and any remaining cooking skills.",
+    "translation": "Заказывать еду каждый вечер удобно, но это бьёт и по бюджету, и по остаткам кулинарных навыков.",
+    "phrases": [
+      {
+        "id": "day-at-the-expense-of",
+        "text": "at the expense of",
+        "meaning": "в ущерб чему-либо",
+        "note": "Выгода в одном достигается ценой потерь в другом. Близко к at the cost of, чуть чаще про приоритеты и ресурсы.",
+        "example": "He works long hours at the expense of his health."
+      }
+    ]
+  },
+  {
+    "id": "day-22",
+    "level": "B2",
+    "title": "В целом",
+    "text": "By and large, the new neighbourhood suits us, even if the shops close earlier than we are used to.",
+    "translation": "В целом новый район нам подходит, даже если магазины закрываются раньше, чем мы привыкли.",
+    "phrases": [
+      {
+        "id": "day-by-and-large",
+        "text": "By and large",
+        "meaning": "в целом, по большому счёту",
+        "note": "Вводит общее суждение, допуская отдельные исключения. Обычно стоит в начале предложения или после запятой.",
+        "example": "By and large, the week went more smoothly than I expected."
+      }
+    ]
+  },
+  {
+    "id": "day-23",
+    "level": "C1",
+    "title": "Пустой вечер как задача",
+    "text": "So accustomed have I become to filling every spare minute that an empty evening now feels less like rest than like a problem to be solved.",
+    "translation": "Я настолько привык заполнять каждую свободную минуту, что пустой вечер теперь ощущается не как отдых, а как задача, которую нужно решить.",
+    "phrases": [
+      {
+        "id": "day-so-accustomed-have-i",
+        "text": "So accustomed have I become",
+        "meaning": "я настолько привык",
+        "note": "Инверсия: so + прилагательное + вспомогательный глагол + подлежащее. Нейтральный порядок: I have become so accustomed.",
+        "example": "So used have we grown to noise that silence feels strange."
+      }
+    ]
+  },
+  {
+    "id": "day-24",
+    "level": "C1",
+    "title": "Уборка вместо решений",
+    "text": "For all the satisfaction of a tidy flat, I have begun to suspect that the ritual of cleaning is, in part, a way of postponing harder decisions.",
+    "translation": "При всём удовольствии от порядка в квартире я начинаю подозревать, что ритуал уборки отчасти служит способом откладывать более трудные решения.",
+    "phrases": [
+      {
+        "id": "day-for-all-the",
+        "text": "For all the satisfaction",
+        "meaning": "при всём удовольствии, несмотря на него",
+        "note": "For all + существительное — уступительная конструкция: despite. For all his experience, he still made the same mistake.",
+        "example": "For all the comfort of routine, it can quietly narrow your days."
+      }
+    ]
+  },
+  {
+    "id": "day-25",
+    "level": "C1",
+    "title": "Рука тянется к телефону",
+    "text": "Not until I left my phone in another room did I notice how often I had been reaching for it without any real purpose.",
+    "translation": "Лишь оставив телефон в другой комнате, я заметил, как часто тянулся к нему без всякой настоящей цели.",
+    "phrases": [
+      {
+        "id": "day-not-until-i-left",
+        "text": "Not until I left",
+        "meaning": "лишь после того как я оставил",
+        "note": "Not until + обстоятельство требует инверсии в главной части: did I notice. Подчёркивает запоздалое осознание.",
+        "example": "Not until I moved out did I realise how noisy the street had been."
+      }
+    ]
+  },
+  {
+    "id": "day-26",
+    "level": "C1",
+    "title": "Как бы то ни было",
+    "text": "Be that as it may, a slow morning restores me more than any productivity method I have tried, however fashionable it happens to be.",
+    "translation": "Как бы то ни было, медленное утро восстанавливает меня лучше любого метода продуктивности, каким бы модным он ни был.",
+    "phrases": [
+      {
+        "id": "day-be-that-as-it-may",
+        "text": "Be that as it may",
+        "meaning": "как бы то ни было",
+        "note": "Уступительный оборот: даже если предыдущее верно, говорящий всё равно делает свой вывод. Чуть формальнее, чем anyway.",
+        "example": "Be that as it may, we still need a decision by Friday."
+      }
+    ]
+  },
+  {
+    "id": "day-27",
+    "level": "C1",
+    "title": "Порядок любой ценой",
+    "text": "In no way does a perfectly organised cupboard compensate for the hours stolen from sleep in order to keep it that way.",
+    "translation": "Идеально организованный шкаф никоим образом не компенсирует часы, украденные у сна ради поддержания этого порядка.",
+    "phrases": [
+      {
+        "id": "day-in-no-way-does",
+        "text": "In no way does",
+        "meaning": "никоим образом не",
+        "note": "Отрицательное обстоятельство в начале предложения вызывает инверсию: does + подлежащее. Сильное опровержение.",
+        "example": "In no way does extra storage solve a habit of buying too much."
+      }
+    ]
+  }
+]

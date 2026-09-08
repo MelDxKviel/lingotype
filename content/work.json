@@ -1,0 +1,469 @@
+[
+  {
+    "id": "work-01",
+    "level": "A1",
+    "title": "Небольшая просьба",
+    "text": "Can you help me with this email? I want to make sure the name is right.",
+    "translation": "Ты можешь помочь мне с этим письмом? Я хочу убедиться, что имя написано правильно.",
+    "phrases": [
+      {
+        "id": "make-sure",
+        "text": "make sure",
+        "meaning": "убедиться, проверить",
+        "note": "Make sure + предложение: проверить, что что-то верно. Make sure to + глагол: обязательно сделайте что-то.",
+        "example": "Please make sure the door is closed."
+      }
+    ]
+  },
+  {
+    "id": "work-02",
+    "level": "A1",
+    "title": "Рабочий день",
+    "text": "I work from home on Friday. My first meeting starts at ten in the morning.",
+    "translation": "В пятницу я работаю из дома. Моя первая встреча начинается в десять утра.",
+    "phrases": [
+      {
+        "id": "work-from-home",
+        "text": "work from home",
+        "meaning": "работать из дома",
+        "note": "Устойчивое сочетание с from: дом — место, откуда вы работаете. В переписке встречается сокращение WFH.",
+        "example": "Can I work from home tomorrow?"
+      }
+    ]
+  },
+  {
+    "id": "work-03",
+    "level": "A2",
+    "title": "Держать в курсе",
+    "text": "I will look into the problem this afternoon. I will keep you posted if anything changes.",
+    "translation": "Я разберусь с проблемой сегодня днём. Я буду держать тебя в курсе, если что-то изменится.",
+    "phrases": [
+      {
+        "id": "look-into",
+        "text": "look into",
+        "meaning": "изучить вопрос, разобраться",
+        "note": "Look into a problem — выяснить причины или подробности. Это не буквальное «посмотреть внутрь».",
+        "example": "Our team will look into the issue."
+      },
+      {
+        "id": "keep-you-posted",
+        "text": "keep you posted",
+        "meaning": "держать тебя в курсе",
+        "note": "Обещание сообщать новые сведения по мере их появления. Подходит для дружеской и рабочей переписки.",
+        "example": "I will keep you posted on our progress."
+      }
+    ]
+  },
+  {
+    "id": "work-04",
+    "level": "A2",
+    "title": "Один шаг за раз",
+    "text": "This task looks difficult, but we can take it step by step. Let's start with the first page.",
+    "translation": "Эта задача кажется сложной, но мы можем делать её постепенно. Давай начнём с первой страницы.",
+    "phrases": [
+      {
+        "id": "step-by-step",
+        "text": "step by step",
+        "meaning": "постепенно, шаг за шагом",
+        "note": "Делать что-то по очереди, маленькими частями. После глагола пишется без дефисов.",
+        "example": "She explained the process step by step."
+      }
+    ]
+  },
+  {
+    "id": "work-05",
+    "level": "B1",
+    "title": "Одинаково понимать задачу",
+    "text": "Before we move on, let's make sure we are on the same page. The main goal is to make the app easier to use.",
+    "translation": "Прежде чем двигаться дальше, давай убедимся, что мы одинаково понимаем задачу. Главная цель — сделать приложение удобнее.",
+    "phrases": [
+      {
+        "id": "on-the-same-page",
+        "text": "on the same page",
+        "meaning": "одинаково понимать ситуацию или план",
+        "note": "Be on the same page — иметь общее понимание. Часто используется, чтобы согласовать ожидания в команде.",
+        "example": "Are we on the same page about the deadline?"
+      }
+    ]
+  },
+  {
+    "id": "work-06",
+    "level": "B1",
+    "title": "На сегодня хватит",
+    "text": "We have made good progress, so let's call it a day. A fresh look tomorrow might help us spot the last few mistakes.",
+    "translation": "Мы хорошо продвинулись, так что на сегодня закончим. Свежий взгляд завтра, возможно, поможет заметить последние ошибки.",
+    "phrases": [
+      {
+        "id": "call-it-a-day",
+        "text": "call it a day",
+        "meaning": "закончить работу на сегодня",
+        "note": "Разговорное предложение остановиться, потому что на сегодня уже достаточно сделано.",
+        "example": "It is getting late. Let's call it a day."
+      }
+    ]
+  },
+  {
+    "id": "work-07",
+    "level": "B2",
+    "title": "Переоценить сроки",
+    "text": "Given how much the scope has changed, we need to push back the deadline rather than pretend that the original estimate still holds. Otherwise, we will end up cutting corners.",
+    "translation": "Учитывая, насколько изменился объём работы, нужно перенести срок, а не делать вид, что исходная оценка всё ещё верна. Иначе в итоге мы начнём экономить на качестве.",
+    "phrases": [
+      {
+        "id": "work-cutting-corners",
+        "text": "cutting corners",
+        "meaning": "экономить время или средства в ущерб качеству",
+        "note": "Cut corners — пропускать необходимые шаги ради быстрого или дешёвого результата. Обычно выражение имеет отрицательную оценку.",
+        "example": "We cannot meet that deadline without cutting corners."
+      }
+    ]
+  },
+  {
+    "id": "work-08",
+    "level": "C1",
+    "title": "Скрытые возражения",
+    "text": "Only after the proposal had been approved did it become apparent that the apparent consensus rested less on shared conviction than on a reluctance to voice reservations in front of senior management.",
+    "translation": "Лишь после одобрения предложения стало ясно, что видимое единодушие объяснялось скорее нежеланием высказывать сомнения при руководстве, чем общей убеждённостью.",
+    "phrases": [
+      {
+        "id": "work-voice-reservations",
+        "text": "voice reservations",
+        "meaning": "высказать сомнения или оговорки",
+        "note": "Voice здесь — глагол «высказывать». Reservations — сомнения и возражения, а не бронирования.",
+        "example": "Several colleagues voiced reservations about the proposed schedule."
+      }
+    ]
+  },
+  {
+    "id": "work-09",
+    "level": "C2",
+    "title": "Условное согласие",
+    "text": "The board's endorsement was circumscribed by caveats which, taken together, all but nullified the discretion ostensibly delegated to the team, while leaving it to shoulder the consequences of any misstep.",
+    "translation": "Одобрение совета было ограничено оговорками, которые в совокупности почти сводили на нет свободу решений, якобы переданную команде, оставляя ей при этом ответственность за последствия любого промаха.",
+    "phrases": [
+      {
+        "id": "work-shoulder-the-consequences",
+        "text": "shoulder the consequences",
+        "meaning": "взять на себя бремя последствий",
+        "note": "Shoulder как глагол означает нести на себе тяжёлую обязанность или ответственность. Часто: shoulder the burden, shoulder responsibility.",
+        "example": "The staff were left to shoulder the consequences of the decision."
+      }
+    ]
+  },
+  {
+    "id": "work-10",
+    "level": "B1",
+    "title": "Пройтись по шагам",
+    "text": "Could you walk me through the new process? I do not want to miss a step and cause a delay later.",
+    "translation": "Можешь пройтись со мной по новому процессу? Я не хочу пропустить шаг и потом вызвать задержку.",
+    "phrases": [
+      {
+        "id": "work-walk-me-through",
+        "text": "walk me through",
+        "meaning": "провести по шагам, объяснить по порядку",
+        "note": "Walk someone through something — объяснить процесс так, чтобы человек мог его повторить. Не буквальная прогулка.",
+        "example": "Can you walk me through the login steps once more?"
+      }
+    ]
+  },
+  {
+    "id": "work-11",
+    "level": "B1",
+    "title": "Завал на неделе",
+    "text": "I am snowed under this week, so I will have to take a rain check on lunch. Next Wednesday should be quieter.",
+    "translation": "На этой неделе у меня завал, так что с обедом придётся повременить. В следующую среду должно быть спокойнее.",
+    "phrases": [
+      {
+        "id": "work-snowed-under",
+        "text": "snowed under",
+        "meaning": "завален работой",
+        "note": "Be snowed under — слишком много задач сразу. Образ сугроба, под которым человек.",
+        "example": "We are snowed under until the report is filed."
+      },
+      {
+        "id": "work-take-a-rain-check",
+        "text": "take a rain check",
+        "meaning": "перенести приглашение на потом",
+        "note": "Изначально — отложенный билет на бейсбол из-за дождя. Сейчас вежливый отказ с обещанием встретиться позже.",
+        "example": "I will take a rain check on coffee if you are free next week."
+      }
+    ]
+  },
+  {
+    "id": "work-12",
+    "level": "B1",
+    "title": "Коротко созвониться",
+    "text": "Let us touch base tomorrow morning and see whether we can wrap this up before the client call.",
+    "translation": "Давай коротко созвонимся завтра утром и посмотрим, успеем ли закрыть это до звонка с клиентом.",
+    "phrases": [
+      {
+        "id": "work-touch-base",
+        "text": "touch base",
+        "meaning": "коротко связаться, свериться",
+        "note": "Рабочее и слегка разговорное: быстро обменяться статусом. Не обязательно длинная встреча.",
+        "example": "I will touch base with you after the standup."
+      },
+      {
+        "id": "work-wrap-this-up",
+        "text": "wrap this up",
+        "meaning": "закончить, закрыть задачу",
+        "note": "Wrap something up — довести до конца и поставить точку. Wrap up a meeting — завершить встречу.",
+        "example": "If we focus, we can wrap this up by noon."
+      }
+    ]
+  },
+  {
+    "id": "work-13",
+    "level": "B1",
+    "title": "Напомнить поставщику",
+    "text": "I will follow up with the supplier if we have not heard back by Friday. Silence usually means they need a nudge.",
+    "translation": "Я напомню поставщику, если к пятнице не будет ответа. Молчание обычно значит, что им нужен лёгкий толчок.",
+    "phrases": [
+      {
+        "id": "work-follow-up-with",
+        "text": "follow up with",
+        "meaning": "связаться повторно, напомнить",
+        "note": "Follow up with someone — вернуться к человеку или теме после первого контакта. Follow-up через дефис — существительное.",
+        "example": "I will follow up with her if the files do not arrive."
+      }
+    ]
+  },
+  {
+    "id": "work-14",
+    "level": "B1",
+    "title": "Не замалчивать риск",
+    "text": "We should flag this risk in the report rather than hope it will sort itself out.",
+    "translation": "Стоит отметить этот риск в отчёте, а не надеяться, что он рассосётся сам.",
+    "phrases": [
+      {
+        "id": "work-flag-this-risk",
+        "text": "flag this risk",
+        "meaning": "отметить этот риск",
+        "note": "Flag — привлечь внимание к проблеме, как флажком. В отчётах и ревью: flag an issue.",
+        "example": "Please flag any risks before we send the plan."
+      },
+      {
+        "id": "work-sort-itself-out",
+        "text": "sort itself out",
+        "meaning": "рассосаться само",
+        "note": "Sort itself out — решиться без вмешательства. Часто звучит как несбыточная надежда, если проблему игнорировать.",
+        "example": "This disagreement will not sort itself out overnight."
+      }
+    ]
+  },
+  {
+    "id": "work-15",
+    "level": "B1",
+    "title": "Взять на себя слайды",
+    "text": "I am happy to take the lead on the slides if you can handle the numbers. We will get more done if we split the work.",
+    "translation": "Я готов взять на себя слайды, если ты возьмёшься за цифры. Разделив работу, мы успеем больше.",
+    "phrases": [
+      {
+        "id": "work-take-the-lead",
+        "text": "take the lead",
+        "meaning": "взять на себя ведущую роль",
+        "note": "Take the lead on a task — стать тем, кто ведёт работу и принимает основные решения по ней.",
+        "example": "Who will take the lead on the agenda?"
+      }
+    ]
+  },
+  {
+    "id": "work-16",
+    "level": "B1",
+    "title": "Записать в календарь",
+    "text": "I will pencil you in for Thursday afternoon. If something comes up, I will let you know by Wednesday.",
+    "translation": "Запишу тебя предварительно на четверг после обеда. Если что-то всплывёт, дам знать к среде.",
+    "phrases": [
+      {
+        "id": "work-pencil-you-in",
+        "text": "pencil you in",
+        "meaning": "предварительно записать в календарь",
+        "note": "Pencil in — внести карандашом, то есть пока не окончательно. Более твёрдо: put it in the diary / lock it in.",
+        "example": "Pencil me in for eleven, and we can confirm tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "work-17",
+    "level": "B2",
+    "title": "Встреча затянулась",
+    "text": "The meeting ran over, which left us with little time to go over the figures. Next time we should set a hard stop.",
+    "translation": "Встреча затянулась, и на разбор цифр почти не осталось времени. В следующий раз стоит поставить жёсткий конец.",
+    "phrases": [
+      {
+        "id": "work-ran-over",
+        "text": "ran over",
+        "meaning": "затянулась дольше запланированного",
+        "note": "A meeting runs over — выходит за отведённое время. Не путайте с run over в значении сбить машиной.",
+        "example": "The call ran over by twenty minutes."
+      },
+      {
+        "id": "work-hard-stop",
+        "text": "hard stop",
+        "meaning": "жёсткое окончание по времени",
+        "note": "Hard stop — заранее объявленный момент, когда встреча обязана закончиться, даже если темы не исчерпаны.",
+        "example": "I have a hard stop at three, so let us start with the decision."
+      }
+    ]
+  },
+  {
+    "id": "work-18",
+    "level": "B2",
+    "title": "Не изобретать заново",
+    "text": "Rather than reinvent the wheel, we could adapt last quarter's template and save ourselves a couple of days.",
+    "translation": "Вместо того чтобы изобретать велосипед, можно взять шаблон прошлого квартала и сэкономить пару дней.",
+    "phrases": [
+      {
+        "id": "work-reinvent-the-wheel",
+        "text": "reinvent the wheel",
+        "meaning": "изобретать велосипед",
+        "note": "Тратить силы на создание уже существующего решения. Обычно совет: do not reinvent the wheel.",
+        "example": "There is no need to reinvent the wheel when a simple checklist works."
+      }
+    ]
+  },
+  {
+    "id": "work-19",
+    "level": "B2",
+    "title": "Принять критику",
+    "text": "The feedback was fair, even if it was hard to hear. If we take it on board, the next draft should be much stronger.",
+    "translation": "Замечания были справедливыми, даже если их было неприятно слышать. Если примем их к сведению, следующий черновик станет заметно сильнее.",
+    "phrases": [
+      {
+        "id": "work-take-it-on-board",
+        "text": "take it on board",
+        "meaning": "принять к сведению и учесть",
+        "note": "Take something on board — не просто выслушать, а включить в дальнейшую работу. Часто о критике и советах.",
+        "example": "Thanks, I will take that on board for the next version."
+      }
+    ]
+  },
+  {
+    "id": "work-20",
+    "level": "B2",
+    "title": "Движущаяся цель",
+    "text": "We cannot keep moving the goalposts every week and still expect the team to stay motivated.",
+    "translation": "Нельзя каждую неделю сдвигать ворота и при этом ждать, что команда сохранит мотивацию.",
+    "phrases": [
+      {
+        "id": "work-moving-the-goalposts",
+        "text": "moving the goalposts",
+        "meaning": "менять правила по ходу дела",
+        "note": "Move the goalposts — после начала работы менять критерии успеха, из-за чего цель становится недостижимой.",
+        "example": "Changing the metric mid-project felt like moving the goalposts."
+      }
+    ]
+  },
+  {
+    "id": "work-21",
+    "level": "B2",
+    "title": "Проблема вернётся",
+    "text": "I would rather raise the issue now than have it come back to haunt us after the launch.",
+    "translation": "Лучше поднять вопрос сейчас, чем потом, после запуска, он вернётся и будет нас преследовать.",
+    "phrases": [
+      {
+        "id": "work-come-back-to-haunt",
+        "text": "come back to haunt us",
+        "meaning": "вернуться и аукнуться",
+        "note": "О решении или упущенной проблеме, которая позже причиняет вред. Haunt — не обязательно про призраков.",
+        "example": "Skipped tests have a way of coming back to haunt you."
+      }
+    ]
+  },
+  {
+    "id": "work-22",
+    "level": "B2",
+    "title": "На бумаге",
+    "text": "On paper the plan looks solid, but it leaves little room for the delays we have seen on every previous project.",
+    "translation": "На бумаге план выглядит убедительно, но в нём почти нет запаса на задержки, которые были в каждом прошлом проекте.",
+    "phrases": [
+      {
+        "id": "work-on-paper",
+        "text": "On paper",
+        "meaning": "на бумаге, в теории",
+        "note": "On paper противопоставляет формальный вид плана реальности. Часто за ним следует but.",
+        "example": "On paper we have enough people, but three are already booked."
+      }
+    ]
+  },
+  {
+    "id": "work-23",
+    "level": "C1",
+    "title": "Честный разговор о сроках",
+    "text": "Only by admitting how thin our original estimate was can we make a credible case for extra time, however unwelcome that conversation may be.",
+    "translation": "Только признав, насколько зыбкой была исходная оценка, мы сможем убедительно обосновать дополнительное время, каким бы неприятным ни был этот разговор.",
+    "phrases": [
+      {
+        "id": "work-make-a-credible-case",
+        "text": "make a credible case",
+        "meaning": "убедительно обосновать",
+        "note": "Make a case for something — привести доводы. Credible подчёркивает, что аргумент должен выглядеть правдоподобно.",
+        "example": "We need data if we want to make a credible case for hiring."
+      }
+    ]
+  },
+  {
+    "id": "work-24",
+    "level": "C1",
+    "title": "Решение из чата",
+    "text": "Had we documented the decision at the time, we would not now be reconstructing it from half-remembered remarks in a chat thread.",
+    "translation": "Если бы мы зафиксировали решение тогда, сейчас не пришлось бы восстанавливать его по обрывкам реплик в чате.",
+    "phrases": [
+      {
+        "id": "work-had-we-documented",
+        "text": "Had we documented",
+        "meaning": "если бы мы зафиксировали",
+        "note": "Инверсия третьего условного: Had we + причастие вместо If we had. Формальный и сжатый способ говорить о упущенном действии.",
+        "example": "Had we written it down, the argument would have been shorter."
+      }
+    ]
+  },
+  {
+    "id": "work-25",
+    "level": "C1",
+    "title": "Срочность сама по себе",
+    "text": "The apparent urgency of the request should not, in itself, override the need to check whether the work is even ours to do.",
+    "translation": "Кажущаяся срочность запроса сама по себе не должна отменять необходимость проверить, наша ли это вообще работа.",
+    "phrases": [
+      {
+        "id": "work-in-itself",
+        "text": "in itself",
+        "meaning": "само по себе",
+        "note": "In itself ограничивает утверждение: качество верно изолированно, но может не быть решающим. Часто с not.",
+        "example": "Speed is not, in itself, a measure of quality."
+      }
+    ]
+  },
+  {
+    "id": "work-26",
+    "level": "C1",
+    "title": "Предсказуемая задержка",
+    "text": "Insofar as the delay was foreseeable, treating it as an unforeseeable crisis does little to restore trust with the client.",
+    "translation": "Постольку поскольку задержку можно было предвидеть, выдавать её за непредвиденный кризис мало помогает вернуть доверие клиента.",
+    "phrases": [
+      {
+        "id": "work-insofar-as",
+        "text": "Insofar as",
+        "meaning": "постольку поскольку, в той мере в какой",
+        "note": "Формальный ограничитель: утверждение верно только в указанных пределах. Также in so far as.",
+        "example": "Insofar as the data is complete, the conclusion holds."
+      }
+    ]
+  },
+  {
+    "id": "work-27",
+    "level": "C1",
+    "title": "Культ занятости",
+    "text": "The more we celebrate busyness as a virtue, the harder it becomes to question whether the work itself is necessary.",
+    "translation": "Чем больше мы превозносим занятость как добродетель, тем труднее спросить, нужна ли сама эта работа.",
+    "phrases": [
+      {
+        "id": "work-the-more-we",
+        "text": "The more we celebrate",
+        "meaning": "чем больше мы превозносим",
+        "note": "Парная конструкция the more... the harder... связывает рост одного с ростом другого. Вторая часть тоже начинается с the + сравнительная степень.",
+        "example": "The more we rush, the more mistakes we have to undo."
+      }
+    ]
+  }
+]

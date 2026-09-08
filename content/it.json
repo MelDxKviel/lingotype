@@ -1,0 +1,524 @@
+[
+  {
+    "id": "it-01",
+    "level": "A1",
+    "title": "Новый ноутбук",
+    "text": "I use my laptop every day. I turn it on and open the app for my English lesson.",
+    "translation": "Я пользуюсь ноутбуком каждый день. Я включаю его и открываю приложение для урока английского.",
+    "phrases": [
+      {
+        "id": "it-turn-it-on",
+        "text": "turn it on",
+        "meaning": "включить его",
+        "note": "Turn on — включать устройство. Местоимение ставится между словами: turn it on, а не turn on it.",
+        "example": "The screen is dark. Can you turn it on?"
+      }
+    ]
+  },
+  {
+    "id": "it-02",
+    "level": "A1",
+    "title": "Войти в приложение",
+    "text": "Please log in with your email. Then click the blue button to open your first lesson.",
+    "translation": "Пожалуйста, войди с помощью электронной почты. Затем нажми синюю кнопку, чтобы открыть первый урок.",
+    "phrases": [
+      {
+        "id": "it-log-in",
+        "text": "log in",
+        "meaning": "войти в аккаунт",
+        "note": "Log in — действие, поэтому пишется в два слова. Login часто бывает существительным: a login page — страница входа.",
+        "example": "I cannot log in to my account."
+      }
+    ]
+  },
+  {
+    "id": "it-03",
+    "level": "A2",
+    "title": "Резервная копия",
+    "text": "Before you install the update, back up your files. You do not want to lose the photos from your last trip.",
+    "translation": "Перед установкой обновления сделай резервную копию файлов. Ты ведь не хочешь потерять фотографии из последней поездки.",
+    "phrases": [
+      {
+        "id": "it-back-up",
+        "text": "back up",
+        "meaning": "создать резервную копию",
+        "note": "Back up — глагол из двух слов. A backup — сама резервная копия. С местоимением: back them up.",
+        "example": "I back up my files every Friday."
+      }
+    ]
+  },
+  {
+    "id": "it-04",
+    "level": "A2",
+    "title": "Найти ошибку",
+    "text": "The app keeps closing when I open a photo. I will send a bug report and try again after the next update.",
+    "translation": "Приложение постоянно закрывается, когда я открываю фотографию. Я отправлю сообщение об ошибке и попробую снова после следующего обновления.",
+    "phrases": [
+      {
+        "id": "it-keeps-closing",
+        "text": "keeps closing",
+        "meaning": "постоянно закрывается",
+        "note": "Keep + -ing описывает повторяющееся или продолжающееся действие. Здесь повторение нежелательное.",
+        "example": "My browser keeps closing without warning."
+      }
+    ]
+  },
+  {
+    "id": "it-05",
+    "level": "B1",
+    "title": "Проверить изменение",
+    "text": "The fix works on my machine, but we should test it on a few other devices before we roll it out to everyone.",
+    "translation": "Исправление работает на моём компьютере, но прежде чем выпустить его для всех, стоит проверить его на нескольких других устройствах.",
+    "phrases": [
+      {
+        "id": "it-roll-it-out",
+        "text": "roll it out",
+        "meaning": "выпустить, сделать доступным пользователям",
+        "note": "Roll out используют для запуска продукта, обновления или функции. Местоимение it разделяет глагол: roll it out.",
+        "example": "We will roll it out to a small group first."
+      }
+    ]
+  },
+  {
+    "id": "it-06",
+    "level": "B1",
+    "title": "Разобраться в коде",
+    "text": "I could not make sense of the error message at first. A short example in the documentation helped me find the missing setting.",
+    "translation": "Сначала я не мог понять сообщение об ошибке. Короткий пример в документации помог найти недостающую настройку.",
+    "phrases": [
+      {
+        "id": "it-make-sense-of",
+        "text": "make sense of",
+        "meaning": "понять, разобраться в чём-либо",
+        "note": "Make sense of something — понять что-то сложное. Something makes sense — что-то само по себе логично и понятно.",
+        "example": "Can you make sense of these logs?"
+      }
+    ]
+  },
+  {
+    "id": "it-07",
+    "level": "B2",
+    "title": "Найти причину сбоя",
+    "text": "Although the outage looked like a network issue, we eventually traced it back to a configuration change that had slipped through the review process.",
+    "translation": "Хотя сбой напоминал проблему с сетью, в итоге мы установили, что его вызвало изменение конфигурации, которое осталось незамеченным при проверке.",
+    "phrases": [
+      {
+        "id": "it-traced-it-back-to",
+        "text": "traced it back to",
+        "meaning": "проследили до первопричины, установили источник",
+        "note": "Trace something back to — найти происхождение или причину, двигаясь по цепочке событий назад.",
+        "example": "We traced the delay back to a slow database query."
+      },
+      {
+        "id": "it-slipped-through",
+        "text": "slipped through",
+        "meaning": "прошло незамеченным",
+        "note": "О проблеме, которую не заметили при проверке. Полное выражение slip through the cracks — ускользнуть от внимания.",
+        "example": "A small mistake slipped through our final checks."
+      }
+    ]
+  },
+  {
+    "id": "it-08",
+    "level": "B2",
+    "title": "Выбрать компромисс",
+    "text": "Caching may speed up the page, but it comes at the cost of serving outdated information unless we decide how and when the stored data should be refreshed.",
+    "translation": "Кэширование может ускорить страницу, но ценой показа устаревшей информации, если мы не определим, как и когда обновлять сохранённые данные.",
+    "phrases": [
+      {
+        "id": "it-at-the-cost-of",
+        "text": "at the cost of",
+        "meaning": "ценой чего-либо, в ущерб чему-либо",
+        "note": "Показывает отрицательную сторону выгоды. После of используется существительное или -ing: at the cost of accuracy.",
+        "example": "The shortcut saved time at the cost of clarity."
+      }
+    ]
+  },
+  {
+    "id": "it-09",
+    "level": "C1",
+    "title": "Работа с устаревшим кодом",
+    "text": "Tempting though a complete rewrite may be, it would be shortsighted to discount the edge cases embedded in the existing code, however inelegantly they happen to be handled.",
+    "translation": "Каким бы заманчивым ни казалось полное переписывание, было бы недальновидно сбрасывать со счетов особые случаи, учтённые в существующем коде, пусть даже их обработка и не отличается изяществом.",
+    "phrases": [
+      {
+        "id": "it-tempting-though",
+        "text": "Tempting though a complete rewrite may be",
+        "meaning": "каким бы заманчивым ни казалось полное переписывание",
+        "note": "Прилагательное + though + подлежащее + глагол — уступительная конструкция с вынесенным вперёд признаком. Нейтральнее: although a complete rewrite may be tempting.",
+        "example": "Useful though the tool may be, it cannot replace good judgement."
+      }
+    ]
+  },
+  {
+    "id": "it-10",
+    "level": "C1",
+    "title": "Требования к системе",
+    "text": "Had the requirements been spelled out before development began, the team might have avoided an architecture whose apparent flexibility concealed a growing maintenance burden.",
+    "translation": "Если бы требования были чётко изложены до начала разработки, команда, возможно, избежала бы архитектуры, за кажущейся гибкостью которой скрывались растущие затраты на поддержку.",
+    "phrases": [
+      {
+        "id": "it-spelled-out",
+        "text": "spelled out",
+        "meaning": "чётко и подробно изложены",
+        "note": "Spell out может означать произнести по буквам. Здесь смысл переносный: объяснить явно, не оставляя места догадкам.",
+        "example": "The proposal spelled out the risks of each option."
+      }
+    ]
+  },
+  {
+    "id": "it-11",
+    "level": "C2",
+    "title": "Границы абстракции",
+    "text": "Far from rendering complexity obsolete, the abstraction merely displaced it, leaving its consumers to reconcile guarantees that held in isolation but proved mutually incompatible in practice.",
+    "translation": "Абстракция вовсе не устранила сложность, а лишь переместила её, оставив пользователям необходимость согласовывать гарантии, которые выполнялись по отдельности, но оказались несовместимы на практике.",
+    "phrases": [
+      {
+        "id": "it-far-from-rendering",
+        "text": "Far from rendering complexity obsolete",
+        "meaning": "вовсе не сделав сложность пережитком прошлого",
+        "note": "Far from + -ing резко опровергает предполагаемый результат. Render something obsolete — сделать что-то устаревшим или больше не нужным.",
+        "example": "Far from resolving the dispute, the change made it harder to ignore."
+      }
+    ]
+  },
+  {
+    "id": "it-12",
+    "level": "C2",
+    "title": "Цифры и выводы",
+    "text": "The benchmark's ostensible precision lent an unwarranted air of authority to a comparison that, once its underlying assumptions were laid bare, amounted to little more than an educated guess.",
+    "translation": "Видимая точность теста придавала неоправданную убедительность сравнению, которое после раскрытия исходных допущений оказалось немногим большим, чем обоснованная догадка.",
+    "phrases": [
+      {
+        "id": "it-laid-bare",
+        "text": "laid bare",
+        "meaning": "раскрыты, обнажены",
+        "note": "Lay bare — показать скрытую сущность или детали. Laid — прошедшая форма и причастие от lay; выражение часто встречается в аналитических текстах.",
+        "example": "The investigation laid bare the flaws in the original model."
+      }
+    ]
+  },
+  {
+    "id": "it-13",
+    "level": "B1",
+    "title": "Сайт на обслуживании",
+    "text": "The site is down for maintenance until noon. In the meantime, you can still reach us by email if anything is urgent.",
+    "translation": "Сайт недоступен из-за обслуживания до полудня. Тем временем нам всё ещё можно написать по почте, если дело срочное.",
+    "phrases": [
+      {
+        "id": "it-down-for-maintenance",
+        "text": "down for maintenance",
+        "meaning": "недоступен из-за обслуживания",
+        "note": "Be down — сервис не работает. For maintenance объясняет причину плановой остановки, а не аварии.",
+        "example": "The payment page will be down for maintenance tonight."
+      },
+      {
+        "id": "it-in-the-meantime",
+        "text": "In the meantime",
+        "meaning": "тем временем, пока что",
+        "note": "О действии, которым заполняют ожидание. Meanwhile — близкий синоним, чаще про параллельные события.",
+        "example": "The update is installing. In the meantime, save your work locally."
+      }
+    ]
+  },
+  {
+    "id": "it-14",
+    "level": "B1",
+    "title": "Восстановить черновик",
+    "text": "I accidentally deleted the draft, but I managed to restore it from the trash. From now on I will save a copy as I go.",
+    "translation": "Я случайно удалил черновик, но сумел восстановить его из корзины. С этих пор буду сохранять копию по ходу работы.",
+    "phrases": [
+      {
+        "id": "it-restore-it-from",
+        "text": "restore it from",
+        "meaning": "восстановить из",
+        "note": "Restore a file from trash, backup, or a snapshot. Restore to — вернуть в прежнее состояние или место.",
+        "example": "You can restore it from yesterday's backup if the save failed."
+      }
+    ]
+  },
+  {
+    "id": "it-15",
+    "level": "B1",
+    "title": "Права только на просмотр",
+    "text": "Could you share the file with me? I only have view access, so I cannot leave comments or suggest edits.",
+    "translation": "Можешь открыть мне доступ к файлу? У меня только просмотр, так что я не могу оставлять комментарии и предлагать правки.",
+    "phrases": [
+      {
+        "id": "it-view-access",
+        "text": "view access",
+        "meaning": "доступ только на просмотр",
+        "note": "Уровни доступа: view, comment, edit. Have view access — видеть, но не менять. Ask for edit access — попросить право правки.",
+        "example": "View access is fine for the archive, but I need edit access for the draft."
+      }
+    ]
+  },
+  {
+    "id": "it-16",
+    "level": "B1",
+    "title": "Заблокирован аккаунт",
+    "text": "My password expired, and now I am locked out of the account. I have requested a reset link, but it has not arrived yet.",
+    "translation": "Пароль истёк, и теперь я не могу войти в аккаунт. Я запросил ссылку для сброса, но она ещё не пришла.",
+    "phrases": [
+      {
+        "id": "it-locked-out-of",
+        "text": "locked out of",
+        "meaning": "не иметь доступа, быть заблокированным",
+        "note": "Be locked out of an account — система не пускает после неверных попыток или истечения пароля. Lock someone out — лишить доступа.",
+        "example": "After three wrong attempts I was locked out of the portal."
+      }
+    ]
+  },
+  {
+    "id": "it-17",
+    "level": "B1",
+    "title": "Новый интерфейс сбил",
+    "text": "The new layout threw me off at first, but after a day I found it quicker than the old one.",
+    "translation": "Новая вёрстка сначала сбила меня с толку, но через день я понял, что она быстрее старой.",
+    "phrases": [
+      {
+        "id": "it-threw-me-off",
+        "text": "threw me off",
+        "meaning": "сбила с толку, выбила из колеи",
+        "note": "Throw someone off — неожиданно запутать. Throw off a routine, a calculation, or a user who expected the old path.",
+        "example": "The renamed menu threw me off for a whole morning."
+      }
+    ]
+  },
+  {
+    "id": "it-18",
+    "level": "B1",
+    "title": "Проверить перед публикацией",
+    "text": "We should double-check the permissions before we publish. The last thing we need is a private document going live.",
+    "translation": "Стоит ещё раз проверить права доступа перед публикацией. Меньше всего нам нужно, чтобы закрытый документ оказался в открытом доступе.",
+    "phrases": [
+      {
+        "id": "it-double-check",
+        "text": "double-check",
+        "meaning": "перепроверить",
+        "note": "Проверить второй раз, особенно перед необратимым шагом. Через дефис как глагол и прилагательное.",
+        "example": "Double-check the recipient list before you hit send."
+      },
+      {
+        "id": "it-going-live",
+        "text": "going live",
+        "meaning": "выходить в открытый доступ",
+        "note": "Go live — запуск для реальных пользователей. Going live — форма -ing. Не путайте с live в значении прямой эфир, хотя смысл близкий.",
+        "example": "The form is going live at nine unless we delay it."
+      }
+    ]
+  },
+  {
+    "id": "it-19",
+    "level": "B1",
+    "title": "Откатить изменение",
+    "text": "If the new version misbehaves, we can roll it back within minutes. That is why we never deploy on a Friday afternoon.",
+    "translation": "Если новая версия начнёт сбоить, мы можем откатить её за минуты. Поэтому мы никогда не выкатываем обновления в пятницу днём.",
+    "phrases": [
+      {
+        "id": "it-roll-it-back",
+        "text": "roll it back",
+        "meaning": "откатить изменение",
+        "note": "Roll back a release — вернуть предыдущую рабочую версию. Местоимение стоит между roll и back.",
+        "example": "If error rates spike, roll it back and investigate."
+      }
+    ]
+  },
+  {
+    "id": "it-20",
+    "level": "B2",
+    "title": "Не только счастливый путь",
+    "text": "The feature works in isolation, but it does not play well with the rest of the system. We need to test the whole flow, not just the happy path.",
+    "translation": "Функция работает сама по себе, но плохо уживается с остальной системой. Нужно проверить весь сценарий, а не только счастливый путь.",
+    "phrases": [
+      {
+        "id": "it-play-well-with",
+        "text": "play well with",
+        "meaning": "хорошо сочетаться, уживаться",
+        "note": "Play well with other tools or parts — совместимость без сюрпризов. Часто в отрицании: does not play well with.",
+        "example": "The plugin does not play well with our custom login."
+      },
+      {
+        "id": "it-happy-path",
+        "text": "happy path",
+        "meaning": "счастливый путь, идеальный сценарий",
+        "note": "Happy path — ход, где пользователь всё делает правильно и ничего не ломается. Для качества нужны ещё и сбои, пустые поля, отказ сети.",
+        "example": "The demo only showed the happy path, so the bugs hid until launch."
+      }
+    ]
+  },
+  {
+    "id": "it-21",
+    "level": "B2",
+    "title": "Лечить причину",
+    "text": "Rather than patch the same bug again, we should fix the underlying issue, even if that takes longer in the short term.",
+    "translation": "Вместо того чтобы снова ставить заплатку на ту же ошибку, стоит устранить первопричину, даже если в краткосрочной перспективе это дольше.",
+    "phrases": [
+      {
+        "id": "it-underlying-issue",
+        "text": "the underlying issue",
+        "meaning": "первопричина, глубинная проблема",
+        "note": "Underlying — лежащий в основе, не сразу видимый. Чинить симптом быстрее, но он возвращается.",
+        "example": "Timeouts were a symptom; the underlying issue was a locked table."
+      },
+      {
+        "id": "it-in-the-short-term",
+        "text": "in the short term",
+        "meaning": "в краткосрочной перспективе",
+        "note": "Противопоставляется in the long term. Полезно, когда быстрый выигрыш конфликтует с устойчивым решением.",
+        "example": "A hotfix helps in the short term, but we still need a redesign."
+      }
+    ]
+  },
+  {
+    "id": "it-22",
+    "level": "B2",
+    "title": "Устаревшая документация",
+    "text": "The documentation is out of date, which means newcomers have to rely on tribal knowledge scattered across chat threads.",
+    "translation": "Документация устарела, поэтому новичкам приходится опираться на устные знания, разбросанные по веткам чата.",
+    "phrases": [
+      {
+        "id": "it-out-of-date",
+        "text": "out of date",
+        "meaning": "устаревшая",
+        "note": "Out of date — больше не соответствует действительности. Out-of-date через дефисы — прилагательное перед существительным.",
+        "example": "An out-of-date screenshot is worse than no screenshot."
+      },
+      {
+        "id": "it-tribal-knowledge",
+        "text": "tribal knowledge",
+        "meaning": "неписаные знания команды",
+        "note": "Сведения, которые живут в головах и чатах, а не в документации. Удобно для своих, хрупко для новичков и отпуска.",
+        "example": "If it is only tribal knowledge, it will vanish when she leaves."
+      }
+    ]
+  },
+  {
+    "id": "it-23",
+    "level": "B2",
+    "title": "Временный обход",
+    "text": "We shipped a workaround so users would not be blocked, but we still need a proper fix before the next release.",
+    "translation": "Мы выпустили обходной путь, чтобы пользователи не застряли, но до следующего релиза всё равно нужно нормальное исправление.",
+    "phrases": [
+      {
+        "id": "it-shipped-a-workaround",
+        "text": "shipped a workaround",
+        "meaning": "выпустили временное решение",
+        "note": "Workaround — способ обойти ошибку, не устраняя её. Ship — отдать пользователям. Временность нужно явно помнить.",
+        "example": "They shipped a workaround while the real patch was still in review."
+      }
+    ]
+  },
+  {
+    "id": "it-24",
+    "level": "B2",
+    "title": "Собственный вес продукта",
+    "text": "If we keep adding features without pruning old ones, the product will collapse under its own weight.",
+    "translation": "Если продолжать добавлять функции, не вырезая старые, продукт рухнет под собственным весом.",
+    "phrases": [
+      {
+        "id": "it-under-its-own-weight",
+        "text": "under its own weight",
+        "meaning": "под собственным весом",
+        "note": "Collapse under its own weight — сломаться из-за накопленной сложности, а не из-за внешней атаки.",
+        "example": "The settings page is collapsing under its own weight."
+      }
+    ]
+  },
+  {
+    "id": "it-25",
+    "level": "B2",
+    "title": "Ложная тревога",
+    "text": "The alert turned out to be a false alarm, but it still cost us an hour of digging through logs at midnight.",
+    "translation": "Сигнал оказался ложной тревогой, но всё равно стоил нам часа копания в логах в полночь.",
+    "phrases": [
+      {
+        "id": "it-a-false-alarm",
+        "text": "a false alarm",
+        "meaning": "ложная тревога",
+        "note": "Сигнал о проблеме, которой нет. Частые false alarms притупляют внимание к настоящим сбоям.",
+        "example": "After three false alarms, nobody checked the fourth alert quickly."
+      }
+    ]
+  },
+  {
+    "id": "it-26",
+    "level": "C1",
+    "title": "Дырявый контракт",
+    "text": "Elegant though the abstraction appeared, it hid a leaky contract: callers could not tell which errors were recoverable and which were not.",
+    "translation": "Какой бы изящной ни казалась абстракция, она скрывала дырявый контракт: вызывающий код не мог понять, какие ошибки обратимы, а какие нет.",
+    "phrases": [
+      {
+        "id": "it-elegant-though",
+        "text": "Elegant though the abstraction appeared",
+        "meaning": "какой бы изящной ни казалась абстракция",
+        "note": "Прилагательное + though + подлежащее + глагол — уступка с вынесенным признаком. Дальше следует возражение.",
+        "example": "Simple though the API looked, it punished any unusual input."
+      }
+    ]
+  },
+  {
+    "id": "it-27",
+    "level": "C1",
+    "title": "Когда упрощения аукнулись",
+    "text": "Not until traffic increased tenfold did the original design's shortcuts become a liability rather than a pragmatic compromise.",
+    "translation": "Лишь когда трафик вырос в десять раз, упрощения исходного дизайна стали обузой, а не прагматичным компромиссом.",
+    "phrases": [
+      {
+        "id": "it-not-until-traffic",
+        "text": "Not until traffic increased",
+        "meaning": "лишь когда трафик вырос",
+        "note": "Not until + обстоятельство требует инверсии в главной части: did the shortcuts become. Подчёркивает запоздалое проявление проблемы.",
+        "example": "Not until the sale began did the queueing bug appear."
+      }
+    ]
+  },
+  {
+    "id": "it-28",
+    "level": "C1",
+    "title": "Цена масштаба",
+    "text": "To treat every outage as a failure of vigilance is to ignore the harder truth that some failures are the price of operating at this scale.",
+    "translation": "Считать каждый сбой провалом бдительности — значит игнорировать более жёсткую истину: часть отказов — цена работы на таком масштабе.",
+    "phrases": [
+      {
+        "id": "it-price-of-operating",
+        "text": "the price of operating",
+        "meaning": "цена функционирования",
+        "note": "The price of + -ing — неизбежная плата за выбранный способ работы. Здесь не про деньги, а про риск и сложность.",
+        "example": "Redundancy is part of the price of operating across regions."
+      }
+    ]
+  },
+  {
+    "id": "it-29",
+    "level": "C1",
+    "title": "Интерфейс вокруг задачи",
+    "text": "Had the interface been designed around the user's task rather than the system's internals, half of these support tickets would never have arisen.",
+    "translation": "Если бы интерфейс проектировали вокруг задачи пользователя, а не вокруг внутренностей системы, половины этих обращений в поддержку не возникло бы.",
+    "phrases": [
+      {
+        "id": "it-had-the-interface",
+        "text": "Had the interface been designed",
+        "meaning": "если бы интерфейс был спроектирован",
+        "note": "Инверсия третьего условного: Had + подлежащее + been + причастие вместо If the interface had been. О упущенном проектном выборе.",
+        "example": "Had the labels been written in plain language, fewer users would have guessed wrong."
+      }
+    ]
+  },
+  {
+    "id": "it-30",
+    "level": "C1",
+    "title": "Метрика как цель",
+    "text": "Once a metric becomes a target, it ceases to measure what we cared about and starts to reshape the work around looking good on a dashboard.",
+    "translation": "Как только метрика становится целью, она перестаёт измерять то, что нас заботило, и начинает перестраивать работу вокруг красивой картинки на панели.",
+    "phrases": [
+      {
+        "id": "it-ceases-to-measure",
+        "text": "ceases to measure",
+        "meaning": "перестаёт измерять",
+        "note": "Cease to + инфинитив — формальнее stop. Здесь о законе Гудхарта: показатель, ставший целью, искажает поведение.",
+        "example": "When speed is rewarded alone, the metric ceases to measure care."
+      }
+    ]
+  }
+]

@@ -1,0 +1,483 @@
+[
+  {
+    "id": "trip-01",
+    "level": "A1",
+    "title": "В новом городе",
+    "text": "Excuse me, where is the train station? Is it far from here?",
+    "translation": "Извините, где железнодорожная станция? Это далеко отсюда?",
+    "phrases": [
+      {
+        "id": "excuse-me",
+        "text": "Excuse me",
+        "meaning": "извините; разрешите обратиться",
+        "note": "Вежливый способ привлечь внимание незнакомого человека перед вопросом или просьбой.",
+        "example": "Excuse me, is this seat free?"
+      }
+    ]
+  },
+  {
+    "id": "trip-02",
+    "level": "A1",
+    "title": "В гостинице",
+    "text": "I have a room for two nights. What time do I need to check out?",
+    "translation": "У меня номер на две ночи. Во сколько мне нужно выехать?",
+    "phrases": [
+      {
+        "id": "check-out",
+        "text": "check out",
+        "meaning": "выписаться из отеля",
+        "note": "Check in — зарегистрироваться при заезде, check out — завершить проживание и освободить номер.",
+        "example": "We need to check out before eleven."
+      }
+    ]
+  },
+  {
+    "id": "trip-03",
+    "level": "A2",
+    "title": "Исследовать город",
+    "text": "We decided to get off the bus near the old town and explore the quiet streets on foot.",
+    "translation": "Мы решили выйти из автобуса рядом со старым городом и исследовать тихие улочки пешком.",
+    "phrases": [
+      {
+        "id": "get-off",
+        "text": "get off",
+        "meaning": "выходить из автобуса, поезда, самолёта",
+        "note": "Get off употребляют с автобусом, поездом или самолётом. Из машины выходят иначе: get out of the car.",
+        "example": "Get off at the next stop."
+      },
+      {
+        "id": "on-foot",
+        "text": "on foot",
+        "meaning": "пешком",
+        "note": "Устойчивое выражение с on. Для транспорта обычно by: by bus, by train.",
+        "example": "The museum is ten minutes away on foot."
+      }
+    ]
+  },
+  {
+    "id": "trip-04",
+    "level": "A2",
+    "title": "Планы на день",
+    "text": "The weather looks great. We can head to the beach after breakfast and spend the whole day there.",
+    "translation": "Погода отличная. После завтрака мы можем отправиться на пляж и провести там весь день.",
+    "phrases": [
+      {
+        "id": "head-to",
+        "text": "head to",
+        "meaning": "направляться, отправляться куда-либо",
+        "note": "Head to + место. Более разговорный способ сказать go to. Перед home предлог опускается: head home.",
+        "example": "Let's head to the station."
+      }
+    ]
+  },
+  {
+    "id": "trip-05",
+    "level": "B1",
+    "title": "Неожиданная находка",
+    "text": "We came across a tiny bookshop while walking around the city. It turned out to be the best part of our trip.",
+    "translation": "Гуляя по городу, мы случайно наткнулись на крошечный книжный магазин. Оказалось, это был лучший момент поездки.",
+    "phrases": [
+      {
+        "id": "came-across",
+        "text": "came across",
+        "meaning": "случайно наткнулись, обнаружили",
+        "note": "Прошедшая форма come across. Используется, когда находка случайная, а не результат целенаправленного поиска.",
+        "example": "I came across an old photo yesterday."
+      },
+      {
+        "id": "turned-out",
+        "text": "turned out",
+        "meaning": "оказалось",
+        "note": "Turn out to be — оказаться кем-то или чем-то. Часто результат отличается от ожиданий.",
+        "example": "The walk turned out to be longer than we expected."
+      }
+    ]
+  },
+  {
+    "id": "trip-06",
+    "level": "B1",
+    "title": "Запас времени",
+    "text": "We left early to avoid the rush hour. Even though the train was delayed, we arrived at the airport with time to spare.",
+    "translation": "Мы выехали пораньше, чтобы избежать часа пик. Хотя поезд задержался, мы прибыли в аэропорт с запасом времени.",
+    "phrases": [
+      {
+        "id": "time-to-spare",
+        "text": "with time to spare",
+        "meaning": "с запасом времени",
+        "note": "Времени осталось больше, чем нужно. Spare здесь означает лишний, свободный, оставшийся в запасе.",
+        "example": "We finished the task with time to spare."
+      }
+    ]
+  },
+  {
+    "id": "trip-07",
+    "level": "B2",
+    "title": "День без маршрута",
+    "text": "We had intended to follow the guidebook, but a local suggested a village off the beaten track. Getting there took longer than expected, yet the quiet coastline made the detour worthwhile.",
+    "translation": "Мы собирались следовать путеводителю, но местный житель предложил деревню в стороне от популярных маршрутов. Дорога заняла больше времени, чем ожидалось, зато тихое побережье стоило этого крюка.",
+    "phrases": [
+      {
+        "id": "trip-off-the-beaten-track",
+        "text": "off the beaten track",
+        "meaning": "в стороне от популярных маршрутов",
+        "note": "О месте, куда редко добираются туристы. В американском английском часто встречается вариант off the beaten path.",
+        "example": "We found a small cafe off the beaten track."
+      }
+    ]
+  },
+  {
+    "id": "trip-08",
+    "level": "C1",
+    "title": "Чувство места",
+    "text": "What stayed with me was less the grandeur of the monuments than the unhurried rhythm of ordinary life, which no itinerary, however meticulously planned, could have enabled me to experience on demand.",
+    "translation": "Мне запомнилось не столько величие памятников, сколько неторопливый ритм обычной жизни, ощутить который по заказу не позволил бы никакой маршрут, сколь бы тщательно он ни был спланирован.",
+    "phrases": [
+      {
+        "id": "trip-stayed-with-me",
+        "text": "stayed with me",
+        "meaning": "надолго осталось в памяти",
+        "note": "О впечатлении, чувстве или мысли, которая продолжает занимать человека после события. Здесь stay не означает физически оставаться рядом.",
+        "example": "The kindness of those strangers stayed with me for years."
+      }
+    ]
+  },
+  {
+    "id": "trip-09",
+    "level": "C2",
+    "title": "Взгляд путешественника",
+    "text": "The village resisted the picturesque narrative I had brought with me; its contradictions, inconvenient though they were to a visitor seeking reassurance, lent it a texture no curated experience could replicate.",
+    "translation": "Деревня не укладывалась в идиллическую историю, с которой я приехал; её противоречия, неудобные для гостя, ищущего подтверждения ожиданиям, придавали ей глубину, недостижимую для специально подготовленных впечатлений.",
+    "phrases": [
+      {
+        "id": "trip-lent-it",
+        "text": "lent it a texture",
+        "meaning": "придали ему глубину и неоднородность",
+        "note": "Lend something a quality — придать чему-либо качество. Texture в описании жизни или искусства означает богатство деталей и ощущений.",
+        "example": "The conflicting memories lent the account a texture that a simple summary lacked."
+      }
+    ]
+  },
+  {
+    "id": "trip-10",
+    "level": "B1",
+    "title": "Рейс отменили",
+    "text": "Our flight was called off at short notice, so we had to find a hotel near the airport and wait for the next available seat.",
+    "translation": "Рейс отменили в короткий срок, так что пришлось искать отель у аэропорта и ждать следующее свободное место.",
+    "phrases": [
+      {
+        "id": "trip-called-off",
+        "text": "called off",
+        "meaning": "отменили",
+        "note": "Call off an event, meeting, or flight — отменить. Call off также может значить отозвать, например собаку.",
+        "example": "They called off the tour because of the storm."
+      },
+      {
+        "id": "trip-at-short-notice",
+        "text": "at short notice",
+        "meaning": "в короткий срок, почти без предупреждения",
+        "note": "Событие объявлено или изменено незадолго до него. On short notice — более американский вариант.",
+        "example": "It is hard to find a room at short notice in August."
+      }
+    ]
+  },
+  {
+    "id": "trip-11",
+    "level": "B1",
+    "title": "Запас на непредвиденное",
+    "text": "I always set aside a little extra money for unexpected expenses. Travel rarely goes exactly according to plan.",
+    "translation": "Я всегда откладываю немного денег на непредвиденные расходы. Путешествия редко идут точно по плану.",
+    "phrases": [
+      {
+        "id": "trip-set-aside",
+        "text": "set aside",
+        "meaning": "отложить, зарезервировать",
+        "note": "Set aside money or time — выделить заранее. Set aside a disagreement — временно не учитывать спор.",
+        "example": "Set aside an hour for the transfer, just in case."
+      }
+    ]
+  },
+  {
+    "id": "trip-12",
+    "level": "B1",
+    "title": "Задержка на границе",
+    "text": "We got held up at the border for nearly an hour, but once we were through, the rest of the journey was straightforward.",
+    "translation": "Нас почти на час задержали на границе, но когда мы прошли, остальная дорога была простой.",
+    "phrases": [
+      {
+        "id": "trip-got-held-up",
+        "text": "got held up",
+        "meaning": "застряли, задержались",
+        "note": "Be held up — задержка не по своей вине: очередь, пробка, проверка. Hold up также может значить ограбление, здесь не этот смысл.",
+        "example": "Sorry I am late. I got held up at security."
+      }
+    ]
+  },
+  {
+    "id": "trip-13",
+    "level": "B1",
+    "title": "Побродить без цели",
+    "text": "If you feel like it, we could wander around the market before dinner. There is no need to rush back to the hotel.",
+    "translation": "Если есть желание, можем побродить по рынку перед ужином. Нет нужды спешить обратно в отель.",
+    "phrases": [
+      {
+        "id": "trip-wander-around",
+        "text": "wander around",
+        "meaning": "бродить без строгого маршрута",
+        "note": "Wander around a place — ходить без цели и жёсткого плана. Отличается от walk to, где есть пункт назначения.",
+        "example": "We wandered around the old harbour until sunset."
+      }
+    ]
+  },
+  {
+    "id": "trip-14",
+    "level": "B1",
+    "title": "Гибкий билет",
+    "text": "I booked a flexible ticket in case our plans change. Paying a little more now might save a lot of hassle later.",
+    "translation": "Я взял гибкий билет на случай, если планы изменятся. Переплатить сейчас может избавить от большой мороки потом.",
+    "phrases": [
+      {
+        "id": "trip-in-case",
+        "text": "in case",
+        "meaning": "на случай если",
+        "note": "In case + предложение: подготовка к возможному событию. In case of + существительное: in case of fire. Не путайте с in case of и if.",
+        "example": "Take a paper map in case the signal drops."
+      },
+      {
+        "id": "trip-a-lot-of-hassle",
+        "text": "a lot of hassle",
+        "meaning": "много мороки",
+        "note": "Hassle — хлопоты, бюрократия, неудобства. Save yourself the hassle — избавить себя от лишних мучений.",
+        "example": "Changing trains twice would mean a lot of hassle with luggage."
+      }
+    ]
+  },
+  {
+    "id": "trip-15",
+    "level": "B1",
+    "title": "Неидеальный хостел",
+    "text": "The hostel was a bit rough around the edges, but the staff went out of their way to help us find a cheaper bus.",
+    "translation": "Хостел был слегка неотёсанным, зато персонал из кожи вон лез, чтобы помочь нам найти более дешёвый автобус.",
+    "phrases": [
+      {
+        "id": "trip-rough-around-the-edges",
+        "text": "rough around the edges",
+        "meaning": "неотёсанный, не доведённый до блеска",
+        "note": "О месте или человеке с недостатками формы, но часто с теплотой. Не обязательно значит опасный.",
+        "example": "The bar is rough around the edges, but the food is honest."
+      },
+      {
+        "id": "trip-went-out-of-their-way",
+        "text": "went out of their way",
+        "meaning": "из кожи вон лезли, очень старались",
+        "note": "Go out of your way to do something — сделать больше обычного ради другого человека.",
+        "example": "The driver went out of his way to drop us at the gate."
+      }
+    ]
+  },
+  {
+    "id": "trip-16",
+    "level": "B1",
+    "title": "Адрес на бумаге",
+    "text": "I always jot down the address of the hotel before I leave, in case my phone dies and I cannot pull up the map.",
+    "translation": "Я всегда записываю адрес отеля перед выходом, на случай если телефон сядет и карту не открыть.",
+    "phrases": [
+      {
+        "id": "trip-jot-down",
+        "text": "jot down",
+        "meaning": "набросать, быстро записать",
+        "note": "Jot down — короткая заметка, не аккуратный конспект. Часто на клочке бумаги или в заметках телефона.",
+        "example": "Jot down the platform number before the announcement disappears."
+      }
+    ]
+  },
+  {
+    "id": "trip-17",
+    "level": "B2",
+    "title": "В самый последний момент",
+    "text": "We nearly missed the connection, but a helpful guard pointed us towards the right platform in the nick of time.",
+    "translation": "Мы едва не опоздали на пересадку, но услужливый проводник показал нужную платформу в самый последний момент.",
+    "phrases": [
+      {
+        "id": "trip-in-the-nick-of-time",
+        "text": "in the nick of time",
+        "meaning": "в самый последний момент, едва успев",
+        "note": "Успеть непосредственно перед тем, как было бы поздно. Nick — старое слово для критического мгновения.",
+        "example": "We reached the gate in the nick of time."
+      }
+    ]
+  },
+  {
+    "id": "trip-18",
+    "level": "B2",
+    "title": "Ехать налегке",
+    "text": "I would rather travel light than drag a suitcase up three flights of stairs every time we change hotels.",
+    "translation": "Я лучше поеду налегке, чем буду тащить чемодан на третий этаж каждый раз, когда меняем отель.",
+    "phrases": [
+      {
+        "id": "trip-travel-light",
+        "text": "travel light",
+        "meaning": "путешествовать налегке",
+        "note": "Брать мало багажа. Light здесь — лёгкий по весу и количеству вещей, не про освещение.",
+        "example": "If we travel light, we can use the overnight train without fuss."
+      }
+    ]
+  },
+  {
+    "id": "trip-19",
+    "level": "B2",
+    "title": "Не как на открытке",
+    "text": "The city was a far cry from the postcard version I had imagined, and that, oddly enough, made it more interesting.",
+    "translation": "Город разительно отличался от открыточного образа, который я себе представлял, и это, как ни странно, сделало его интереснее.",
+    "phrases": [
+      {
+        "id": "trip-a-far-cry-from",
+        "text": "a far cry from",
+        "meaning": "разительно отличаться от",
+        "note": "A far cry from X — совсем не то, чем казалось X. Часто о разочаровании, но не обязательно отрицательно.",
+        "example": "The quiet harbour was a far cry from the crowded capital."
+      }
+    ]
+  },
+  {
+    "id": "trip-20",
+    "level": "B2",
+    "title": "Блуждание во благо",
+    "text": "We lost our way in the old quarter, which proved a blessing in disguise: we found a tiny restaurant the guidebook had missed.",
+    "translation": "Мы заблудились в старом квартале, и это оказалось скрытым благом: нашли крошечный ресторан, которого не было в путеводителе.",
+    "phrases": [
+      {
+        "id": "trip-blessing-in-disguise",
+        "text": "a blessing in disguise",
+        "meaning": "нет худа без добра",
+        "note": "Событие кажется неудачей, но позже приносит пользу. Disguise — маскировка: благо скрыто под видом неприятности.",
+        "example": "Missing the bus was a blessing in disguise: we avoided the storm."
+      }
+    ]
+  },
+  {
+    "id": "trip-21",
+    "level": "B2",
+    "title": "Последний автобус",
+    "text": "Bear in mind that the last bus leaves at ten. If we miss it, we will have to splash out on a taxi.",
+    "translation": "Имей в виду, что последний автобус уходит в десять. Если опоздаем, придётся раскошелиться на такси.",
+    "phrases": [
+      {
+        "id": "trip-bear-in-mind",
+        "text": "Bear in mind",
+        "meaning": "имей в виду, учти",
+        "note": "Вежливое напоминание о важном ограничении. Keep in mind — близкий синоним, чуть менее формальный.",
+        "example": "Bear in mind the museum closes at four on Mondays."
+      },
+      {
+        "id": "trip-splash-out-on",
+        "text": "splash out on",
+        "meaning": "раскошелиться на",
+        "note": "Splash out — потратить больше обычного, часто на удовольствие или вынужденную роскошь. Более британское.",
+        "example": "We splashed out on a harbour-view room for one night."
+      }
+    ]
+  },
+  {
+    "id": "trip-22",
+    "level": "B2",
+    "title": "Вернуться спустя годы",
+    "text": "I had mixed feelings about going back to a place I had loved at twenty. Some of the magic was bound to wear off.",
+    "translation": "У меня были смешанные чувства по поводу возвращения в место, которое я любил в двадцать. Часть очарования неизбежно должна была выветриться.",
+    "phrases": [
+      {
+        "id": "trip-mixed-feelings",
+        "text": "mixed feelings",
+        "meaning": "смешанные чувства",
+        "note": "Одновременно и желание, и сомнение. Have mixed feelings about + существительное или -ing.",
+        "example": "She had mixed feelings about leaving the island."
+      },
+      {
+        "id": "trip-wear-off",
+        "text": "wear off",
+        "meaning": "сойти на нет, выветриться",
+        "note": "О эффекте, новизне или лекарстве, которые постепенно ослабевают. Wear off, не wear out (износиться).",
+        "example": "The first-day excitement began to wear off by Wednesday."
+      }
+    ]
+  },
+  {
+    "id": "trip-23",
+    "level": "C1",
+    "title": "Улыбка из брошюры",
+    "text": "Rarely have I felt so out of place as in that polished resort, where every smile seemed rehearsed for a brochure rather than offered to a guest.",
+    "translation": "Редко я чувствовал себя настолько чужим, как в том отполированном курорте, где каждая улыбка казалась отрепетированной для брошюры, а не обращённой к гостю.",
+    "phrases": [
+      {
+        "id": "trip-rarely-have-i-felt",
+        "text": "Rarely have I felt",
+        "meaning": "редко я чувствовал",
+        "note": "Отрицательное наречие в начале вызывает инверсию: have I felt. Усиливает исключительность переживания.",
+        "example": "Rarely have I felt so welcome in a city I barely knew."
+      }
+    ]
+  },
+  {
+    "id": "trip-24",
+    "level": "C1",
+    "title": "Трение пути",
+    "text": "What I had taken for inconvenience was, in hindsight, the very friction that made the journey memorable rather than merely smooth.",
+    "translation": "То, что я принял за неудобство, задним числом оказалось тем самым трением, из-за которого путь запомнился, а не просто прошёл гладко.",
+    "phrases": [
+      {
+        "id": "trip-in-hindsight",
+        "text": "in hindsight",
+        "meaning": "задним числом, оглядываясь назад",
+        "note": "Оценка после того, как исход уже известен. Близко к in retrospect; hindsight подчёркивает знание, которого не было тогда.",
+        "example": "In hindsight, the missed train was the best part of the day."
+      }
+    ]
+  },
+  {
+    "id": "trip-25",
+    "level": "C1",
+    "title": "Удача и доброта",
+    "text": "However well one prepares, a journey of any length will still hinge on small acts of luck and the goodwill of strangers.",
+    "translation": "Как ни готовься, путешествие любой длины всё равно будет зависеть от мелких удач и доброжелательности незнакомцев.",
+    "phrases": [
+      {
+        "id": "trip-hinge-on",
+        "text": "hinge on",
+        "meaning": "зависеть от, держаться на",
+        "note": "Hinge — петля двери: всё «вращается» вокруг одного условия. Hinge on + существительное или -ing.",
+        "example": "The whole itinerary hinged on one tight connection in Vienna."
+      }
+    ]
+  },
+  {
+    "id": "trip-26",
+    "level": "C1",
+    "title": "Не превращать поездку в список",
+    "text": "Were I to travel that route again, I would leave more unplanned days, if only to resist the urge to treat the trip as a list to be completed.",
+    "translation": "Если бы я поехал этим маршрутом снова, оставил бы больше незапланированных дней — хотя бы чтобы не превращать поездку в список для галочек.",
+    "phrases": [
+      {
+        "id": "trip-were-i-to",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Формальная инверсия для гипотетического будущего: Were I to + инфинитив вместо If I were to. Чуть книжнее обычного if.",
+        "example": "Were I to pack again, I would leave the extra shoes at home."
+      }
+    ]
+  },
+  {
+    "id": "trip-27",
+    "level": "C1",
+    "title": "Город на рассвете",
+    "text": "Nowhere was the contrast more striking than at dawn, when the streets belonged briefly to residents rather than to the tour groups that would fill them later.",
+    "translation": "Нигде контраст не был разительнее, чем на рассвете, когда улицы ненадолго принадлежали жителям, а не туристическим группам, которые заполнят их позже.",
+    "phrases": [
+      {
+        "id": "trip-nowhere-was-the",
+        "text": "Nowhere was the contrast",
+        "meaning": "нигде контраст не был",
+        "note": "Отрицательное nowhere в начале требует инверсии: was the contrast. Типичный приём для выделения места или момента.",
+        "example": "Nowhere was the heat more intense than in the enclosed courtyard."
+      }
+    ]
+  }
+]

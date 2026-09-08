@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Lingotype</title>
+  <defs>
+    <linearGradient id="case" x1="8" y1="4" x2="53" y2="63" gradientUnits="userSpaceOnUse"><stop stop-color="#34483C"/><stop offset="1" stop-color="#14251E"/></linearGradient>
+    <linearGradient id="key" x1="20" y1="10" x2="47" y2="51" gradientUnits="userSpaceOnUse"><stop stop-color="#E3FFAC"/><stop offset="1" stop-color="#AFDC6F"/></linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#case)"/>
+  <rect x="1" y="1" width="62" height="62" rx="17" stroke="#A0BB91" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M13 24C13 18.48 17.48 14 23 14H41C46.52 14 51 18.48 51 24V40C51 45.52 46.52 50 41 50H29L19 55V49.17C15.47 47.63 13 44.11 13 40V24Z" fill="#69924D"/>
+  <path d="M13 20C13 14.48 17.48 10 23 10H41C46.52 10 51 14.48 51 20V36C51 41.52 46.52 46 41 46H28L19 51V45.17C15.47 43.63 13 40.11 13 36V20Z" fill="url(#key)"/>
+  <path d="M23 10.75H41C45.7 10.75 49.58 14.24 50.17 18.77" stroke="#F5FFD9" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M23 21V36H30" stroke="#2A4130" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33 23H43M38 19V36" stroke="#2A4130" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M23 41H42" stroke="#6C934C" stroke-opacity=".4" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

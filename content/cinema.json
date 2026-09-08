@@ -1,0 +1,496 @@
+[
+  {
+    "id": "film-01",
+    "level": "A1",
+    "title": "Вечер кино",
+    "text": "Would you like to watch a film tonight? We can make some popcorn and sit on the sofa.",
+    "translation": "Хочешь посмотреть фильм сегодня вечером? Мы можем приготовить попкорн и устроиться на диване.",
+    "phrases": [
+      {
+        "id": "film-would-you-like-to",
+        "text": "Would you like to",
+        "meaning": "хотел бы ты; хочешь ли ты",
+        "note": "Вежливое приглашение: would you like to + действие. Не путайте с Do you like to?, где спрашивают об обычных предпочтениях.",
+        "example": "Would you like to see a comedy?"
+      }
+    ]
+  },
+  {
+    "id": "film-02",
+    "level": "A1",
+    "title": "До начала сеанса",
+    "text": "The film starts at eight. Let's get there early so we can find our seats and buy a drink.",
+    "translation": "Фильм начинается в восемь. Давай придём пораньше, чтобы найти свои места и купить напиток.",
+    "phrases": [
+      {
+        "id": "film-get-there",
+        "text": "get there",
+        "meaning": "добраться туда, прийти туда",
+        "note": "Get здесь означает добраться. Перед there предлог to не ставится: get there, а не get to there.",
+        "example": "How long does it take to get there?"
+      }
+    ]
+  },
+  {
+    "id": "film-03",
+    "level": "A2",
+    "title": "Без спойлеров",
+    "text": "Please do not give away the ending. I have only seen the first half, and I want to find out what happens myself.",
+    "translation": "Пожалуйста, не раскрывай концовку. Я посмотрел только первую половину и хочу сам узнать, что случится дальше.",
+    "phrases": [
+      {
+        "id": "film-give-away",
+        "text": "give away",
+        "meaning": "раскрыть секрет, выдать",
+        "note": "Give away the ending — проспойлерить концовку. В других контекстах give away означает отдать бесплатно.",
+        "example": "The trailer gives away too much of the story."
+      }
+    ]
+  },
+  {
+    "id": "film-04",
+    "level": "A2",
+    "title": "Ещё одна серия",
+    "text": "I stayed up late to watch one more episode. Now I am tired, but I really want to know what happens next.",
+    "translation": "Я не ложился допоздна, чтобы посмотреть ещё одну серию. Теперь я устал, но очень хочу узнать, что будет дальше.",
+    "phrases": [
+      {
+        "id": "film-stayed-up",
+        "text": "stayed up",
+        "meaning": "не ложился спать",
+        "note": "Stay up late — бодрствовать допоздна. Это выражение описывает именно отказ от сна, а не просто нахождение где-то до позднего времени.",
+        "example": "We stayed up to watch the final episode."
+      }
+    ]
+  },
+  {
+    "id": "film-05",
+    "level": "B1",
+    "title": "Фильм по книге",
+    "text": "The film is based on a novel I read last year. They left out a few scenes, but the main characters still feel the same.",
+    "translation": "Фильм основан на романе, который я прочитал в прошлом году. Несколько сцен убрали, но главные герои по-прежнему узнаваемы.",
+    "phrases": [
+      {
+        "id": "film-based-on",
+        "text": "based on",
+        "meaning": "основан на",
+        "note": "Be based on используют, говоря об источнике сюжета или идеи: a book, a true story, historical events.",
+        "example": "This drama is based on a true story."
+      },
+      {
+        "id": "film-left-out",
+        "text": "left out",
+        "meaning": "опустили, не включили",
+        "note": "Прошедшая форма leave out. Можно опустить сцену, деталь или имя; feel left out — чувствовать себя исключённым из компании.",
+        "example": "The adaptation left out my favourite chapter."
+      }
+    ]
+  },
+  {
+    "id": "film-06",
+    "level": "B1",
+    "title": "Обманутые ожидания",
+    "text": "The trailer made the film look exciting, but it did not live up to my expectations. The story was too slow and the jokes felt old.",
+    "translation": "По трейлеру фильм казался захватывающим, но он не оправдал моих ожиданий. История развивалась слишком медленно, а шутки казались избитыми.",
+    "phrases": [
+      {
+        "id": "film-live-up-to",
+        "text": "live up to",
+        "meaning": "оправдать ожидания, соответствовать стандарту",
+        "note": "Live up to expectations — оказаться настолько хорошим, насколько ожидали. Также: live up to a promise — выполнить обещание.",
+        "example": "The sequel lived up to the promise of the original."
+      }
+    ]
+  },
+  {
+    "id": "film-07",
+    "level": "B2",
+    "title": "За кадром",
+    "text": "What makes the scene work is the tension between what the characters say and what they leave unsaid. The silence tells us more than another speech would have.",
+    "translation": "Сцена работает благодаря напряжению между тем, что герои говорят, и тем, о чём умалчивают. Тишина сообщает нам больше, чем могла бы ещё одна речь.",
+    "phrases": [
+      {
+        "id": "film-leave-unsaid",
+        "text": "leave unsaid",
+        "meaning": "оставить невысказанным, умолчать",
+        "note": "Leave + объект + прилагательное или причастие описывает сохранённое состояние. Здесь важен смысл, который зритель достраивает сам.",
+        "example": "What she chose to leave unsaid made the conversation more revealing."
+      }
+    ]
+  },
+  {
+    "id": "film-08",
+    "level": "B2",
+    "title": "Неожиданный поворот",
+    "text": "The final twist caught me off guard, even though the director had been dropping hints throughout the film. On a second viewing, those small details suddenly made sense.",
+    "translation": "Финальный поворот застал меня врасплох, хотя режиссёр оставлял намёки на протяжении всего фильма. При повторном просмотре эти мелкие детали внезапно обрели смысл.",
+    "phrases": [
+      {
+        "id": "film-caught-me-off-guard",
+        "text": "caught me off guard",
+        "meaning": "застал меня врасплох",
+        "note": "Catch someone off guard — неожиданно удивить, когда человек не готов. Caught — прошедшая форма catch.",
+        "example": "Her quiet confession caught the audience off guard."
+      }
+    ]
+  },
+  {
+    "id": "film-09",
+    "level": "C1",
+    "title": "Неоднозначный герой",
+    "text": "Rather than asking us to condone the protagonist's choices, the film invites us to question the circumstances that made those choices seem, to him at least, all but inevitable.",
+    "translation": "Фильм не столько предлагает одобрить выбор главного героя, сколько побуждает задуматься об обстоятельствах, в которых этот выбор казался, по крайней мере ему самому, практически неизбежным.",
+    "phrases": [
+      {
+        "id": "film-all-but-inevitable",
+        "text": "all but inevitable",
+        "meaning": "практически неизбежный",
+        "note": "All but перед прилагательным означает almost, почти. Это не «всё, кроме»: all but impossible — практически невозможно.",
+        "example": "By the final act, their separation feels all but inevitable."
+      }
+    ]
+  },
+  {
+    "id": "film-10",
+    "level": "C1",
+    "title": "Сдержанная игра",
+    "text": "So understated is the lead performance that its emotional force becomes apparent only in retrospect, when an almost imperceptible hesitation recasts everything that follows.",
+    "translation": "Игра исполнителя главной роли настолько сдержанна, что её эмоциональная сила становится очевидной лишь задним числом, когда едва заметная заминка меняет восприятие всего последующего.",
+    "phrases": [
+      {
+        "id": "film-in-retrospect",
+        "text": "in retrospect",
+        "meaning": "задним числом, оглядываясь назад",
+        "note": "Когда оцениваете событие позже, уже зная, что произошло дальше. Близкое выражение: with hindsight.",
+        "example": "In retrospect, the opening scene reveals more than we realised."
+      }
+    ]
+  },
+  {
+    "id": "film-11",
+    "level": "C2",
+    "title": "Ненадёжный рассказчик",
+    "text": "The narrator's studied candour is itself a sleight of hand: by conceding minor deceptions, he secures our complicity in a far more consequential distortion of events.",
+    "translation": "Нарочитая откровенность рассказчика сама по себе является уловкой: признаваясь в мелких обманах, он вовлекает нас в куда более существенное искажение событий.",
+    "phrases": [
+      {
+        "id": "film-sleight-of-hand",
+        "text": "sleight of hand",
+        "meaning": "ловкая уловка, искусное введение в заблуждение",
+        "note": "Буквально — ловкость рук фокусника. В переносном смысле: приём, который отвлекает внимание от того, что действительно происходит.",
+        "example": "The apparent confession is a clever piece of narrative sleight of hand."
+      }
+    ]
+  },
+  {
+    "id": "film-12",
+    "level": "C2",
+    "title": "Право на недосказанность",
+    "text": "To dismiss the ending as evasive is to mistake deliberate irresolution for a failure of nerve; its refusal to settle the question is precisely what gives the preceding scenes their disquieting afterlife.",
+    "translation": "Отмахнуться от концовки как от уклончивой — значит принять намеренную незавершённость за недостаток смелости; именно отказ дать ответ наделяет предшествующие сцены тревожным послевкусием.",
+    "phrases": [
+      {
+        "id": "film-failure-of-nerve",
+        "text": "failure of nerve",
+        "meaning": "недостаток решимости, момент, когда не хватило смелости",
+        "note": "Nerve здесь — смелость, самообладание. A failure of nerve описывает отступление в момент, требующий решительного действия.",
+        "example": "The critic saw the reassuring conclusion as a failure of nerve."
+      }
+    ]
+  },
+  {
+    "id": "film-13",
+    "level": "B1",
+    "title": "Не втянуться в сериал",
+    "text": "I cannot get into this series. The characters feel flat, and I do not really care what happens to them.",
+    "translation": "Никак не могу втянуться в этот сериал. Герои кажутся плоскими, и мне, в сущности, всё равно, что с ними будет.",
+    "phrases": [
+      {
+        "id": "film-get-into",
+        "text": "get into",
+        "meaning": "втянуться, увлечься",
+        "note": "Get into a show, book, or hobby — начать получать от него удовольствие. Cannot get into — так и не завлёк.",
+        "example": "It took three episodes before I could get into the story."
+      }
+    ]
+  },
+  {
+    "id": "film-14",
+    "level": "B1",
+    "title": "Без трейлеров",
+    "text": "We skipped the ads and went straight to the episode. I have little patience for five minutes of trailers I did not ask for.",
+    "translation": "Мы пропустили рекламу и сразу перешли к серии. У меня мало терпения к пяти минутам трейлеров, о которых я не просил.",
+    "phrases": [
+      {
+        "id": "film-went-straight-to",
+        "text": "went straight to",
+        "meaning": "сразу перешли к",
+        "note": "Go straight to the point / episode — без промежуточных шагов. Straight здесь — непосредственно, не про прямолинейность улицы.",
+        "example": "She went straight to the final scene and then rewound."
+      }
+    ]
+  },
+  {
+    "id": "film-15",
+    "level": "B1",
+    "title": "Где происходит действие",
+    "text": "The film is set in a small coastal town in the 1970s. The setting does as much work as the dialogue.",
+    "translation": "Действие фильма происходит в маленьком прибрежном городе в семидесятых. Место работает не меньше, чем диалоги.",
+    "phrases": [
+      {
+        "id": "film-is-set-in",
+        "text": "is set in",
+        "meaning": "действие происходит в",
+        "note": "Be set in a place or time — указать декорации истории. Set in, не set on, когда речь о городе, стране или эпохе.",
+        "example": "The series is set in London just after the war."
+      }
+    ]
+  },
+  {
+    "id": "film-16",
+    "level": "B1",
+    "title": "Обжигались на трейлере",
+    "text": "I will wait for the reviews before I buy a ticket. I have been burned too many times by a flashy trailer.",
+    "translation": "Подожду отзывов, прежде чем покупать билет. Эффектный трейлер меня слишком часто обжигал.",
+    "phrases": [
+      {
+        "id": "film-been-burned",
+        "text": "been burned",
+        "meaning": "обжигался, попадался",
+        "note": "Be burned — разочароваться после того, как поверил обещанию. Разговорное, не про физический ожог.",
+        "example": "I have been burned by sequels that looked great in the teaser."
+      }
+    ]
+  },
+  {
+    "id": "film-17",
+    "level": "B1",
+    "title": "Украсть сцену",
+    "text": "The supporting actor stole the show. Every time she appeared, the whole scene became sharper and funnier.",
+    "translation": "Актриса второго плана украла шоу. Каждый раз, когда она появлялась, вся сцена становилась острее и смешнее.",
+    "phrases": [
+      {
+        "id": "film-stole-the-show",
+        "text": "stole the show",
+        "meaning": "затмила всех, стала главной",
+        "note": "Steal the show — получить больше внимания, чем главные звёзды, обычно заслуженно. Прошедшая форма: stole.",
+        "example": "The child actor stole the show in an otherwise ordinary comedy."
+      }
+    ]
+  },
+  {
+    "id": "film-18",
+    "level": "B1",
+    "title": "Досмотреть до конца",
+    "text": "It is worth watching to the end, even if the first half is slow. The last twenty minutes tie everything together.",
+    "translation": "Стоит досмотреть до конца, даже если первая половина тянется. Последние двадцать минут связывают всё воедино.",
+    "phrases": [
+      {
+        "id": "film-tie-everything-together",
+        "text": "tie everything together",
+        "meaning": "связать всё воедино",
+        "note": "Tie together plot lines, clues, or themes — собрать разрозненное в цельный смысл, обычно ближе к финалу.",
+        "example": "The final conversation ties everything together without a speech."
+      }
+    ]
+  },
+  {
+    "id": "film-19",
+    "level": "B1",
+    "title": "На один вечер",
+    "text": "It is not a film I would rewatch, but it is perfectly decent if you just want something to unwind with after work.",
+    "translation": "Это не фильм, который я бы пересматривал, но вполне приличный, если нужно просто что-то, с чем расслабиться после работы.",
+    "phrases": [
+      {
+        "id": "film-unwind-with",
+        "text": "unwind with",
+        "meaning": "расслабиться за",
+        "note": "Unwind — снять напряжение. Unwind with a film / a book — выбрать лёгкое занятие для вечера, не обязательно выдающееся.",
+        "example": "I usually unwind with a gentle comedy rather than a thriller."
+      }
+    ]
+  },
+  {
+    "id": "film-20",
+    "level": "B2",
+    "title": "Сериал сбился",
+    "text": "The series has jumped the shark. What began as a sharp character study has turned into a string of increasingly silly twists.",
+    "translation": "Сериал уже «перепрыгнул акулу». То, что начиналось как острый характерный этюд, превратилось в вереницу всё более нелепых поворотов.",
+    "phrases": [
+      {
+        "id": "film-jumped-the-shark",
+        "text": "jumped the shark",
+        "meaning": "исчерпал себя и сбился в нелепость",
+        "note": "Jump the shark — момент, после которого сериал теряет качество ради эффекта. Идиома родилась из нелепой сцены с водными лыжами; теперь так говорят о любом шоу, сбившемся в самопародию.",
+        "example": "Once every episode needed a new villain, the show had jumped the shark."
+      }
+    ]
+  },
+  {
+    "id": "film-21",
+    "level": "B2",
+    "title": "Приятно удивлён",
+    "text": "I went in with low expectations and was pleasantly surprised. For once, a sequel did not trade character for spectacle.",
+    "translation": "Я шёл с низкими ожиданиями и приятно удивился. Хоть раз сиквел не променял характеры на зрелище.",
+    "phrases": [
+      {
+        "id": "film-pleasantly-surprised",
+        "text": "pleasantly surprised",
+        "meaning": "приятно удивлён",
+        "note": "Be pleasantly surprised — итог лучше ожиданий. Часто после осторожного или скептического настроя.",
+        "example": "I was pleasantly surprised by how quiet and confident the ending was."
+      }
+    ]
+  },
+  {
+    "id": "film-22",
+    "level": "B2",
+    "title": "Середина подкачала",
+    "text": "The pacing left something to be desired in the middle act, but the ending more than made up for it.",
+    "translation": "В среднем акте темпу было чего пожелать, зато концовка с лихвой это компенсировала.",
+    "phrases": [
+      {
+        "id": "film-left-something-to-be-desired",
+        "text": "left something to be desired",
+        "meaning": "оставлял желать лучшего",
+        "note": "Leave something to be desired — вежливая критика: недостаточно хорошо. Часто о качестве, ясности, темпе.",
+        "example": "The sound mix left something to be desired in the crowded scenes."
+      },
+      {
+        "id": "film-made-up-for-it",
+        "text": "made up for it",
+        "meaning": "компенсировала это",
+        "note": "Make up for something — возместить недостаток чем-то другим. Make up with someone — помириться, другой смысл.",
+        "example": "A brave final act made up for the slow opening."
+      }
+    ]
+  },
+  {
+    "id": "film-23",
+    "level": "B2",
+    "title": "Сухой юмор",
+    "text": "On first viewing I missed half the jokes. They are delivered so dryly that you have to lean in to catch them.",
+    "translation": "При первом просмотре я пропустил половину шуток. Их подают так сухо, что приходится податься вперёд, чтобы уловить.",
+    "phrases": [
+      {
+        "id": "film-on-first-viewing",
+        "text": "On first viewing",
+        "meaning": "при первом просмотре",
+        "note": "On first viewing / on a second viewing — оценка зависит от того, какой это по счёту раз. Полезно для плотных фильмов.",
+        "example": "On first viewing the clues felt random; later they lined up."
+      }
+    ]
+  },
+  {
+    "id": "film-24",
+    "level": "B2",
+    "title": "Не всё разжёвывать",
+    "text": "The director refuses to spell everything out, which will frustrate some viewers and delight those who like to fill in the gaps themselves.",
+    "translation": "Режиссёр отказывается всё разжёвывать: кого-то это раздражает, а тех, кто любит сам заполнять пробелы, радует.",
+    "phrases": [
+      {
+        "id": "film-fill-in-the-gaps",
+        "text": "fill in the gaps",
+        "meaning": "заполнить пробелы самому",
+        "note": "Fill in the gaps — достроить недостающее своими выводами. В учёбе — закрыть пробелы в знаниях; в кино — додумать недосказанное.",
+        "example": "The cutaways let you fill in the gaps without a narrator."
+      }
+    ]
+  },
+  {
+    "id": "film-25",
+    "level": "B2",
+    "title": "Своё обаяние",
+    "text": "I would not call it a masterpiece, but it has a certain charm that more polished films often lack.",
+    "translation": "Шедевром я бы это не назвал, но в нём есть своё обаяние, которого часто не хватает более отполированным фильмам.",
+    "phrases": [
+      {
+        "id": "film-a-certain-charm",
+        "text": "a certain charm",
+        "meaning": "своё обаяние",
+        "note": "A certain + существительное смягчает похвалу: не высший балл, но есть качество, которое трудно измерить.",
+        "example": "The low-budget sets have a certain charm the remake sanded away."
+      }
+    ]
+  },
+  {
+    "id": "film-26",
+    "level": "C1",
+    "title": "Точка зрения героя",
+    "text": "So completely does the film inhabit its protagonist's viewpoint that we accept distortions we would question in a more detached narrative.",
+    "translation": "Фильм настолько полно обитает в точке зрения героя, что мы принимаем искажения, которые поставили бы под вопрос в более отстранённом повествовании.",
+    "phrases": [
+      {
+        "id": "film-so-completely-does",
+        "text": "So completely does the film",
+        "meaning": "настолько полно фильм",
+        "note": "So + наречие + does + подлежащее — инверсия степени. Дальше обычно that-придаточное с последствием.",
+        "example": "So tightly does the camera stay with her that we never see the rival's face."
+      }
+    ]
+  },
+  {
+    "id": "film-27",
+    "level": "C1",
+    "title": "Не ради жестокости",
+    "text": "The violence is never gratuitous; it is presented as the grim consequence of choices that once seemed minor, even reasonable.",
+    "translation": "Насилие нигде не ради зрелища; оно показано как мрачное следствие решений, которые когда-то казались мелкими и даже разумными.",
+    "phrases": [
+      {
+        "id": "film-never-gratuitous",
+        "text": "never gratuitous",
+        "meaning": "никогда не ради эффекта, не беспричинное",
+        "note": "Gratuitous — добавленное без художественной нужды, ради шока. Never gratuitous — защита от упрёка в дешёвой жестокости.",
+        "example": "The silence after the crash is severe, but it is never gratuitous."
+      }
+    ]
+  },
+  {
+    "id": "film-28",
+    "level": "C1",
+    "title": "Что теряет экранизация",
+    "text": "What the adaptation gains in visual splendour it loses in interiority: we see the world the novel merely implied, yet we hear far less of the mind that observed it.",
+    "translation": "То, что экранизация выигрывает в визуальном великолепии, она теряет во внутренней жизни: мы видим мир, который роман лишь подразумевал, но гораздо меньше слышим ум, который его наблюдал.",
+    "phrases": [
+      {
+        "id": "film-gains-in-visual",
+        "text": "gains in visual splendour",
+        "meaning": "выигрывает в визуальном великолепии",
+        "note": "What X gains in A it loses in B — обмен качествами. Типичная формула сравнения книги и фильма, речи и зрелища.",
+        "example": "What the cut gains in pace it loses in atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "film-29",
+    "level": "C1",
+    "title": "Не обязан нравиться",
+    "text": "To demand a likeable hero is to confuse moral approval with dramatic interest; some of the most compelling figures on screen are people we would avoid in life.",
+    "translation": "Требовать симпатичного героя — значит путать моральное одобрение с драматическим интересом; некоторые из самых цепляющих фигур на экране — люди, которых в жизни мы бы избегали.",
+    "phrases": [
+      {
+        "id": "film-to-demand-a-likeable",
+        "text": "To demand a likeable hero",
+        "meaning": "требовать симпатичного героя",
+        "note": "Инфинитив в роли подлежащего задаёт тезис. Дальше is to + инфинитив раскрывает, в чём ошибка требования.",
+        "example": "To demand a likeable hero is to rule out half of tragedy in advance."
+      }
+    ]
+  },
+  {
+    "id": "film-30",
+    "level": "C1",
+    "title": "Концовка без морали",
+    "text": "Ending though it does on an unresolved chord, the film trusts us to sit with discomfort rather than wrapping the conflict in a lesson.",
+    "translation": "Хотя фильм заканчивается на неразрешённом аккорде, он доверяет нам остаться с дискомфортом вместо того, чтобы упаковать конфликт в поучение.",
+    "phrases": [
+      {
+        "id": "film-ending-though-it-does",
+        "text": "Ending though it does",
+        "meaning": "хотя он и заканчивается",
+        "note": "Причастие + though it does — уступительная инверсия. Подчёркивает признак, который мог бы казаться недостатком, но им не является.",
+        "example": "Brief though it is, the epilogue changes the whole tone."
+      }
+    ]
+  }
+]
