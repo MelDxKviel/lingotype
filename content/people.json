@@ -685,5 +685,293 @@
         "example": "Only then did I see that the joke had landed badly."
       }
     ]
+  },
+  {
+    "id": "people-40",
+    "level": "A1",
+    "title": "Знакомство с братом",
+    "text": "This is my brother, Alex. He is twenty and he lives with us.",
+    "translation": "Это мой брат Алекс. Ему двадцать лет, и он живёт с нами.",
+    "phrases": [
+      {
+        "id": "people-40-expression",
+        "text": "lives with us",
+        "meaning": "живёт с нами",
+        "note": "Live with someone — жить вместе с кем-то. После with используют us, а не we.",
+        "example": "My grandmother lives with us."
+      }
+    ]
+  },
+  {
+    "id": "people-41",
+    "level": "A1",
+    "title": "Свободный стул",
+    "text": "Is this seat free? I want to sit next to my friend.",
+    "translation": "Это место свободно? Я хочу сесть рядом с другом.",
+    "phrases": [
+      {
+        "id": "people-41-expression",
+        "text": "next to",
+        "meaning": "рядом с",
+        "note": "Next to указывает на непосредственное соседство людей или предметов.",
+        "example": "Please sit next to me."
+      }
+    ]
+  },
+  {
+    "id": "people-42",
+    "level": "A1",
+    "title": "Повторите имя",
+    "text": "Please say your name again. I cannot hear you very well.",
+    "translation": "Пожалуйста, повторите своё имя. Я вас не очень хорошо слышу.",
+    "phrases": [
+      {
+        "id": "people-42-expression",
+        "text": "say your name",
+        "meaning": "назвать своё имя",
+        "note": "Say your name — произнести имя. Say относится к произносимым словам; speak чаще обозначает речь или владение языком.",
+        "example": "Can you say your name slowly?"
+      }
+    ]
+  },
+  {
+    "id": "people-43",
+    "level": "A2",
+    "title": "Приглашение на ужин",
+    "text": "Are you free on Saturday evening? We would love to have you over for dinner.",
+    "translation": "Ты свободен в субботу вечером? Мы будем очень рады пригласить тебя к нам на ужин.",
+    "phrases": [
+      {
+        "id": "people-43-expression",
+        "text": "have you over",
+        "meaning": "пригласить тебя к себе",
+        "note": "Have someone over — принять кого-то дома в гостях. Повод можно добавить с for: for dinner, for coffee.",
+        "example": "We often have our cousins over at weekends."
+      }
+    ]
+  },
+  {
+    "id": "people-44",
+    "level": "A2",
+    "title": "Передать сообщение",
+    "text": "Maya is not here at the moment. Can I take a message for her?",
+    "translation": "Майи сейчас нет. Ей что-нибудь передать?",
+    "phrases": [
+      {
+        "id": "people-44-expression",
+        "text": "take a message",
+        "meaning": "принять сообщение",
+        "note": "Так предлагают записать или запомнить сообщение для отсутствующего человека, часто по телефону.",
+        "example": "He is in a meeting. Shall I take a message?"
+      }
+    ]
+  },
+  {
+    "id": "people-45",
+    "level": "B1",
+    "title": "Смена темы",
+    "text": "When the discussion became too personal, I changed the subject and asked everyone about their weekend plans.",
+    "translation": "Когда разговор стал слишком личным, я сменил тему и спросил всех о планах на выходные.",
+    "phrases": [
+      {
+        "id": "people-45-expression",
+        "text": "changed the subject",
+        "meaning": "сменил тему",
+        "note": "Change the subject — начать говорить о другом, иногда чтобы уйти от неудобного вопроса.",
+        "example": "She changed the subject when I mentioned the missing invitation."
+      }
+    ]
+  },
+  {
+    "id": "people-46",
+    "level": "B1",
+    "title": "Встреча выпускников",
+    "text": "I recognised her straight away, although we had not seen each other since school. Her laugh had not changed at all.",
+    "translation": "Я сразу узнал её, хотя мы не виделись со школы. Её смех совсем не изменился.",
+    "phrases": [
+      {
+        "id": "people-46-expression",
+        "text": "straight away",
+        "meaning": "сразу же",
+        "note": "Straight away означает без задержки. Часто употребляется в британском английском; immediately нейтральнее по стилю.",
+        "example": "I knew straight away that we would get along."
+      }
+    ]
+  },
+  {
+    "id": "people-47",
+    "level": "B1",
+    "title": "Поддержка друга",
+    "text": "You do not need to cheer me up. Sometimes it is enough to have someone who will listen without offering advice.",
+    "translation": "Тебе не нужно поднимать мне настроение. Иногда достаточно человека, который выслушает без советов.",
+    "phrases": [
+      {
+        "id": "people-47-expression",
+        "text": "cheer me up",
+        "meaning": "поднять мне настроение",
+        "note": "Cheer someone up — помочь человеку почувствовать себя веселее. Местоимение ставится между cheer и up.",
+        "example": "That silly photo always cheers me up."
+      }
+    ]
+  },
+  {
+    "id": "people-48",
+    "level": "B2",
+    "title": "Разные взгляды",
+    "text": "We can agree to disagree about the book without treating each other's opinion as a personal attack. Neither of us needs to win this conversation.",
+    "translation": "Мы можем остаться каждый при своём мнении о книге, не воспринимая чужую точку зрения как личный выпад. Никому из нас не нужно побеждать в этом разговоре.",
+    "phrases": [
+      {
+        "id": "people-48-expression",
+        "text": "agree to disagree",
+        "meaning": "согласиться остаться при своём мнении",
+        "note": "Выражение помогает закончить спор, признав, что согласия по самому вопросу нет.",
+        "example": "We agreed to disagree about which route was best."
+      }
+    ]
+  },
+  {
+    "id": "people-49",
+    "level": "B2",
+    "title": "Неловкая шутка",
+    "text": "If you had heard the whole conversation, you might have taken the remark less personally; it was aimed at the situation, rather than at you.",
+    "translation": "Если бы ты слышал весь разговор, возможно, ты бы не принял замечание так близко к сердцу: оно относилось к ситуации, а не к тебе.",
+    "phrases": [
+      {
+        "id": "people-49-expression",
+        "text": "taken the remark less personally",
+        "meaning": "не принял замечание так близко к сердцу",
+        "note": "Take something personally — воспринять сказанное как выпад против себя. Less смягчает степень такой реакции.",
+        "example": "I wish I had taken her criticism less personally."
+      }
+    ]
+  },
+  {
+    "id": "people-50",
+    "level": "B2",
+    "title": "Публичное согласие",
+    "text": "She nodded throughout the discussion, yet her later questions suggested that she had gone along with the plan mainly to avoid an argument.",
+    "translation": "Она кивала на протяжении всего обсуждения, но её последующие вопросы показали, что она поддержала план главным образом ради того, чтобы избежать спора.",
+    "phrases": [
+      {
+        "id": "people-50-expression",
+        "text": "gone along with",
+        "meaning": "согласилась с, поддержала",
+        "note": "Go along with a plan — согласиться следовать плану, иногда без особого энтузиазма или убеждённости.",
+        "example": "I went along with their choice of restaurant."
+      }
+    ]
+  },
+  {
+    "id": "people-51",
+    "level": "B2",
+    "title": "Возвращение к разговору",
+    "text": "Rather than assume he was ignoring me, I checked whether my message had reached him. It turned out that he had changed his number.",
+    "translation": "Вместо того чтобы решить, что он меня игнорирует, я проверил, дошло ли до него сообщение. Оказалось, что он сменил номер.",
+    "phrases": [
+      {
+        "id": "people-51-expression",
+        "text": "Rather than assume",
+        "meaning": "вместо того чтобы предполагать",
+        "note": "Rather than + начальная форма глагола вводит действие, которому предпочитают другое.",
+        "example": "Rather than assume everyone is free, ask them first."
+      }
+    ]
+  },
+  {
+    "id": "people-52",
+    "level": "C1",
+    "title": "Непрошеный совет",
+    "text": "Well intentioned though her advice was, it rested on an assumption I had never accepted: that staying in the same place amounted to standing still.",
+    "translation": "Хотя она давала совет из лучших побуждений, он опирался на предположение, с которым я никогда не соглашался: остаться на месте значит перестать развиваться.",
+    "phrases": [
+      {
+        "id": "people-52-expression",
+        "text": "amounted to standing still",
+        "meaning": "было равнозначно остановке в развитии",
+        "note": "Amount to + существительное или -ing — по сути означать что-то. Stand still здесь образно означает не развиваться.",
+        "example": "Repeating the same exercise without reflection amounted to standing still."
+      }
+    ]
+  },
+  {
+    "id": "people-53",
+    "level": "C1",
+    "title": "Услышанное возражение",
+    "text": "Not once did she raise her voice, yet the precision with which she described the problem made it impossible for us to dismiss her objection as mere frustration.",
+    "translation": "Она ни разу не повысила голос, но описала проблему настолько точно, что мы не могли списать её возражение на простое раздражение.",
+    "phrases": [
+      {
+        "id": "people-53-expression",
+        "text": "Not once did she",
+        "meaning": "ни разу она не",
+        "note": "После вынесенного в начало not once нужен обратный порядок: did + подлежащее + начальная форма глагола.",
+        "example": "Not once did she interrupt the speaker."
+      }
+    ]
+  },
+  {
+    "id": "people-54",
+    "level": "C1",
+    "title": "Цена примирения",
+    "text": "An apology, however sincerely offered, cannot reasonably require the person receiving it to set aside hurt merely to spare the speaker further discomfort.",
+    "translation": "Извинение, каким бы искренним оно ни было, едва ли даёт право требовать, чтобы тот, кому оно адресовано, забыл обиду лишь ради избавления говорящего от дальнейшей неловкости.",
+    "phrases": [
+      {
+        "id": "people-54-expression",
+        "text": "spare the speaker",
+        "meaning": "избавить говорящего",
+        "note": "Spare someone something — избавить человека от неприятного переживания или необходимости что-то делать.",
+        "example": "I told her the result early to spare her the suspense."
+      }
+    ]
+  },
+  {
+    "id": "people-55",
+    "level": "C2",
+    "title": "Вежливое исключение",
+    "text": "His invitation to speak freely came with a smile so expectant that dissent would have felt less like exercising a right than betraying his trust.",
+    "translation": "Он с такой надеждой улыбался, предлагая говорить свободно, что несогласие ощущалось бы скорее как обман доверия, чем как использование своего права.",
+    "phrases": [
+      {
+        "id": "people-55-expression",
+        "text": "betraying his trust",
+        "meaning": "обмануть оказанное доверие",
+        "note": "Betray someone's trust — обмануть оказанное доверие. Здесь несогласие ощущается как личное предательство из-за ожидания поддержки.",
+        "example": "Sharing his private letter would mean betraying his trust."
+      }
+    ]
+  },
+  {
+    "id": "people-56",
+    "level": "C2",
+    "title": "Удобное недоразумение",
+    "text": "They preserved the misunderstanding with almost tender care, each finding in the other's silence a version of events too convenient to expose to the indignity of clarification.",
+    "translation": "Они почти нежно берегли недоразумение: каждый находил в молчании другого версию событий, слишком удобную, чтобы подвергать её унизительной процедуре прояснения.",
+    "phrases": [
+      {
+        "id": "people-56-expression",
+        "text": "a version of events",
+        "meaning": "версия произошедшего",
+        "note": "Выражение обозначает чьё-то изложение или понимание событий, которое может отличаться от других версий.",
+        "example": "Her version of events leaves out the conversation before lunch."
+      }
+    ]
+  },
+  {
+    "id": "people-57",
+    "level": "C2",
+    "title": "Похвала с оговоркой",
+    "text": "She praised his courage in saying what everyone knew, leaving tactfully unexamined whether courage had been required or whether everyone had, in fact, known it.",
+    "translation": "Она похвалила его за смелость сказать то, что всем было известно, тактично обойдя вопросы о том, требовалась ли смелость и действительно ли все это знали.",
+    "phrases": [
+      {
+        "id": "people-57-expression",
+        "text": "leaving tactfully unexamined",
+        "meaning": "тактично оставляя без обсуждения",
+        "note": "Leave + дополнение + причастие описывает то, что остаётся в определённом состоянии. Здесь придаточные с whether называют вопросы, которые обходят.",
+        "example": "They celebrated the rescue, leaving tactfully unexamined who had caused the crisis."
+      }
+    ]
   }
 ]

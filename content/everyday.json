@@ -706,5 +706,293 @@
         "example": "Scarcely had I hung up when the phone rang again."
       }
     ]
+  },
+  {
+    "id": "day-40",
+    "level": "A1",
+    "title": "Ключи на столе",
+    "text": "My keys are on the table. Please put them in my bag.",
+    "translation": "Мои ключи на столе. Пожалуйста, положи их в мою сумку.",
+    "phrases": [
+      {
+        "id": "day-40-expression",
+        "text": "on the table",
+        "meaning": "на столе",
+        "note": "On означает «на поверхности». Для предмета внутри сумки используют in.",
+        "example": "Your lunch is on the table."
+      }
+    ]
+  },
+  {
+    "id": "day-41",
+    "level": "A1",
+    "title": "Завтрак вместе",
+    "text": "We have breakfast at eight. My sister likes eggs and bread.",
+    "translation": "Мы завтракаем в восемь. Моя сестра любит яйца и хлеб.",
+    "phrases": [
+      {
+        "id": "day-41-expression",
+        "text": "have breakfast",
+        "meaning": "завтракать",
+        "note": "Перед breakfast в обычном выражении have breakfast артикль не нужен.",
+        "example": "I have breakfast with my dad."
+      }
+    ]
+  },
+  {
+    "id": "day-42",
+    "level": "A1",
+    "title": "Новый магазин",
+    "text": "There is a small shop near my house. It is open every day.",
+    "translation": "Рядом с моим домом есть маленький магазин. Он открыт каждый день.",
+    "phrases": [
+      {
+        "id": "day-42-expression",
+        "text": "There is",
+        "meaning": "есть, находится",
+        "note": "There is вводит один предмет или место. Для нескольких используют there are.",
+        "example": "There is a chair by the door."
+      }
+    ]
+  },
+  {
+    "id": "day-43",
+    "level": "A2",
+    "title": "Возврат покупки",
+    "text": "This shirt is too small. Can I exchange it for a larger one, please?",
+    "translation": "Эта рубашка слишком мала. Можно обменять её на рубашку побольше?",
+    "phrases": [
+      {
+        "id": "day-43-expression",
+        "text": "exchange it for",
+        "meaning": "обменять это на",
+        "note": "Exchange something for something — обменять одну вещь на другую. После for называют замену.",
+        "example": "The jacket was damaged, so I exchanged it for a new one."
+      }
+    ]
+  },
+  {
+    "id": "day-44",
+    "level": "A2",
+    "title": "Ужин в холодильнике",
+    "text": "There is some soup in the fridge. You can heat it up when you get home.",
+    "translation": "В холодильнике есть суп. Можешь разогреть его, когда придёшь домой.",
+    "phrases": [
+      {
+        "id": "day-44-expression",
+        "text": "heat it up",
+        "meaning": "разогреть его",
+        "note": "Heat up — разогреть. Местоимение it ставится между heat и up.",
+        "example": "The rice is cold. Please heat it up."
+      }
+    ]
+  },
+  {
+    "id": "day-45",
+    "level": "A2",
+    "title": "Ожидание доставки",
+    "text": "I am waiting for a parcel. Please ring the bell when you arrive.",
+    "translation": "Я жду посылку. Пожалуйста, позвоните в дверь, когда приедете.",
+    "phrases": [
+      {
+        "id": "day-45-expression",
+        "text": "waiting for",
+        "meaning": "жду",
+        "note": "Перед человеком или предметом после wait нужен for: wait for a friend, wait for a bus.",
+        "example": "We are waiting for the lift."
+      }
+    ]
+  },
+  {
+    "id": "day-46",
+    "level": "B1",
+    "title": "Чужой зонт",
+    "text": "I took your umbrella by mistake because it looks like mine. I will bring it back tomorrow.",
+    "translation": "Я по ошибке взял твой зонт, потому что он похож на мой. Я верну его завтра.",
+    "phrases": [
+      {
+        "id": "day-46-expression",
+        "text": "by mistake",
+        "meaning": "по ошибке",
+        "note": "By mistake означает, что действие совершили случайно, перепутав что-то. Это противоположность on purpose.",
+        "example": "I opened the wrong letter by mistake."
+      }
+    ]
+  },
+  {
+    "id": "day-47",
+    "level": "B1",
+    "title": "Уход за растениями",
+    "text": "Could you water my plants while I am away? Most of them only need water once a week.",
+    "translation": "Не мог бы ты поливать мои растения, пока меня не будет? Большинство из них нужно поливать только раз в неделю.",
+    "phrases": [
+      {
+        "id": "day-47-expression",
+        "text": "while I am away",
+        "meaning": "пока меня нет",
+        "note": "Be away — отсутствовать дома или в другом привычном месте. While обозначает весь период отсутствия.",
+        "example": "My neighbour feeds the cat while I am away."
+      }
+    ]
+  },
+  {
+    "id": "day-48",
+    "level": "B2",
+    "title": "Скидка без выгоды",
+    "text": "Although the larger pack works out cheaper per item, buying it makes little sense if half the food is likely to go to waste.",
+    "translation": "Хотя в большой упаковке каждая штука обходится дешевле, покупать её мало смысла, если половина еды, скорее всего, пропадёт.",
+    "phrases": [
+      {
+        "id": "day-48-expression",
+        "text": "works out cheaper",
+        "meaning": "в итоге обходится дешевле",
+        "note": "Work out + сравнительная форма описывает стоимость после подсчёта всех расходов.",
+        "example": "A weekly pass works out cheaper than five daily tickets."
+      }
+    ]
+  },
+  {
+    "id": "day-49",
+    "level": "B2",
+    "title": "Общая кухня",
+    "text": "We agreed to clean the kitchen in turns, which has reduced arguments because everyone knows exactly what they are responsible for.",
+    "translation": "Мы договорились убирать кухню по очереди. Споров стало меньше, потому что каждый точно знает, за что отвечает.",
+    "phrases": [
+      {
+        "id": "day-49-expression",
+        "text": "in turns",
+        "meaning": "по очереди",
+        "note": "In turns означает, что участники делают что-то один за другим. Take turns doing something — близкая конструкция.",
+        "example": "The children read the story aloud in turns."
+      }
+    ]
+  },
+  {
+    "id": "day-50",
+    "level": "B2",
+    "title": "Выбор мастера",
+    "text": "Since the repair costs nearly as much as a replacement, I am weighing up whether keeping the old fridge is worth the trouble.",
+    "translation": "Поскольку ремонт стоит почти столько же, сколько новый холодильник, я обдумываю, стоит ли старый таких хлопот.",
+    "phrases": [
+      {
+        "id": "day-50-expression",
+        "text": "weighing up",
+        "meaning": "взвешиваю, обдумываю",
+        "note": "Weigh up — сопоставить доводы или варианты перед решением; буквально взвешивать предмет не требуется.",
+        "example": "We are weighing up the advantages of moving."
+      }
+    ]
+  },
+  {
+    "id": "day-51",
+    "level": "B2",
+    "title": "Тихий двор",
+    "text": "The courtyard used to be a car park, whereas now it gives neighbours a place to meet without having to buy anything.",
+    "translation": "Раньше во дворе была парковка, а теперь соседи могут встречаться там без необходимости что-либо покупать.",
+    "phrases": [
+      {
+        "id": "day-51-expression",
+        "text": "whereas",
+        "meaning": "тогда как, а",
+        "note": "Whereas сопоставляет два различающихся факта. Здесь противопоставлены прежнее и нынешнее назначение двора.",
+        "example": "My old room faced the road, whereas this one overlooks a garden."
+      }
+    ]
+  },
+  {
+    "id": "day-52",
+    "level": "C1",
+    "title": "Право на тишину",
+    "text": "Reasonable though a request for quiet may seem, it is unlikely to be welcomed if delivered as a judgement on how the neighbours choose to live.",
+    "translation": "Как бы разумна ни была просьба соблюдать тишину, её вряд ли примут благосклонно, если она прозвучит как осуждение образа жизни соседей.",
+    "phrases": [
+      {
+        "id": "day-52-expression",
+        "text": "Reasonable though",
+        "meaning": "какой бы разумной ни",
+        "note": "Прилагательное перед though образует уступительную конструкцию: признаём качество, но оговариваем ограничение.",
+        "example": "Reasonable though the price seemed, it exceeded our budget."
+      }
+    ]
+  },
+  {
+    "id": "day-53",
+    "level": "C1",
+    "title": "Отказ от доставки",
+    "text": "Only after I cancelled the weekly delivery did I realise how thoroughly it had come to dictate what I cooked, despite my belief that it merely saved time.",
+    "translation": "Лишь отменив еженедельную доставку, я понял, насколько сильно она стала определять, что я готовлю, хотя я считал, что она всего лишь экономит время.",
+    "phrases": [
+      {
+        "id": "day-53-expression",
+        "text": "had come to dictate",
+        "meaning": "постепенно стала определять",
+        "note": "Come to + глагол обозначает постепенное изменение. Had come относит его к моменту раньше другого события в прошлом.",
+        "example": "The timetable had come to dictate every part of our day."
+      }
+    ]
+  },
+  {
+    "id": "day-54",
+    "level": "C1",
+    "title": "Домашний порядок",
+    "text": "Whether a room feels welcoming depends less on how little it contains than on whether the people using it feel entitled to leave a trace of themselves.",
+    "translation": "Уют комнаты зависит не столько от того, как мало в ней вещей, сколько от того, чувствуют ли её обитатели право оставить в ней что-то своё.",
+    "phrases": [
+      {
+        "id": "day-54-expression",
+        "text": "feel entitled to",
+        "meaning": "считать, что имеешь право",
+        "note": "Be entitled to + глагол — иметь право что-то делать. С feel речь о собственном ощущении права, а не обязательно о формальном разрешении.",
+        "example": "Guests should feel entitled to ask for another blanket."
+      }
+    ]
+  },
+  {
+    "id": "day-55",
+    "level": "C1",
+    "title": "Сломанный лифт",
+    "text": "Inconvenient as the broken lift was, it brought to light how readily the rest of us overlooked barriers that our elderly neighbours faced every day.",
+    "translation": "Сломанный лифт доставлял неудобства, но он показал, как легко все остальные не замечали препятствий, с которыми пожилые соседи сталкивались каждый день.",
+    "phrases": [
+      {
+        "id": "day-55-expression",
+        "text": "brought to light",
+        "meaning": "выявил, сделал заметным",
+        "note": "Bring something to light — обнаружить или показать то, что раньше оставалось неизвестным или незамеченным.",
+        "example": "The inspection brought to light a problem with the wiring."
+      }
+    ]
+  },
+  {
+    "id": "day-56",
+    "level": "C2",
+    "title": "Образцовая гостиная",
+    "text": "The room's studied informality left nothing to chance; even the casually discarded blanket seemed to know its place in the argument that nobody here cared about appearances.",
+    "translation": "В нарочитой непринуждённости комнаты не было ничего случайного: даже небрежно брошенный плед словно знал свою роль в доказательстве, что здесь никого не волнует внешний вид.",
+    "phrases": [
+      {
+        "id": "day-56-expression",
+        "text": "studied informality",
+        "meaning": "нарочитая непринуждённость",
+        "note": "Studied здесь означает тщательно продуманный. Сочетание иронично: естественность выглядит специально подготовленной.",
+        "example": "His studied informality made the welcome feel oddly rehearsed."
+      }
+    ]
+  },
+  {
+    "id": "day-57",
+    "level": "C2",
+    "title": "Дом с историей",
+    "text": "We called the house full of character, a phrase elastic enough to accommodate the draughts we resented and the creaking stairs we would later claim to miss.",
+    "translation": "Мы говорили, что у дома есть характер: этой фразой можно было оправдать и досаждавшие нам сквозняки, и скрипучую лестницу, по которой мы позднее якобы скучали.",
+    "phrases": [
+      {
+        "id": "day-57-expression",
+        "text": "full of character",
+        "meaning": "с характером, с особым обаянием",
+        "note": "О месте так говорят из-за его своеобразия. В контексте выражение также мягко прикрывает недостатки дома.",
+        "example": "The cafe is full of character, though none of its chairs match."
+      }
+    ]
   }
 ]

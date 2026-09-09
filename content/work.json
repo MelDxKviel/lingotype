@@ -657,5 +657,293 @@
         "example": "Vague notes left everyone with plausible deniability and no owner."
       }
     ]
+  },
+  {
+    "id": "work-40",
+    "level": "A1",
+    "title": "Первый рабочий день",
+    "text": "My desk is by the window. The meeting room is on the left.",
+    "translation": "Мой стол у окна. Переговорная находится слева.",
+    "phrases": [
+      {
+        "id": "work-40-expression",
+        "text": "on the left",
+        "meaning": "слева",
+        "note": "Для обозначения стороны используют on the left или on the right. Артикль the входит в выражение.",
+        "example": "The office kitchen is on the left."
+      }
+    ]
+  },
+  {
+    "id": "work-41",
+    "level": "A1",
+    "title": "Конец смены",
+    "text": "I finish work at six. Then I take the bus home.",
+    "translation": "Я заканчиваю работу в шесть. Потом еду домой на автобусе.",
+    "phrases": [
+      {
+        "id": "work-41-expression",
+        "text": "finish work",
+        "meaning": "заканчивать работу",
+        "note": "Finish work часто означает закончить рабочий день или смену. Перед work в этом значении артикль не нужен.",
+        "example": "We finish work early on Fridays."
+      }
+    ]
+  },
+  {
+    "id": "work-42",
+    "level": "A2",
+    "title": "Копия документа",
+    "text": "Could you print two copies of this page? I need them for a meeting after lunch.",
+    "translation": "Не могли бы вы распечатать два экземпляра этой страницы? Они нужны мне для встречи после обеда.",
+    "phrases": [
+      {
+        "id": "work-42-expression",
+        "text": "two copies of",
+        "meaning": "два экземпляра",
+        "note": "A copy of a document — экземпляр документа, бумажный или электронный. После of указывают сам документ.",
+        "example": "Please bring two copies of your form."
+      }
+    ]
+  },
+  {
+    "id": "work-43",
+    "level": "A2",
+    "title": "Перенос встречи",
+    "text": "Can we move the meeting to Tuesday? I have a day off on Monday.",
+    "translation": "Можем перенести встречу на вторник? В понедельник у меня выходной.",
+    "phrases": [
+      {
+        "id": "work-43-expression",
+        "text": "a day off",
+        "meaning": "выходной день",
+        "note": "A day off — день, когда человек не работает по своему расписанию или договорённости, не обязательно общий праздник.",
+        "example": "I am taking a day off next week."
+      }
+    ]
+  },
+  {
+    "id": "work-44",
+    "level": "A2",
+    "title": "Обед с коллегой",
+    "text": "Would you like to join us for lunch? We usually eat at the cafe across the road.",
+    "translation": "Хочешь пойти с нами на обед? Мы обычно едим в кафе через дорогу.",
+    "phrases": [
+      {
+        "id": "work-44-expression",
+        "text": "join us for lunch",
+        "meaning": "присоединиться к нам за обедом",
+        "note": "Join someone for + занятие или приём пищи — составить кому-то компанию. После join предлог to не нужен.",
+        "example": "Our new colleague will join us for lunch tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "work-45",
+    "level": "B1",
+    "title": "Подготовка замены",
+    "text": "Before I go on holiday, I will hand over my tasks to Sam and explain which customers are waiting for a reply.",
+    "translation": "Перед отпуском я передам свои задачи Сэму и объясню, какие клиенты ждут ответа.",
+    "phrases": [
+      {
+        "id": "work-45-expression",
+        "text": "hand over",
+        "meaning": "передать",
+        "note": "Hand over something to someone — передать человеку вещи, задачи или ответственность.",
+        "example": "Please hand over the keys to the evening manager."
+      }
+    ]
+  },
+  {
+    "id": "work-46",
+    "level": "B1",
+    "title": "Новая обязанность",
+    "text": "I offered to help with the newsletter because I wanted to learn something new. Now I am in charge of choosing the photos.",
+    "translation": "Я предложил помочь с рассылкой, потому что хотел научиться чему-то новому. Теперь я отвечаю за выбор фотографий.",
+    "phrases": [
+      {
+        "id": "work-46-expression",
+        "text": "in charge of",
+        "meaning": "отвечаю за",
+        "note": "Be in charge of + существительное или -ing — отвечать за область работы или руководить ею.",
+        "example": "Nina is in charge of booking the meeting rooms."
+      }
+    ]
+  },
+  {
+    "id": "work-47",
+    "level": "B2",
+    "title": "Чёткий запрос",
+    "text": "Unless we narrow down what the client actually needs, the proposal will remain too vague for anyone to estimate the cost with confidence.",
+    "translation": "Если мы не уточним, что именно нужно клиенту, предложение останется слишком расплывчатым, чтобы кто-либо мог уверенно оценить стоимость.",
+    "phrases": [
+      {
+        "id": "work-47-expression",
+        "text": "narrow down",
+        "meaning": "сузить круг, уточнить",
+        "note": "Narrow down — сократить набор вариантов или сделать предмет обсуждения конкретнее.",
+        "example": "We narrowed down the list to three suppliers."
+      }
+    ]
+  },
+  {
+    "id": "work-48",
+    "level": "B2",
+    "title": "Незапланированная работа",
+    "text": "The team has taken on more work than it can reasonably finish, so accepting another urgent request would put the existing deadline at risk.",
+    "translation": "Команда взяла на себя больше работы, чем реально может завершить, поэтому ещё один срочный запрос поставил бы под угрозу текущий срок.",
+    "phrases": [
+      {
+        "id": "work-48-expression",
+        "text": "put the existing deadline at risk",
+        "meaning": "поставить под угрозу текущий срок",
+        "note": "Put something at risk — создать угрозу для чего-то. Здесь речь о риске не уложиться в уже согласованный срок.",
+        "example": "A late change could put the existing deadline at risk."
+      }
+    ]
+  },
+  {
+    "id": "work-49",
+    "level": "B2",
+    "title": "Договорённость в письме",
+    "text": "I sent a short summary after the call so that, should priorities change, we would have a clear record of what had originally been agreed.",
+    "translation": "После звонка я отправил краткое резюме, чтобы в случае смены приоритетов у нас оставалась чёткая запись первоначальных договорённостей.",
+    "phrases": [
+      {
+        "id": "work-49-expression",
+        "text": "a clear record of",
+        "meaning": "чёткая запись о",
+        "note": "Record здесь — существительное: сохранённые сведения, которые позволяют восстановить договорённость или событие.",
+        "example": "Keep a clear record of every payment."
+      }
+    ]
+  },
+  {
+    "id": "work-50",
+    "level": "B2",
+    "title": "Сравнение предложений",
+    "text": "The cheaper supplier can meet the deadline only if we reduce the order, which means the saving would come with a compromise we have not yet discussed.",
+    "translation": "Более дешёвый поставщик успеет в срок только при сокращении заказа, так что экономия потребует уступки, которую мы пока не обсуждали.",
+    "phrases": [
+      {
+        "id": "work-50-expression",
+        "text": "meet the deadline",
+        "meaning": "уложиться в срок",
+        "note": "Meet a deadline — завершить работу к установленному времени. Miss a deadline — не успеть.",
+        "example": "We need one more designer to meet the deadline."
+      }
+    ]
+  },
+  {
+    "id": "work-51",
+    "level": "C1",
+    "title": "Условия согласия",
+    "text": "Subject to the figures being independently checked, I would support the proposal; without that qualification, my agreement could be mistaken for an endorsement of assumptions I still question.",
+    "translation": "При условии независимой проверки цифр я бы поддержал предложение; без этой оговорки моё согласие могли бы принять за одобрение предположений, в которых я всё ещё сомневаюсь.",
+    "phrases": [
+      {
+        "id": "work-51-expression",
+        "text": "Subject to",
+        "meaning": "при условии",
+        "note": "Subject to вводит условие, от которого зависит согласие или действие. Часто встречается в деловом стиле.",
+        "example": "Subject to approval, the office will reopen next month."
+      }
+    ]
+  },
+  {
+    "id": "work-52",
+    "level": "C1",
+    "title": "Ранняя тревога",
+    "text": "Had the warning been treated as information rather than disloyalty, the team might have revised the plan before defending it became more important than making it work.",
+    "translation": "Если бы предупреждение восприняли как информацию, а не как нелояльность, команда могла бы пересмотреть план до того, как его защита стала важнее успешного выполнения.",
+    "phrases": [
+      {
+        "id": "work-52-expression",
+        "text": "Had the warning been treated",
+        "meaning": "если бы к предупреждению отнеслись",
+        "note": "Had + подлежащее + been + причастие — инверсия в условии о нереализованном прошлом, равная if the warning had been treated.",
+        "example": "Had the warning been treated seriously, the launch might have been delayed."
+      }
+    ]
+  },
+  {
+    "id": "work-53",
+    "level": "C1",
+    "title": "Опыт исполнителя",
+    "text": "Consulted only once the decision was effectively settled, the staff were being invited to lend legitimacy to a process over which they had exercised no meaningful influence.",
+    "translation": "Сотрудников спросили лишь тогда, когда решение уже фактически было принято: им предложили придать обоснованность процессу, на который они никак существенно не влияли.",
+    "phrases": [
+      {
+        "id": "work-53-expression",
+        "text": "lend legitimacy to",
+        "meaning": "придавать легитимность, обоснованность",
+        "note": "Lend здесь означает «придавать». Выражение описывает создание впечатления, что решение или процесс заслуживает признания.",
+        "example": "An open vote would lend legitimacy to the appointment."
+      }
+    ]
+  },
+  {
+    "id": "work-54",
+    "level": "C1",
+    "title": "Показатель успеха",
+    "text": "So heavily did the bonus depend on closing tickets that staff had little incentive to ask whether a closed ticket represented a problem actually resolved.",
+    "translation": "Премия настолько зависела от числа закрытых заявок, что у сотрудников почти не было стимула выяснять, означало ли закрытие заявки реальное решение проблемы.",
+    "phrases": [
+      {
+        "id": "work-54-expression",
+        "text": "had little incentive to",
+        "meaning": "почти не было стимула",
+        "note": "Have an incentive to + глагол — иметь причину или выгоду, побуждающую действовать. Little указывает на слабость такого стимула.",
+        "example": "Without feedback, volunteers had little incentive to revise their work."
+      }
+    ]
+  },
+  {
+    "id": "work-55",
+    "level": "C2",
+    "title": "Ответственность без власти",
+    "text": "The role offered ownership in all but the inconvenient sense of authority: she could answer for the outcome, provided she did not presume to alter the decisions producing it.",
+    "translation": "Должность предполагала полную ответственность во всём, кроме неудобного вопроса полномочий: отвечать за результат было можно, если не позволять себе менять решения, которые к нему приводили.",
+    "phrases": [
+      {
+        "id": "work-55-expression",
+        "text": "answer for the outcome",
+        "meaning": "отвечать за результат",
+        "note": "Answer for — нести ответственность и быть готовым объяснить последствия. Это не то же самое, что answer a question.",
+        "example": "The director will have to answer for the outcome of the review."
+      }
+    ]
+  },
+  {
+    "id": "work-56",
+    "level": "C2",
+    "title": "Решительное обсуждение",
+    "text": "The committee resolved to keep every option open, thereby converting indecision into a principle and giving it the procedural dignity of a unanimous vote.",
+    "translation": "Комитет постановил сохранять все варианты открытыми, тем самым превратив нерешительность в принцип и придав ей процедурную солидность единогласного голосования.",
+    "phrases": [
+      {
+        "id": "work-56-expression",
+        "text": "keep every option open",
+        "meaning": "сохранить все варианты",
+        "note": "Keep an option open — не исключать возможность выбора позднее. Здесь осторожная формулировка иронично оправдывает отсутствие решения.",
+        "example": "We postponed the booking to keep every option open."
+      }
+    ]
+  },
+  {
+    "id": "work-57",
+    "level": "C2",
+    "title": "Самостоятельная команда",
+    "text": "Management's faith in the team's autonomy proved touching but conditional: initiative was welcomed whenever it arrived at precisely the conclusion that would otherwise have been imposed.",
+    "translation": "Вера руководства в самостоятельность команды оказалась трогательной, но условной: инициативу приветствовали, если она приводила ровно к тому выводу, который иначе был бы навязан.",
+    "phrases": [
+      {
+        "id": "work-57-expression",
+        "text": "arrived at precisely the conclusion",
+        "meaning": "приходила ровно к тому выводу",
+        "note": "Arrive at a conclusion — прийти к выводу после размышления. Precisely подчёркивает точное совпадение, здесь с ироническим оттенком.",
+        "example": "Working separately, both groups arrived at precisely the conclusion we had hoped to test."
+      }
+    ]
   }
 ]

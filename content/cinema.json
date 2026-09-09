@@ -698,5 +698,277 @@
         "example": "So sparing is the score that a single piano line changes the whole scene."
       }
     ]
+  },
+  {
+    "id": "film-43",
+    "level": "A1",
+    "title": "Выбор места",
+    "text": "Our seats are in the back row. I can see the screen well from here.",
+    "translation": "Наши места в заднем ряду. Отсюда мне хорошо виден экран.",
+    "phrases": [
+      {
+        "id": "film-43-expression",
+        "text": "in the back row",
+        "meaning": "в заднем ряду",
+        "note": "Для положения в ряду используют in a row. Back row — ряд в задней части зала, front row — передний.",
+        "example": "We sat in the back row near the door."
+      }
+    ]
+  },
+  {
+    "id": "film-44",
+    "level": "A1",
+    "title": "Актриса на экране",
+    "text": "Who is that woman in the film? I know her face, but I do not know her name.",
+    "translation": "Кто эта женщина в фильме? Её лицо мне знакомо, но имени я не знаю.",
+    "phrases": [
+      {
+        "id": "film-44-expression",
+        "text": "I know her face",
+        "meaning": "её лицо мне знакомо",
+        "note": "Know someone's face означает узнавать внешность, не обязательно быть знакомым лично или помнить имя.",
+        "example": "I know her face from a TV show."
+      }
+    ]
+  },
+  {
+    "id": "film-45",
+    "level": "A2",
+    "title": "Перерыв в просмотре",
+    "text": "Can you pause the film for a minute? I want to get some water before the next scene.",
+    "translation": "Можешь поставить фильм на паузу на минуту? Я хочу принести воды до следующей сцены.",
+    "phrases": [
+      {
+        "id": "film-45-expression",
+        "text": "pause the film",
+        "meaning": "поставить фильм на паузу",
+        "note": "Pause — временно остановить воспроизведение с возможностью продолжить с того же места.",
+        "example": "Please pause the film while I answer the door."
+      }
+    ]
+  },
+  {
+    "id": "film-46",
+    "level": "A2",
+    "title": "Вернуться к сцене",
+    "text": "I missed the last sentence. Could you go back a little so I can hear it again?",
+    "translation": "Я пропустил последнее предложение. Можешь перемотать немного назад, чтобы я услышал его ещё раз?",
+    "phrases": [
+      {
+        "id": "film-46-expression",
+        "text": "go back a little",
+        "meaning": "вернуться немного назад",
+        "note": "При просмотре go back означает перейти к более раннему моменту записи. A little задаёт небольшое расстояние или время.",
+        "example": "Go back a little; I want to see that detail again."
+      }
+    ]
+  },
+  {
+    "id": "film-47",
+    "level": "B1",
+    "title": "Знакомая история",
+    "text": "I knew how the story would end, but the actors kept me interested. I especially liked the friendship between the two sisters.",
+    "translation": "Я знал, чем закончится история, но благодаря актёрам смотреть было интересно. Особенно мне понравилась дружба двух сестёр.",
+    "phrases": [
+      {
+        "id": "film-47-expression",
+        "text": "kept me interested",
+        "meaning": "удерживали мой интерес",
+        "note": "Keep someone + прилагательное — поддерживать человека в определённом состоянии. Interested означает заинтересованный.",
+        "example": "The unusual setting kept me interested through the slower chapters."
+      }
+    ]
+  },
+  {
+    "id": "film-48",
+    "level": "B1",
+    "title": "Вечер документального кино",
+    "text": "We chose a documentary about a small island. By the end, I wanted to learn more about the people who lived there.",
+    "translation": "Мы выбрали документальный фильм о маленьком острове. К концу мне захотелось узнать больше о людях, которые там жили.",
+    "phrases": [
+      {
+        "id": "film-48-expression",
+        "text": "By the end",
+        "meaning": "к концу",
+        "note": "By the end указывает, что изменение произошло к завершению события. At the end — непосредственно в конце.",
+        "example": "By the end of the concert, everyone was singing."
+      }
+    ]
+  },
+  {
+    "id": "film-49",
+    "level": "B2",
+    "title": "Взгляд другого героя",
+    "text": "Showing the argument from both characters' perspectives prevents us from settling too quickly on a villain, since each account reveals something the other leaves out.",
+    "translation": "Показ ссоры с точки зрения обоих героев не позволяет нам слишком быстро назначить виноватого: каждая версия раскрывает то, что другая опускает.",
+    "phrases": [
+      {
+        "id": "film-49-expression",
+        "text": "settling too quickly on",
+        "meaning": "слишком быстро останавливаясь на",
+        "note": "Settle on здесь — выбрать трактовку или кандидата. Too quickly указывает, что вывод сделан раньше, чем рассмотрены все детали.",
+        "example": "We risk settling too quickly on an explanation that suits us."
+      }
+    ]
+  },
+  {
+    "id": "film-50",
+    "level": "B2",
+    "title": "Правдоподобный диалог",
+    "text": "The dialogue sounds convincing because the characters interrupt themselves and change direction, just as people do when they are trying to express an uncomfortable thought.",
+    "translation": "Диалог звучит убедительно, потому что герои обрывают собственные фразы и меняют ход мысли, как люди, пытающиеся высказать что-то неловкое.",
+    "phrases": [
+      {
+        "id": "film-50-expression",
+        "text": "change direction",
+        "meaning": "менять направление, ход мысли",
+        "note": "Выражение может описывать движение или переход к другой мысли, теме либо подходу. Здесь оно относится к речи героев.",
+        "example": "The conversation began to change direction after her question."
+      }
+    ]
+  },
+  {
+    "id": "film-51",
+    "level": "B2",
+    "title": "Зрелище и расстояние",
+    "text": "Although the battle scenes are impressive, the camera stays so far from the characters that it is difficult to care which of them makes it through.",
+    "translation": "Хотя сцены сражений впечатляют, камера держится настолько далеко от героев, что трудно переживать о том, кто из них уцелеет.",
+    "phrases": [
+      {
+        "id": "film-51-expression",
+        "text": "makes it through",
+        "meaning": "выживет, справится",
+        "note": "Make it through — пережить трудный период или добраться до его конца. После through можно назвать испытание.",
+        "example": "We do not learn who makes it through until the final scene."
+      }
+    ]
+  },
+  {
+    "id": "film-52",
+    "level": "B2",
+    "title": "Иная развязка",
+    "text": "The revised ending gives the central character more agency, but it also removes the uncertainty that made the original story worth discussing afterwards.",
+    "translation": "Новая концовка даёт главному герою больше самостоятельности, но убирает неопределённость, благодаря которой оригинальную историю хотелось обсуждать после просмотра.",
+    "phrases": [
+      {
+        "id": "film-52-expression",
+        "text": "worth discussing",
+        "meaning": "стоит обсуждения",
+        "note": "Worth + -ing означает, что действие заслуживает времени или усилий. После worth не используют инфинитив с to.",
+        "example": "The final exchange is worth discussing in more detail."
+      }
+    ]
+  },
+  {
+    "id": "film-53",
+    "level": "C1",
+    "title": "Значимый пропуск",
+    "text": "Not until the missing scene was mentioned did I realise that the film had made me supply an explanation for a decision it had never actually shown the character making.",
+    "translation": "Лишь когда заговорили о пропущенной сцене, я понял, что фильм заставил меня самому объяснить решение, принятие которого героем нам в действительности так и не показали.",
+    "phrases": [
+      {
+        "id": "film-53-expression",
+        "text": "supply an explanation",
+        "meaning": "предоставить, придумать объяснение",
+        "note": "Supply an explanation — дать недостающее объяснение. В этом контексте зритель самостоятельно достраивает мотив поступка.",
+        "example": "The narrator expects us to supply an explanation for her absence."
+      }
+    ]
+  },
+  {
+    "id": "film-54",
+    "level": "C1",
+    "title": "Ненадёжное воспоминание",
+    "text": "Convincing though the flashback appears, its details belong to a character whose need to be forgiven may be shaping the very memory offered as evidence in his defence.",
+    "translation": "Как бы убедительно ни выглядел флешбэк, его детали принадлежат герою, чья потребность в прощении, возможно, формирует само воспоминание, представленное в его защиту.",
+    "phrases": [
+      {
+        "id": "film-54-expression",
+        "text": "in his defence",
+        "meaning": "в его защиту",
+        "note": "In someone's defence вводит оправдывающий довод или указывает, в чью пользу приводят сведения.",
+        "example": "In his defence, he had never been told the full story."
+      }
+    ]
+  },
+  {
+    "id": "film-55",
+    "level": "C1",
+    "title": "Роль второго плана",
+    "text": "So little are we told about the neighbour that her smallest gestures carry unusual weight; a fuller biography might have narrowed the range of motives we can plausibly attribute to her.",
+    "translation": "О соседке нам сообщают так мало, что её малейшие жесты приобретают особый вес; более полная биография могла бы сузить круг мотивов, которые мы можем правдоподобно ей приписать.",
+    "phrases": [
+      {
+        "id": "film-55-expression",
+        "text": "carry unusual weight",
+        "meaning": "иметь необычно большое значение",
+        "note": "Carry weight — быть значимым или влиятельным. Unusual подчёркивает, что значение больше ожидаемого.",
+        "example": "In such a quiet scene, small changes of expression carry unusual weight."
+      }
+    ]
+  },
+  {
+    "id": "film-56",
+    "level": "C1",
+    "title": "Финальный выбор",
+    "text": "Were the ending more reassuring, it would undermine the film's insistence that understanding another person's reasons does not oblige us to regard the harm they caused as acceptable.",
+    "translation": "Если бы концовка сильнее успокаивала зрителя, она ослабила бы мысль фильма о том, что понимание чужих мотивов не обязывает считать причинённый вред допустимым.",
+    "phrases": [
+      {
+        "id": "film-56-expression",
+        "text": "does not oblige us to",
+        "meaning": "не обязывает нас",
+        "note": "Oblige someone to do something — обязывать или вынуждать к действию. Здесь отрицается логическая или моральная обязанность.",
+        "example": "Accepting the invitation does not oblige us to stay until midnight."
+      }
+    ]
+  },
+  {
+    "id": "film-57",
+    "level": "C2",
+    "title": "Подсказанная эмоция",
+    "text": "The score assures us that the reunion is moving before either character has earned our concern, outsourcing to the orchestra an emotion the scene seems unwilling to risk eliciting on its own.",
+    "translation": "Музыка уверяет нас, что воссоединение трогательно, прежде чем мы успели проникнуться хоть к одному из героев: сцена поручает оркестру вызвать эмоцию, которую, похоже, не решается пробудить сама.",
+    "phrases": [
+      {
+        "id": "film-57-expression",
+        "text": "earned our concern",
+        "meaning": "заслужил наше участие, сочувствие",
+        "note": "Earn здесь образно означает вызвать заслуженное отношение к себе. Concern — участие в судьбе человека; критик намекает, что героев ещё не успели раскрыть.",
+        "example": "By the second chapter, the quiet shopkeeper had earned our concern."
+      }
+    ]
+  },
+  {
+    "id": "film-58",
+    "level": "C2",
+    "title": "Неудобная невинность",
+    "text": "The film grants its hero innocence by withholding the knowledge that would complicate it, leaving the audience to shoulder an unease from which the character has been rather conveniently excused.",
+    "translation": "Фильм дарует герою невиновность, скрывая от него сведения, которые поставили бы её под сомнение, и оставляет зрителям тревогу, от которой персонажа весьма удобно избавили.",
+    "phrases": [
+      {
+        "id": "film-58-expression",
+        "text": "withholding the knowledge",
+        "meaning": "скрывая сведения",
+        "note": "Withhold — намеренно не предоставлять то, что можно было бы дать. Здесь отсутствие знаний защищает героя от моральной сложности.",
+        "example": "The scene builds tension by withholding the knowledge shared by the other characters."
+      }
+    ]
+  },
+  {
+    "id": "film-59",
+    "level": "C2",
+    "title": "Правдоподобная случайность",
+    "text": "Every coincidence is individually plausible; taken together, they disclose a universe so solicitous of the hero's development that chance begins to look suspiciously like a member of the writing staff.",
+    "translation": "Каждое совпадение по отдельности правдоподобно, но вместе они обнаруживают мир, так заботящийся о развитии героя, что случай начинает подозрительно напоминать члена сценарной команды.",
+    "phrases": [
+      {
+        "id": "film-59-expression",
+        "text": "so solicitous of",
+        "meaning": "так заботящийся о",
+        "note": "Solicitous of — формальное «заботливо внимательный к». Здесь вселенной приписывается забота о герое, что иронично указывает на вмешательство сценаристов.",
+        "example": "The host was so solicitous of our comfort that we hardly dared move a cushion."
+      }
+    ]
   }
 ]

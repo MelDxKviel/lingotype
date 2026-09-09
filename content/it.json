@@ -733,5 +733,277 @@
         "example": "Do not mistake visibility for understanding just because the graph is green."
       }
     ]
+  },
+  {
+    "id": "it-43",
+    "level": "A1",
+    "title": "Звук в наушниках",
+    "text": "I cannot hear the music. Are my headphones on the desk?",
+    "translation": "Я не слышу музыку. Мои наушники на столе?",
+    "phrases": [
+      {
+        "id": "it-43-expression",
+        "text": "hear the music",
+        "meaning": "слышать музыку",
+        "note": "Hear — воспринимать звук. Listen to означает слушать намеренно и требует to.",
+        "example": "Can you hear the music from your room?"
+      }
+    ]
+  },
+  {
+    "id": "it-44",
+    "level": "A1",
+    "title": "Имя файла",
+    "text": "Please save the file in this folder. Its name is Monday.",
+    "translation": "Пожалуйста, сохрани файл в этой папке. Он называется Monday.",
+    "phrases": [
+      {
+        "id": "it-44-expression",
+        "text": "save the file",
+        "meaning": "сохранить файл",
+        "note": "Save a file — записать файл так, чтобы его можно было открыть позже. Место сохранения можно указать с in.",
+        "example": "Save the file before you close the app."
+      }
+    ]
+  },
+  {
+    "id": "it-45",
+    "level": "A2",
+    "title": "Зарядка телефона",
+    "text": "My phone is almost out of power. May I use your charger for a few minutes?",
+    "translation": "Мой телефон почти разрядился. Можно воспользоваться твоей зарядкой на несколько минут?",
+    "phrases": [
+      {
+        "id": "it-45-expression",
+        "text": "out of power",
+        "meaning": "без заряда",
+        "note": "О приборе out of power означает, что энергии больше нет. Almost показывает, что небольшой заряд ещё остался.",
+        "example": "The tablet is out of power, so I cannot turn it on."
+      }
+    ]
+  },
+  {
+    "id": "it-46",
+    "level": "A2",
+    "title": "Размер букв",
+    "text": "The text on this screen is too small for me. Can you show me how to make it bigger?",
+    "translation": "Текст на этом экране слишком мелкий для меня. Можешь показать, как его увеличить?",
+    "phrases": [
+      {
+        "id": "it-46-expression",
+        "text": "too small for me",
+        "meaning": "слишком маленький для меня",
+        "note": "Too + прилагательное + for someone показывает, что качество не подходит человеку. Too — чрезмерно, а не просто очень.",
+        "example": "This keyboard is too small for me."
+      }
+    ]
+  },
+  {
+    "id": "it-47",
+    "level": "B1",
+    "title": "Пустая корзина",
+    "text": "I cleared out my downloads folder and found three copies of the same video. Deleting the extra copies gave me room for my photos.",
+    "translation": "Я разобрал папку загрузок и нашёл три копии одного видео. Удалив лишние копии, я освободил место для фотографий.",
+    "phrases": [
+      {
+        "id": "it-47-expression",
+        "text": "cleared out",
+        "meaning": "разобрал, очистил от ненужного",
+        "note": "Clear out — убрать содержимое или ненужные вещи из места. Здесь речь об очистке цифровой папки.",
+        "example": "I cleared out the old messages before changing phones."
+      }
+    ]
+  },
+  {
+    "id": "it-48",
+    "level": "B1",
+    "title": "Потерянное соединение",
+    "text": "The call kept cutting out, so we switched to audio only. After that, I could hear the whole explanation without asking anyone to repeat it.",
+    "translation": "Связь на звонке всё время прерывалась, поэтому мы отключили видео. После этого я смог услышать всё объяснение, не прося никого повторять.",
+    "phrases": [
+      {
+        "id": "it-48-expression",
+        "text": "cutting out",
+        "meaning": "прерываться",
+        "note": "Cut out о звуке, связи или устройстве — внезапно переставать работать, часто ненадолго.",
+        "example": "The sound is cutting out whenever I move the cable."
+      }
+    ]
+  },
+  {
+    "id": "it-49",
+    "level": "B1",
+    "title": "Настройка уведомлений",
+    "text": "I turned off most notifications because they kept distracting me. I still get a message when someone replies to a question I asked.",
+    "translation": "Я отключил большинство уведомлений, потому что они постоянно отвлекали меня. Сообщение по-прежнему приходит, когда кто-то отвечает на мой вопрос.",
+    "phrases": [
+      {
+        "id": "it-49-expression",
+        "text": "turned off",
+        "meaning": "отключил",
+        "note": "Turn off — выключить прибор или функцию. Противоположное — turn on; с местоимением: turn it off.",
+        "example": "I turned off the reminder after finishing the task."
+      }
+    ]
+  },
+  {
+    "id": "it-50",
+    "level": "B2",
+    "title": "Незаметная ошибка",
+    "text": "Because the form accepted incomplete addresses without warning, users assumed their orders had gone through even when the delivery details were missing.",
+    "translation": "Поскольку форма принимала неполные адреса без предупреждения, пользователи считали, что заказы оформлены, даже когда данных для доставки не хватало.",
+    "phrases": [
+      {
+        "id": "it-50-expression",
+        "text": "had gone through",
+        "meaning": "успешно прошли, были приняты",
+        "note": "Go through о заказе или платеже означает успешно обработаться. Past Perfect показывает, что это якобы произошло раньше момента, когда пользователи так решили.",
+        "example": "I checked my inbox to see whether the booking had gone through."
+      }
+    ]
+  },
+  {
+    "id": "it-51",
+    "level": "B2",
+    "title": "Цена автоматизации",
+    "text": "Automating the report would save time only if its format remained stable; otherwise, maintaining the script could take longer than preparing the figures by hand.",
+    "translation": "Автоматизация отчёта сэкономила бы время, только если бы его формат не менялся; иначе поддержка скрипта могла бы занимать больше времени, чем ручная подготовка цифр.",
+    "phrases": [
+      {
+        "id": "it-51-expression",
+        "text": "by hand",
+        "meaning": "вручную",
+        "note": "By hand означает без автоматического инструмента. Это может быть работа за компьютером, выполненная человеком по шагам.",
+        "example": "We entered the first twenty addresses by hand."
+      }
+    ]
+  },
+  {
+    "id": "it-52",
+    "level": "B2",
+    "title": "Проверка на телефоне",
+    "text": "The page looked fine on a large monitor, yet the buttons were so close together on my phone that I kept selecting the wrong option by accident.",
+    "translation": "На большом мониторе страница выглядела хорошо, но на телефоне кнопки оказались настолько близко друг к другу, что я постоянно случайно выбирал не тот вариант.",
+    "phrases": [
+      {
+        "id": "it-52-expression",
+        "text": "by accident",
+        "meaning": "случайно",
+        "note": "By accident означает без намерения. Часто описывает нежелательное действие, например случайное нажатие.",
+        "example": "I closed the window by accident while moving it."
+      }
+    ]
+  },
+  {
+    "id": "it-53",
+    "level": "B2",
+    "title": "Понятное сообщение",
+    "text": "Instead of telling users that something had gone wrong, the new message explained which field needed attention and how they could correct it without starting again.",
+    "translation": "Новое сообщение не просто сообщало пользователям об ошибке, а объясняло, какое поле требует внимания и как исправить его, не начиная заново.",
+    "phrases": [
+      {
+        "id": "it-53-expression",
+        "text": "without starting again",
+        "meaning": "не начиная заново",
+        "note": "После without используют существительное или -ing. Start again — начать с начала после остановки или ошибки.",
+        "example": "You can edit the last step without starting again."
+      }
+    ]
+  },
+  {
+    "id": "it-54",
+    "level": "C1",
+    "title": "Доступность по умолчанию",
+    "text": "Only when we tried navigating without a mouse did we recognise that what we had called a minor inconvenience was, for some users, a complete barrier to completing the task.",
+    "translation": "Лишь попробовав обойтись без мыши, мы поняли, что названное нами небольшим неудобством для некоторых пользователей полностью исключало возможность выполнить задачу.",
+    "phrases": [
+      {
+        "id": "it-54-expression",
+        "text": "a complete barrier to",
+        "meaning": "непреодолимое препятствие для",
+        "note": "Barrier to something — препятствие для действия или доступа. После to здесь используется -ing, поскольку to — предлог.",
+        "example": "The missing captions were a complete barrier to following the interview."
+      }
+    ]
+  },
+  {
+    "id": "it-55",
+    "level": "C1",
+    "title": "Значение скорости",
+    "text": "Fast though the search had become, its usefulness remained doubtful: returning irrelevant answers sooner did little to reduce the effort required to find the right one.",
+    "translation": "Каким бы быстрым ни стал поиск, его полезность оставалась сомнительной: более скорый вывод неподходящих ответов почти не уменьшал усилий, необходимых для нахождения нужного.",
+    "phrases": [
+      {
+        "id": "it-55-expression",
+        "text": "did little to reduce",
+        "meaning": "почти не уменьшал",
+        "note": "Do little to + глагол означает почти не способствовать результату. Это сдержанный способ указать на слабый эффект.",
+        "example": "Adding more signs did little to reduce the confusion."
+      }
+    ]
+  },
+  {
+    "id": "it-56",
+    "level": "C1",
+    "title": "Сохранённые настройки",
+    "text": "Were the settings to disappear after every update, users would be justified in questioning whether the convenience we advertised extended beyond the demonstration.",
+    "translation": "Если бы настройки исчезали после каждого обновления, пользователи имели бы основания сомневаться, существует ли обещанное удобство за пределами демонстрации.",
+    "phrases": [
+      {
+        "id": "it-56-expression",
+        "text": "would be justified in",
+        "meaning": "имели бы основания",
+        "note": "Be justified in + -ing — иметь разумные основания для действия или реакции. Would помещает оценку в гипотетическую ситуацию.",
+        "example": "You would be justified in asking for a clearer explanation."
+      }
+    ]
+  },
+  {
+    "id": "it-57",
+    "level": "C1",
+    "title": "Выбор по умолчанию",
+    "text": "By making the recommended option effortless and every alternative laborious, the interface steered behaviour while preserving the appearance of a choice freely made.",
+    "translation": "Сделав рекомендуемый вариант простым, а все альтернативы трудоёмкими, интерфейс направлял поведение, сохраняя видимость свободного выбора.",
+    "phrases": [
+      {
+        "id": "it-57-expression",
+        "text": "preserving the appearance of",
+        "meaning": "сохраняя видимость",
+        "note": "Preserve the appearance of something — поддерживать внешнее впечатление, которое может не соответствовать действительности.",
+        "example": "The process delayed debate while preserving the appearance of consultation."
+      }
+    ]
+  },
+  {
+    "id": "it-58",
+    "level": "C2",
+    "title": "Удобный показатель",
+    "text": "The dashboard rendered failure exquisitely visible, provided failure took a form the dashboard had been designed to recognise; everything else enjoyed the statistical privilege of not existing.",
+    "translation": "Панель показателей делала сбои предельно наглядными — при условии, что они принимали распознаваемую ею форму; всё остальное пользовалось статистической привилегией не существовать.",
+    "phrases": [
+      {
+        "id": "it-58-expression",
+        "text": "provided failure took a form",
+        "meaning": "при условии, что сбой принимал форму",
+        "note": "Provided вводит условие. Take a form — принять вид, в котором что-то проявляется или становится распознаваемым.",
+        "example": "The system could trigger a warning, provided failure took a form its sensors could detect."
+      }
+    ]
+  },
+  {
+    "id": "it-59",
+    "level": "C2",
+    "title": "Обещанная простота",
+    "text": "The promise that the tool would make expertise unnecessary relied, with admirable circularity, on expert users to recognise when its confidently simple answers had become dangerously simplistic.",
+    "translation": "Обещание, что инструмент сделает специальные знания ненужными, с восхитительно замкнутой логикой опиралось на экспертов, способных распознать, когда его уверенно простые ответы стали опасным упрощением.",
+    "phrases": [
+      {
+        "id": "it-59-expression",
+        "text": "with admirable circularity",
+        "meaning": "с восхитительно замкнутой логикой",
+        "note": "Circularity — логический круг, когда обоснование зависит от того, что само обещает доказать или устранить. Admirable здесь звучит иронично.",
+        "example": "With admirable circularity, the rule justified itself by citing its own authority."
+      }
+    ]
   }
 ]

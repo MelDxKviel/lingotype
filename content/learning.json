@@ -657,5 +657,293 @@
         "example": "Were feedback always gentle, fossilised mistakes would linger longer."
       }
     ]
+  },
+  {
+    "id": "learn-40",
+    "level": "A1",
+    "title": "Слово на доске",
+    "text": "Please write your name at the top of the page. Then read the first word.",
+    "translation": "Пожалуйста, напиши своё имя вверху страницы. Затем прочитай первое слово.",
+    "phrases": [
+      {
+        "id": "learn-40-expression",
+        "text": "at the top of",
+        "meaning": "вверху, в верхней части",
+        "note": "Выражение указывает на верхнюю часть предмета или страницы. Противоположное — at the bottom of.",
+        "example": "The date is at the top of the letter."
+      }
+    ]
+  },
+  {
+    "id": "learn-41",
+    "level": "A1",
+    "title": "Английский после школы",
+    "text": "I study English after school. My lessons are short and fun.",
+    "translation": "Я занимаюсь английским после школы. Мои уроки короткие и весёлые.",
+    "phrases": [
+      {
+        "id": "learn-41-expression",
+        "text": "after school",
+        "meaning": "после школы, после занятий",
+        "note": "School без артикля здесь обозначает занятия как часть распорядка дня, а не конкретное здание.",
+        "example": "We read together after school."
+      }
+    ]
+  },
+  {
+    "id": "learn-42",
+    "level": "A2",
+    "title": "Записать новое слово",
+    "text": "Can you write that word down for me? I want to practise spelling it at home.",
+    "translation": "Можешь записать мне это слово? Я хочу потренироваться правильно писать его дома.",
+    "phrases": [
+      {
+        "id": "learn-42-expression",
+        "text": "write that word down",
+        "meaning": "записать это слово",
+        "note": "Write something down — сделать запись. С существительным возможны оба порядка: write the word down и write down the word.",
+        "example": "Please write that word down before you forget it."
+      }
+    ]
+  },
+  {
+    "id": "learn-43",
+    "level": "A2",
+    "title": "Работа в паре",
+    "text": "Ask your partner three questions. Then swap roles and answer their questions about your family.",
+    "translation": "Задай партнёру три вопроса. Затем поменяйтесь ролями и ответь на его вопросы о своей семье.",
+    "phrases": [
+      {
+        "id": "learn-43-expression",
+        "text": "swap roles",
+        "meaning": "поменяться ролями",
+        "note": "Swap roles — обменяться функциями в задании или ситуации: спрашивающий становится отвечающим и наоборот.",
+        "example": "After five minutes, swap roles with your partner."
+      }
+    ]
+  },
+  {
+    "id": "learn-44",
+    "level": "A2",
+    "title": "Книга из библиотеки",
+    "text": "You can borrow this book for two weeks. Please bring it back before the next lesson.",
+    "translation": "Эту книгу можно взять на две недели. Пожалуйста, верни её до следующего урока.",
+    "phrases": [
+      {
+        "id": "learn-44-expression",
+        "text": "borrow this book",
+        "meaning": "взять эту книгу на время",
+        "note": "Borrow — взять у кого-то во временное пользование. Если важно назвать владельца, добавляют from.",
+        "example": "May I borrow this book from the library?"
+      }
+    ]
+  },
+  {
+    "id": "learn-45",
+    "level": "B1",
+    "title": "Пробный разговор",
+    "text": "I practised asking for directions with a friend. When a visitor stopped me later, I felt much more confident explaining the route.",
+    "translation": "Я потренировался спрашивать дорогу с другом. Когда позже ко мне обратился турист, я гораздо увереннее объяснил маршрут.",
+    "phrases": [
+      {
+        "id": "learn-45-expression",
+        "text": "asking for directions",
+        "meaning": "спрашивать дорогу",
+        "note": "Ask for directions — попросить объяснить, как куда-то добраться. Directions в этом значении употребляется во множественном числе.",
+        "example": "We spent the lesson asking for directions to different places."
+      }
+    ]
+  },
+  {
+    "id": "learn-46",
+    "level": "B1",
+    "title": "Пропущенный урок",
+    "text": "I missed yesterday's class, so I asked a classmate to send me her notes. They helped me catch up before the next lesson.",
+    "translation": "Я пропустил вчерашнее занятие и попросил одноклассницу прислать конспект. Он помог мне наверстать материал до следующего урока.",
+    "phrases": [
+      {
+        "id": "learn-46-expression",
+        "text": "catch up",
+        "meaning": "наверстать упущенное",
+        "note": "Catch up здесь — освоить пропущенное и вернуться к темпу группы. Это также может означать обменяться новостями в другом контексте.",
+        "example": "I read the first chapter to catch up with the class."
+      }
+    ]
+  },
+  {
+    "id": "learn-47",
+    "level": "B1",
+    "title": "Проверка инструкции",
+    "text": "I read the task twice to make certain I understood it. Last time, I answered the right question in the wrong format.",
+    "translation": "Я дважды прочитал задание, чтобы убедиться, что понял его. В прошлый раз я ответил на нужный вопрос, но в неправильном формате.",
+    "phrases": [
+      {
+        "id": "learn-47-expression",
+        "text": "make certain",
+        "meaning": "убедиться",
+        "note": "Make certain близко к make sure: проверить, что условие выполнено или информация верна.",
+        "example": "Make certain you have written your name on the paper."
+      }
+    ]
+  },
+  {
+    "id": "learn-48",
+    "level": "B2",
+    "title": "Знакомый акцент",
+    "text": "Although I could follow my teacher easily, an unfamiliar accent forced me to listen more closely instead of relying on the rhythm I already knew.",
+    "translation": "Хотя я легко понимал учителя, незнакомый акцент заставил меня слушать внимательнее, а не полагаться на уже привычный ритм.",
+    "phrases": [
+      {
+        "id": "learn-48-expression",
+        "text": "relying on",
+        "meaning": "полагаясь на",
+        "note": "Rely on — рассчитывать на кого-то или использовать что-то как опору. После on возможны существительное и -ing.",
+        "example": "Try explaining the picture without relying on your notes."
+      }
+    ]
+  },
+  {
+    "id": "learn-49",
+    "level": "B2",
+    "title": "Полезный вопрос",
+    "text": "Asking which part of an answer is unclear gives me more useful feedback than asking whether it is good, because it directs attention to a specific difficulty.",
+    "translation": "Вопрос о том, какая часть ответа непонятна, даёт мне более полезную обратную связь, чем вопрос о том, хорош ли ответ: он направляет внимание на конкретную трудность.",
+    "phrases": [
+      {
+        "id": "learn-49-expression",
+        "text": "directs attention to",
+        "meaning": "направляет внимание на",
+        "note": "Direct attention to something — выделить то, на чём следует сосредоточиться. Это может сделать человек, вопрос или деталь текста.",
+        "example": "The final question directs attention to the speaker's reasons."
+      }
+    ]
+  },
+  {
+    "id": "learn-50",
+    "level": "B2",
+    "title": "Сложность задания",
+    "text": "If the exercise requires several skills at once, a wrong answer may reveal more about the task's demands than about which individual skill needs work.",
+    "translation": "Если упражнение требует сразу нескольких навыков, неверный ответ может больше сказать о требованиях задания, чем о том, какой отдельный навык нужно подтянуть.",
+    "phrases": [
+      {
+        "id": "learn-50-expression",
+        "text": "needs work",
+        "meaning": "требует доработки",
+        "note": "Something needs work — что-то пока недостаточно хорошо и нуждается в улучшении. Это мягкая, общая оценка.",
+        "example": "Your argument is clear, but the introduction still needs work."
+      }
+    ]
+  },
+  {
+    "id": "learn-51",
+    "level": "C1",
+    "title": "Границы уверенности",
+    "text": "Only by explaining the rule to someone unfamiliar with it did I discover how much of my confidence depended on examples I had memorised rather than distinctions I could justify.",
+    "translation": "Лишь объясняя правило человеку, который его не знал, я обнаружил, насколько моя уверенность опиралась на заученные примеры, а не на различия, которые я мог обосновать.",
+    "phrases": [
+      {
+        "id": "learn-51-expression",
+        "text": "distinctions I could justify",
+        "meaning": "различия, которые я мог обосновать",
+        "note": "A distinction — смысловое различие между понятиями. Justify здесь означает объяснить, почему оно обоснованно.",
+        "example": "The essay needed distinctions I could justify with evidence."
+      }
+    ]
+  },
+  {
+    "id": "learn-52",
+    "level": "C1",
+    "title": "Пределы исправления",
+    "text": "Helpful though immediate correction can be, it may interrupt the very reasoning a teacher needs to hear in order to understand why a learner has gone astray.",
+    "translation": "Мгновенное исправление может быть полезным, но порой оно прерывает именно тот ход рассуждений, который преподавателю нужно услышать, чтобы понять, почему ученик сбился с верного пути.",
+    "phrases": [
+      {
+        "id": "learn-52-expression",
+        "text": "gone astray",
+        "meaning": "сбился с верного пути",
+        "note": "Go astray употребляется буквально о потерянном направлении и образно об ошибке в рассуждении или действии.",
+        "example": "The calculation had gone astray before we reached the final step."
+      }
+    ]
+  },
+  {
+    "id": "learn-53",
+    "level": "C1",
+    "title": "Неудобный пример",
+    "text": "Were the exception merely an inconvenience, we could set it aside; since it challenges the rule's underlying logic, it calls for a more careful explanation.",
+    "translation": "Если бы исключение лишь создавало неудобство, мы могли бы его отложить; но поскольку оно ставит под вопрос логику самого правила, требуется более тщательное объяснение.",
+    "phrases": [
+      {
+        "id": "learn-53-expression",
+        "text": "calls for",
+        "meaning": "требует",
+        "note": "Call for something — требовать или делать необходимым определённое действие. Здесь исключение требует объяснения, а не буквально зовёт кого-то.",
+        "example": "This difference calls for further investigation."
+      }
+    ]
+  },
+  {
+    "id": "learn-54",
+    "level": "C1",
+    "title": "Цена простого ответа",
+    "text": "What makes the explanation persuasive is also what makes it risky: by removing every qualification, it gives the learner clarity at the cost of a distinction that will matter later.",
+    "translation": "Объяснение убедительно по той же причине, по которой оно опасно: убрав все оговорки, оно даёт ученику ясность ценой различия, которое окажется важным позднее.",
+    "phrases": [
+      {
+        "id": "learn-54-expression",
+        "text": "removing every qualification",
+        "meaning": "убирая все оговорки",
+        "note": "Qualification здесь — уточнение, ограничивающее общее утверждение, а не профессиональная квалификация.",
+        "example": "Removing every qualification made the advice sound more certain than it was."
+      }
+    ]
+  },
+  {
+    "id": "learn-55",
+    "level": "C2",
+    "title": "Убедительная оговорка",
+    "text": "His willingness to admit uncertainty had become so reliable a sign of authority that nobody thought to ask whether the uncertainty was being investigated or merely displayed.",
+    "translation": "Его готовность признавать неопределённость стала столь надёжным признаком авторитетности, что никому не пришло в голову спросить, пытается ли он с ней разобраться или лишь демонстрирует её.",
+    "phrases": [
+      {
+        "id": "learn-55-expression",
+        "text": "thought to ask",
+        "meaning": "догадался спросить",
+        "note": "Think to do something — вспомнить или догадаться сделать что-то, особенно полезное, но не очевидное. Это не просто обдумывание вопроса.",
+        "example": "Nobody thought to ask how the examples had been selected."
+      }
+    ]
+  },
+  {
+    "id": "learn-56",
+    "level": "C2",
+    "title": "Замкнутый спор",
+    "text": "An explanation that absorbs every objection without risk of revision may owe its resilience less to insight than to having quietly exempted itself from the possibility of being wrong.",
+    "translation": "Объяснение, которое поглощает любое возражение без риска пересмотра, может быть устойчивым не столько благодаря глубине мысли, сколько потому, что незаметно исключило для себя возможность ошибки.",
+    "phrases": [
+      {
+        "id": "learn-56-expression",
+        "text": "exempted itself from",
+        "meaning": "освободило себя от",
+        "note": "Exempt someone from something — освободить от правила или обязательства. Здесь образно: объяснение устроено так, что его нельзя признать ошибочным.",
+        "example": "The panel had effectively exempted itself from external scrutiny."
+      }
+    ]
+  },
+  {
+    "id": "learn-57",
+    "level": "C2",
+    "title": "Видимость понимания",
+    "text": "The answer was impeccably phrased, and therein lay the difficulty: its fluency left us no easy way to tell an understanding of the problem from a command of the language in which it was habitually discussed.",
+    "translation": "Ответ был безупречно сформулирован, и в этом заключалась трудность: за гладкой речью было непросто отличить понимание проблемы от владения языком, на котором её обычно обсуждали.",
+    "phrases": [
+      {
+        "id": "learn-57-expression",
+        "text": "therein lay the difficulty",
+        "meaning": "в этом и заключалась трудность",
+        "note": "Therein — формальное «в этом». Инверсия lay the difficulty подчёркивает, что источник затруднения — только что названное достоинство.",
+        "example": "Both accounts were plausible, and therein lay the difficulty."
+      }
+    ]
   }
 ]

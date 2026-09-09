@@ -685,5 +685,277 @@
         "example": "On closer inspection the quiet square was waiting for a tour group."
       }
     ]
+  },
+  {
+    "id": "trip-40",
+    "level": "A1",
+    "title": "Билет в центр",
+    "text": "One ticket to the city centre, please. Can I pay by card?",
+    "translation": "Один билет до центра города, пожалуйста. Можно заплатить картой?",
+    "phrases": [
+      {
+        "id": "trip-40-expression",
+        "text": "pay by card",
+        "meaning": "платить картой",
+        "note": "Способ оплаты картой обозначают by card без артикля. Наличными — in cash.",
+        "example": "You can pay by card at this machine."
+      }
+    ]
+  },
+  {
+    "id": "trip-41",
+    "level": "A1",
+    "title": "Тяжёлая сумка",
+    "text": "This bag is very heavy. Can you help me, please?",
+    "translation": "Эта сумка очень тяжёлая. Можете мне помочь, пожалуйста?",
+    "phrases": [
+      {
+        "id": "trip-41-expression",
+        "text": "Can you help me",
+        "meaning": "можете мне помочь",
+        "note": "Can you + глагол — простой способ попросить о действии. Please делает просьбу вежливее.",
+        "example": "Can you help me find my seat?"
+      }
+    ]
+  },
+  {
+    "id": "trip-42",
+    "level": "A1",
+    "title": "На вокзале",
+    "text": "Our train leaves at nine. We are at the station now.",
+    "translation": "Наш поезд отправляется в девять. Мы сейчас на вокзале.",
+    "phrases": [
+      {
+        "id": "trip-42-expression",
+        "text": "at the station",
+        "meaning": "на вокзале",
+        "note": "At указывает на место как пункт маршрута. In the station подчёркивает нахождение внутри здания.",
+        "example": "Meet me at the station at noon."
+      }
+    ]
+  },
+  {
+    "id": "trip-43",
+    "level": "A2",
+    "title": "Комната с видом",
+    "text": "Could we have a room with a view of the river? We do not mind waiting until the afternoon.",
+    "translation": "Можно нам номер с видом на реку? Мы не против подождать до второй половины дня.",
+    "phrases": [
+      {
+        "id": "trip-43-expression",
+        "text": "a room with a view",
+        "meaning": "номер с видом",
+        "note": "With a view of + место уточняет, что видно из окна. Без of выражение обычно подразумевает приятный вид.",
+        "example": "We booked a room with a view of the mountains."
+      }
+    ]
+  },
+  {
+    "id": "trip-44",
+    "level": "A2",
+    "title": "Обратная дорога",
+    "text": "Does this bus go to the museum? I also need to know where to catch it on the way back.",
+    "translation": "Этот автобус идёт до музея? Мне также нужно знать, где сесть на него на обратном пути.",
+    "phrases": [
+      {
+        "id": "trip-44-expression",
+        "text": "on the way back",
+        "meaning": "на обратном пути",
+        "note": "Back указывает на возвращение. После выражения можно добавить to + место: on the way back to the hotel.",
+        "example": "We stopped for lunch on the way back."
+      }
+    ]
+  },
+  {
+    "id": "trip-45",
+    "level": "A2",
+    "title": "Прокат велосипедов",
+    "text": "We would like to rent two bikes for the day. Do we need to leave a deposit?",
+    "translation": "Мы хотели бы взять напрокат два велосипеда на день. Нужно ли оставить залог?",
+    "phrases": [
+      {
+        "id": "trip-45-expression",
+        "text": "leave a deposit",
+        "meaning": "оставить залог",
+        "note": "В прокате deposit часто означает сумму, которую возвращают после возврата вещи по условиям аренды.",
+        "example": "You must leave a deposit when you borrow the equipment."
+      }
+    ]
+  },
+  {
+    "id": "trip-46",
+    "level": "B1",
+    "title": "Совет местного жителя",
+    "text": "The owner recommended a small bakery round the corner. We liked it so much that we went back every morning.",
+    "translation": "Хозяин посоветовал маленькую пекарню за углом. Она нам так понравилась, что мы возвращались туда каждое утро.",
+    "phrases": [
+      {
+        "id": "trip-46-expression",
+        "text": "round the corner",
+        "meaning": "за углом, совсем рядом",
+        "note": "Round the corner обозначает место сразу после поворота или просто очень близко. Также употребляется around the corner.",
+        "example": "There is a bus stop round the corner."
+      }
+    ]
+  },
+  {
+    "id": "trip-47",
+    "level": "B1",
+    "title": "Проверка маршрута",
+    "text": "The path looked easy on the map, but we turned back when it became too steep. We could try a shorter route tomorrow.",
+    "translation": "На карте тропа выглядела лёгкой, но мы повернули назад, когда она стала слишком крутой. Завтра можно попробовать маршрут покороче.",
+    "phrases": [
+      {
+        "id": "trip-47-expression",
+        "text": "turned back",
+        "meaning": "повернули назад",
+        "note": "Turn back — прекратить движение вперёд и отправиться обратно, часто из-за препятствия.",
+        "example": "We turned back because the bridge was closed."
+      }
+    ]
+  },
+  {
+    "id": "trip-48",
+    "level": "B2",
+    "title": "Запас между поездами",
+    "text": "I chose the later connection because a ten-minute transfer would leave no margin for delay, especially at a station we had never used before.",
+    "translation": "Я выбрал более поздний поезд для пересадки, потому что десять минут не оставили бы запаса на задержку, особенно на незнакомом вокзале.",
+    "phrases": [
+      {
+        "id": "trip-48-expression",
+        "text": "leave no margin for delay",
+        "meaning": "не оставлять запаса на задержку",
+        "note": "Margin здесь — резерв времени или ресурсов. Leave a margin for something — предусмотреть такой запас.",
+        "example": "A schedule this tight will leave no margin for delay."
+      }
+    ]
+  },
+  {
+    "id": "trip-49",
+    "level": "B2",
+    "title": "Доступный маршрут",
+    "text": "Although the hotel advertised easy access to the beach, the only path involved several flights of steps, making it unsuitable for my father's wheelchair.",
+    "translation": "Хотя отель обещал удобный доступ к пляжу, единственный путь включал несколько лестничных пролётов, поэтому для инвалидной коляски моего отца он не подходил.",
+    "phrases": [
+      {
+        "id": "trip-49-expression",
+        "text": "several flights of steps",
+        "meaning": "несколько лестничных пролётов",
+        "note": "A flight of steps — ряд ступеней между площадками. Flight здесь не имеет отношения к перелёту.",
+        "example": "We climbed several flights of steps to reach the tower."
+      }
+    ]
+  },
+  {
+    "id": "trip-50",
+    "level": "B2",
+    "title": "Цена удобства",
+    "text": "Staying outside the centre saved us money on accommodation, but the extra fares and travelling time largely cancelled out the benefit.",
+    "translation": "Жильё за пределами центра обошлось дешевле, но дополнительные расходы на проезд и время в дороге почти свели эту выгоду на нет.",
+    "phrases": [
+      {
+        "id": "trip-50-expression",
+        "text": "cancelled out the benefit",
+        "meaning": "свели выгоду на нет",
+        "note": "Cancel out — уравновесить противоположным эффектом так, что преимущество исчезает.",
+        "example": "The extra delivery charge cancelled out the benefit of the discount."
+      }
+    ]
+  },
+  {
+    "id": "trip-51",
+    "level": "B2",
+    "title": "Правила бронирования",
+    "text": "Before paying for the tour, I checked the cancellation policy, since a low advertised price is less attractive if a change of plans means losing the entire payment.",
+    "translation": "Прежде чем оплатить экскурсию, я проверил условия отмены: низкая заявленная цена менее привлекательна, если смена планов означает потерю всей суммы.",
+    "phrases": [
+      {
+        "id": "trip-51-expression",
+        "text": "a change of plans",
+        "meaning": "изменение планов",
+        "note": "Change of plans обычно означает пересмотр ранее намеченных действий. Plans часто употребляется во множественном числе.",
+        "example": "A change of plans meant we spent another night in town."
+      }
+    ]
+  },
+  {
+    "id": "trip-52",
+    "level": "C1",
+    "title": "Неспешный маршрут",
+    "text": "Had I allowed the journey to unfold at its own pace, I might have noticed the landscape instead of assessing each village by how far it put us behind schedule.",
+    "translation": "Если бы я позволил поездке идти своим ходом, я, возможно, замечал бы пейзаж, а не оценивал каждую деревню по тому, насколько она задерживала нас относительно графика.",
+    "phrases": [
+      {
+        "id": "trip-52-expression",
+        "text": "behind schedule",
+        "meaning": "с отставанием от графика",
+        "note": "Be behind schedule — отставать от плана; put someone behind schedule — вызвать такое отставание.",
+        "example": "Road repairs put us an hour behind schedule."
+      }
+    ]
+  },
+  {
+    "id": "trip-53",
+    "level": "C1",
+    "title": "Память о дороге",
+    "text": "Vivid though the photographs remain, they offer no reliable measure of what mattered at the time; the least remarkable afternoon is the one I find myself recalling most often.",
+    "translation": "Какими бы яркими ни оставались фотографии, по ним нельзя надёжно судить о том, что было важно тогда: чаще всего мне вспоминается самый непримечательный день после полудня.",
+    "phrases": [
+      {
+        "id": "trip-53-expression",
+        "text": "find myself recalling",
+        "meaning": "ловлю себя на воспоминаниях",
+        "note": "Find oneself + -ing описывает действие или состояние, которое человек замечает у себя, часто без сознательного намерения.",
+        "example": "I find myself recalling her advice whenever a journey goes wrong."
+      }
+    ]
+  },
+  {
+    "id": "trip-54",
+    "level": "C1",
+    "title": "Гостеприимство без сценария",
+    "text": "Only when the guide stopped translating did I appreciate how much of the welcome lay in gestures whose meaning needed no explanation, however little language we shared.",
+    "translation": "Лишь когда гид перестал переводить, я оценил, насколько гостеприимство выражалось в жестах, понятных без объяснений, хотя общего языка у нас почти не было.",
+    "phrases": [
+      {
+        "id": "trip-54-expression",
+        "text": "however little",
+        "meaning": "как бы мало ни",
+        "note": "However + little вводит уступку: малое количество чего-то не отменяет основную мысль.",
+        "example": "We try to talk each evening, however little time we have."
+      }
+    ]
+  },
+  {
+    "id": "trip-55",
+    "level": "C2",
+    "title": "Путешествие с ожиданиями",
+    "text": "I had mistaken unfamiliarity for authenticity, as though a place became more itself in proportion to how little it resembled the life from which I happened to be taking a break.",
+    "translation": "Я принимал непривычность за подлинность, будто место становилось тем больше самим собой, чем меньше напоминало жизнь, от которой я решил отдохнуть.",
+    "phrases": [
+      {
+        "id": "trip-55-expression",
+        "text": "in proportion to",
+        "meaning": "пропорционально, по мере того как",
+        "note": "Выражение связывает степень одного свойства со степенью другого. Здесь оно иронично описывает ошибочный способ оценивать подлинность места.",
+        "example": "The price rose in proportion to the number of guests."
+      }
+    ]
+  },
+  {
+    "id": "trip-56",
+    "level": "C2",
+    "title": "Удобная дикость",
+    "text": "The lodge promised wilderness without inconvenience, an arrangement that left nature free to astonish us so long as it observed the boundaries of good service.",
+    "translation": "Загородный отель обещал дикую природу без неудобств: природа могла удивлять нас сколько угодно, лишь бы соблюдала границы хорошего сервиса.",
+    "phrases": [
+      {
+        "id": "trip-56-expression",
+        "text": "so long as",
+        "meaning": "при условии что",
+        "note": "So long as может вводить условие, как provided that. Здесь оно ограничивает мнимую свободу природы ожиданиями гостей.",
+        "example": "You may change the route so long as everyone agrees."
+      }
+    ]
   }
 ]

@@ -678,5 +678,277 @@
         "example": "Rarely is the so-called waste of time as empty as it looks from outside."
       }
     ]
+  },
+  {
+    "id": "free-40",
+    "level": "A1",
+    "title": "Плавание по воскресеньям",
+    "text": "I go swimming on Sundays. The pool is near our school.",
+    "translation": "Я хожу плавать по воскресеньям. Бассейн находится рядом с нашей школой.",
+    "phrases": [
+      {
+        "id": "free-40-expression",
+        "text": "go swimming",
+        "meaning": "ходить плавать",
+        "note": "Go + -ing используют для некоторых занятий: go swimming, go shopping, go running.",
+        "example": "We go swimming after lunch."
+      }
+    ]
+  },
+  {
+    "id": "free-41",
+    "level": "A1",
+    "title": "Любимая игра",
+    "text": "Do you like board games? I have a new game for two people.",
+    "translation": "Тебе нравятся настольные игры? У меня есть новая игра для двоих.",
+    "phrases": [
+      {
+        "id": "free-41-expression",
+        "text": "board games",
+        "meaning": "настольные игры",
+        "note": "Board game — игра с игровым полем, например шахматы. В разговоре так часто называют настольные игры вообще.",
+        "example": "We play board games with our friends."
+      }
+    ]
+  },
+  {
+    "id": "free-42",
+    "level": "A1",
+    "title": "Рисунок для друга",
+    "text": "I can draw a cat, but I cannot draw a horse. Can you show me?",
+    "translation": "Я умею рисовать кошку, но не умею рисовать лошадь. Можешь мне показать?",
+    "phrases": [
+      {
+        "id": "free-42-expression",
+        "text": "Can you show me",
+        "meaning": "можешь мне показать",
+        "note": "Show someone — показать кому-то. После show перед me предлог не нужен.",
+        "example": "Can you show me your picture?"
+      }
+    ]
+  },
+  {
+    "id": "free-43",
+    "level": "A2",
+    "title": "Места на концерте",
+    "text": "The tickets are cheaper if we book in advance. Shall I buy four for next Friday?",
+    "translation": "Билеты дешевле, если бронировать заранее. Купить четыре на следующую пятницу?",
+    "phrases": [
+      {
+        "id": "free-43-expression",
+        "text": "book in advance",
+        "meaning": "бронировать заранее",
+        "note": "In advance — до нужного события, заблаговременно. Можно уточнить срок: two weeks in advance.",
+        "example": "You need to book in advance for the evening class."
+      }
+    ]
+  },
+  {
+    "id": "free-44",
+    "level": "A2",
+    "title": "Урок керамики",
+    "text": "You do not need to bring your own tools. The teacher will lend you everything for the lesson.",
+    "translation": "Свои инструменты приносить не нужно. Учитель даст тебе всё необходимое на время урока.",
+    "phrases": [
+      {
+        "id": "free-44-expression",
+        "text": "lend you",
+        "meaning": "дать тебе на время",
+        "note": "Lend — дать взаймы или во временное пользование; borrow — взять. После lend можно сразу назвать получателя.",
+        "example": "I can lend you my camera for the weekend."
+      }
+    ]
+  },
+  {
+    "id": "free-45",
+    "level": "B1",
+    "title": "Первый поход",
+    "text": "We borrowed a tent to try camping before buying our own equipment. That way, we could find out whether we enjoyed sleeping outdoors.",
+    "translation": "Мы одолжили палатку, чтобы попробовать кемпинг, прежде чем покупать своё снаряжение. Так мы могли понять, нравится ли нам ночевать на природе.",
+    "phrases": [
+      {
+        "id": "free-45-expression",
+        "text": "That way",
+        "meaning": "так, таким способом",
+        "note": "That way связывает действие с его предполагаемым результатом и объясняет пользу выбранного подхода.",
+        "example": "Write the date on the box. That way, you will know when you packed it."
+      }
+    ]
+  },
+  {
+    "id": "free-46",
+    "level": "B1",
+    "title": "Новый танец",
+    "text": "I could not keep up with the dancers at first, but the teacher slowed the music down and showed me the steps again.",
+    "translation": "Сначала я не успевал за остальными танцорами, но преподаватель замедлил музыку и снова показал мне движения.",
+    "phrases": [
+      {
+        "id": "free-46-expression",
+        "text": "keep up with",
+        "meaning": "успевать за",
+        "note": "Keep up with someone — двигаться или выполнять действия с той же скоростью, что и другой человек.",
+        "example": "Walk more slowly; I cannot keep up with you."
+      }
+    ]
+  },
+  {
+    "id": "free-47",
+    "level": "B1",
+    "title": "Читательский клуб",
+    "text": "Everyone brought a different book to the club. We took turns describing our favourites, and I went home with a much longer reading list.",
+    "translation": "Каждый принёс в клуб свою книгу. Мы по очереди рассказывали о любимых книгах, и домой я ушёл с гораздо более длинным списком для чтения.",
+    "phrases": [
+      {
+        "id": "free-47-expression",
+        "text": "took turns",
+        "meaning": "делали по очереди",
+        "note": "Take turns + -ing означает, что участники сменяют друг друга при выполнении действия.",
+        "example": "We took turns choosing the music on the drive."
+      }
+    ]
+  },
+  {
+    "id": "free-48",
+    "level": "B2",
+    "title": "Разный темп",
+    "text": "Although I enjoy cycling with friends, I prefer a smaller group because it is easier to settle on a pace that suits everyone.",
+    "translation": "Хотя мне нравится кататься на велосипеде с друзьями, я предпочитаю небольшую компанию: в ней легче выбрать темп, который подходит всем.",
+    "phrases": [
+      {
+        "id": "free-48-expression",
+        "text": "settle on",
+        "meaning": "остановиться на, выбрать",
+        "note": "Settle on — выбрать вариант после обсуждения или размышления. Не путайте с settle in: обжиться на новом месте.",
+        "example": "After trying several colours, we settled on green."
+      }
+    ]
+  },
+  {
+    "id": "free-49",
+    "level": "B2",
+    "title": "Абонемент в музей",
+    "text": "The annual pass seemed expensive until I realised it would let me drop in for half an hour, instead of feeling obliged to see every exhibition in a single visit.",
+    "translation": "Годовой абонемент казался дорогим, пока я не понял, что с ним можно заходить на полчаса, не чувствуя себя обязанным осмотреть все выставки за один раз.",
+    "phrases": [
+      {
+        "id": "free-49-expression",
+        "text": "feeling obliged to",
+        "meaning": "чувствуя себя обязанным",
+        "note": "Feel obliged to + глагол — ощущать обязанность что-то сделать, даже если прямого требования нет.",
+        "example": "I accepted the invitation without feeling obliged to stay all evening."
+      }
+    ]
+  },
+  {
+    "id": "free-50",
+    "level": "B2",
+    "title": "Совместный сад",
+    "text": "Our gardening group decided to share the tools, which lowered the cost of joining and made the hobby accessible to people who had been put off by the initial expense.",
+    "translation": "Наша садоводческая группа решила пользоваться общими инструментами. Это снизило расходы для новичков и сделало хобби доступным тем, кого прежде отпугивала начальная стоимость.",
+    "phrases": [
+      {
+        "id": "free-50-expression",
+        "text": "put off by",
+        "meaning": "отпугнуты чем-либо",
+        "note": "Be put off by something — потерять желание из-за неприятной стороны занятия или предложения.",
+        "example": "Do not be put off by the long queue; it moves quickly."
+      }
+    ]
+  },
+  {
+    "id": "free-51",
+    "level": "C1",
+    "title": "Непривычная музыка",
+    "text": "Accustomed as I was to treating background music as interchangeable, I was surprised by how insistently a single unfamiliar melody demanded my full attention.",
+    "translation": "Привыкнув считать фоновую музыку взаимозаменяемой, я удивился тому, как настойчиво одна незнакомая мелодия требовала моего полного внимания.",
+    "phrases": [
+      {
+        "id": "free-51-expression",
+        "text": "Accustomed as I was to",
+        "meaning": "хотя я и привык к",
+        "note": "Accustomed as + подлежащее + be вводит уступку. После to здесь нужно существительное или -ing, поскольку это предлог.",
+        "example": "Accustomed as I was to working alone, I enjoyed the group session."
+      }
+    ]
+  },
+  {
+    "id": "free-52",
+    "level": "C1",
+    "title": "Удовольствие от неумения",
+    "text": "It was precisely because nobody expected competence that the drawing group felt welcoming; had it advertised excellence, I doubt I would have dared to attend.",
+    "translation": "В группе рисования было уютно именно потому, что никто не ожидал от участников умения рисовать; если бы она обещала высокое мастерство, я вряд ли решился бы прийти.",
+    "phrases": [
+      {
+        "id": "free-52-expression",
+        "text": "It was precisely because",
+        "meaning": "именно потому, что",
+        "note": "Конструкция it was ... that выделяет причину. Precisely усиливает акцент: важна именно эта причина.",
+        "example": "It was precisely because the route was unfamiliar that we hired a guide."
+      }
+    ]
+  },
+  {
+    "id": "free-53",
+    "level": "C1",
+    "title": "Сохранённая традиция",
+    "text": "For all its apparent informality, our weekly card game depends on an unspoken agreement that winning must never become more important than wanting to come back.",
+    "translation": "При всей кажущейся непринуждённости наша еженедельная карточная игра держится на негласной договорённости: победа никогда не должна становиться важнее желания вернуться.",
+    "phrases": [
+      {
+        "id": "free-53-expression",
+        "text": "an unspoken agreement",
+        "meaning": "негласная договорённость",
+        "note": "Так называют общее понимание правил или ожиданий, которое участники не обсуждали прямо.",
+        "example": "There was an unspoken agreement to leave work out of the conversation."
+      }
+    ]
+  },
+  {
+    "id": "free-54",
+    "level": "C1",
+    "title": "Возвращение к фотографии",
+    "text": "No longer concerned with producing pictures others would admire, I began to notice details too ordinary to impress anyone and too particular to have attracted me before.",
+    "translation": "Перестав заботиться о снимках, которыми будут восхищаться другие, я стал замечать детали, слишком обычные, чтобы впечатлять, и слишком частные, чтобы прежде привлекать моё внимание.",
+    "phrases": [
+      {
+        "id": "free-54-expression",
+        "text": "No longer concerned with",
+        "meaning": "больше не озабоченный",
+        "note": "No longer означает, что прежнее состояние закончилось. Be concerned with здесь — быть сосредоточенным на чём-то.",
+        "example": "No longer concerned with the score, we played for another hour."
+      }
+    ]
+  },
+  {
+    "id": "free-55",
+    "level": "C2",
+    "title": "Коллекция и вкус",
+    "text": "His collection had become an argument for his discernment, which made selling even the records he disliked feel uncomfortably like conceding a point.",
+    "translation": "Его коллекция стала доказательством тонкого вкуса, поэтому даже продажа нелюбимых пластинок неприятно напоминала уступку в споре.",
+    "phrases": [
+      {
+        "id": "free-55-expression",
+        "text": "conceding a point",
+        "meaning": "признать правоту в отдельном вопросе",
+        "note": "Concede a point — признать справедливость одного довода другой стороны, не обязательно согласившись со всем. Здесь это метафора пересмотра собственного вкуса.",
+        "example": "Conceding a point need not mean abandoning your position."
+      }
+    ]
+  },
+  {
+    "id": "free-56",
+    "level": "C2",
+    "title": "Объяснённая шутка",
+    "text": "The joke survived every attempt to explain it, though by the end we were laughing less at its wit than at the solemn ingenuity with which we had contrived to miss the point.",
+    "translation": "Шутка пережила все попытки её объяснить, хотя под конец мы смеялись уже не столько над её остроумием, сколько над серьёзной изобретательностью, с которой умудрились не уловить суть.",
+    "phrases": [
+      {
+        "id": "free-56-expression",
+        "text": "contrived to miss the point",
+        "meaning": "умудрились не уловить суть",
+        "note": "Contrive to обычно означает суметь что-то сделать. С отрицательным результатом звучит иронично: приложить усилия и всё равно не понять главное.",
+        "example": "Despite reading the instructions twice, I contrived to miss the point of the exercise."
+      }
+    ]
   }
 ]
