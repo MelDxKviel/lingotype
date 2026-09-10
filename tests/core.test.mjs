@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { LEVELS } from '../src/core.js';
-import { TypingSession, freshState, sanitizeState, completeLesson, dueReviews, localDay, MAX_REVIEWS, MAX_SAVED, youglishUrl, awardBadges } from '../src/core.js';
+import { TypingSession, freshState, sanitizeState, completeLesson, dueReviews, localDay, MAX_REVIEWS, MAX_SAVED, youglishUrl, awardBadges, scheduledPracticeReview } from '../src/core.js';
 import { validateContent } from '../scripts/validate-content.mjs';
 
 const lesson = { id: 'test-01', text: 'Hello world.' };
@@ -66,6 +66,48 @@ test('incomplete text never earns progress', () => {
   const state = freshState(); completeLesson(state, result({ completed: false }), 100);
   assert.equal(state.total, 0); assert.equal(state.reviews.length, 0);
 });
+test('opening practice or skipping texts never triggers automatic reviews', () => {
+  const state = freshState();
+  state.reviews = [{ id: 'day-18', due: 0, box: 0 }, { id: 'day-19', due: 0, box: 0 }];
+  const pool = [...state.reviews.map(({ id }) => ({ id })), { id: 'new-text' }];
+  assert.equal(scheduledPracticeReview(state, pool), null);
+  assert.equal(scheduledPracticeReview(state, pool, { afterCompletion: true }), null);
+  for (const completedThisVisit of [0, 3, 6]) {
+    for (const lastLessonId of ['day-18', 'day-19']) {
+      assert.equal(scheduledPracticeReview(state, pool, {
+        completedThisVisit, lastLessonId, retryQueue: [{ id: 'day-18', after: 0 }],
+      }), null);
+    }
+  }
+});
+
+test('scheduled practice reviews appear only after every third completion and respect the pool', () => {
+  const state = freshState();
+  state.reviews = [
+    { id: 'other-level', due: 0, box: 0 }, { id: 'previous', due: 0, box: 0 },
+    { id: 'due', due: 0, box: 0 }, { id: 'future', due: localDay() + 1, box: 0 },
+  ];
+  const pool = [{ id: 'previous' }, { id: 'due' }, { id: 'future' }, { id: 'new-text' }];
+  for (const completedThisVisit of [1, 2, 3, 4, 5, 6]) {
+    const review = scheduledPracticeReview(state, pool, { afterCompletion: true, completedThisVisit, lastLessonId: 'previous' });
+    assert.equal(review?.id ?? null, completedThisVisit % 3 === 0 ? 'due' : null);
+  }
+  assert.equal(scheduledPracticeReview(state, [{ id: 'future' }], { afterCompletion: true, completedThisVisit: 3 }), null);
+});
+
+test('difficult texts retry after two other completions, take priority and respect the pool', () => {
+  const state = freshState();
+  state.reviews = [{ id: 'due', due: 0, box: 0 }];
+  const pool = [{ id: 'due' }, { id: 'difficult' }];
+  const retryQueue = [{ id: 'outside-pool', after: 0 }, { id: 'difficult', after: 3 }];
+  const options = { afterCompletion: true, retryQueue };
+  assert.equal(scheduledPracticeReview(state, pool, { ...options, completedThisVisit: 2 }), null);
+  assert.equal(scheduledPracticeReview(state, pool, { ...options, completedThisVisit: 3 }).id, 'difficult');
+  assert.equal(scheduledPracticeReview(state, pool, { ...options, completedThisVisit: 4 }).id, 'difficult');
+  assert.equal(scheduledPracticeReview(state, pool, { ...options, completedThisVisit: 4, lastLessonId: 'difficult' }), null);
+  assert.equal(scheduledPracticeReview(state, [{ id: 'due' }], { ...options, completedThisVisit: 4 }), null);
+});
+
 test('repeating early does not skip ahead through spaced repetition intervals', () => {
   const state = freshState(); completeLesson(state, result(), 100);
   for (let i = 0; i < 5; i++) completeLesson(state, result(), 100);

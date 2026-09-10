@@ -75,6 +75,16 @@ export function dueReviews(state, day = localDay()) {
   return state.reviews.filter(r => r.due <= day).sort((a, b) => a.due - b.due);
 }
 
+export function scheduledPracticeReview(state, pool, { afterCompletion = false, completedThisVisit = 0, lastLessonId = null, retryQueue = [] } = {}) {
+  // Skipping or changing filters must advance through the practice pool.
+  // Only a completed exercise can trigger an automatic review.
+  if (!afterCompletion || completedThisVisit < 1) return null;
+  const eligible = item => item.id !== lastLessonId && pool.some(lesson => lesson.id === item.id);
+  const retry = retryQueue.find(item => item.after <= completedThisVisit && eligible(item));
+  const due = completedThisVisit % 3 === 0 ? dueReviews(state).find(eligible) : null;
+  return retry || due || null;
+}
+
 export function youglishUrl(phrase) {
   return `https://youglish.com/pronounce/${encodeURIComponent(phrase)}/english`;
 }

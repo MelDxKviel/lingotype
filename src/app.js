@@ -1,4 +1,4 @@
-import { TypingSession, BADGES, MAX_SAVED, awardBadges, completeLesson, dueReviews, freshState, localDay, youglishUrl } from './core.js';
+import { TypingSession, BADGES, MAX_SAVED, awardBadges, completeLesson, dueReviews, freshState, localDay, scheduledPracticeReview, youglishUrl } from './core.js';
 import { loadState, saveState } from './storage.js';
 import { icon, hydrateIcons } from './icons.js';
 import { playKeySound, setSoundEnabled, prepareKeySound } from './sound.js';
@@ -93,16 +93,14 @@ function candidates() {
   }
   return lessons.filter(lesson => lesson.level === state.prefs.level && (state.prefs.topic === 'all' || lesson.topic === state.prefs.topic));
 }
-function pickLesson() {
+function pickLesson({ afterCompletion = false } = {}) {
   session?.pause(); const pool = candidates();
   if (!pool.length) { session = null; renderEmptyPractice(); return; }
   let unseen = pool.filter(l => !visited.has(l.id));
   if (!unseen.length) { pool.forEach(l => visited.delete(l.id)); unseen = pool; }
   let lesson = null, isAutoReview = false;
   if (mode === 'practice') {
-    const retry = retryQueue.find(item => item.after <= completedThisVisit && item.id !== lastLessonId && pool.some(l => l.id === item.id));
-    const due = completedThisVisit % 3 === 0 ? dueReviews(state).find(item => item.id !== lastLessonId && pool.some(l => l.id === item.id)) : null;
-    const scheduled = retry || due;
+    const scheduled = scheduledPracticeReview(state, pool, { afterCompletion, completedThisVisit, lastLessonId, retryQueue });
     if (scheduled) {
       lesson = pool.find(l => l.id === scheduled.id); isAutoReview = true;
       const index = retryQueue.findIndex(item => item.id === scheduled.id);
@@ -216,7 +214,7 @@ function finishLesson() {
   persist(); updateProgress();
   // The next exercise is ready immediately. No result screen or memory quiz.
   if (mode === 'review' && !allowEarlyReview && !dueReviews(state).length) changeMode('practice');
-  else pickLesson();
+  else pickLesson({ afterCompletion: true });
   const speed = result.wpm ? ` · ~${result.wpm} слов/мин` : '';
   toast(`${result.errors === 0 ? 'Чисто!' : 'Текст готов'} ${result.accuracy}%${speed}${unlocked.length ? ` · ${unlocked.map(b => b.name).join(' + ')}` : ''}`);
   focusTyping();
