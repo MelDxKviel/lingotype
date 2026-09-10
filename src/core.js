@@ -75,14 +75,21 @@ export function dueReviews(state, day = localDay()) {
   return state.reviews.filter(r => r.due <= day).sort((a, b) => a.due - b.due);
 }
 
-export function scheduledPracticeReview(state, pool, { afterCompletion = false, completedThisVisit = 0, lastLessonId = null, retryQueue = [] } = {}) {
-  // Skipping or changing filters must advance through the practice pool.
-  // Only a completed exercise can trigger an automatic review.
-  if (!afterCompletion || completedThisVisit < 1) return null;
-  const eligible = item => item.id !== lastLessonId && pool.some(lesson => lesson.id === item.id);
-  const retry = retryQueue.find(item => item.after <= completedThisVisit && eligible(item));
-  const due = completedThisVisit % 3 === 0 ? dueReviews(state).find(eligible) : null;
-  return retry || due || null;
+export function randomLesson(pool, visited, lastLessonId = null, random = Math.random) {
+  if (!pool.length) return null;
+  let unseen = pool.filter(lesson => !visited.has(lesson.id));
+  if (!unseen.length) {
+    // Reset only this pool: changing filters must not erase other topics' history.
+    pool.forEach(lesson => visited.delete(lesson.id));
+    unseen = pool;
+  }
+  let choices = unseen.filter(lesson => lesson.id !== lastLessonId);
+  // The last unseen text may be the one just shown in the review mode.
+  if (!choices.length) choices = pool.filter(lesson => lesson.id !== lastLessonId);
+  if (!choices.length) choices = unseen;
+  const lesson = choices[Math.floor(random() * choices.length)];
+  visited.add(lesson.id);
+  return lesson;
 }
 
 export function youglishUrl(phrase) {

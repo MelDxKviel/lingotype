@@ -1,4 +1,4 @@
-import { TypingSession, BADGES, MAX_SAVED, awardBadges, completeLesson, dueReviews, freshState, localDay, scheduledPracticeReview, youglishUrl } from './core.js';
+import { TypingSession, BADGES, MAX_SAVED, awardBadges, completeLesson, dueReviews, freshState, localDay, randomLesson, youglishUrl } from './core.js';
 import { loadState, saveState } from './storage.js';
 import { icon, hydrateIcons } from './icons.js';
 import { playKeySound, setSoundEnabled, prepareKeySound } from './sound.js';
@@ -8,11 +8,10 @@ const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;
 let state = loadState();
 let topics = [], lessons = [], phraseMap = new Map(), session = null;
 let view = 'practice', mode = 'practice', allowEarlyReview = false, round = 0;
-let completedThisVisit = 0;
-const retryQueue = [];
 let positions = [], lastLessonId = null, toastTimer;
 const keyAnimations = new Map();
 const visited = new Set();
+const reviewed = new Set();
 const titles = {
   practice: ['Поймай свой ритм', 'Тренируй пальцы. Находи новые слова.'],
   phrases: ['Слова, которые с тобой', 'Сохраняй выражения. Возвращайся к ним в своём темпе.'],
@@ -64,6 +63,8 @@ async function boot() {
     lessons.forEach(lesson => lesson.phrases.forEach(phrase => phraseMap.set(phrase.id, { ...phrase, lessonId: lesson.id })));
     state.saved = state.saved.filter(id => phraseMap.has(id));
     state.reviews = state.reviews.filter(r => lessons.some(l => l.id === r.id));
+    // Avoid recent completed texts when starting a new visit, too.
+    state.reviews.forEach(review => visited.add(review.id));
     if (!topics.some(topic => topic.id === state.prefs.topic)) state.prefs.topic = 'all';
     $('#topic-select').innerHTML = '<option value="all">Все темы</option>' + topics.map(topic => `<option value="${escape(topic.id)}">${escape(topic.title)}</option>`).join('');
     $('#topic-select').value = state.prefs.topic; $('#level-select').value = state.prefs.level;
@@ -93,23 +94,19 @@ function candidates() {
   }
   return lessons.filter(lesson => lesson.level === state.prefs.level && (state.prefs.topic === 'all' || lesson.topic === state.prefs.topic));
 }
-function pickLesson({ afterCompletion = false } = {}) {
+function pickLesson() {
   session?.pause(); const pool = candidates();
   if (!pool.length) { session = null; renderEmptyPractice(); return; }
-  let unseen = pool.filter(l => !visited.has(l.id));
-  if (!unseen.length) { pool.forEach(l => visited.delete(l.id)); unseen = pool; }
-  let lesson = null, isAutoReview = false;
-  if (mode === 'practice') {
-    const scheduled = scheduledPracticeReview(state, pool, { afterCompletion, completedThisVisit, lastLessonId, retryQueue });
-    if (scheduled) {
-      lesson = pool.find(l => l.id === scheduled.id); isAutoReview = true;
-      const index = retryQueue.findIndex(item => item.id === scheduled.id);
-      if (index >= 0) retryQueue.splice(index, 1);
-    }
+  let lesson;
+  if (mode === 'review') {
+    let unseen = pool.filter(l => !reviewed.has(l.id));
+    if (!unseen.length) { pool.forEach(l => reviewed.delete(l.id)); unseen = pool; }
+    lesson = unseen.find(l => l.id !== lastLessonId) || unseen[0];
+    reviewed.add(lesson.id);
+  } else {
+    lesson = randomLesson(pool, visited, lastLessonId);
   }
-  lesson ||= unseen.find(l => l.id !== lastLessonId) || unseen[0];
-  session = new TypingSession(lesson); visited.add(lesson.id); lastLessonId = lesson.id; round += 1;
-  session.isAutoReview = isAutoReview;
+  session = new TypingSession(lesson); lastLessonId = lesson.id; round += 1;
   renderPractice(); updateKeyboard(); focusTyping();
 }
 function renderEmptyPractice() {
@@ -144,7 +141,7 @@ function renderPractice() {
   const lesson = session.lesson;
   $('#practice-card').setAttribute('aria-busy', 'false');
   $('#practice-card').innerHTML = `<div class="card-top"><div class="lesson-meta"><span class="lesson-number">${String(round).padStart(2, '0')}</span><span class="lesson-tag">${escape(lesson.topicTitle)}</span></div><div class="stats"><div class="stat wpm" title="Знаков в минуту, делённых на 5. Скорость короткого текста приблизительна."><strong id="live-wpm">—</strong><span>слов/мин</span></div><div class="stat"><strong id="live-accuracy">100<span>%</span></strong><span>точность</span></div></div></div>
-    <div class="card-body"><div class="text-heading"><span class="text-title">${escape(lesson.title)}</span><span class="small-pill">${lesson.level} · ${mode === 'review' || session.isAutoReview ? 'закрепляем' : 'короткий текст'}</span></div>
+    <div class="card-body"><div class="text-heading"><span class="text-title">${escape(lesson.title)}</span><span class="small-pill">${lesson.level} · ${mode === 'review' ? 'закрепляем' : 'случайный текст'}</span></div>
       <div class="typing-surface"><input id="typing-input" class="typing-capture" type="text" lang="en" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" inputmode="text" aria-label="Печатай английский текст. Ошибки исправляй Backspace." aria-describedby="target-text input-feedback" /><div id="target-text" class="target-text" lang="en" aria-label="Текст для печати">${renderTarget(lesson)}</div></div>
       <p id="translation" class="translation"${state.prefs.translation ? '' : ' hidden'}>${escape(lesson.translation)}</p>
       <p id="input-feedback" class="input-feedback" role="status"></p><span id="typing-status" class="sr-only" role="status"></span>
@@ -207,14 +204,10 @@ function updateStats() {
 }
 function finishLesson() {
   const result = session.metrics(), unlocked = completeLesson(state, result);
-  completedThisVisit += 1;
-  const oldRetry = retryQueue.findIndex(item => item.id === result.id);
-  if (oldRetry >= 0) retryQueue.splice(oldRetry, 1);
-  if (result.accuracy < 95) retryQueue.push({ id: result.id, after: completedThisVisit + 2 });
   persist(); updateProgress();
   // The next exercise is ready immediately. No result screen or memory quiz.
   if (mode === 'review' && !allowEarlyReview && !dueReviews(state).length) changeMode('practice');
-  else pickLesson({ afterCompletion: true });
+  else pickLesson();
   const speed = result.wpm ? ` · ~${result.wpm} слов/мин` : '';
   toast(`${result.errors === 0 ? 'Чисто!' : 'Текст готов'} ${result.accuracy}%${speed}${unlocked.length ? ` · ${unlocked.map(b => b.name).join(' + ')}` : ''}`);
   focusTyping();
@@ -301,11 +294,11 @@ function renderAwards() {
 }
 function openInfo(kind) {
   session?.pause(); const storage = kind === 'storage';
-  $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">${storage ? 'ТВОИ ДАННЫЕ' : 'ПРАКТИКА БЕЗ СПЕШКИ'}</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">${storage ? 'Только в этом браузере' : 'Два навыка, понемногу'}</h2>${storage ? `<p>Результаты, награды, до ${MAX_SAVED} фраз и последние 14 текстов для повторения хранятся в небольшом cookie на год с последнего сохранения. Аккаунт не нужен.</p><p>На другом устройстве прогресс будет отдельным. Очистка cookies или закрытие приватного окна может удалить его.</p><p>У приложения нет аналитики. Шрифты загружаются с Google Fonts, а YouGlish открывается только по твоему клику.</p><button id="reset-progress" class="danger-button">Сбросить мой прогресс</button>` : `<ol><li><strong>Сначала точность.</strong> Поставь пальцы на A S D F и J K L ;. Найди выступы на F и J. Смотри на текст, а не на руки. Экранная клавиатура подскажет палец.</li><li><strong>Коротко, но регулярно.</strong> Начни с 3 текстов в день. A1–B1 — повседневный английский; B2–C2 — более сложные конструкции и оттенки смысла. Уставшим рукам дай отдохнуть.</li><li><strong>Замечай выражения.</strong> Нажми на подчёркнутые слова, прочитай разбор и послушай их на YouGlish. Придумай собственный пример.</li><li><strong>Вспоминай без подсказки.</strong> По желанию скрывай перевод. В копилке сначала вспоминай значение выражения, затем открывай разбор.</li><li><strong>Возвращайся через паузу.</strong> Знакомые тексты сами появляются в практике через 1, 3, 7 и 14 дней. Сложный текст повторится после двух других упражнений. Между текстами ничего нажимать не нужно.</li></ol><p>Опечатка подсвечивается: исправь её Backspace. Паузы при уходе со страницы и чтении разбора не снижают темп. После 15 секунд без ввода отсчёт приостанавливается.</p><p class="source-links">О методике: <a href="https://www.typing.com/blog/typing-accuracy/" target="_blank" rel="noopener noreferrer">точность печати</a> · <a href="https://www.retrievalpractice.org/retrievalpractice/" target="_blank" rel="noopener noreferrer">активное вспоминание</a> · <a href="https://www.retrievalpractice.org/spacing/" target="_blank" rel="noopener noreferrer">практика с интервалами</a></p>`}`;
+  $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">${storage ? 'ТВОИ ДАННЫЕ' : 'ПРАКТИКА БЕЗ СПЕШКИ'}</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">${storage ? 'Только в этом браузере' : 'Два навыка, понемногу'}</h2>${storage ? `<p>Результаты, награды, до ${MAX_SAVED} фраз и последние 14 текстов для повторения хранятся в небольшом cookie на год с последнего сохранения. Аккаунт не нужен.</p><p>На другом устройстве прогресс будет отдельным. Очистка cookies или закрытие приватного окна может удалить его.</p><p>У приложения нет аналитики. Шрифты загружаются с Google Fonts, а YouGlish открывается только по твоему клику.</p><button id="reset-progress" class="danger-button">Сбросить мой прогресс</button>` : `<ol><li><strong>Сначала точность.</strong> Поставь пальцы на A S D F и J K L ;. Найди выступы на F и J. Смотри на текст, а не на руки. Экранная клавиатура подскажет палец.</li><li><strong>Коротко, но регулярно.</strong> Начни с 3 текстов в день. A1–B1 — повседневный английский; B2–C2 — более сложные конструкции и оттенки смысла. Уставшим рукам дай отдохнуть.</li><li><strong>Замечай выражения.</strong> Нажми на подчёркнутые слова, прочитай разбор и послушай их на YouGlish. Придумай собственный пример.</li><li><strong>Вспоминай без подсказки.</strong> По желанию скрывай перевод. В копилке сначала вспоминай значение выражения, затем открывай разбор.</li><li><strong>Возвращайся через паузу.</strong> В практике тексты выбираются случайно, без повторов за круг. Для знакомых текстов открой «Повторение»: они будут готовы через 1, 3, 7 и 14 дней. Между текстами ничего нажимать не нужно.</li></ol><p>Опечатка подсвечивается: исправь её Backspace. Паузы при уходе со страницы и чтении разбора не снижают темп. После 15 секунд без ввода отсчёт приостанавливается.</p><p class="source-links">О методике: <a href="https://www.typing.com/blog/typing-accuracy/" target="_blank" rel="noopener noreferrer">точность печати</a> · <a href="https://www.retrievalpractice.org/retrievalpractice/" target="_blank" rel="noopener noreferrer">активное вспоминание</a> · <a href="https://www.retrievalpractice.org/spacing/" target="_blank" rel="noopener noreferrer">практика с интервалами</a></p>`}`;
   if (storage) $('#reset-progress').addEventListener('click', () => {
     $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">НАЧАТЬ С ЧИСТОГО ЛИСТА</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">Сбросить прогресс?</h2><p>Сохранённые фразы, награды и результаты будут удалены из этого браузера. Настройки останутся.</p><div class="result-actions"><button class="secondary-button" data-close="info-dialog">Оставить</button><button id="confirm-reset" class="danger-button">Да, сбросить</button></div>`;
     $('#confirm-reset').addEventListener('click', () => {
-      const prefs = state.prefs; state = freshState(); state.prefs = prefs; persist(); updateProgress();
+      const prefs = state.prefs; state = freshState(); state.prefs = prefs; visited.clear(); reviewed.clear(); persist(); updateProgress();
       if (view === 'awards') renderAwards(); if (view === 'phrases') renderSaved();
       changeMode('practice'); $('#info-dialog').close(); toast('Можно начать с чистого листа');
     });

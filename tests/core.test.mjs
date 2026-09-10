@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { LEVELS } from '../src/core.js';
-import { TypingSession, freshState, sanitizeState, completeLesson, dueReviews, localDay, MAX_REVIEWS, MAX_SAVED, youglishUrl, awardBadges, scheduledPracticeReview } from '../src/core.js';
+import { TypingSession, freshState, sanitizeState, completeLesson, dueReviews, localDay, MAX_REVIEWS, MAX_SAVED, youglishUrl, awardBadges, randomLesson } from '../src/core.js';
 import { validateContent } from '../scripts/validate-content.mjs';
 
 const lesson = { id: 'test-01', text: 'Hello world.' };
@@ -66,46 +66,61 @@ test('incomplete text never earns progress', () => {
   const state = freshState(); completeLesson(state, result({ completed: false }), 100);
   assert.equal(state.total, 0); assert.equal(state.reviews.length, 0);
 });
-test('opening practice or skipping texts never triggers automatic reviews', () => {
-  const state = freshState();
-  state.reviews = [{ id: 'day-18', due: 0, box: 0 }, { id: 'day-19', due: 0, box: 0 }];
-  const pool = [...state.reviews.map(({ id }) => ({ id })), { id: 'new-text' }];
-  assert.equal(scheduledPracticeReview(state, pool), null);
-  assert.equal(scheduledPracticeReview(state, pool, { afterCompletion: true }), null);
-  for (const completedThisVisit of [0, 3, 6]) {
-    for (const lastLessonId of ['day-18', 'day-19']) {
-      assert.equal(scheduledPracticeReview(state, pool, {
-        completedThisVisit, lastLessonId, retryQueue: [{ id: 'day-18', after: 0 }],
-      }), null);
+test('random practice can start anywhere in the pool without reordering the catalog', () => {
+  const pool = ['a', 'b', 'c', 'd'].map(id => ({ id }));
+  for (const [sample, expected] of [[0, 'a'], [0.25, 'b'], [0.5, 'c'], [0.999, 'd']]) {
+    assert.equal(randomLesson(pool, new Set(), null, () => sample).id, expected);
+  }
+  assert.deepEqual(pool.map(l => l.id), ['a', 'b', 'c', 'd']);
+});
+
+test('random practice visits every text once per cycle and never repeats across cycle boundaries', () => {
+  const pool = ['a', 'b', 'c', 'd'].map(id => ({ id }));
+  const visited = new Set();
+  let previous = null;
+  for (let cycle = 0; cycle < 4; cycle++) {
+    const picked = [];
+    for (let i = 0; i < pool.length; i++) {
+      const next = randomLesson(pool, visited, previous, () => 0.999).id;
+      assert.notEqual(next, previous);
+      picked.push(next); previous = next;
     }
+    assert.deepEqual(picked.toSorted(), ['a', 'b', 'c', 'd']);
   }
 });
 
-test('scheduled practice reviews appear only after every third completion and respect the pool', () => {
-  const state = freshState();
-  state.reviews = [
-    { id: 'other-level', due: 0, box: 0 }, { id: 'previous', due: 0, box: 0 },
-    { id: 'due', due: 0, box: 0 }, { id: 'future', due: localDay() + 1, box: 0 },
-  ];
-  const pool = [{ id: 'previous' }, { id: 'due' }, { id: 'future' }, { id: 'new-text' }];
-  for (const completedThisVisit of [1, 2, 3, 4, 5, 6]) {
-    const review = scheduledPracticeReview(state, pool, { afterCompletion: true, completedThisVisit, lastLessonId: 'previous' });
-    assert.equal(review?.id ?? null, completedThisVisit % 3 === 0 ? 'due' : null);
-  }
-  assert.equal(scheduledPracticeReview(state, [{ id: 'future' }], { afterCompletion: true, completedThisVisit: 3 }), null);
+test('changing topics or levels keeps history outside the active pool', () => {
+  const pool = ['a', 'b', 'c', 'd'].map(id => ({ id }));
+  const visited = new Set(['a', 'c', 'outside-level']);
+  assert.equal(randomLesson(pool.slice(0, 2), visited, 'a', () => 0).id, 'b');
+  assert.equal(randomLesson(pool.slice(0, 2), visited, 'b', () => 0).id, 'a');
+  assert.ok(visited.has('c')); assert.ok(visited.has('outside-level'));
+  assert.equal(randomLesson(pool.slice(2), visited, 'a', () => 0).id, 'd');
 });
 
-test('difficult texts retry after two other completions, take priority and respect the pool', () => {
+test('recent completed texts can seed practice history after a reload', () => {
   const state = freshState();
-  state.reviews = [{ id: 'due', due: 0, box: 0 }];
-  const pool = [{ id: 'due' }, { id: 'difficult' }];
-  const retryQueue = [{ id: 'outside-pool', after: 0 }, { id: 'difficult', after: 3 }];
-  const options = { afterCompletion: true, retryQueue };
-  assert.equal(scheduledPracticeReview(state, pool, { ...options, completedThisVisit: 2 }), null);
-  assert.equal(scheduledPracticeReview(state, pool, { ...options, completedThisVisit: 3 }).id, 'difficult');
-  assert.equal(scheduledPracticeReview(state, pool, { ...options, completedThisVisit: 4 }).id, 'difficult');
-  assert.equal(scheduledPracticeReview(state, pool, { ...options, completedThisVisit: 4, lastLessonId: 'difficult' }), null);
-  assert.equal(scheduledPracticeReview(state, [{ id: 'due' }], { ...options, completedThisVisit: 4 }), null);
+  state.reviews = [{ id: 'a', due: 0, box: 0 }, { id: 'b', due: 0, box: 0 }];
+  const pool = ['a', 'b', 'c', 'd'].map(id => ({ id }));
+  const visited = new Set(state.reviews.map(r => r.id));
+  assert.equal(randomLesson(pool, visited, null, () => 0).id, 'c');
+  assert.equal(randomLesson(pool, visited, 'c', () => 0).id, 'd');
+  assert.equal(randomLesson(pool, visited, 'd', () => 0).id, 'a');
+});
+
+test('returning from review avoids immediately showing the same text when alternatives exist', () => {
+  const pool = ['a', 'b'].map(id => ({ id }));
+  const visited = new Set(['a']);
+  assert.equal(randomLesson(pool, visited, 'b', () => 0).id, 'a');
+  assert.equal(randomLesson(pool, visited, 'a', () => 0).id, 'b');
+});
+
+test('empty and single-text practice pools remain usable', () => {
+  const visited = new Set(['outside']);
+  assert.equal(randomLesson([], visited), null);
+  assert.deepEqual([...visited], ['outside']);
+  for (let i = 0; i < 3; i++) assert.equal(randomLesson([lesson], visited, lesson.id), lesson);
+  assert.ok(visited.has('outside'));
 });
 
 test('repeating early does not skip ahead through spaced repetition intervals', () => {
