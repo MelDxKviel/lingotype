@@ -1005,5 +1005,2405 @@
         "example": "With admirable circularity, the rule justified itself by citing its own authority."
       }
     ]
+  },
+  {
+    "id": "it-60",
+    "level": "A1",
+    "title": "Зарядить телефон",
+    "text": "I want to charge my phone today.",
+    "translation": "Я хочу зарядить телефон сегодня.",
+    "phrases": [
+      {
+        "id": "it-60-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "it-61",
+    "level": "A1",
+    "title": "Сохранить документ",
+    "text": "I need to save the document today.",
+    "translation": "Мне нужно сохранить документ сегодня.",
+    "phrases": [
+      {
+        "id": "it-61-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "it-62",
+    "level": "A1",
+    "title": "Открыть приложение",
+    "text": "I can open the app today.",
+    "translation": "Я могу открыть приложение сегодня.",
+    "phrases": [
+      {
+        "id": "it-62-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "it-63",
+    "level": "A1",
+    "title": "Проверить почту",
+    "text": "I would like to check my email tomorrow.",
+    "translation": "Я хотел бы проверить почту завтра.",
+    "phrases": [
+      {
+        "id": "it-63-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "it-64",
+    "level": "A1",
+    "title": "Сменить пароль",
+    "text": "I am ready to change my password now.",
+    "translation": "Я готов сменить пароль сейчас.",
+    "phrases": [
+      {
+        "id": "it-64-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "it-65",
+    "level": "A1",
+    "title": "Подключить принтер",
+    "text": "I want to connect the printer today.",
+    "translation": "Я хочу подключить принтер сегодня.",
+    "phrases": [
+      {
+        "id": "it-65-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "it-66",
+    "level": "A1",
+    "title": "Перезагрузить компьютер",
+    "text": "I need to restart the computer today.",
+    "translation": "Мне нужно перезагрузить компьютер сегодня.",
+    "phrases": [
+      {
+        "id": "it-66-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "it-67",
+    "level": "A1",
+    "title": "Скачать фотографию",
+    "text": "I can download the photo today.",
+    "translation": "Я могу скачать фотографию сегодня.",
+    "phrases": [
+      {
+        "id": "it-67-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "it-68",
+    "level": "A1",
+    "title": "Отправить голосовое сообщение",
+    "text": "I would like to send a voice message tomorrow.",
+    "translation": "Я хотел бы отправить голосовое сообщение завтра.",
+    "phrases": [
+      {
+        "id": "it-68-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "it-69",
+    "level": "A1",
+    "title": "Обновить приложение",
+    "text": "I am ready to update the app now.",
+    "translation": "Я готов обновить приложение сейчас.",
+    "phrases": [
+      {
+        "id": "it-69-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "it-70",
+    "level": "A1",
+    "title": "Найти нужный файл",
+    "text": "I want to find the right file today.",
+    "translation": "Я хочу найти нужный файл сегодня.",
+    "phrases": [
+      {
+        "id": "it-70-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "it-71",
+    "level": "A1",
+    "title": "Подключиться к звонку",
+    "text": "I need to join the online call today.",
+    "translation": "Мне нужно подключиться к звонку сегодня.",
+    "phrases": [
+      {
+        "id": "it-71-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "it-72",
+    "level": "A1",
+    "title": "Включить камеру",
+    "text": "I can turn on the camera today.",
+    "translation": "Я могу включить камеру сегодня.",
+    "phrases": [
+      {
+        "id": "it-72-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "it-73",
+    "level": "A1",
+    "title": "Проверить заряд батареи",
+    "text": "I would like to check the battery tomorrow.",
+    "translation": "Я хотел бы проверить заряд батареи завтра.",
+    "phrases": [
+      {
+        "id": "it-73-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "it-74",
+    "level": "A1",
+    "title": "Сканировать код",
+    "text": "I am ready to scan the code now.",
+    "translation": "Я готов сканировать код сейчас.",
+    "phrases": [
+      {
+        "id": "it-74-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "it-75",
+    "level": "A1",
+    "title": "Скопировать ссылку",
+    "text": "I want to copy the link today.",
+    "translation": "Я хочу скопировать ссылку сегодня.",
+    "phrases": [
+      {
+        "id": "it-75-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "it-76",
+    "level": "A1",
+    "title": "Открыть новую вкладку",
+    "text": "I need to open a new tab today.",
+    "translation": "Мне нужно открыть новую вкладку сегодня.",
+    "phrases": [
+      {
+        "id": "it-76-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "it-77",
+    "level": "A1",
+    "title": "Сделать копию фотографий",
+    "text": "I can back up my photos today.",
+    "translation": "Я могу сделать копию фотографий сегодня.",
+    "phrases": [
+      {
+        "id": "it-77-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "it-78",
+    "level": "A1",
+    "title": "Изменить размер изображения на экране",
+    "text": "I would like to change the screen size tomorrow.",
+    "translation": "Я хотел бы изменить размер изображения на экране завтра.",
+    "phrases": [
+      {
+        "id": "it-78-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "it-79",
+    "level": "A1",
+    "title": "Проверить микрофон",
+    "text": "I am ready to test the microphone now.",
+    "translation": "Я готов проверить микрофон сейчас.",
+    "phrases": [
+      {
+        "id": "it-79-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "it-80",
+    "level": "A1",
+    "title": "Открыть доступ к папке",
+    "text": "I want to share the folder today.",
+    "translation": "Я хочу открыть доступ к папке сегодня.",
+    "phrases": [
+      {
+        "id": "it-80-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "it-81",
+    "level": "A1",
+    "title": "Удалить старые сообщения",
+    "text": "I need to clear the old messages today.",
+    "translation": "Мне нужно удалить старые сообщения сегодня.",
+    "phrases": [
+      {
+        "id": "it-81-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "it-82",
+    "level": "A1",
+    "title": "Установить программу",
+    "text": "I can install the program today.",
+    "translation": "Я могу установить программу сегодня.",
+    "phrases": [
+      {
+        "id": "it-82-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "it-83",
+    "level": "A1",
+    "title": "Решить проблему со входом",
+    "text": "I would like to fix the login problem tomorrow.",
+    "translation": "Я хотел бы решить проблему со входом завтра.",
+    "phrases": [
+      {
+        "id": "it-83-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "it-84",
+    "level": "A1",
+    "title": "Отключить уведомления",
+    "text": "I am ready to turn off the alerts now.",
+    "translation": "Я готов отключить уведомления сейчас.",
+    "phrases": [
+      {
+        "id": "it-84-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "it-85",
+    "level": "A2",
+    "title": "Зарядить телефон",
+    "text": "I wanted to charge my phone, but my friend needed help.",
+    "translation": "Я хотел зарядить телефон, но моему другу понадобилась помощь.",
+    "phrases": [
+      {
+        "id": "it-85-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "it-86",
+    "level": "A2",
+    "title": "Сохранить документ",
+    "text": "I was going to save the document, but I got a late start.",
+    "translation": "Я собирался сохранить документ, но я начал позже, чем собирался.",
+    "phrases": [
+      {
+        "id": "it-86-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "it-87",
+    "level": "A2",
+    "title": "Открыть приложение",
+    "text": "Could I open the app later, since we lost an hour?",
+    "translation": "Могу я открыть приложение позже, раз мы потеряли час?",
+    "phrases": [
+      {
+        "id": "it-87-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "it-88",
+    "level": "A2",
+    "title": "Проверить почту",
+    "text": "I tried to check my email, but another task took longer than expected.",
+    "translation": "Я попытался проверить почту, но другое дело заняло больше времени, чем ожидалось.",
+    "phrases": [
+      {
+        "id": "it-88-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "it-89",
+    "level": "A2",
+    "title": "Сменить пароль",
+    "text": "I hoped to change my password, but I ran out of time.",
+    "translation": "Я надеялся сменить пароль, но у меня не осталось времени.",
+    "phrases": [
+      {
+        "id": "it-89-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "it-90",
+    "level": "A2",
+    "title": "Подключить принтер",
+    "text": "I wanted to connect the printer, but I had to change my schedule.",
+    "translation": "Я хотел подключить принтер, но мне пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "it-90-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "it-91",
+    "level": "A2",
+    "title": "Перезагрузить компьютер",
+    "text": "I was going to restart the computer, but my plans changed.",
+    "translation": "Я собирался перезагрузить компьютер, но мои планы изменились.",
+    "phrases": [
+      {
+        "id": "it-91-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "it-92",
+    "level": "A2",
+    "title": "Скачать фотографию",
+    "text": "Could I download the photo later, since a new appointment came up?",
+    "translation": "Могу я скачать фотографию позже, раз появилась новая встреча?",
+    "phrases": [
+      {
+        "id": "it-92-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "it-93",
+    "level": "A2",
+    "title": "Отправить голосовое сообщение",
+    "text": "I tried to send a voice message, but the day became unexpectedly busy.",
+    "translation": "Я попытался отправить голосовое сообщение, но день неожиданно оказался загруженным.",
+    "phrases": [
+      {
+        "id": "it-93-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "it-94",
+    "level": "A2",
+    "title": "Обновить приложение",
+    "text": "I hoped to update the app, but I received an urgent call.",
+    "translation": "Я надеялся обновить приложение, но мне срочно позвонили.",
+    "phrases": [
+      {
+        "id": "it-94-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "it-95",
+    "level": "A2",
+    "title": "Найти нужный файл",
+    "text": "I wanted to find the right file, but I had other work to finish.",
+    "translation": "Я хотел найти нужный файл, но мне нужно было закончить другую работу.",
+    "phrases": [
+      {
+        "id": "it-95-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "it-96",
+    "level": "A2",
+    "title": "Подключиться к звонку",
+    "text": "I was going to join the online call, but I forgot an earlier appointment.",
+    "translation": "Я собирался подключиться к звонку, но я забыл о назначенной ранее встрече.",
+    "phrases": [
+      {
+        "id": "it-96-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "it-97",
+    "level": "A2",
+    "title": "Включить камеру",
+    "text": "Could I turn on the camera later, since a family matter needed attention?",
+    "translation": "Могу я включить камеру позже, раз потребовалось заняться семейным делом?",
+    "phrases": [
+      {
+        "id": "it-97-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "it-98",
+    "level": "A2",
+    "title": "Проверить заряд батареи",
+    "text": "I tried to check the battery, but my afternoon filled up.",
+    "translation": "Я попытался проверить заряд батареи, но на вторую половину дня появились другие планы.",
+    "phrases": [
+      {
+        "id": "it-98-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "it-99",
+    "level": "A2",
+    "title": "Сканировать код",
+    "text": "I hoped to scan the code, but I could not get started on time.",
+    "translation": "Я надеялся сканировать код, но я не смог начать вовремя.",
+    "phrases": [
+      {
+        "id": "it-99-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "it-100",
+    "level": "A2",
+    "title": "Скопировать ссылку",
+    "text": "I wanted to copy the link, but an unexpected problem needed attention.",
+    "translation": "Я хотел скопировать ссылку, но потребовалось решить неожиданную проблему.",
+    "phrases": [
+      {
+        "id": "it-100-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "it-101",
+    "level": "A2",
+    "title": "Открыть новую вкладку",
+    "text": "I was going to open a new tab, but an earlier plan ran late.",
+    "translation": "Я собирался открыть новую вкладку, но предыдущее дело затянулось.",
+    "phrases": [
+      {
+        "id": "it-101-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "it-102",
+    "level": "A2",
+    "title": "Сделать копию фотографий",
+    "text": "Could I back up my photos later, since the day did not go as expected?",
+    "translation": "Могу я сделать копию фотографий позже, раз день пошёл не по плану?",
+    "phrases": [
+      {
+        "id": "it-102-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "it-103",
+    "level": "A2",
+    "title": "Изменить размер изображения на экране",
+    "text": "I tried to change the screen size, but I needed a break.",
+    "translation": "Я попытался изменить размер изображения на экране, но мне понадобился отдых.",
+    "phrases": [
+      {
+        "id": "it-103-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "it-104",
+    "level": "A2",
+    "title": "Проверить микрофон",
+    "text": "I hoped to test the microphone, but I learned I had less time than I thought.",
+    "translation": "Я надеялся проверить микрофон, но выяснилось, что у меня меньше времени, чем я думал.",
+    "phrases": [
+      {
+        "id": "it-104-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "it-105",
+    "level": "A2",
+    "title": "Открыть доступ к папке",
+    "text": "I wanted to share the folder, but I was called away.",
+    "translation": "Я хотел открыть доступ к папке, но меня срочно вызвали.",
+    "phrases": [
+      {
+        "id": "it-105-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "it-106",
+    "level": "A2",
+    "title": "Удалить старые сообщения",
+    "text": "I was going to clear the old messages, but an urgent task came up.",
+    "translation": "Я собирался удалить старые сообщения, но появилось срочное дело.",
+    "phrases": [
+      {
+        "id": "it-106-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "it-107",
+    "level": "A2",
+    "title": "Установить программу",
+    "text": "Could I install the program later, since I had to leave early?",
+    "translation": "Могу я установить программу позже, раз мне пришлось уйти раньше?",
+    "phrases": [
+      {
+        "id": "it-107-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "it-108",
+    "level": "A2",
+    "title": "Решить проблему со входом",
+    "text": "I tried to fix the login problem, but the agreed time changed.",
+    "translation": "Я попытался решить проблему со входом, но договорённое время изменилось.",
+    "phrases": [
+      {
+        "id": "it-108-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "it-109",
+    "level": "A2",
+    "title": "Отключить уведомления",
+    "text": "I hoped to turn off the alerts, but I felt unwell.",
+    "translation": "Я надеялся отключить уведомления, но я плохо себя чувствовал.",
+    "phrases": [
+      {
+        "id": "it-109-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "it-110",
+    "level": "B1",
+    "title": "Зарядить телефон",
+    "text": "I was about to charge my phone when I ran out of time, so I put the plan on hold.",
+    "translation": "Я уже собирался зарядить телефон, когда у меня не осталось времени, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "it-110-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "it-111",
+    "level": "B1",
+    "title": "Сохранить документ",
+    "text": "I had planned to save the document, but I had to change my schedule, and in the end I decided to wait.",
+    "translation": "Я планировал сохранить документ, но мне пришлось изменить расписание, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "it-111-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "it-112",
+    "level": "B1",
+    "title": "Открыть приложение",
+    "text": "I meant to open the app, but my plans changed, and looking back I should have checked first.",
+    "translation": "Я намеревался открыть приложение, но мои планы изменились, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "it-112-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "it-113",
+    "level": "B1",
+    "title": "Проверить почту",
+    "text": "I put off my plan to check my email after a new appointment came up because waiting seemed sensible.",
+    "translation": "Я отложил план проверить почту после того, как появилась новая встреча, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "it-113-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "it-114",
+    "level": "B1",
+    "title": "Сменить пароль",
+    "text": "I could not change my password as planned because the day became unexpectedly busy, so I had to change my schedule.",
+    "translation": "Мне не удалось сменить пароль, как я планировал, потому что день неожиданно оказался загруженным, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "it-114-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "it-115",
+    "level": "B1",
+    "title": "Подключить принтер",
+    "text": "I was about to connect the printer when I received an urgent call, so I put the plan on hold.",
+    "translation": "Я уже собирался подключить принтер, когда мне срочно позвонили, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "it-115-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "it-116",
+    "level": "B1",
+    "title": "Перезагрузить компьютер",
+    "text": "I had planned to restart the computer, but I had other work to finish, and in the end I decided to wait.",
+    "translation": "Я планировал перезагрузить компьютер, но мне нужно было закончить другую работу, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "it-116-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "it-117",
+    "level": "B1",
+    "title": "Скачать фотографию",
+    "text": "I meant to download the photo, but I forgot an earlier appointment, and looking back I should have checked first.",
+    "translation": "Я намеревался скачать фотографию, но я забыл о назначенной ранее встрече, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "it-117-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "it-118",
+    "level": "B1",
+    "title": "Отправить голосовое сообщение",
+    "text": "I put off my plan to send a voice message after a family matter needed attention because waiting seemed sensible.",
+    "translation": "Я отложил план отправить голосовое сообщение после того, как потребовалось заняться семейным делом, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "it-118-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "it-119",
+    "level": "B1",
+    "title": "Обновить приложение",
+    "text": "I could not update the app as planned because my afternoon filled up, so I had to change my schedule.",
+    "translation": "Мне не удалось обновить приложение, как я планировал, потому что на вторую половину дня появились другие планы, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "it-119-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "it-120",
+    "level": "B1",
+    "title": "Найти нужный файл",
+    "text": "I was about to find the right file when I could not get started on time, so I put the plan on hold.",
+    "translation": "Я уже собирался найти нужный файл, когда я не смог начать вовремя, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "it-120-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "it-121",
+    "level": "B1",
+    "title": "Подключиться к звонку",
+    "text": "I had planned to join the online call, but an unexpected problem needed attention, and in the end I decided to wait.",
+    "translation": "Я планировал подключиться к звонку, но потребовалось решить неожиданную проблему, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "it-121-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "it-122",
+    "level": "B1",
+    "title": "Включить камеру",
+    "text": "I meant to turn on the camera, but an earlier plan ran late, and looking back I should have checked first.",
+    "translation": "Я намеревался включить камеру, но предыдущее дело затянулось, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "it-122-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "it-123",
+    "level": "B1",
+    "title": "Проверить заряд батареи",
+    "text": "I put off my plan to check the battery after the day did not go as expected because waiting seemed sensible.",
+    "translation": "Я отложил план проверить заряд батареи после того, как день пошёл не по плану, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "it-123-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "it-124",
+    "level": "B1",
+    "title": "Сканировать код",
+    "text": "I could not scan the code as planned because I needed a break, so I had to change my schedule.",
+    "translation": "Мне не удалось сканировать код, как я планировал, потому что мне понадобился отдых, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "it-124-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "it-125",
+    "level": "B1",
+    "title": "Скопировать ссылку",
+    "text": "I was about to copy the link when I learned I had less time than I thought, so I put the plan on hold.",
+    "translation": "Я уже собирался скопировать ссылку, когда выяснилось, что у меня меньше времени, чем я думал, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "it-125-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "it-126",
+    "level": "B1",
+    "title": "Открыть новую вкладку",
+    "text": "I had planned to open a new tab, but I was called away, and in the end I decided to wait.",
+    "translation": "Я планировал открыть новую вкладку, но меня срочно вызвали, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "it-126-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "it-127",
+    "level": "B1",
+    "title": "Сделать копию фотографий",
+    "text": "I meant to back up my photos, but an urgent task came up, and looking back I should have checked first.",
+    "translation": "Я намеревался сделать копию фотографий, но появилось срочное дело, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "it-127-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "it-128",
+    "level": "B1",
+    "title": "Изменить размер изображения на экране",
+    "text": "I put off my plan to change the screen size after I had to leave early because waiting seemed sensible.",
+    "translation": "Я отложил план изменить размер изображения на экране после того, как мне пришлось уйти раньше, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "it-128-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "it-129",
+    "level": "B1",
+    "title": "Проверить микрофон",
+    "text": "I could not test the microphone as planned because the agreed time changed, so I had to change my schedule.",
+    "translation": "Мне не удалось проверить микрофон, как я планировал, потому что договорённое время изменилось, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "it-129-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "it-130",
+    "level": "B1",
+    "title": "Открыть доступ к папке",
+    "text": "I was about to share the folder when I felt unwell, so I put the plan on hold.",
+    "translation": "Я уже собирался открыть доступ к папке, когда я плохо себя чувствовал, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "it-130-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "it-131",
+    "level": "B1",
+    "title": "Удалить старые сообщения",
+    "text": "I had planned to clear the old messages, but my friend needed help, and in the end I decided to wait.",
+    "translation": "Я планировал удалить старые сообщения, но моему другу понадобилась помощь, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "it-131-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "it-132",
+    "level": "B1",
+    "title": "Установить программу",
+    "text": "I meant to install the program, but I got a late start, and looking back I should have checked first.",
+    "translation": "Я намеревался установить программу, но я начал позже, чем собирался, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "it-132-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "it-133",
+    "level": "B1",
+    "title": "Решить проблему со входом",
+    "text": "I put off my plan to fix the login problem after we lost an hour because waiting seemed sensible.",
+    "translation": "Я отложил план решить проблему со входом после того, как мы потеряли час, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "it-133-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "it-134",
+    "level": "B1",
+    "title": "Отключить уведомления",
+    "text": "I could not turn off the alerts as planned because another task took longer than expected, so I had to change my schedule.",
+    "translation": "Мне не удалось отключить уведомления, как я планировал, потому что другое дело заняло больше времени, чем ожидалось, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "it-134-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "it-135",
+    "level": "B2",
+    "title": "Зарядить телефон",
+    "text": "Although I intended to charge my phone, I reconsidered when the day became unexpectedly busy, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался зарядить телефон, я передумал, когда день неожиданно оказался загруженным, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "it-135-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "it-136",
+    "level": "B2",
+    "title": "Сохранить документ",
+    "text": "I would have tried to save the document if the timing had worked; once I received an urgent call, that option was no longer practical.",
+    "translation": "Я бы попытался сохранить документ, если бы время подошло; когда мне срочно позвонили, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "it-136-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "it-137",
+    "level": "B2",
+    "title": "Открыть приложение",
+    "text": "I had every intention of trying to open the app, yet I had other work to finish, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался открыть приложение, но мне нужно было закончить другую работу, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "it-137-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "it-138",
+    "level": "B2",
+    "title": "Проверить почту",
+    "text": "Rather than check my email immediately, I waited after I forgot an earlier appointment, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу проверить почту, я подождал после того, как я забыл о назначенной ранее встрече: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "it-138-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "it-139",
+    "level": "B2",
+    "title": "Сменить пароль",
+    "text": "The plan to change my password seemed reasonable at first; however, when a family matter needed attention, its timing became difficult to justify.",
+    "translation": "План сменить пароль сначала казался разумным; однако, когда потребовалось заняться семейным делом, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "it-139-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "it-140",
+    "level": "B2",
+    "title": "Подключить принтер",
+    "text": "Although I intended to connect the printer, I reconsidered when my afternoon filled up, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался подключить принтер, я передумал, когда на вторую половину дня появились другие планы, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "it-140-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "it-141",
+    "level": "B2",
+    "title": "Перезагрузить компьютер",
+    "text": "I would have tried to restart the computer if the timing had worked; once I could not get started on time, that option was no longer practical.",
+    "translation": "Я бы попытался перезагрузить компьютер, если бы время подошло; когда я не смог начать вовремя, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "it-141-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "it-142",
+    "level": "B2",
+    "title": "Скачать фотографию",
+    "text": "I had every intention of trying to download the photo, yet an unexpected problem needed attention, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался скачать фотографию, но потребовалось решить неожиданную проблему, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "it-142-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "it-143",
+    "level": "B2",
+    "title": "Отправить голосовое сообщение",
+    "text": "Rather than send a voice message immediately, I waited after an earlier plan ran late, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу отправить голосовое сообщение, я подождал после того, как предыдущее дело затянулось: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "it-143-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "it-144",
+    "level": "B2",
+    "title": "Обновить приложение",
+    "text": "The plan to update the app seemed reasonable at first; however, when the day did not go as expected, its timing became difficult to justify.",
+    "translation": "План обновить приложение сначала казался разумным; однако, когда день пошёл не по плану, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "it-144-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "it-145",
+    "level": "B2",
+    "title": "Найти нужный файл",
+    "text": "Although I intended to find the right file, I reconsidered when I needed a break, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался найти нужный файл, я передумал, когда мне понадобился отдых, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "it-145-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "it-146",
+    "level": "B2",
+    "title": "Подключиться к звонку",
+    "text": "I would have tried to join the online call if the timing had worked; once I learned I had less time than I thought, that option was no longer practical.",
+    "translation": "Я бы попытался подключиться к звонку, если бы время подошло; когда выяснилось, что у меня меньше времени, чем я думал, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "it-146-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "it-147",
+    "level": "B2",
+    "title": "Включить камеру",
+    "text": "I had every intention of trying to turn on the camera, yet I was called away, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался включить камеру, но меня срочно вызвали, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "it-147-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "it-148",
+    "level": "B2",
+    "title": "Проверить заряд батареи",
+    "text": "Rather than check the battery immediately, I waited after an urgent task came up, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу проверить заряд батареи, я подождал после того, как появилось срочное дело: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "it-148-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "it-149",
+    "level": "B2",
+    "title": "Сканировать код",
+    "text": "The plan to scan the code seemed reasonable at first; however, when I had to leave early, its timing became difficult to justify.",
+    "translation": "План сканировать код сначала казался разумным; однако, когда мне пришлось уйти раньше, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "it-149-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "it-150",
+    "level": "B2",
+    "title": "Скопировать ссылку",
+    "text": "Although I intended to copy the link, I reconsidered when the agreed time changed, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался скопировать ссылку, я передумал, когда договорённое время изменилось, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "it-150-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "it-151",
+    "level": "B2",
+    "title": "Открыть новую вкладку",
+    "text": "I would have tried to open a new tab if the timing had worked; once I felt unwell, that option was no longer practical.",
+    "translation": "Я бы попытался открыть новую вкладку, если бы время подошло; когда я плохо себя чувствовал, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "it-151-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "it-152",
+    "level": "B2",
+    "title": "Сделать копию фотографий",
+    "text": "I had every intention of trying to back up my photos, yet my friend needed help, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался сделать копию фотографий, но моему другу понадобилась помощь, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "it-152-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "it-153",
+    "level": "B2",
+    "title": "Изменить размер изображения на экране",
+    "text": "Rather than change the screen size immediately, I waited after I got a late start, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу изменить размер изображения на экране, я подождал после того, как я начал позже, чем собирался: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "it-153-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "it-154",
+    "level": "B2",
+    "title": "Проверить микрофон",
+    "text": "The plan to test the microphone seemed reasonable at first; however, when we lost an hour, its timing became difficult to justify.",
+    "translation": "План проверить микрофон сначала казался разумным; однако, когда мы потеряли час, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "it-154-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "it-155",
+    "level": "B2",
+    "title": "Открыть доступ к папке",
+    "text": "Although I intended to share the folder, I reconsidered when another task took longer than expected, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался открыть доступ к папке, я передумал, когда другое дело заняло больше времени, чем ожидалось, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "it-155-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "it-156",
+    "level": "B2",
+    "title": "Удалить старые сообщения",
+    "text": "I would have tried to clear the old messages if the timing had worked; once I ran out of time, that option was no longer practical.",
+    "translation": "Я бы попытался удалить старые сообщения, если бы время подошло; когда у меня не осталось времени, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "it-156-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "it-157",
+    "level": "B2",
+    "title": "Установить программу",
+    "text": "I had every intention of trying to install the program, yet I had to change my schedule, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался установить программу, но мне пришлось изменить расписание, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "it-157-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "it-158",
+    "level": "B2",
+    "title": "Решить проблему со входом",
+    "text": "Rather than fix the login problem immediately, I waited after my plans changed, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу решить проблему со входом, я подождал после того, как мои планы изменились: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "it-158-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "it-159",
+    "level": "B2",
+    "title": "Отключить уведомления",
+    "text": "The plan to turn off the alerts seemed reasonable at first; however, when a new appointment came up, its timing became difficult to justify.",
+    "translation": "План отключить уведомления сначала казался разумным; однако, когда появилась новая встреча, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "it-159-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "it-160",
+    "level": "C1",
+    "title": "Зарядить телефон",
+    "text": "Only when a family matter needed attention did I realise that trying to charge my phone just then would be more trouble than it was worth.",
+    "translation": "Лишь когда потребовалось заняться семейным делом, я понял, что попытка зарядить телефон в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "it-160-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "it-161",
+    "level": "C1",
+    "title": "Сохранить документ",
+    "text": "Had I allowed more flexibility, I might have responded better when my afternoon filled up, instead of regretting that I could not save the document.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда на вторую половину дня появились другие планы, вместо того чтобы сожалеть, что не смог сохранить документ.",
+    "phrases": [
+      {
+        "id": "it-161-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "it-162",
+    "level": "C1",
+    "title": "Открыть приложение",
+    "text": "So focused was I on trying to open the app that I failed to allow for the possibility that I could not get started on time.",
+    "translation": "Я настолько сосредоточился на попытке открыть приложение, что не учёл возможность того, что я не смог начать вовремя.",
+    "phrases": [
+      {
+        "id": "it-162-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "it-163",
+    "level": "C1",
+    "title": "Проверить почту",
+    "text": "Much as I wanted to check my email, once an unexpected problem needed attention, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось проверить почту, когда потребовалось решить неожиданную проблему, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "it-163-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "it-164",
+    "level": "C1",
+    "title": "Сменить пароль",
+    "text": "Were I to change my password despite the fact that an earlier plan ran late, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался сменить пароль, несмотря на то что предыдущее дело затянулось, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "it-164-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "it-165",
+    "level": "C1",
+    "title": "Подключить принтер",
+    "text": "Only when the day did not go as expected did I realise that trying to connect the printer just then would be more trouble than it was worth.",
+    "translation": "Лишь когда день пошёл не по плану, я понял, что попытка подключить принтер в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "it-165-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "it-166",
+    "level": "C1",
+    "title": "Перезагрузить компьютер",
+    "text": "Had I allowed more flexibility, I might have responded better when I needed a break, instead of regretting that I could not restart the computer.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда мне понадобился отдых, вместо того чтобы сожалеть, что не смог перезагрузить компьютер.",
+    "phrases": [
+      {
+        "id": "it-166-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "it-167",
+    "level": "C1",
+    "title": "Скачать фотографию",
+    "text": "So focused was I on trying to download the photo that I failed to allow for the possibility that I learned I had less time than I thought.",
+    "translation": "Я настолько сосредоточился на попытке скачать фотографию, что не учёл возможность того, что выяснилось, что у меня меньше времени, чем я думал.",
+    "phrases": [
+      {
+        "id": "it-167-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "it-168",
+    "level": "C1",
+    "title": "Отправить голосовое сообщение",
+    "text": "Much as I wanted to send a voice message, once I was called away, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось отправить голосовое сообщение, когда меня срочно вызвали, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "it-168-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "it-169",
+    "level": "C1",
+    "title": "Обновить приложение",
+    "text": "Were I to update the app despite the fact that an urgent task came up, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался обновить приложение, несмотря на то что появилось срочное дело, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "it-169-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "it-170",
+    "level": "C1",
+    "title": "Найти нужный файл",
+    "text": "Only when I had to leave early did I realise that trying to find the right file just then would be more trouble than it was worth.",
+    "translation": "Лишь когда мне пришлось уйти раньше, я понял, что попытка найти нужный файл в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "it-170-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "it-171",
+    "level": "C1",
+    "title": "Подключиться к звонку",
+    "text": "Had I allowed more flexibility, I might have responded better when the agreed time changed, instead of regretting that I could not join the online call.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда договорённое время изменилось, вместо того чтобы сожалеть, что не смог подключиться к звонку.",
+    "phrases": [
+      {
+        "id": "it-171-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "it-172",
+    "level": "C1",
+    "title": "Включить камеру",
+    "text": "So focused was I on trying to turn on the camera that I failed to allow for the possibility that I felt unwell.",
+    "translation": "Я настолько сосредоточился на попытке включить камеру, что не учёл возможность того, что я плохо себя чувствовал.",
+    "phrases": [
+      {
+        "id": "it-172-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "it-173",
+    "level": "C1",
+    "title": "Проверить заряд батареи",
+    "text": "Much as I wanted to check the battery, once my friend needed help, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось проверить заряд батареи, когда моему другу понадобилась помощь, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "it-173-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "it-174",
+    "level": "C1",
+    "title": "Сканировать код",
+    "text": "Were I to scan the code despite the fact that I got a late start, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался сканировать код, несмотря на то что я начал позже, чем собирался, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "it-174-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "it-175",
+    "level": "C1",
+    "title": "Скопировать ссылку",
+    "text": "Only when we lost an hour did I realise that trying to copy the link just then would be more trouble than it was worth.",
+    "translation": "Лишь когда мы потеряли час, я понял, что попытка скопировать ссылку в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "it-175-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "it-176",
+    "level": "C1",
+    "title": "Открыть новую вкладку",
+    "text": "Had I allowed more flexibility, I might have responded better when another task took longer than expected, instead of regretting that I could not open a new tab.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда другое дело заняло больше времени, чем ожидалось, вместо того чтобы сожалеть, что не смог открыть новую вкладку.",
+    "phrases": [
+      {
+        "id": "it-176-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "it-177",
+    "level": "C1",
+    "title": "Сделать копию фотографий",
+    "text": "So focused was I on trying to back up my photos that I failed to allow for the possibility that I ran out of time.",
+    "translation": "Я настолько сосредоточился на попытке сделать копию фотографий, что не учёл возможность того, что у меня не осталось времени.",
+    "phrases": [
+      {
+        "id": "it-177-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "it-178",
+    "level": "C1",
+    "title": "Изменить размер изображения на экране",
+    "text": "Much as I wanted to change the screen size, once I had to change my schedule, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось изменить размер изображения на экране, когда мне пришлось изменить расписание, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "it-178-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "it-179",
+    "level": "C1",
+    "title": "Проверить микрофон",
+    "text": "Were I to test the microphone despite the fact that my plans changed, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался проверить микрофон, несмотря на то что мои планы изменились, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "it-179-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "it-180",
+    "level": "C1",
+    "title": "Открыть доступ к папке",
+    "text": "Only when a new appointment came up did I realise that trying to share the folder just then would be more trouble than it was worth.",
+    "translation": "Лишь когда появилась новая встреча, я понял, что попытка открыть доступ к папке в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "it-180-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "it-181",
+    "level": "C1",
+    "title": "Удалить старые сообщения",
+    "text": "Had I allowed more flexibility, I might have responded better when the day became unexpectedly busy, instead of regretting that I could not clear the old messages.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда день неожиданно оказался загруженным, вместо того чтобы сожалеть, что не смог удалить старые сообщения.",
+    "phrases": [
+      {
+        "id": "it-181-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "it-182",
+    "level": "C1",
+    "title": "Установить программу",
+    "text": "So focused was I on trying to install the program that I failed to allow for the possibility that I received an urgent call.",
+    "translation": "Я настолько сосредоточился на попытке установить программу, что не учёл возможность того, что мне срочно позвонили.",
+    "phrases": [
+      {
+        "id": "it-182-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "it-183",
+    "level": "C1",
+    "title": "Решить проблему со входом",
+    "text": "Much as I wanted to fix the login problem, once I had other work to finish, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось решить проблему со входом, когда мне нужно было закончить другую работу, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "it-183-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "it-184",
+    "level": "C1",
+    "title": "Отключить уведомления",
+    "text": "Were I to turn off the alerts despite the fact that I forgot an earlier appointment, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался отключить уведомления, несмотря на то что я забыл о назначенной ранее встрече, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "it-184-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "it-185",
+    "level": "C2",
+    "title": "Зарядить телефон",
+    "text": "Even after an earlier plan ran late, I could still have tried to charge my phone; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как предыдущее дело затянулось, я всё ещё мог попытаться зарядить телефон; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "it-185-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "it-186",
+    "level": "C2",
+    "title": "Сохранить документ",
+    "text": "After the day did not go as expected, my insistence on trying to save the document was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как день пошёл не по плану, моё упорное желание сохранить документ объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "it-186-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "it-187",
+    "level": "C2",
+    "title": "Открыть приложение",
+    "text": "The plan to open the app looked entirely sensible until I needed a break; then its hidden assumptions became difficult to ignore.",
+    "translation": "План открыть приложение казался вполне разумным, пока мне понадобился отдых; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "it-187-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "it-188",
+    "level": "C2",
+    "title": "Проверить почту",
+    "text": "That I still wanted to check my email after I learned I had less time than I thought revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел проверить почту после того, как выяснилось, что у меня меньше времени, чем я думал, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "it-188-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "it-189",
+    "level": "C2",
+    "title": "Сменить пароль",
+    "text": "I postponed trying to change my password once I was called away, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку сменить пароль, когда меня срочно вызвали, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "it-189-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
+  },
+  {
+    "id": "it-190",
+    "level": "C2",
+    "title": "Подключить принтер",
+    "text": "Even after an urgent task came up, I could still have tried to connect the printer; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как появилось срочное дело, я всё ещё мог попытаться подключить принтер; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "it-190-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "it-191",
+    "level": "C2",
+    "title": "Перезагрузить компьютер",
+    "text": "After I had to leave early, my insistence on trying to restart the computer was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как мне пришлось уйти раньше, моё упорное желание перезагрузить компьютер объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "it-191-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "it-192",
+    "level": "C2",
+    "title": "Скачать фотографию",
+    "text": "The plan to download the photo looked entirely sensible until the agreed time changed; then its hidden assumptions became difficult to ignore.",
+    "translation": "План скачать фотографию казался вполне разумным, пока договорённое время изменилось; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "it-192-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "it-193",
+    "level": "C2",
+    "title": "Отправить голосовое сообщение",
+    "text": "That I still wanted to send a voice message after I felt unwell revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел отправить голосовое сообщение после того, как я плохо себя чувствовал, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "it-193-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "it-194",
+    "level": "C2",
+    "title": "Обновить приложение",
+    "text": "I postponed trying to update the app once my friend needed help, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку обновить приложение, когда моему другу понадобилась помощь, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "it-194-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
+  },
+  {
+    "id": "it-195",
+    "level": "C2",
+    "title": "Найти нужный файл",
+    "text": "Even after I got a late start, I could still have tried to find the right file; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как я начал позже, чем собирался, я всё ещё мог попытаться найти нужный файл; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "it-195-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "it-196",
+    "level": "C2",
+    "title": "Подключиться к звонку",
+    "text": "After we lost an hour, my insistence on trying to join the online call was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как мы потеряли час, моё упорное желание подключиться к звонку объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "it-196-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "it-197",
+    "level": "C2",
+    "title": "Включить камеру",
+    "text": "The plan to turn on the camera looked entirely sensible until another task took longer than expected; then its hidden assumptions became difficult to ignore.",
+    "translation": "План включить камеру казался вполне разумным, пока другое дело заняло больше времени, чем ожидалось; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "it-197-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "it-198",
+    "level": "C2",
+    "title": "Проверить заряд батареи",
+    "text": "That I still wanted to check the battery after I ran out of time revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел проверить заряд батареи после того, как у меня не осталось времени, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "it-198-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "it-199",
+    "level": "C2",
+    "title": "Сканировать код",
+    "text": "I postponed trying to scan the code once I had to change my schedule, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку сканировать код, когда мне пришлось изменить расписание, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "it-199-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
+  },
+  {
+    "id": "it-200",
+    "level": "C2",
+    "title": "Скопировать ссылку",
+    "text": "Even after my plans changed, I could still have tried to copy the link; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как мои планы изменились, я всё ещё мог попытаться скопировать ссылку; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "it-200-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "it-201",
+    "level": "C2",
+    "title": "Открыть новую вкладку",
+    "text": "After a new appointment came up, my insistence on trying to open a new tab was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как появилась новая встреча, моё упорное желание открыть новую вкладку объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "it-201-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "it-202",
+    "level": "C2",
+    "title": "Сделать копию фотографий",
+    "text": "The plan to back up my photos looked entirely sensible until the day became unexpectedly busy; then its hidden assumptions became difficult to ignore.",
+    "translation": "План сделать копию фотографий казался вполне разумным, пока день неожиданно оказался загруженным; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "it-202-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "it-203",
+    "level": "C2",
+    "title": "Изменить размер изображения на экране",
+    "text": "That I still wanted to change the screen size after I received an urgent call revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел изменить размер изображения на экране после того, как мне срочно позвонили, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "it-203-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "it-204",
+    "level": "C2",
+    "title": "Проверить микрофон",
+    "text": "I postponed trying to test the microphone once I had other work to finish, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку проверить микрофон, когда мне нужно было закончить другую работу, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "it-204-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
+  },
+  {
+    "id": "it-205",
+    "level": "C2",
+    "title": "Открыть доступ к папке",
+    "text": "Even after I forgot an earlier appointment, I could still have tried to share the folder; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как я забыл о назначенной ранее встрече, я всё ещё мог попытаться открыть доступ к папке; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "it-205-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "it-206",
+    "level": "C2",
+    "title": "Удалить старые сообщения",
+    "text": "After a family matter needed attention, my insistence on trying to clear the old messages was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как потребовалось заняться семейным делом, моё упорное желание удалить старые сообщения объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "it-206-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "it-207",
+    "level": "C2",
+    "title": "Установить программу",
+    "text": "The plan to install the program looked entirely sensible until my afternoon filled up; then its hidden assumptions became difficult to ignore.",
+    "translation": "План установить программу казался вполне разумным, пока на вторую половину дня появились другие планы; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "it-207-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "it-208",
+    "level": "C2",
+    "title": "Решить проблему со входом",
+    "text": "That I still wanted to fix the login problem after I could not get started on time revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел решить проблему со входом после того, как я не смог начать вовремя, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "it-208-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "it-209",
+    "level": "C2",
+    "title": "Отключить уведомления",
+    "text": "I postponed trying to turn off the alerts once an unexpected problem needed attention, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку отключить уведомления, когда потребовалось решить неожиданную проблему, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "it-209-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
   }
 ]

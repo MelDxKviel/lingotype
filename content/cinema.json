@@ -970,5 +970,2405 @@
         "example": "The host was so solicitous of our comfort that we hardly dared move a cushion."
       }
     ]
+  },
+  {
+    "id": "film-60",
+    "level": "A1",
+    "title": "Посмотреть короткий фильм",
+    "text": "I want to watch a short film today.",
+    "translation": "Я хочу посмотреть короткий фильм сегодня.",
+    "phrases": [
+      {
+        "id": "film-60-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "film-61",
+    "level": "A1",
+    "title": "Выбрать комедию",
+    "text": "I need to choose a comedy today.",
+    "translation": "Мне нужно выбрать комедию сегодня.",
+    "phrases": [
+      {
+        "id": "film-61-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "film-62",
+    "level": "A1",
+    "title": "Купить два билета в кино",
+    "text": "I can buy two cinema tickets today.",
+    "translation": "Я могу купить два билета в кино сегодня.",
+    "phrases": [
+      {
+        "id": "film-62-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "film-63",
+    "level": "A1",
+    "title": "Найти наши места",
+    "text": "I would like to find our seats tomorrow.",
+    "translation": "Я хотел бы найти наши места завтра.",
+    "phrases": [
+      {
+        "id": "film-63-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "film-64",
+    "level": "A1",
+    "title": "Посмотреть трейлер",
+    "text": "I am ready to watch the trailer now.",
+    "translation": "Я готов посмотреть трейлер сейчас.",
+    "phrases": [
+      {
+        "id": "film-64-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "film-65",
+    "level": "A1",
+    "title": "Поставить серию на паузу",
+    "text": "I want to pause the episode today.",
+    "translation": "Я хочу поставить серию на паузу сегодня.",
+    "phrases": [
+      {
+        "id": "film-65-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "film-66",
+    "level": "A1",
+    "title": "Прочитать субтитры",
+    "text": "I need to read the subtitles today.",
+    "translation": "Мне нужно прочитать субтитры сегодня.",
+    "phrases": [
+      {
+        "id": "film-66-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "film-67",
+    "level": "A1",
+    "title": "Обсудить концовку",
+    "text": "I can discuss the ending today.",
+    "translation": "Я могу обсудить концовку сегодня.",
+    "phrases": [
+      {
+        "id": "film-67-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "film-68",
+    "level": "A1",
+    "title": "Встретиться с актёрами",
+    "text": "I would like to meet the actors tomorrow.",
+    "translation": "Я хотел бы встретиться с актёрами завтра.",
+    "phrases": [
+      {
+        "id": "film-68-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "film-69",
+    "level": "A1",
+    "title": "Посмотреть первую сцену",
+    "text": "I am ready to watch the first scene now.",
+    "translation": "Я готов посмотреть первую сцену сейчас.",
+    "phrases": [
+      {
+        "id": "film-69-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "film-70",
+    "level": "A1",
+    "title": "Выбрать документальный фильм",
+    "text": "I want to choose a documentary today.",
+    "translation": "Я хочу выбрать документальный фильм сегодня.",
+    "phrases": [
+      {
+        "id": "film-70-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "film-71",
+    "level": "A1",
+    "title": "Посетить кинофестиваль",
+    "text": "I need to visit the film festival today.",
+    "translation": "Мне нужно посетить кинофестиваль сегодня.",
+    "phrases": [
+      {
+        "id": "film-71-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "film-72",
+    "level": "A1",
+    "title": "Прочитать рецензию на фильм",
+    "text": "I can read a film review today.",
+    "translation": "Я могу прочитать рецензию на фильм сегодня.",
+    "phrases": [
+      {
+        "id": "film-72-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "film-73",
+    "level": "A1",
+    "title": "Пригласить друга в кино",
+    "text": "I would like to invite a friend to the cinema tomorrow.",
+    "translation": "Я хотел бы пригласить друга в кино завтра.",
+    "phrases": [
+      {
+        "id": "film-73-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "film-74",
+    "level": "A1",
+    "title": "Посмотреть последнюю серию",
+    "text": "I am ready to watch the final episode now.",
+    "translation": "Я готов посмотреть последнюю серию сейчас.",
+    "phrases": [
+      {
+        "id": "film-74-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "film-75",
+    "level": "A1",
+    "title": "Выбрать место ближе к экрану",
+    "text": "I want to pick a seat near the front today.",
+    "translation": "Я хочу выбрать место ближе к экрану сегодня.",
+    "phrases": [
+      {
+        "id": "film-75-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "film-76",
+    "level": "A1",
+    "title": "Посмотреть новую драму",
+    "text": "I need to see the new drama today.",
+    "translation": "Мне нужно посмотреть новую драму сегодня.",
+    "phrases": [
+      {
+        "id": "film-76-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "film-77",
+    "level": "A1",
+    "title": "Сравнить две версии",
+    "text": "I can compare two versions today.",
+    "translation": "Я могу сравнить две версии сегодня.",
+    "phrases": [
+      {
+        "id": "film-77-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "film-78",
+    "level": "A1",
+    "title": "Послушать саундтрек",
+    "text": "I would like to listen to the soundtrack tomorrow.",
+    "translation": "Я хотел бы послушать саундтрек завтра.",
+    "phrases": [
+      {
+        "id": "film-78-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "film-79",
+    "level": "A1",
+    "title": "Посмотреть интервью с режиссёром",
+    "text": "I am ready to watch the director's interview now.",
+    "translation": "Я готов посмотреть интервью с режиссёром сейчас.",
+    "phrases": [
+      {
+        "id": "film-79-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "film-80",
+    "level": "A1",
+    "title": "Найти вход в кинотеатр",
+    "text": "I want to find the cinema entrance today.",
+    "translation": "Я хочу найти вход в кинотеатр сегодня.",
+    "phrases": [
+      {
+        "id": "film-80-p1",
+        "text": "want to",
+        "meaning": "хочу",
+        "note": "Want to + глагол обозначает желание что-то сделать.",
+        "example": "I want to read tonight."
+      }
+    ]
+  },
+  {
+    "id": "film-81",
+    "level": "A1",
+    "title": "Заказать напиток перед фильмом",
+    "text": "I need to order a drink before the film today.",
+    "translation": "Мне нужно заказать напиток перед фильмом сегодня.",
+    "phrases": [
+      {
+        "id": "film-81-p1",
+        "text": "need to",
+        "meaning": "нужно",
+        "note": "Need to + глагол говорит о необходимости.",
+        "example": "I need to go home."
+      }
+    ]
+  },
+  {
+    "id": "film-82",
+    "level": "A1",
+    "title": "Посмотреть старый мультфильм",
+    "text": "I can watch an old cartoon today.",
+    "translation": "Я могу посмотреть старый мультфильм сегодня.",
+    "phrases": [
+      {
+        "id": "film-82-p1",
+        "text": "I can",
+        "meaning": "я могу",
+        "note": "Can ставят перед глаголом без частицы to.",
+        "example": "I can cook dinner."
+      }
+    ]
+  },
+  {
+    "id": "film-83",
+    "level": "A1",
+    "title": "Поговорить о персонажах",
+    "text": "I would like to talk about the characters tomorrow.",
+    "translation": "Я хотел бы поговорить о персонажах завтра.",
+    "phrases": [
+      {
+        "id": "film-83-p1",
+        "text": "would like to",
+        "meaning": "хотел бы",
+        "note": "Would like to звучит вежливее, чем want to.",
+        "example": "I would like to sit here."
+      }
+    ]
+  },
+  {
+    "id": "film-84",
+    "level": "A1",
+    "title": "Посмотреть финальные титры",
+    "text": "I am ready to see the closing credits now.",
+    "translation": "Я готов посмотреть финальные титры сейчас.",
+    "phrases": [
+      {
+        "id": "film-84-p1",
+        "text": "ready to",
+        "meaning": "готов",
+        "note": "Ready to + глагол означает готовность к действию.",
+        "example": "I am ready to start now."
+      }
+    ]
+  },
+  {
+    "id": "film-85",
+    "level": "A2",
+    "title": "Посмотреть короткий фильм",
+    "text": "I wanted to watch a short film, but my friend needed help.",
+    "translation": "Я хотел посмотреть короткий фильм, но моему другу понадобилась помощь.",
+    "phrases": [
+      {
+        "id": "film-85-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "film-86",
+    "level": "A2",
+    "title": "Выбрать комедию",
+    "text": "I was going to choose a comedy, but I got a late start.",
+    "translation": "Я собирался выбрать комедию, но я начал позже, чем собирался.",
+    "phrases": [
+      {
+        "id": "film-86-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "film-87",
+    "level": "A2",
+    "title": "Купить два билета в кино",
+    "text": "Could I buy two cinema tickets later, since we lost an hour?",
+    "translation": "Могу я купить два билета в кино позже, раз мы потеряли час?",
+    "phrases": [
+      {
+        "id": "film-87-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "film-88",
+    "level": "A2",
+    "title": "Найти наши места",
+    "text": "I tried to find our seats, but another task took longer than expected.",
+    "translation": "Я попытался найти наши места, но другое дело заняло больше времени, чем ожидалось.",
+    "phrases": [
+      {
+        "id": "film-88-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "film-89",
+    "level": "A2",
+    "title": "Посмотреть трейлер",
+    "text": "I hoped to watch the trailer, but I ran out of time.",
+    "translation": "Я надеялся посмотреть трейлер, но у меня не осталось времени.",
+    "phrases": [
+      {
+        "id": "film-89-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "film-90",
+    "level": "A2",
+    "title": "Поставить серию на паузу",
+    "text": "I wanted to pause the episode, but I had to change my schedule.",
+    "translation": "Я хотел поставить серию на паузу, но мне пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "film-90-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "film-91",
+    "level": "A2",
+    "title": "Прочитать субтитры",
+    "text": "I was going to read the subtitles, but my plans changed.",
+    "translation": "Я собирался прочитать субтитры, но мои планы изменились.",
+    "phrases": [
+      {
+        "id": "film-91-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "film-92",
+    "level": "A2",
+    "title": "Обсудить концовку",
+    "text": "Could I discuss the ending later, since a new appointment came up?",
+    "translation": "Могу я обсудить концовку позже, раз появилась новая встреча?",
+    "phrases": [
+      {
+        "id": "film-92-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "film-93",
+    "level": "A2",
+    "title": "Встретиться с актёрами",
+    "text": "I tried to meet the actors, but the day became unexpectedly busy.",
+    "translation": "Я попытался встретиться с актёрами, но день неожиданно оказался загруженным.",
+    "phrases": [
+      {
+        "id": "film-93-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "film-94",
+    "level": "A2",
+    "title": "Посмотреть первую сцену",
+    "text": "I hoped to watch the first scene, but I received an urgent call.",
+    "translation": "Я надеялся посмотреть первую сцену, но мне срочно позвонили.",
+    "phrases": [
+      {
+        "id": "film-94-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "film-95",
+    "level": "A2",
+    "title": "Выбрать документальный фильм",
+    "text": "I wanted to choose a documentary, but I had other work to finish.",
+    "translation": "Я хотел выбрать документальный фильм, но мне нужно было закончить другую работу.",
+    "phrases": [
+      {
+        "id": "film-95-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "film-96",
+    "level": "A2",
+    "title": "Посетить кинофестиваль",
+    "text": "I was going to visit the film festival, but I forgot an earlier appointment.",
+    "translation": "Я собирался посетить кинофестиваль, но я забыл о назначенной ранее встрече.",
+    "phrases": [
+      {
+        "id": "film-96-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "film-97",
+    "level": "A2",
+    "title": "Прочитать рецензию на фильм",
+    "text": "Could I read a film review later, since a family matter needed attention?",
+    "translation": "Могу я прочитать рецензию на фильм позже, раз потребовалось заняться семейным делом?",
+    "phrases": [
+      {
+        "id": "film-97-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "film-98",
+    "level": "A2",
+    "title": "Пригласить друга в кино",
+    "text": "I tried to invite a friend to the cinema, but my afternoon filled up.",
+    "translation": "Я попытался пригласить друга в кино, но на вторую половину дня появились другие планы.",
+    "phrases": [
+      {
+        "id": "film-98-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "film-99",
+    "level": "A2",
+    "title": "Посмотреть последнюю серию",
+    "text": "I hoped to watch the final episode, but I could not get started on time.",
+    "translation": "Я надеялся посмотреть последнюю серию, но я не смог начать вовремя.",
+    "phrases": [
+      {
+        "id": "film-99-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "film-100",
+    "level": "A2",
+    "title": "Выбрать место ближе к экрану",
+    "text": "I wanted to pick a seat near the front, but an unexpected problem needed attention.",
+    "translation": "Я хотел выбрать место ближе к экрану, но потребовалось решить неожиданную проблему.",
+    "phrases": [
+      {
+        "id": "film-100-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "film-101",
+    "level": "A2",
+    "title": "Посмотреть новую драму",
+    "text": "I was going to see the new drama, but an earlier plan ran late.",
+    "translation": "Я собирался посмотреть новую драму, но предыдущее дело затянулось.",
+    "phrases": [
+      {
+        "id": "film-101-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "film-102",
+    "level": "A2",
+    "title": "Сравнить две версии",
+    "text": "Could I compare two versions later, since the day did not go as expected?",
+    "translation": "Могу я сравнить две версии позже, раз день пошёл не по плану?",
+    "phrases": [
+      {
+        "id": "film-102-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "film-103",
+    "level": "A2",
+    "title": "Послушать саундтрек",
+    "text": "I tried to listen to the soundtrack, but I needed a break.",
+    "translation": "Я попытался послушать саундтрек, но мне понадобился отдых.",
+    "phrases": [
+      {
+        "id": "film-103-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "film-104",
+    "level": "A2",
+    "title": "Посмотреть интервью с режиссёром",
+    "text": "I hoped to watch the director's interview, but I learned I had less time than I thought.",
+    "translation": "Я надеялся посмотреть интервью с режиссёром, но выяснилось, что у меня меньше времени, чем я думал.",
+    "phrases": [
+      {
+        "id": "film-104-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "film-105",
+    "level": "A2",
+    "title": "Найти вход в кинотеатр",
+    "text": "I wanted to find the cinema entrance, but I was called away.",
+    "translation": "Я хотел найти вход в кинотеатр, но меня срочно вызвали.",
+    "phrases": [
+      {
+        "id": "film-105-p1",
+        "text": "wanted to",
+        "meaning": "хотел",
+        "note": "Wanted to указывает на желание в прошлом; после него идёт глагол.",
+        "example": "I wanted to call you."
+      }
+    ]
+  },
+  {
+    "id": "film-106",
+    "level": "A2",
+    "title": "Заказать напиток перед фильмом",
+    "text": "I was going to order a drink before the film, but an urgent task came up.",
+    "translation": "Я собирался заказать напиток перед фильмом, но появилось срочное дело.",
+    "phrases": [
+      {
+        "id": "film-106-p1",
+        "text": "was going to",
+        "meaning": "собирался",
+        "note": "Was going to описывает прежнее намерение.",
+        "example": "I was going to walk home."
+      }
+    ]
+  },
+  {
+    "id": "film-107",
+    "level": "A2",
+    "title": "Посмотреть старый мультфильм",
+    "text": "Could I watch an old cartoon later, since I had to leave early?",
+    "translation": "Могу я посмотреть старый мультфильм позже, раз мне пришлось уйти раньше?",
+    "phrases": [
+      {
+        "id": "film-107-p1",
+        "text": "Could I",
+        "meaning": "мог бы я",
+        "note": "Could I — вежливый способ спросить разрешения.",
+        "example": "Could I leave after lunch?"
+      }
+    ]
+  },
+  {
+    "id": "film-108",
+    "level": "A2",
+    "title": "Поговорить о персонажах",
+    "text": "I tried to talk about the characters, but the agreed time changed.",
+    "translation": "Я попытался поговорить о персонажах, но договорённое время изменилось.",
+    "phrases": [
+      {
+        "id": "film-108-p1",
+        "text": "tried to",
+        "meaning": "попытался",
+        "note": "Tried to описывает попытку выполнить действие.",
+        "example": "I tried to open the door."
+      }
+    ]
+  },
+  {
+    "id": "film-109",
+    "level": "A2",
+    "title": "Посмотреть финальные титры",
+    "text": "I hoped to see the closing credits, but I felt unwell.",
+    "translation": "Я надеялся посмотреть финальные титры, но я плохо себя чувствовал.",
+    "phrases": [
+      {
+        "id": "film-109-p1",
+        "text": "hoped to",
+        "meaning": "надеялся",
+        "note": "Hoped to обозначает надежду на действие в прошлом.",
+        "example": "I hoped to see her there."
+      }
+    ]
+  },
+  {
+    "id": "film-110",
+    "level": "B1",
+    "title": "Посмотреть короткий фильм",
+    "text": "I was about to watch a short film when I ran out of time, so I put the plan on hold.",
+    "translation": "Я уже собирался посмотреть короткий фильм, когда у меня не осталось времени, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "film-110-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "film-111",
+    "level": "B1",
+    "title": "Выбрать комедию",
+    "text": "I had planned to choose a comedy, but I had to change my schedule, and in the end I decided to wait.",
+    "translation": "Я планировал выбрать комедию, но мне пришлось изменить расписание, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "film-111-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "film-112",
+    "level": "B1",
+    "title": "Купить два билета в кино",
+    "text": "I meant to buy two cinema tickets, but my plans changed, and looking back I should have checked first.",
+    "translation": "Я намеревался купить два билета в кино, но мои планы изменились, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "film-112-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "film-113",
+    "level": "B1",
+    "title": "Найти наши места",
+    "text": "I put off my plan to find our seats after a new appointment came up because waiting seemed sensible.",
+    "translation": "Я отложил план найти наши места после того, как появилась новая встреча, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "film-113-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "film-114",
+    "level": "B1",
+    "title": "Посмотреть трейлер",
+    "text": "I could not watch the trailer as planned because the day became unexpectedly busy, so I had to change my schedule.",
+    "translation": "Мне не удалось посмотреть трейлер, как я планировал, потому что день неожиданно оказался загруженным, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "film-114-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "film-115",
+    "level": "B1",
+    "title": "Поставить серию на паузу",
+    "text": "I was about to pause the episode when I received an urgent call, so I put the plan on hold.",
+    "translation": "Я уже собирался поставить серию на паузу, когда мне срочно позвонили, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "film-115-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "film-116",
+    "level": "B1",
+    "title": "Прочитать субтитры",
+    "text": "I had planned to read the subtitles, but I had other work to finish, and in the end I decided to wait.",
+    "translation": "Я планировал прочитать субтитры, но мне нужно было закончить другую работу, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "film-116-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "film-117",
+    "level": "B1",
+    "title": "Обсудить концовку",
+    "text": "I meant to discuss the ending, but I forgot an earlier appointment, and looking back I should have checked first.",
+    "translation": "Я намеревался обсудить концовку, но я забыл о назначенной ранее встрече, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "film-117-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "film-118",
+    "level": "B1",
+    "title": "Встретиться с актёрами",
+    "text": "I put off my plan to meet the actors after a family matter needed attention because waiting seemed sensible.",
+    "translation": "Я отложил план встретиться с актёрами после того, как потребовалось заняться семейным делом, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "film-118-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "film-119",
+    "level": "B1",
+    "title": "Посмотреть первую сцену",
+    "text": "I could not watch the first scene as planned because my afternoon filled up, so I had to change my schedule.",
+    "translation": "Мне не удалось посмотреть первую сцену, как я планировал, потому что на вторую половину дня появились другие планы, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "film-119-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "film-120",
+    "level": "B1",
+    "title": "Выбрать документальный фильм",
+    "text": "I was about to choose a documentary when I could not get started on time, so I put the plan on hold.",
+    "translation": "Я уже собирался выбрать документальный фильм, когда я не смог начать вовремя, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "film-120-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "film-121",
+    "level": "B1",
+    "title": "Посетить кинофестиваль",
+    "text": "I had planned to visit the film festival, but an unexpected problem needed attention, and in the end I decided to wait.",
+    "translation": "Я планировал посетить кинофестиваль, но потребовалось решить неожиданную проблему, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "film-121-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "film-122",
+    "level": "B1",
+    "title": "Прочитать рецензию на фильм",
+    "text": "I meant to read a film review, but an earlier plan ran late, and looking back I should have checked first.",
+    "translation": "Я намеревался прочитать рецензию на фильм, но предыдущее дело затянулось, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "film-122-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "film-123",
+    "level": "B1",
+    "title": "Пригласить друга в кино",
+    "text": "I put off my plan to invite a friend to the cinema after the day did not go as expected because waiting seemed sensible.",
+    "translation": "Я отложил план пригласить друга в кино после того, как день пошёл не по плану, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "film-123-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "film-124",
+    "level": "B1",
+    "title": "Посмотреть последнюю серию",
+    "text": "I could not watch the final episode as planned because I needed a break, so I had to change my schedule.",
+    "translation": "Мне не удалось посмотреть последнюю серию, как я планировал, потому что мне понадобился отдых, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "film-124-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "film-125",
+    "level": "B1",
+    "title": "Выбрать место ближе к экрану",
+    "text": "I was about to pick a seat near the front when I learned I had less time than I thought, so I put the plan on hold.",
+    "translation": "Я уже собирался выбрать место ближе к экрану, когда выяснилось, что у меня меньше времени, чем я думал, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "film-125-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "film-126",
+    "level": "B1",
+    "title": "Посмотреть новую драму",
+    "text": "I had planned to see the new drama, but I was called away, and in the end I decided to wait.",
+    "translation": "Я планировал посмотреть новую драму, но меня срочно вызвали, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "film-126-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "film-127",
+    "level": "B1",
+    "title": "Сравнить две версии",
+    "text": "I meant to compare two versions, but an urgent task came up, and looking back I should have checked first.",
+    "translation": "Я намеревался сравнить две версии, но появилось срочное дело, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "film-127-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "film-128",
+    "level": "B1",
+    "title": "Послушать саундтрек",
+    "text": "I put off my plan to listen to the soundtrack after I had to leave early because waiting seemed sensible.",
+    "translation": "Я отложил план послушать саундтрек после того, как мне пришлось уйти раньше, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "film-128-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "film-129",
+    "level": "B1",
+    "title": "Посмотреть интервью с режиссёром",
+    "text": "I could not watch the director's interview as planned because the agreed time changed, so I had to change my schedule.",
+    "translation": "Мне не удалось посмотреть интервью с режиссёром, как я планировал, потому что договорённое время изменилось, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "film-129-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "film-130",
+    "level": "B1",
+    "title": "Найти вход в кинотеатр",
+    "text": "I was about to find the cinema entrance when I felt unwell, so I put the plan on hold.",
+    "translation": "Я уже собирался найти вход в кинотеатр, когда я плохо себя чувствовал, поэтому отложил этот план.",
+    "phrases": [
+      {
+        "id": "film-130-p1",
+        "text": "was about to",
+        "meaning": "уже собирался",
+        "note": "Be about to подчёркивает, что действие вот-вот должно было начаться.",
+        "example": "I was about to leave when she called."
+      }
+    ]
+  },
+  {
+    "id": "film-131",
+    "level": "B1",
+    "title": "Заказать напиток перед фильмом",
+    "text": "I had planned to order a drink before the film, but my friend needed help, and in the end I decided to wait.",
+    "translation": "Я планировал заказать напиток перед фильмом, но моему другу понадобилась помощь, и в конце концов решил подождать.",
+    "phrases": [
+      {
+        "id": "film-131-p1",
+        "text": "in the end",
+        "meaning": "в конце концов",
+        "note": "In the end вводит итог после изменений или размышлений.",
+        "example": "In the end, we took the train."
+      }
+    ]
+  },
+  {
+    "id": "film-132",
+    "level": "B1",
+    "title": "Посмотреть старый мультфильм",
+    "text": "I meant to watch an old cartoon, but I got a late start, and looking back I should have checked first.",
+    "translation": "Я намеревался посмотреть старый мультфильм, но я начал позже, чем собирался, и теперь понимаю, что стоило всё проверить заранее.",
+    "phrases": [
+      {
+        "id": "film-132-p1",
+        "text": "looking back",
+        "meaning": "оглядываясь назад",
+        "note": "Looking back вводит оценку прошлого с нынешней точки зрения.",
+        "example": "Looking back, I was too impatient."
+      }
+    ]
+  },
+  {
+    "id": "film-133",
+    "level": "B1",
+    "title": "Поговорить о персонажах",
+    "text": "I put off my plan to talk about the characters after we lost an hour because waiting seemed sensible.",
+    "translation": "Я отложил план поговорить о персонажах после того, как мы потеряли час, потому что подождать казалось разумным.",
+    "phrases": [
+      {
+        "id": "film-133-p1",
+        "text": "put off",
+        "meaning": "отложил",
+        "note": "Put off означает перенести действие на более позднее время.",
+        "example": "We put off the trip until Friday."
+      }
+    ]
+  },
+  {
+    "id": "film-134",
+    "level": "B1",
+    "title": "Посмотреть финальные титры",
+    "text": "I could not see the closing credits as planned because another task took longer than expected, so I had to change my schedule.",
+    "translation": "Мне не удалось посмотреть финальные титры, как я планировал, потому что другое дело заняло больше времени, чем ожидалось, поэтому пришлось изменить расписание.",
+    "phrases": [
+      {
+        "id": "film-134-p1",
+        "text": "as planned",
+        "meaning": "как было запланировано",
+        "note": "As planned сравнивает результат с первоначальным планом.",
+        "example": "The meeting went ahead as planned."
+      }
+    ]
+  },
+  {
+    "id": "film-135",
+    "level": "B2",
+    "title": "Посмотреть короткий фильм",
+    "text": "Although I intended to watch a short film, I reconsidered when the day became unexpectedly busy, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался посмотреть короткий фильм, я передумал, когда день неожиданно оказался загруженным, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "film-135-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "film-136",
+    "level": "B2",
+    "title": "Выбрать комедию",
+    "text": "I would have tried to choose a comedy if the timing had worked; once I received an urgent call, that option was no longer practical.",
+    "translation": "Я бы попытался выбрать комедию, если бы время подошло; когда мне срочно позвонили, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "film-136-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "film-137",
+    "level": "B2",
+    "title": "Купить два билета в кино",
+    "text": "I had every intention of trying to buy two cinema tickets, yet I had other work to finish, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался купить два билета в кино, но мне нужно было закончить другую работу, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "film-137-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "film-138",
+    "level": "B2",
+    "title": "Найти наши места",
+    "text": "Rather than find our seats immediately, I waited after I forgot an earlier appointment, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу найти наши места, я подождал после того, как я забыл о назначенной ранее встрече: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "film-138-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "film-139",
+    "level": "B2",
+    "title": "Посмотреть трейлер",
+    "text": "The plan to watch the trailer seemed reasonable at first; however, when a family matter needed attention, its timing became difficult to justify.",
+    "translation": "План посмотреть трейлер сначала казался разумным; однако, когда потребовалось заняться семейным делом, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "film-139-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "film-140",
+    "level": "B2",
+    "title": "Поставить серию на паузу",
+    "text": "Although I intended to pause the episode, I reconsidered when my afternoon filled up, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался поставить серию на паузу, я передумал, когда на вторую половину дня появились другие планы, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "film-140-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "film-141",
+    "level": "B2",
+    "title": "Прочитать субтитры",
+    "text": "I would have tried to read the subtitles if the timing had worked; once I could not get started on time, that option was no longer practical.",
+    "translation": "Я бы попытался прочитать субтитры, если бы время подошло; когда я не смог начать вовремя, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "film-141-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "film-142",
+    "level": "B2",
+    "title": "Обсудить концовку",
+    "text": "I had every intention of trying to discuss the ending, yet an unexpected problem needed attention, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался обсудить концовку, но потребовалось решить неожиданную проблему, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "film-142-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "film-143",
+    "level": "B2",
+    "title": "Встретиться с актёрами",
+    "text": "Rather than meet the actors immediately, I waited after an earlier plan ran late, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу встретиться с актёрами, я подождал после того, как предыдущее дело затянулось: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "film-143-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "film-144",
+    "level": "B2",
+    "title": "Посмотреть первую сцену",
+    "text": "The plan to watch the first scene seemed reasonable at first; however, when the day did not go as expected, its timing became difficult to justify.",
+    "translation": "План посмотреть первую сцену сначала казался разумным; однако, когда день пошёл не по плану, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "film-144-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "film-145",
+    "level": "B2",
+    "title": "Выбрать документальный фильм",
+    "text": "Although I intended to choose a documentary, I reconsidered when I needed a break, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался выбрать документальный фильм, я передумал, когда мне понадобился отдых, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "film-145-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "film-146",
+    "level": "B2",
+    "title": "Посетить кинофестиваль",
+    "text": "I would have tried to visit the film festival if the timing had worked; once I learned I had less time than I thought, that option was no longer practical.",
+    "translation": "Я бы попытался посетить кинофестиваль, если бы время подошло; когда выяснилось, что у меня меньше времени, чем я думал, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "film-146-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "film-147",
+    "level": "B2",
+    "title": "Прочитать рецензию на фильм",
+    "text": "I had every intention of trying to read a film review, yet I was called away, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался прочитать рецензию на фильм, но меня срочно вызвали, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "film-147-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "film-148",
+    "level": "B2",
+    "title": "Пригласить друга в кино",
+    "text": "Rather than invite a friend to the cinema immediately, I waited after an urgent task came up, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу пригласить друга в кино, я подождал после того, как появилось срочное дело: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "film-148-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "film-149",
+    "level": "B2",
+    "title": "Посмотреть последнюю серию",
+    "text": "The plan to watch the final episode seemed reasonable at first; however, when I had to leave early, its timing became difficult to justify.",
+    "translation": "План посмотреть последнюю серию сначала казался разумным; однако, когда мне пришлось уйти раньше, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "film-149-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "film-150",
+    "level": "B2",
+    "title": "Выбрать место ближе к экрану",
+    "text": "Although I intended to pick a seat near the front, I reconsidered when the agreed time changed, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался выбрать место ближе к экрану, я передумал, когда договорённое время изменилось, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "film-150-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "film-151",
+    "level": "B2",
+    "title": "Посмотреть новую драму",
+    "text": "I would have tried to see the new drama if the timing had worked; once I felt unwell, that option was no longer practical.",
+    "translation": "Я бы попытался посмотреть новую драму, если бы время подошло; когда я плохо себя чувствовал, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "film-151-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "film-152",
+    "level": "B2",
+    "title": "Сравнить две версии",
+    "text": "I had every intention of trying to compare two versions, yet my friend needed help, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался сравнить две версии, но моему другу понадобилась помощь, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "film-152-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "film-153",
+    "level": "B2",
+    "title": "Послушать саундтрек",
+    "text": "Rather than listen to the soundtrack immediately, I waited after I got a late start, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу послушать саундтрек, я подождал после того, как я начал позже, чем собирался: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "film-153-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "film-154",
+    "level": "B2",
+    "title": "Посмотреть интервью с режиссёром",
+    "text": "The plan to watch the director's interview seemed reasonable at first; however, when we lost an hour, its timing became difficult to justify.",
+    "translation": "План посмотреть интервью с режиссёром сначала казался разумным; однако, когда мы потеряли час, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "film-154-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "film-155",
+    "level": "B2",
+    "title": "Найти вход в кинотеатр",
+    "text": "Although I intended to find the cinema entrance, I reconsidered when another task took longer than expected, since the original plan no longer made sense.",
+    "translation": "Хотя я собирался найти вход в кинотеатр, я передумал, когда другое дело заняло больше времени, чем ожидалось, поскольку первоначальный план потерял смысл.",
+    "phrases": [
+      {
+        "id": "film-155-p1",
+        "text": "no longer made sense",
+        "meaning": "больше не имел смысла",
+        "note": "No longer означает прекращение прежнего состояния; made sense — имел смысл.",
+        "example": "The old route no longer made sense."
+      }
+    ]
+  },
+  {
+    "id": "film-156",
+    "level": "B2",
+    "title": "Заказать напиток перед фильмом",
+    "text": "I would have tried to order a drink before the film if the timing had worked; once I ran out of time, that option was no longer practical.",
+    "translation": "Я бы попытался заказать напиток перед фильмом, если бы время подошло; когда у меня не осталось времени, такой вариант перестал быть практичным.",
+    "phrases": [
+      {
+        "id": "film-156-p1",
+        "text": "would have tried",
+        "meaning": "попытался бы",
+        "note": "Would have + причастие описывает нереализованную возможность в прошлом.",
+        "example": "I would have tried again with more time."
+      }
+    ]
+  },
+  {
+    "id": "film-157",
+    "level": "B2",
+    "title": "Посмотреть старый мультфильм",
+    "text": "I had every intention of trying to watch an old cartoon, yet I had to change my schedule, which forced me to weigh the cost of waiting.",
+    "translation": "Я твёрдо намеревался посмотреть старый мультфильм, но мне пришлось изменить расписание, и мне пришлось оценить цену ожидания.",
+    "phrases": [
+      {
+        "id": "film-157-p1",
+        "text": "every intention of",
+        "meaning": "твёрдое намерение",
+        "note": "Have every intention of подчёркивает серьёзность намерения; после of нужен герундий.",
+        "example": "She has every intention of returning."
+      }
+    ]
+  },
+  {
+    "id": "film-158",
+    "level": "B2",
+    "title": "Поговорить о персонажах",
+    "text": "Rather than talk about the characters immediately, I waited after my plans changed, because rushing would have solved very little.",
+    "translation": "Вместо того чтобы сразу поговорить о персонажах, я подождал после того, как мои планы изменились: поспешность мало что решила бы.",
+    "phrases": [
+      {
+        "id": "film-158-p1",
+        "text": "Rather than",
+        "meaning": "вместо того чтобы",
+        "note": "Rather than сопоставляет выбранное действие с отвергнутым вариантом.",
+        "example": "Rather than argue, we listened."
+      }
+    ]
+  },
+  {
+    "id": "film-159",
+    "level": "B2",
+    "title": "Посмотреть финальные титры",
+    "text": "The plan to see the closing credits seemed reasonable at first; however, when a new appointment came up, its timing became difficult to justify.",
+    "translation": "План посмотреть финальные титры сначала казался разумным; однако, когда появилась новая встреча, выбранное время стало трудно оправдать.",
+    "phrases": [
+      {
+        "id": "film-159-p1",
+        "text": "at first",
+        "meaning": "сначала",
+        "note": "At first означает первоначальную оценку, которая позже изменилась.",
+        "example": "At first, the task seemed easy."
+      }
+    ]
+  },
+  {
+    "id": "film-160",
+    "level": "C1",
+    "title": "Посмотреть короткий фильм",
+    "text": "Only when a family matter needed attention did I realise that trying to watch a short film just then would be more trouble than it was worth.",
+    "translation": "Лишь когда потребовалось заняться семейным делом, я понял, что попытка посмотреть короткий фильм в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "film-160-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "film-161",
+    "level": "C1",
+    "title": "Выбрать комедию",
+    "text": "Had I allowed more flexibility, I might have responded better when my afternoon filled up, instead of regretting that I could not choose a comedy.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда на вторую половину дня появились другие планы, вместо того чтобы сожалеть, что не смог выбрать комедию.",
+    "phrases": [
+      {
+        "id": "film-161-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "film-162",
+    "level": "C1",
+    "title": "Купить два билета в кино",
+    "text": "So focused was I on trying to buy two cinema tickets that I failed to allow for the possibility that I could not get started on time.",
+    "translation": "Я настолько сосредоточился на попытке купить два билета в кино, что не учёл возможность того, что я не смог начать вовремя.",
+    "phrases": [
+      {
+        "id": "film-162-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "film-163",
+    "level": "C1",
+    "title": "Найти наши места",
+    "text": "Much as I wanted to find our seats, once an unexpected problem needed attention, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось найти наши места, когда потребовалось решить неожиданную проблему, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "film-163-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "film-164",
+    "level": "C1",
+    "title": "Посмотреть трейлер",
+    "text": "Were I to watch the trailer despite the fact that an earlier plan ran late, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался посмотреть трейлер, несмотря на то что предыдущее дело затянулось, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "film-164-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "film-165",
+    "level": "C1",
+    "title": "Поставить серию на паузу",
+    "text": "Only when the day did not go as expected did I realise that trying to pause the episode just then would be more trouble than it was worth.",
+    "translation": "Лишь когда день пошёл не по плану, я понял, что попытка поставить серию на паузу в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "film-165-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "film-166",
+    "level": "C1",
+    "title": "Прочитать субтитры",
+    "text": "Had I allowed more flexibility, I might have responded better when I needed a break, instead of regretting that I could not read the subtitles.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда мне понадобился отдых, вместо того чтобы сожалеть, что не смог прочитать субтитры.",
+    "phrases": [
+      {
+        "id": "film-166-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "film-167",
+    "level": "C1",
+    "title": "Обсудить концовку",
+    "text": "So focused was I on trying to discuss the ending that I failed to allow for the possibility that I learned I had less time than I thought.",
+    "translation": "Я настолько сосредоточился на попытке обсудить концовку, что не учёл возможность того, что выяснилось, что у меня меньше времени, чем я думал.",
+    "phrases": [
+      {
+        "id": "film-167-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "film-168",
+    "level": "C1",
+    "title": "Встретиться с актёрами",
+    "text": "Much as I wanted to meet the actors, once I was called away, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось встретиться с актёрами, когда меня срочно вызвали, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "film-168-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "film-169",
+    "level": "C1",
+    "title": "Посмотреть первую сцену",
+    "text": "Were I to watch the first scene despite the fact that an urgent task came up, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался посмотреть первую сцену, несмотря на то что появилось срочное дело, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "film-169-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "film-170",
+    "level": "C1",
+    "title": "Выбрать документальный фильм",
+    "text": "Only when I had to leave early did I realise that trying to choose a documentary just then would be more trouble than it was worth.",
+    "translation": "Лишь когда мне пришлось уйти раньше, я понял, что попытка выбрать документальный фильм в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "film-170-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "film-171",
+    "level": "C1",
+    "title": "Посетить кинофестиваль",
+    "text": "Had I allowed more flexibility, I might have responded better when the agreed time changed, instead of regretting that I could not visit the film festival.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда договорённое время изменилось, вместо того чтобы сожалеть, что не смог посетить кинофестиваль.",
+    "phrases": [
+      {
+        "id": "film-171-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "film-172",
+    "level": "C1",
+    "title": "Прочитать рецензию на фильм",
+    "text": "So focused was I on trying to read a film review that I failed to allow for the possibility that I felt unwell.",
+    "translation": "Я настолько сосредоточился на попытке прочитать рецензию на фильм, что не учёл возможность того, что я плохо себя чувствовал.",
+    "phrases": [
+      {
+        "id": "film-172-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "film-173",
+    "level": "C1",
+    "title": "Пригласить друга в кино",
+    "text": "Much as I wanted to invite a friend to the cinema, once my friend needed help, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось пригласить друга в кино, когда моему другу понадобилась помощь, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "film-173-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "film-174",
+    "level": "C1",
+    "title": "Посмотреть последнюю серию",
+    "text": "Were I to watch the final episode despite the fact that I got a late start, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался посмотреть последнюю серию, несмотря на то что я начал позже, чем собирался, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "film-174-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "film-175",
+    "level": "C1",
+    "title": "Выбрать место ближе к экрану",
+    "text": "Only when we lost an hour did I realise that trying to pick a seat near the front just then would be more trouble than it was worth.",
+    "translation": "Лишь когда мы потеряли час, я понял, что попытка выбрать место ближе к экрану в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "film-175-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "film-176",
+    "level": "C1",
+    "title": "Посмотреть новую драму",
+    "text": "Had I allowed more flexibility, I might have responded better when another task took longer than expected, instead of regretting that I could not see the new drama.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда другое дело заняло больше времени, чем ожидалось, вместо того чтобы сожалеть, что не смог посмотреть новую драму.",
+    "phrases": [
+      {
+        "id": "film-176-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "film-177",
+    "level": "C1",
+    "title": "Сравнить две версии",
+    "text": "So focused was I on trying to compare two versions that I failed to allow for the possibility that I ran out of time.",
+    "translation": "Я настолько сосредоточился на попытке сравнить две версии, что не учёл возможность того, что у меня не осталось времени.",
+    "phrases": [
+      {
+        "id": "film-177-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "film-178",
+    "level": "C1",
+    "title": "Послушать саундтрек",
+    "text": "Much as I wanted to listen to the soundtrack, once I had to change my schedule, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось послушать саундтрек, когда мне пришлось изменить расписание, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "film-178-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "film-179",
+    "level": "C1",
+    "title": "Посмотреть интервью с режиссёром",
+    "text": "Were I to watch the director's interview despite the fact that my plans changed, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался посмотреть интервью с режиссёром, несмотря на то что мои планы изменились, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "film-179-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "film-180",
+    "level": "C1",
+    "title": "Найти вход в кинотеатр",
+    "text": "Only when a new appointment came up did I realise that trying to find the cinema entrance just then would be more trouble than it was worth.",
+    "translation": "Лишь когда появилась новая встреча, я понял, что попытка найти вход в кинотеатр в тот момент принесла бы больше хлопот, чем пользы.",
+    "phrases": [
+      {
+        "id": "film-180-p1",
+        "text": "Only when",
+        "meaning": "лишь когда",
+        "note": "После Only when в начале предложения главная часть строится с инверсией: did I realise.",
+        "example": "Only when she called did I understand."
+      }
+    ]
+  },
+  {
+    "id": "film-181",
+    "level": "C1",
+    "title": "Заказать напиток перед фильмом",
+    "text": "Had I allowed more flexibility, I might have responded better when the day became unexpectedly busy, instead of regretting that I could not order a drink before the film.",
+    "translation": "Если бы я оставил больше свободы в расписании, то спокойнее отреагировал бы, когда день неожиданно оказался загруженным, вместо того чтобы сожалеть, что не смог заказать напиток перед фильмом.",
+    "phrases": [
+      {
+        "id": "film-181-p1",
+        "text": "Had I allowed",
+        "meaning": "если бы я оставил",
+        "note": "Had I allowed — условная конструкция без if с инверсией.",
+        "example": "Had I allowed more time, I would have finished."
+      }
+    ]
+  },
+  {
+    "id": "film-182",
+    "level": "C1",
+    "title": "Посмотреть старый мультфильм",
+    "text": "So focused was I on trying to watch an old cartoon that I failed to allow for the possibility that I received an urgent call.",
+    "translation": "Я настолько сосредоточился на попытке посмотреть старый мультфильм, что не учёл возможность того, что мне срочно позвонили.",
+    "phrases": [
+      {
+        "id": "film-182-p1",
+        "text": "So focused was I",
+        "meaning": "я был настолько сосредоточен",
+        "note": "Вынесенное вперёд so focused вызывает инверсию для усиления.",
+        "example": "So focused was I that I missed the bell."
+      }
+    ]
+  },
+  {
+    "id": "film-183",
+    "level": "C1",
+    "title": "Поговорить о персонажах",
+    "text": "Much as I wanted to talk about the characters, once I had other work to finish, I had to concede that the timing was no longer right.",
+    "translation": "Как бы мне ни хотелось поговорить о персонажах, когда мне нужно было закончить другую работу, пришлось признать, что момент уже неподходящий.",
+    "phrases": [
+      {
+        "id": "film-183-p1",
+        "text": "Much as",
+        "meaning": "как бы ни",
+        "note": "Much as + подлежащее + глагол вводит уступку.",
+        "example": "Much as I liked it, I could not buy it."
+      }
+    ]
+  },
+  {
+    "id": "film-184",
+    "level": "C1",
+    "title": "Посмотреть финальные титры",
+    "text": "Were I to see the closing credits despite the fact that I forgot an earlier appointment, I might gain little beyond the satisfaction of sticking to a plan.",
+    "translation": "Если бы я попытался посмотреть финальные титры, несмотря на то что я забыл о назначенной ранее встрече, я едва ли получил бы что-то, кроме удовольствия от верности собственному плану.",
+    "phrases": [
+      {
+        "id": "film-184-p1",
+        "text": "Were I to",
+        "meaning": "если бы я",
+        "note": "Were I to — формальное условие с инверсией вместо if I were to.",
+        "example": "Were I to refuse, they would ask why."
+      }
+    ]
+  },
+  {
+    "id": "film-185",
+    "level": "C2",
+    "title": "Посмотреть короткий фильм",
+    "text": "Even after an earlier plan ran late, I could still have tried to watch a short film; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как предыдущее дело затянулось, я всё ещё мог попытаться посмотреть короткий фильм; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "film-185-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "film-186",
+    "level": "C2",
+    "title": "Выбрать комедию",
+    "text": "After the day did not go as expected, my insistence on trying to choose a comedy was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как день пошёл не по плану, моё упорное желание выбрать комедию объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "film-186-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "film-187",
+    "level": "C2",
+    "title": "Купить два билета в кино",
+    "text": "The plan to buy two cinema tickets looked entirely sensible until I needed a break; then its hidden assumptions became difficult to ignore.",
+    "translation": "План купить два билета в кино казался вполне разумным, пока мне понадобился отдых; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "film-187-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "film-188",
+    "level": "C2",
+    "title": "Найти наши места",
+    "text": "That I still wanted to find our seats after I learned I had less time than I thought revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел найти наши места после того, как выяснилось, что у меня меньше времени, чем я думал, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "film-188-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "film-189",
+    "level": "C2",
+    "title": "Посмотреть трейлер",
+    "text": "I postponed trying to watch the trailer once I was called away, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку посмотреть трейлер, когда меня срочно вызвали, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "film-189-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
+  },
+  {
+    "id": "film-190",
+    "level": "C2",
+    "title": "Поставить серию на паузу",
+    "text": "Even after an urgent task came up, I could still have tried to pause the episode; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как появилось срочное дело, я всё ещё мог попытаться поставить серию на паузу; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "film-190-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "film-191",
+    "level": "C2",
+    "title": "Прочитать субтитры",
+    "text": "After I had to leave early, my insistence on trying to read the subtitles was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как мне пришлось уйти раньше, моё упорное желание прочитать субтитры объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "film-191-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "film-192",
+    "level": "C2",
+    "title": "Обсудить концовку",
+    "text": "The plan to discuss the ending looked entirely sensible until the agreed time changed; then its hidden assumptions became difficult to ignore.",
+    "translation": "План обсудить концовку казался вполне разумным, пока договорённое время изменилось; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "film-192-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "film-193",
+    "level": "C2",
+    "title": "Встретиться с актёрами",
+    "text": "That I still wanted to meet the actors after I felt unwell revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел встретиться с актёрами после того, как я плохо себя чувствовал, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "film-193-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "film-194",
+    "level": "C2",
+    "title": "Посмотреть первую сцену",
+    "text": "I postponed trying to watch the first scene once my friend needed help, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку посмотреть первую сцену, когда моему другу понадобилась помощь, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "film-194-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
+  },
+  {
+    "id": "film-195",
+    "level": "C2",
+    "title": "Выбрать документальный фильм",
+    "text": "Even after I got a late start, I could still have tried to choose a documentary; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как я начал позже, чем собирался, я всё ещё мог попытаться выбрать документальный фильм; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "film-195-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "film-196",
+    "level": "C2",
+    "title": "Посетить кинофестиваль",
+    "text": "After we lost an hour, my insistence on trying to visit the film festival was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как мы потеряли час, моё упорное желание посетить кинофестиваль объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "film-196-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "film-197",
+    "level": "C2",
+    "title": "Прочитать рецензию на фильм",
+    "text": "The plan to read a film review looked entirely sensible until another task took longer than expected; then its hidden assumptions became difficult to ignore.",
+    "translation": "План прочитать рецензию на фильм казался вполне разумным, пока другое дело заняло больше времени, чем ожидалось; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "film-197-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "film-198",
+    "level": "C2",
+    "title": "Пригласить друга в кино",
+    "text": "That I still wanted to invite a friend to the cinema after I ran out of time revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел пригласить друга в кино после того, как у меня не осталось времени, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "film-198-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "film-199",
+    "level": "C2",
+    "title": "Посмотреть последнюю серию",
+    "text": "I postponed trying to watch the final episode once I had to change my schedule, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку посмотреть последнюю серию, когда мне пришлось изменить расписание, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "film-199-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
+  },
+  {
+    "id": "film-200",
+    "level": "C2",
+    "title": "Выбрать место ближе к экрану",
+    "text": "Even after my plans changed, I could still have tried to pick a seat near the front; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как мои планы изменились, я всё ещё мог попытаться выбрать место ближе к экрану; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "film-200-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "film-201",
+    "level": "C2",
+    "title": "Посмотреть новую драму",
+    "text": "After a new appointment came up, my insistence on trying to see the new drama was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как появилась новая встреча, моё упорное желание посмотреть новую драму объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "film-201-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "film-202",
+    "level": "C2",
+    "title": "Сравнить две версии",
+    "text": "The plan to compare two versions looked entirely sensible until the day became unexpectedly busy; then its hidden assumptions became difficult to ignore.",
+    "translation": "План сравнить две версии казался вполне разумным, пока день неожиданно оказался загруженным; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "film-202-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "film-203",
+    "level": "C2",
+    "title": "Послушать саундтрек",
+    "text": "That I still wanted to listen to the soundtrack after I received an urgent call revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел послушать саундтрек после того, как мне срочно позвонили, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "film-203-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "film-204",
+    "level": "C2",
+    "title": "Посмотреть интервью с режиссёром",
+    "text": "I postponed trying to watch the director's interview once I had other work to finish, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку посмотреть интервью с режиссёром, когда мне нужно было закончить другую работу, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "film-204-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
+  },
+  {
+    "id": "film-205",
+    "level": "C2",
+    "title": "Найти вход в кинотеатр",
+    "text": "Even after I forgot an earlier appointment, I could still have tried to find the cinema entrance; whether that would have been useful was another question entirely.",
+    "translation": "Даже после того, как я забыл о назначенной ранее встрече, я всё ещё мог попытаться найти вход в кинотеатр; принесло бы это пользу — совсем другой вопрос.",
+    "phrases": [
+      {
+        "id": "film-205-p1",
+        "text": "another question entirely",
+        "meaning": "совсем другой вопрос",
+        "note": "Another question entirely отделяет возможность действия от оценки его пользы.",
+        "example": "Whether it was fair is another question entirely."
+      }
+    ]
+  },
+  {
+    "id": "film-206",
+    "level": "C2",
+    "title": "Заказать напиток перед фильмом",
+    "text": "After a family matter needed attention, my insistence on trying to order a drink before the film was less a matter of necessity than of not wanting to revise a plan I had already announced.",
+    "translation": "После того как потребовалось заняться семейным делом, моё упорное желание заказать напиток перед фильмом объяснялось скорее нежеланием менять уже озвученный план, чем необходимостью.",
+    "phrases": [
+      {
+        "id": "film-206-p1",
+        "text": "less a matter of",
+        "meaning": "скорее вопрос не столько",
+        "note": "Less a matter of X than of Y переосмысляет мотив действия.",
+        "example": "It was less a matter of skill than of luck."
+      }
+    ]
+  },
+  {
+    "id": "film-207",
+    "level": "C2",
+    "title": "Посмотреть старый мультфильм",
+    "text": "The plan to watch an old cartoon looked entirely sensible until my afternoon filled up; then its hidden assumptions became difficult to ignore.",
+    "translation": "План посмотреть старый мультфильм казался вполне разумным, пока на вторую половину дня появились другие планы; после этого стало трудно не замечать скрытых предпосылок, на которых он держался.",
+    "phrases": [
+      {
+        "id": "film-207-p1",
+        "text": "hidden assumptions",
+        "meaning": "скрытые предпосылки",
+        "note": "Hidden assumptions — неявные условия, от которых зависит вывод.",
+        "example": "The proposal rested on hidden assumptions."
+      }
+    ]
+  },
+  {
+    "id": "film-208",
+    "level": "C2",
+    "title": "Поговорить о персонажах",
+    "text": "That I still wanted to talk about the characters after I could not get started on time revealed how easily a routine plan can acquire the force of an obligation.",
+    "translation": "То, что я всё ещё хотел поговорить о персонажах после того, как я не смог начать вовремя, показало, как легко обычный план начинает восприниматься как обязательство.",
+    "phrases": [
+      {
+        "id": "film-208-p1",
+        "text": "the force of an obligation",
+        "meaning": "силу обязательства",
+        "note": "Acquire the force of an obligation значит начать восприниматься как обязательное.",
+        "example": "A casual promise acquired the force of an obligation."
+      }
+    ]
+  },
+  {
+    "id": "film-209",
+    "level": "C2",
+    "title": "Посмотреть финальные титры",
+    "text": "I postponed trying to see the closing credits once an unexpected problem needed attention, though I preferred to call the decision prudent rather than admit that the choice had effectively been made for me.",
+    "translation": "Я отложил попытку посмотреть финальные титры, когда потребовалось решить неожиданную проблему, хотя предпочитал называть это разумным решением, а не признавать, что выбор уже фактически сделали за меня.",
+    "phrases": [
+      {
+        "id": "film-209-p1",
+        "text": "had effectively been made",
+        "meaning": "фактически уже был сделан",
+        "note": "Effectively уточняет реальное положение дел независимо от формальной видимости выбора.",
+        "example": "The decision had effectively been made."
+      }
+    ]
   }
 ]
