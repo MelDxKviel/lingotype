@@ -28,3 +28,13 @@ dialog{padding:0;border:1px solid #e4e9e1;border-radius:20px;color:var(--ink);bo
 .brand-icon{display:block;width:39px;height:39px;flex:none}
 @media(max-width:800px){.brand-icon{width:35px;height:35px}}
 @media(max-width:540px){.brand-icon{width:32px;height:32px}}
+.info-dialog #transfer-progress{margin:8px 12px 8px 0}
+.transfer-label{display:block;font-size:12px;font-weight:550;color:var(--ink);margin:18px 0 8px}
+.transfer-copy{display:flex;gap:9px;align-items:stretch}
+.transfer-copy input{min-width:0;flex:1;border:1px solid #d9e1e4;border-radius:9px;padding:11px 12px;color:var(--ink);background:#f8fafb;font-size:12px}
+.transfer-copy .primary-button{flex-shrink:0;font-size:12px;padding:10px 13px}
+.transfer-qr{display:grid;place-items:center;margin:20px auto 12px;min-height:220px}
+.transfer-qr svg{display:block;width:min(100%,360px);height:auto;aspect-ratio:1;background:#fff}
+.info-dialog .transfer-note{font-size:12px;line-height:1.6;margin:8px 0 18px}
+.info-dialog #transfer-back{margin-top:4px}
+@media(max-width:540px){.transfer-copy{flex-direction:column}.transfer-copy .primary-button{width:100%}.transfer-qr svg{width:min(100%,320px)}}

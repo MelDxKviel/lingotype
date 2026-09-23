@@ -1,5 +1,6 @@
 import { TypingSession, BADGES, MAX_SAVED, awardBadges, completeLesson, dueReviews, freshState, localDay, randomLesson, youglishUrl } from './core.js';
 import { loadState, saveState } from './storage.js';
+import { decodeTransfer, encodeTransfer, transferTokenFromHash, transferUrl } from './transfer.js';
 import { icon, hydrateIcons } from './icons.js';
 import { playKeySound, setSoundEnabled, prepareKeySound } from './sound.js';
 
@@ -18,7 +19,11 @@ const titles = {
   awards: ['Маленькие победы', 'Каждое занятие — ещё немного уверенности.'],
 };
 
-function persist() { $('#storage-warning').hidden = saveState(state); }
+function persist() {
+  const saved = saveState(state);
+  $('#storage-warning').hidden = saved;
+  return saved;
+}
 function focusTyping() {
   if (view === 'practice' && session && !session.completed && !document.querySelector('dialog[open]')) {
     $('#typing-input')?.focus({ preventScroll: true });
@@ -61,6 +66,12 @@ async function boot() {
     const files = await Promise.all(topics.map(async topic => (await fetchJSON(topic.file)).map(lesson => ({ ...lesson, topic: topic.id, topicTitle: topic.title }))));
     lessons = files.flat();
     lessons.forEach(lesson => lesson.phrases.forEach(phrase => phraseMap.set(phrase.id, { ...phrase, lessonId: lesson.id })));
+    const transferToken = transferTokenFromHash(location.hash);
+    let imported = false;
+    if (transferToken !== null) {
+      try { state = await decodeTransfer(transferToken); imported = true; }
+      catch { toast('Не удалось прочитать ссылку с прогрессом. Данные в этом браузере не изменены.'); }
+    }
     state.saved = state.saved.filter(id => phraseMap.has(id));
     state.reviews = state.reviews.filter(r => lessons.some(l => l.id === r.id));
     // Avoid recent completed texts when starting a new visit, too.
@@ -68,7 +79,13 @@ async function boot() {
     if (!topics.some(topic => topic.id === state.prefs.topic)) state.prefs.topic = 'all';
     $('#topic-select').innerHTML = '<option value="all">Все темы</option>' + topics.map(topic => `<option value="${escape(topic.id)}">${escape(topic.title)}</option>`).join('');
     $('#topic-select').value = state.prefs.topic; $('#level-select').value = state.prefs.level;
-    updateProgress(); renderKeyboard(); pickLesson(); persist(); focusTyping();
+    updateProgress(); renderKeyboard(); pickLesson();
+    const saved = persist();
+    if (transferToken !== null && (!imported || saved)) {
+      history.replaceState(history.state, '', location.pathname + location.search);
+    }
+    if (imported) toast(saved ? 'Прогресс перенесён в этот браузер' : 'Прогресс открыт, но cookies недоступны. Сохрани ссылку, чтобы не потерять его.');
+    focusTyping();
   } catch (error) {
     $('#practice-card').innerHTML = `<div class="empty-state">${icon('help')}<h2>Не удалось загрузить тексты</h2><p>Проверь соединение и попробуй ещё раз. Если открываешь проект на компьютере, запусти его через локальный сервер.</p><button id="retry-load" class="primary-button">Попробовать снова</button></div>`;
     $('#practice-card').setAttribute('aria-busy', 'false');
@@ -292,9 +309,48 @@ function renderSaved() {
 function renderAwards() {
   $('#awards-view').innerHTML = `<div class="progress-summary"><div class="summary-card"><strong>${state.total}</strong><span>${wordForm(state.total, 'текст завершён', 'текста завершено', 'текстов завершено')}</span></div><div class="summary-card"><strong>${state.best || '—'}</strong><span>лучший темп, слов/мин</span></div><div class="summary-card"><strong>${state.badges.length} / ${BADGES.length}</strong><span>маленьких побед</span></div></div><p class="section-intro">Награды за внимание и регулярность. Лучший темп учитывается при точности от 95% и времени печати от 10 секунд.</p><div class="award-grid">${BADGES.map(badge => `<article class="award-card${state.badges.includes(badge.id) ? ' earned' : ''}"><div class="award-symbol">${icon(badge.icon)}</div><div><h2>${badge.name}</h2><p>${badge.description}</p><span class="award-status">${state.badges.includes(badge.id) ? 'Получено · так держать' : 'Всё ещё впереди'}</span></div></article>`).join('')}</div>`;
 }
+async function openTransfer() {
+  session?.pause();
+  const dialog = $('#info-dialog');
+  dialog.innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">ПЕРЕНОС ПРОГРЕССА</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">Готовим ссылку…</h2>`;
+  if (!dialog.open) dialog.showModal();
+  try {
+    const token = await encodeTransfer(state);
+    const url = transferUrl(token);
+    const { qrcode } = await import('./vendor/qrcode.js');
+    let qrHtml = '';
+    for (const correction of ['M', 'L']) {
+      try {
+        const qr = qrcode(0, correction);
+        qr.addData(url);
+        qr.make();
+        qrHtml = qr.createSvgTag({ cellSize: 1, margin: 4, scalable: true, alt: 'QR-код со ссылкой для переноса прогресса' });
+        break;
+      } catch { /* Try a QR code with more capacity. */ }
+    }
+    if (!dialog.open) return;
+    dialog.innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">ПЕРЕНОС ПРОГРЕССА</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">Перенести прогресс</h2><p>Открой эту ссылку на другом устройстве или отсканируй QR-код. Прогресс сохранится там в cookies и заменит результаты, которые уже были в том браузере.</p><label class="transfer-label" for="transfer-link">Ссылка на текущий прогресс</label><div class="transfer-copy"><input id="transfer-link" type="text" readonly value="${escape(url)}" /><button id="copy-transfer" class="primary-button">Копировать</button></div><div class="transfer-qr">${qrHtml || '<p>Для этого объёма данных QR-код не поместился. Скопируй ссылку выше.</p>'}</div><p class="transfer-note">Ссылка содержит снимок прогресса на данный момент. После новых занятий создай новую. Любой, у кого есть ссылка, сможет увидеть этот прогресс.</p><button id="transfer-back" class="text-button">← К данным в этом браузере</button>`;
+    $('#copy-transfer').addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        toast('Ссылка скопирована');
+      } catch {
+        const field = $('#transfer-link'); field.focus(); field.select();
+        toast('Ссылка выделена. Скопируй её вручную.');
+      }
+    });
+    $('#transfer-back').addEventListener('click', () => openInfo('storage'));
+  } catch (error) {
+    if (!dialog.open) return;
+    dialog.innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">ПЕРЕНОС ПРОГРЕССА</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">Не удалось создать ссылку</h2><p>Попробуй открыть перенос ещё раз.</p><button id="transfer-back" class="text-button">← К данным в этом браузере</button>`;
+    $('#transfer-back').addEventListener('click', () => openInfo('storage'));
+    console.error('Lingotype: failed to create transfer link', error);
+  }
+}
 function openInfo(kind) {
   session?.pause(); const storage = kind === 'storage';
-  $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">${storage ? 'ТВОИ ДАННЫЕ' : 'ПРАКТИКА БЕЗ СПЕШКИ'}</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">${storage ? 'Только в этом браузере' : 'Два навыка, понемногу'}</h2>${storage ? `<p>Результаты, награды, до ${MAX_SAVED} фраз и последние 14 текстов для повторения хранятся в небольшом cookie на год с последнего сохранения. Аккаунт не нужен.</p><p>На другом устройстве прогресс будет отдельным. Очистка cookies или закрытие приватного окна может удалить его.</p><p>У приложения нет аналитики. Шрифты загружаются с Google Fonts, а YouGlish открывается только по твоему клику.</p><button id="reset-progress" class="danger-button">Сбросить мой прогресс</button>` : `<ol><li><strong>Сначала точность.</strong> Поставь пальцы на A S D F и J K L ;. Найди выступы на F и J. Смотри на текст, а не на руки. Экранная клавиатура подскажет палец.</li><li><strong>Коротко, но регулярно.</strong> Начни с 3 текстов в день. A1–B1 — повседневный английский; B2–C2 — более сложные конструкции и оттенки смысла. Уставшим рукам дай отдохнуть.</li><li><strong>Замечай выражения.</strong> Нажми на подчёркнутые слова, прочитай разбор и послушай их на YouGlish. Придумай собственный пример.</li><li><strong>Вспоминай без подсказки.</strong> По желанию скрывай перевод. В копилке сначала вспоминай значение выражения, затем открывай разбор.</li><li><strong>Возвращайся через паузу.</strong> В практике тексты выбираются случайно, без повторов за круг. Для знакомых текстов открой «Повторение»: они будут готовы через 1, 3, 7 и 14 дней. Между текстами ничего нажимать не нужно.</li></ol><p>Опечатка подсвечивается: исправь её Backspace. Паузы при уходе со страницы и чтении разбора не снижают темп. После 15 секунд без ввода отсчёт приостанавливается.</p><p class="source-links">О методике: <a href="https://www.typing.com/blog/typing-accuracy/" target="_blank" rel="noopener noreferrer">точность печати</a> · <a href="https://www.retrievalpractice.org/retrievalpractice/" target="_blank" rel="noopener noreferrer">активное вспоминание</a> · <a href="https://www.retrievalpractice.org/spacing/" target="_blank" rel="noopener noreferrer">практика с интервалами</a></p>`}`;
+  $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">${storage ? 'ТВОИ ДАННЫЕ' : 'ПРАКТИКА БЕЗ СПЕШКИ'}</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">${storage ? 'Только в этом браузере' : 'Два навыка, понемногу'}</h2>${storage ? `<p>Результаты, награды, до ${MAX_SAVED} фраз и последние 14 текстов для повторения хранятся в небольшом cookie на год с последнего сохранения. Аккаунт не нужен.</p><p>На другом устройстве прогресс будет отдельным. Открой там ссылку для переноса — данные сохранятся в cookies того браузера.</p><p>Очистка cookies или закрытие приватного окна может удалить прогресс. У приложения нет аналитики. Шрифты загружаются с Google Fonts, а YouGlish открывается только по твоему клику.</p><button id="transfer-progress" class="primary-button">Перенести прогресс</button><button id="reset-progress" class="danger-button">Сбросить мой прогресс</button>` : `<ol><li><strong>Сначала точность.</strong> Поставь пальцы на A S D F и J K L ;. Найди выступы на F и J. Смотри на текст, а не на руки. Экранная клавиатура подскажет палец.</li><li><strong>Коротко, но регулярно.</strong> Начни с 3 текстов в день. A1–B1 — повседневный английский; B2–C2 — более сложные конструкции и оттенки смысла. Уставшим рукам дай отдохнуть.</li><li><strong>Замечай выражения.</strong> Нажми на подчёркнутые слова, прочитай разбор и послушай их на YouGlish. Придумай собственный пример.</li><li><strong>Вспоминай без подсказки.</strong> По желанию скрывай перевод. В копилке сначала вспоминай значение выражения, затем открывай разбор.</li><li><strong>Возвращайся через паузу.</strong> В практике тексты выбираются случайно, без повторов за круг. Для знакомых текстов открой «Повторение»: они будут готовы через 1, 3, 7 и 14 дней. Между текстами ничего нажимать не нужно.</li></ol><p>Опечатка подсвечивается: исправь её Backspace. Паузы при уходе со страницы и чтении разбора не снижают темп. После 15 секунд без ввода отсчёт приостанавливается.</p><p class="source-links">О методике: <a href="https://www.typing.com/blog/typing-accuracy/" target="_blank" rel="noopener noreferrer">точность печати</a> · <a href="https://www.retrievalpractice.org/retrievalpractice/" target="_blank" rel="noopener noreferrer">активное вспоминание</a> · <a href="https://www.retrievalpractice.org/spacing/" target="_blank" rel="noopener noreferrer">практика с интервалами</a></p>`}`;
+  if (storage) $('#transfer-progress').addEventListener('click', openTransfer);
   if (storage) $('#reset-progress').addEventListener('click', () => {
     $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">НАЧАТЬ С ЧИСТОГО ЛИСТА</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">Сбросить прогресс?</h2><p>Сохранённые фразы, награды и результаты будут удалены из этого браузера. Настройки останутся.</p><div class="result-actions"><button class="secondary-button" data-close="info-dialog">Оставить</button><button id="confirm-reset" class="danger-button">Да, сбросить</button></div>`;
     $('#confirm-reset').addEventListener('click', () => {
@@ -303,7 +359,7 @@ function openInfo(kind) {
       changeMode('practice'); $('#info-dialog').close(); toast('Можно начать с чистого листа');
     });
   });
-  $('#info-dialog').showModal();
+  if (!$('#info-dialog').open) $('#info-dialog').showModal();
 }
 
 hydrateIcons();
@@ -348,5 +404,6 @@ for (const dialog of document.querySelectorAll('dialog')) dialog.addEventListene
 for (const dialog of document.querySelectorAll('dialog')) dialog.addEventListener('close', () => queueMicrotask(focusTyping));
 document.addEventListener('visibilitychange', () => { if (document.hidden) session?.pause(); else updateProgress(); });
 window.addEventListener('blur', () => session?.pause());
+window.addEventListener('hashchange', () => { if (transferTokenFromHash(location.hash) !== null) location.reload(); });
 setInterval(() => { if (!document.hidden && view === 'practice') updateStats(); }, 500);
 boot();
