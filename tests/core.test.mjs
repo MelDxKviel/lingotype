@@ -28,6 +28,34 @@ test('errors require correction and still affect accuracy after Backspace', () =
   assert.equal(session.metrics().errors, 1); assert.equal(session.metrics().accuracy, 92);
   assert.equal(session.completed, true);
 });
+test('only a completed text exposes a result for later review', () => {
+  let time = 0; const session = new TypingSession(lesson, () => time);
+  assert.equal(session.completedResult(), null);
+  session.type('H');
+  assert.equal(session.completedResult(), null);
+  for (const char of lesson.text.slice(1)) { time += 1000; session.type(char); }
+  const completed = session.completedResult();
+  assert.equal(completed.lesson, lesson);
+  assert.equal(completed.accuracy, 100);
+  assert.equal(completed.elapsedMs, 11000);
+  assert.equal(completed.wpm, 13);
+  time = 120000; session.type('!'); session.backspace();
+  assert.deepEqual(session.completedResult(), completed);
+});
+test('a completed result retains corrected mistakes without awarding extra progress', () => {
+  const state = freshState();
+  const session = new TypingSession(lesson, () => 0);
+  session.type('x'); session.backspace();
+  for (const char of lesson.text) session.type(char);
+  const completed = session.completedResult();
+  assert.ok(completed);
+  assert.equal(completed.errors, 1);
+  assert.equal(completed.accuracy, 92);
+  assert.equal(completed.wpm, 0);
+  completeLesson(state, completed, 100);
+  session.completedResult(); session.completedResult();
+  assert.equal(state.total, 1);
+});
 test('wrong punctuation and case count as errors; no paste-sized input', () => {
   const session = new TypingSession(lesson); assert.equal(session.type('Hello'), false);
   session.type('h'); assert.equal(session.blocked, true); assert.equal(session.metrics().errors, 1);

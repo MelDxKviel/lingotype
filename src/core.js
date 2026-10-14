@@ -122,6 +122,9 @@ export class TypingSession {
     if (this.completed || !this.typed.length) return;
     this.typed = this.typed.slice(0, -1);
   }
+  completedResult() {
+    return this.completed ? { lesson: this.lesson, ...this.metrics() } : null;
+  }
   metrics() {
     const running = this.activeAt === null ? 0 : Math.max(0, Math.min(this.clock(), (this.lastKey ?? this.clock()) + 15000) - this.activeAt);
     const elapsedMs = this.elapsed + running;

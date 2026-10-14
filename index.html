@@ -32,6 +32,7 @@
         <section id="practice-view" aria-label="Тренировка">
           <div class="practice-toolbar"><div class="mode-control" role="group" aria-label="Режим тренировки"><button data-mode="practice" class="selected" aria-pressed="true"><span data-icon="type"></span>Практика</button><button data-mode="review" aria-pressed="false"><span data-icon="repeat"></span>Повторение<span id="review-count" class="tiny-count">0</span></button></div><div class="filters"><label class="select-wrap"><span class="sr-only">Тема</span><select id="topic-select"><option value="all">Все темы</option></select><span data-icon="chevron-down"></span></label><label class="select-wrap level-select"><span class="sr-only">Уровень английского</span><select id="level-select"><option value="A1">A1 · Начальный</option><option value="A2" selected>A2 · Базовый</option><option value="B1">B1 · Средний</option><option value="B2">B2 · Выше среднего</option><option value="C1">C1 · Продвинутый</option><option value="C2">C2 · Мастерство</option></select><span data-icon="chevron-down"></span></label></div></div>
           <article id="practice-card" class="practice-card" aria-busy="true"><div class="loading-state">Готовим первый текст…</div></article>
+          <div id="last-result" class="last-result" hidden><div><p>Последний завершённый текст</p><strong id="last-result-title"></strong></div><button id="last-result-button" class="secondary-button" aria-haspopup="dialog" aria-controls="result-dialog">Результат и разбор <span data-icon="arrow-right"></span></button></div>
           <section id="keyboard-section" class="keyboard-section" aria-label="Подсказки для слепой печати"><div class="keyboard-heading"><p><span class="hint-dot"></span><span id="finger-hint">Положи указательные пальцы на F и J</span></p><button id="keyboard-toggle" class="text-button" aria-expanded="true">Скрыть клавиатуру</button></div><div id="keyboard" class="keyboard" aria-hidden="true"></div></section>
           <div class="practice-note"><span data-icon="leaf"></span><p><strong>Точность важнее скорости.</strong> Не смотри на руки, расслабь плечи и печатай без спешки.</p></div>
           <div class="session-footer"><span><span class="status-dot"></span>Без таймера на результат</span><span>Короткая практика — большая привычка</span></div>
@@ -44,6 +45,7 @@
     </div>
     <dialog id="phrase-dialog" class="phrase-dialog" aria-labelledby="phrase-title"></dialog>
     <dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"></dialog>
+    <dialog id="result-dialog" class="info-dialog result-dialog" aria-labelledby="result-title"></dialog>
     <div id="toast" class="toast" role="status" hidden></div>
     <noscript><div class="noscript">Для тренировки нужен JavaScript. Включите его в настройках браузера.</div></noscript>
   </body>

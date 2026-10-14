@@ -9,7 +9,7 @@ const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;
 let state = loadState();
 let topics = [], lessons = [], phraseMap = new Map(), session = null;
 let view = 'practice', mode = 'practice', allowEarlyReview = false, round = 0;
-let positions = [], lastLessonId = null, toastTimer;
+let positions = [], lastLessonId = null, lastResult = null, toastTimer;
 const keyAnimations = new Map();
 const visited = new Set();
 const reviewed = new Set();
@@ -220,7 +220,8 @@ function updateStats() {
   $('#live-accuracy').innerHTML = `${stats.accuracy}<span>%</span>`;
 }
 function finishLesson() {
-  const result = session.metrics(), unlocked = completeLesson(state, result);
+  const result = session.completedResult(), unlocked = completeLesson(state, result);
+  lastResult = result; renderLastResult();
   persist(); updateProgress();
   // The next exercise is ready immediately. No result screen or memory quiz.
   if (mode === 'review' && !allowEarlyReview && !dueReviews(state).length) changeMode('practice');
@@ -228,6 +229,17 @@ function finishLesson() {
   const speed = result.wpm ? ` · ~${result.wpm} слов/мин` : '';
   toast(`${result.errors === 0 ? 'Чисто!' : 'Текст готов'} ${result.accuracy}%${speed}${unlocked.length ? ` · ${unlocked.map(b => b.name).join(' + ')}` : ''}`);
   focusTyping();
+}
+function renderLastResult() {
+  $('#last-result').hidden = !lastResult;
+  $('#last-result-title').textContent = lastResult ? `${lastResult.lesson.title} · ${lastResult.accuracy}%` : '';
+}
+function openLastResult() {
+  if (!lastResult) return;
+  session?.pause();
+  const { lesson, accuracy, wpm, errors } = lastResult;
+  $('#result-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">ПОСЛЕДНИЙ РЕЗУЛЬТАТ</span><button class="dialog-close" data-close="result-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="result-title">${escape(lesson.title)}</h2><p class="result-topic">${escape(lesson.topicTitle)} · ${lesson.level}</p><div class="result-stats"><div class="result-stat"><strong>${accuracy}%</strong><span>точность</span></div><div class="result-stat"><strong>${wpm ? `~${wpm}` : '—'}</strong><span>слов/мин</span></div><div class="result-stat"><strong>${errors}</strong><span>${wordForm(errors, 'ошибка', 'ошибки', 'ошибок')}</span></div></div><p class="completed-text" lang="en">${escape(lesson.text)}</p><details class="result-translation"${state.prefs.translation ? ' open' : ''}><summary>Перевод</summary><p>${escape(lesson.translation)}</p></details><h3>Выражения из текста</h3><div class="result-phrases">${lesson.phrases.map(phrase => `<button class="secondary-button" data-phrase="${escape(phrase.id)}" aria-label="Разобрать выражение: ${escape(phrase.text)}"><span lang="en">${escape(phrase.text)}</span>${icon('arrow-right')}</button>`).join('')}</div><div class="result-actions"><button class="primary-button" data-close="result-dialog">Продолжить печатать ${icon('arrow-right')}</button></div>`;
+  $('#result-dialog').showModal();
 }
 function changeMode(next) {
   mode = next; allowEarlyReview = false;
@@ -354,7 +366,7 @@ function openInfo(kind) {
   if (storage) $('#reset-progress').addEventListener('click', () => {
     $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">НАЧАТЬ С ЧИСТОГО ЛИСТА</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">Сбросить прогресс?</h2><p>Сохранённые фразы, награды и результаты будут удалены из этого браузера. Настройки останутся.</p><div class="result-actions"><button class="secondary-button" data-close="info-dialog">Оставить</button><button id="confirm-reset" class="danger-button">Да, сбросить</button></div>`;
     $('#confirm-reset').addEventListener('click', () => {
-      const prefs = state.prefs; state = freshState(); state.prefs = prefs; visited.clear(); reviewed.clear(); persist(); updateProgress();
+      const prefs = state.prefs; state = freshState(); state.prefs = prefs; visited.clear(); reviewed.clear(); lastResult = null; renderLastResult(); persist(); updateProgress();
       if (view === 'awards') renderAwards(); if (view === 'phrases') renderSaved();
       changeMode('practice'); $('#info-dialog').close(); toast('Можно начать с чистого листа');
     });
@@ -398,6 +410,7 @@ document.querySelectorAll('[data-mode]').forEach(button => button.addEventListen
 for (const kind of ['topic', 'level']) $(`#${kind}-select`).addEventListener('change', event => { state.prefs[kind] = event.target.value; persist(); pickLesson(); });
 $('#keyboard-toggle').addEventListener('click', () => { state.prefs.keyboard = !state.prefs.keyboard; syncKeyboardVisibility(); persist(); });
 $('#how-button').addEventListener('click', () => openInfo('how')); $('#storage-button').addEventListener('click', () => openInfo('storage'));
+$('#last-result-button').addEventListener('click', openLastResult);
 for (const dialog of document.querySelectorAll('dialog')) dialog.addEventListener('click', event => {
   if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close(); }
 });

@@ -38,3 +38,12 @@ dialog{padding:0;border:1px solid #e4e9e1;border-radius:20px;color:var(--ink);bo
 .info-dialog .transfer-note{font-size:12px;line-height:1.6;margin:8px 0 18px}
 .info-dialog #transfer-back{margin-top:4px}
 @media(max-width:540px){.transfer-copy{flex-direction:column}.transfer-copy .primary-button{width:100%}.transfer-qr svg{width:min(100%,320px)}}
+
+.last-result{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:14px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.last-result>div{min-width:0}.last-result p{font-size:11px;color:#637067;margin-bottom:5px}.last-result strong{display:block;font-size:13px;font-weight:500;overflow-wrap:anywhere}
+.last-result .secondary-button{display:flex;align-items:center;gap:8px;flex-shrink:0;min-height:44px;font-size:12px;color:var(--dark-green)}
+.result-dialog .dialog-close{width:44px;height:44px;flex-shrink:0}.result-dialog .result-topic{font-size:12px;margin:8px 0;color:#637067}
+.result-dialog .result-stats{gap:24px;flex-wrap:wrap}.result-dialog .result-stat span{color:#637067}.result-dialog .completed-text{font-family:var(--mono);font-size:16px;line-height:1.9;color:var(--ink);overflow-wrap:anywhere}
+.result-translation{margin:18px 0 24px}.result-translation summary{cursor:pointer;min-height:44px;display:list-item;align-content:center;font-size:14px;color:var(--dark-green)}.result-translation summary:focus-visible{outline:3px solid #6b9739;outline-offset:4px;border-radius:4px}.result-dialog .result-translation p{color:#637067;margin:8px 0}
+.result-dialog h3{font-size:14px;font-weight:550}.result-phrases{display:grid;gap:10px;margin-top:12px}.result-phrases .secondary-button{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:44px;text-align:left;color:var(--dark-green)}.result-phrases span{overflow-wrap:anywhere}.result-phrases svg{width:16px;height:16px}
+@media(max-width:540px){.last-result{align-items:stretch;flex-direction:column;gap:12px;padding:14px}.last-result .secondary-button{justify-content:center}.result-dialog .result-stats{gap:22px}.result-dialog .completed-text{font-size:14px}}
