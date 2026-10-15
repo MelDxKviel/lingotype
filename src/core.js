@@ -75,6 +75,11 @@ export function dueReviews(state, day = localDay()) {
   return state.reviews.filter(r => r.due <= day).sort((a, b) => a.due - b.due);
 }
 
+export function savedLessons(lessons, savedPhraseIds) {
+  const saved = new Set(savedPhraseIds);
+  return lessons.filter(lesson => lesson.phrases.some(phrase => saved.has(phrase.id)));
+}
+
 export function randomLesson(pool, visited, lastLessonId = null, random = Math.random) {
   if (!pool.length) return null;
   let unseen = pool.filter(lesson => !visited.has(lesson.id));

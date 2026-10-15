@@ -1,4 +1,4 @@
-import { TypingSession, BADGES, MAX_SAVED, awardBadges, completeLesson, dueReviews, freshState, localDay, randomLesson, youglishUrl } from './core.js';
+import { TypingSession, BADGES, MAX_SAVED, awardBadges, completeLesson, dueReviews, freshState, localDay, randomLesson, savedLessons, youglishUrl } from './core.js';
 import { loadState, saveState } from './storage.js';
 import { decodeTransfer, encodeTransfer, transferTokenFromHash, transferUrl } from './transfer.js';
 import { icon, hydrateIcons } from './icons.js';
@@ -12,6 +12,7 @@ let view = 'practice', mode = 'practice', allowEarlyReview = false, round = 0;
 let positions = [], lastLessonId = null, lastResult = null, toastTimer;
 const keyAnimations = new Map();
 const visited = new Set();
+const savedVisited = new Set();
 const reviewed = new Set();
 const titles = {
   practice: ['Поймай свой ритм', 'Тренируй пальцы. Находи новые слова.'],
@@ -105,6 +106,7 @@ function showView(next) {
   if (next === 'phrases') renderSaved(); if (next === 'awards') renderAwards(); updateProgress(); focusTyping();
 }
 function candidates() {
+  if (mode === 'saved') return savedLessons(lessons, state.saved);
   if (mode === 'review') {
     const entries = allowEarlyReview ? [...state.reviews].sort((a, b) => a.due - b.due) : dueReviews(state);
     return entries.map(r => lessons.find(l => l.id === r.id)).filter(Boolean);
@@ -121,12 +123,18 @@ function pickLesson() {
     lesson = unseen.find(l => l.id !== lastLessonId) || unseen[0];
     reviewed.add(lesson.id);
   } else {
-    lesson = randomLesson(pool, visited, lastLessonId);
+    lesson = randomLesson(pool, mode === 'saved' ? savedVisited : visited, lastLessonId);
   }
   session = new TypingSession(lesson); lastLessonId = lesson.id; round += 1;
   renderPractice(); updateKeyboard(); focusTyping();
 }
 function renderEmptyPractice() {
+  if (mode === 'saved') {
+    $('#practice-card').innerHTML = `<div class="empty-state saved-practice-empty">${icon('bookmark')}<h2>Сначала сохрани выражение</h2><p>Нажми на подчёркнутую фразу в обычной практике и сохрани её. Здесь можно будет печатать тексты с твоими фразами из любых тем и уровней.</p><button id="empty-action" class="primary-button">К практике ${icon('arrow-right')}</button></div>`;
+    $('#practice-card').setAttribute('aria-busy', 'false'); $('#keyboard-section').hidden = true;
+    $('#empty-action').addEventListener('click', () => changeMode('practice'));
+    return;
+  }
   const review = mode === 'review';
   const nextReview = [...state.reviews].sort((a, b) => a.due - b.due)[0];
   const waitDays = nextReview ? Math.max(1, nextReview.due - localDay()) : 0;
@@ -158,7 +166,7 @@ function renderPractice() {
   const lesson = session.lesson;
   $('#practice-card').setAttribute('aria-busy', 'false');
   $('#practice-card').innerHTML = `<div class="card-top"><div class="lesson-meta"><span class="lesson-number">${String(round).padStart(2, '0')}</span><span class="lesson-tag">${escape(lesson.topicTitle)}</span></div><div class="stats"><div class="stat wpm" title="Знаков в минуту, делённых на 5. Скорость короткого текста приблизительна."><strong id="live-wpm">—</strong><span>слов/мин</span></div><div class="stat"><strong id="live-accuracy">100<span>%</span></strong><span>точность</span></div></div></div>
-    <div class="card-body"><div class="text-heading"><span class="text-title">${escape(lesson.title)}</span><span class="small-pill">${lesson.level} · ${mode === 'review' ? 'закрепляем' : 'случайный текст'}</span></div>
+    <div class="card-body"><div class="text-heading"><span class="text-title">${escape(lesson.title)}</span><span class="small-pill">${lesson.level} · ${mode === 'review' ? 'закрепляем' : mode === 'saved' ? 'из копилки' : 'случайный текст'}</span></div>
       <div class="typing-surface"><input id="typing-input" class="typing-capture" type="text" lang="en" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" inputmode="text" aria-label="Печатай английский текст. Ошибки исправляй Backspace." aria-describedby="target-text input-feedback" /><div id="target-text" class="target-text" lang="en" aria-label="Текст для печати">${renderTarget(lesson)}</div></div>
       <p id="translation" class="translation"${state.prefs.translation ? '' : ' hidden'}>${escape(lesson.translation)}</p>
       <p id="input-feedback" class="input-feedback" role="status"></p><span id="typing-status" class="sr-only" role="status"></span>
@@ -243,8 +251,9 @@ function openLastResult() {
 }
 function changeMode(next) {
   mode = next; allowEarlyReview = false;
+  $('#saved-practice-note').hidden = next !== 'saved';
   document.querySelectorAll('[data-mode]').forEach(button => { const selected = button.dataset.mode === next; button.classList.toggle('selected', selected); button.setAttribute('aria-pressed', selected); });
-  $('#topic-select').disabled = next === 'review'; $('#level-select').disabled = next === 'review'; pickLesson();
+  $('#topic-select').disabled = next !== 'practice'; $('#level-select').disabled = next !== 'practice'; pickLesson();
 }
 function renderKeyboard() {
   const rows = [
@@ -312,11 +321,13 @@ function toggleSaved(id) {
     state.saved.push(id); toast('Выражение в твоей копилке');
   }
   const unlocked = awardBadges(state); if (unlocked.length) toast(`Новая награда: ${unlocked[0].name}`);
-  persist(); updateProgress(); if (view === 'phrases') renderSaved(); return true;
+  persist(); updateProgress(); if (view === 'phrases') renderSaved();
+  if (mode === 'saved' && (!session || !candidates().some(lesson => lesson.id === session.lesson.id))) pickLesson();
+  return true;
 }
 function renderSaved() {
   const saved = state.saved.map(id => phraseMap.get(id)).filter(Boolean);
-  $('#phrases-view').innerHTML = saved.length ? `<p class="section-intro">${saved.length} из ${MAX_SAVED} выражений в копилке. Вспомни перевод, прежде чем открывать разбор.</p><div class="phrase-grid">${saved.map(phrase => `<article class="phrase-card"><div class="phrase-card-top"><h2 lang="en">${escape(phrase.text)}</h2><button class="icon-button" data-remove="${escape(phrase.id)}" aria-label="Убрать ${escape(phrase.text)} из сохранённых">${icon('bookmark')}</button></div><p lang="en">${escape(phrase.example)}</p><button class="text-button" data-phrase="${escape(phrase.id)}">Вспомнить значение ${icon('arrow-right')}</button></article>`).join('')}</div>` : `<div class="practice-card empty-state">${icon('bookmark')}<h2>Твоя копилка выражений</h2><p>Нажми на подчёркнутую фразу в тексте и сохрани её. Здесь будут твои небольшие языковые открытия.</p><button class="primary-button" data-go-practice>Найти первое выражение ${icon('arrow-right')}</button></div>`;
+  $('#phrases-view').innerHTML = saved.length ? `<div class="saved-practice-intro"><p class="section-intro">${saved.length} из ${MAX_SAVED} выражений в копилке. Вспомни перевод, прежде чем открывать разбор. Или печатай исходные тексты, чтобы повторять фразы в контексте.</p><button class="primary-button" data-start-saved>Печатать тексты с фразами ${icon('arrow-right')}</button></div><div class="phrase-grid">${saved.map(phrase => `<article class="phrase-card"><div class="phrase-card-top"><h2 lang="en">${escape(phrase.text)}</h2><button class="icon-button" data-remove="${escape(phrase.id)}" aria-label="Убрать ${escape(phrase.text)} из сохранённых">${icon('bookmark')}</button></div><p lang="en">${escape(phrase.example)}</p><button class="text-button" data-phrase="${escape(phrase.id)}">Вспомнить значение ${icon('arrow-right')}</button></article>`).join('')}</div>` : `<div class="practice-card empty-state">${icon('bookmark')}<h2>Твоя копилка выражений</h2><p>Нажми на подчёркнутую фразу в тексте и сохрани её. Здесь будут твои небольшие языковые открытия.</p><button class="primary-button" data-go-practice>Найти первое выражение ${icon('arrow-right')}</button></div>`;
 }
 function renderAwards() {
   $('#awards-view').innerHTML = `<div class="progress-summary"><div class="summary-card"><strong>${state.total}</strong><span>${wordForm(state.total, 'текст завершён', 'текста завершено', 'текстов завершено')}</span></div><div class="summary-card"><strong>${state.best || '—'}</strong><span>лучший темп, слов/мин</span></div><div class="summary-card"><strong>${state.badges.length} / ${BADGES.length}</strong><span>маленьких побед</span></div></div><p class="section-intro">Награды за внимание и регулярность. Лучший темп учитывается при точности от 95% и времени печати от 10 секунд.</p><div class="award-grid">${BADGES.map(badge => `<article class="award-card${state.badges.includes(badge.id) ? ' earned' : ''}"><div class="award-symbol">${icon(badge.icon)}</div><div><h2>${badge.name}</h2><p>${badge.description}</p><span class="award-status">${state.badges.includes(badge.id) ? 'Получено · так держать' : 'Всё ещё впереди'}</span></div></article>`).join('')}</div>`;
@@ -366,7 +377,7 @@ function openInfo(kind) {
   if (storage) $('#reset-progress').addEventListener('click', () => {
     $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">НАЧАТЬ С ЧИСТОГО ЛИСТА</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">Сбросить прогресс?</h2><p>Сохранённые фразы, награды и результаты будут удалены из этого браузера. Настройки останутся.</p><div class="result-actions"><button class="secondary-button" data-close="info-dialog">Оставить</button><button id="confirm-reset" class="danger-button">Да, сбросить</button></div>`;
     $('#confirm-reset').addEventListener('click', () => {
-      const prefs = state.prefs; state = freshState(); state.prefs = prefs; visited.clear(); reviewed.clear(); lastResult = null; renderLastResult(); persist(); updateProgress();
+      const prefs = state.prefs; state = freshState(); state.prefs = prefs; visited.clear(); savedVisited.clear(); reviewed.clear(); lastResult = null; renderLastResult(); persist(); updateProgress();
       if (view === 'awards') renderAwards(); if (view === 'phrases') renderSaved();
       changeMode('practice'); $('#info-dialog').close(); toast('Можно начать с чистого листа');
     });
@@ -404,7 +415,8 @@ document.addEventListener('click', event => {
   const phrase = event.target.closest('[data-phrase]'); if (phrase) openPhrase(phrase.dataset.phrase);
   const close = event.target.closest('[data-close]'); if (close) $(`#${close.dataset.close}`).close();
   const remove = event.target.closest('[data-remove]'); if (remove) toggleSaved(remove.dataset.remove);
-  if (event.target.closest('[data-go-practice]')) showView('practice');
+  if (event.target.closest('[data-go-practice]')) { if (mode !== 'practice') changeMode('practice'); showView('practice'); }
+  if (event.target.closest('[data-start-saved]')) { changeMode('saved'); showView('practice'); }
 });
 document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => showView(button.dataset.view)));
 document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => changeMode(button.dataset.mode)));
