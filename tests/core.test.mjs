@@ -28,6 +28,55 @@ test('errors require correction and still affect accuracy after Backspace', () =
   assert.equal(session.metrics().errors, 1); assert.equal(session.metrics().accuracy, 92);
   assert.equal(session.completed, true);
 });
+test('word deletion removes the last word and trailing spaces, keeping earlier text', () => {
+  for (const [prefix, expected] of [
+    ['Hello wor', 'Hello '],
+    ['Hello world. ', 'Hello '],
+    ['Hello  world.  ', 'Hello  '],
+    ["Hello can't", 'Hello '],
+    ['Hello', ''],
+    ['   ', ''],
+    ['', ''],
+  ]) {
+    const session = new TypingSession({ id: 'test-words', text: `${prefix}again.` });
+    for (const char of prefix) session.type(char);
+    session.backspace(true);
+    assert.equal(session.typed, expected, JSON.stringify(prefix));
+    assert.equal(session.completed, false);
+    assert.equal(session.completedResult(), null);
+  }
+});
+test('word deletion clears a blocked mistake without erasing attempts or accuracy history', () => {
+  let time = 0;
+  const session = new TypingSession(lesson, () => time);
+  for (const char of 'Hello wo') { session.type(char); time += 1000; }
+  session.type('x'); time += 1000;
+  assert.equal(session.blocked, true);
+  session.backspace(true);
+  assert.equal(session.typed, 'Hello ');
+  assert.equal(session.blocked, false);
+  assert.equal(session.metrics().attempts, 9);
+  assert.equal(session.metrics().errors, 1);
+  assert.equal(session.metrics().accuracy, 89);
+  for (const char of 'world.') { session.type(char); time += 1000; }
+  assert.equal(session.completed, true);
+  assert.equal(session.completedResult().attempts, 15);
+  assert.equal(session.completedResult().errors, 1);
+  assert.equal(session.completedResult().accuracy, 93);
+  session.backspace(true);
+  assert.equal(session.typed, 'Hello world.');
+});
+test('ordinary Backspace still deletes a single character after a word deletion', () => {
+  const session = new TypingSession(lesson);
+  for (const char of 'Hello wo') session.type(char);
+  session.backspace(true);
+  session.type('w'); session.type('o');
+  session.backspace();
+  assert.equal(session.typed, 'Hello w');
+  session.backspace(true); session.backspace(true); session.backspace(true);
+  assert.equal(session.typed, '');
+  assert.equal(session.metrics().attempts, 10);
+});
 test('only a completed text exposes a result for later review', () => {
   let time = 0; const session = new TypingSession(lesson, () => time);
   assert.equal(session.completedResult(), null);

@@ -118,9 +118,9 @@ export class TypingSession {
     if (this.typed === this.lesson.text) { this.pause(); this.completed = true; }
     return true;
   }
-  backspace() {
+  backspace(byWord = false) {
     if (this.completed || !this.typed.length) return;
-    this.typed = this.typed.slice(0, -1);
+    this.typed = byWord ? this.typed.trimEnd().replace(/\S+$/, '') : this.typed.slice(0, -1);
   }
   completedResult() {
     return this.completed ? { lesson: this.lesson, ...this.metrics() } : null;

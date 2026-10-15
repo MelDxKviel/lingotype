@@ -169,12 +169,12 @@ function renderPractice() {
   input.addEventListener('input', onInput);
   input.addEventListener('keydown', event => {
     animatePhysicalKey(event);
-    if (event.key === 'Backspace') { event.preventDefault(); if (session.typed.length) playKeySound(false, true); session.backspace(); paintTyping(); feedback(''); }
+    if (event.key === 'Backspace') { event.preventDefault(); if (session.typed.length) playKeySound(false, true); session.backspace(event.ctrlKey || event.altKey); paintTyping(); feedback(''); }
     if (event.key === 'Escape') { input.blur(); session.pause(); }
     if (event.getModifierState?.('CapsLock')) feedback('Включён Caps Lock. Проверь регистр букв.');
   });
   input.addEventListener('beforeinput', event => {
-    if (event.inputType.startsWith('delete')) { event.preventDefault(); animateKey('Backspace'); if (session.typed.length) playKeySound(false, true); session.backspace(); paintTyping(); }
+    if (event.inputType.startsWith('delete')) { event.preventDefault(); animateKey('Backspace'); if (session.typed.length) playKeySound(false, true); session.backspace(event.inputType === 'deleteWordBackward'); paintTyping(); feedback(''); }
     if (['insertFromPaste', 'insertFromDrop', 'insertReplacementText'].includes(event.inputType)) { event.preventDefault(); feedback('Попробуй набрать текст самостоятельно.'); }
   });
   for (const name of ['paste', 'drop']) input.addEventListener(name, event => { event.preventDefault(); feedback('Здесь тренируются пальцы — набирай по одной букве.'); });
@@ -197,7 +197,7 @@ function onInput(event) {
   if (value.length !== 1 || !/^[\x20-\x7E]$/.test(value)) { feedback('Набирай по одному символу в английской раскладке.'); return; }
   if (session.blocked) { feedback('Сначала исправь выделенную ошибку клавишей Backspace.', true); return; }
   session.type(value); animateKey(value); playKeySound(session.blocked); paintTyping();
-  if (session.blocked) feedback('Небольшая опечатка. Нажми Backspace и попробуй ещё раз.', true);
+  if (session.blocked) feedback('Опечатка. Backspace — удалить символ, Ctrl+Backspace (на Mac — Option+Backspace) — слово.', true);
   else feedback('');
   if (session.completed) finishLesson();
 }
@@ -361,7 +361,7 @@ async function openTransfer() {
 }
 function openInfo(kind) {
   session?.pause(); const storage = kind === 'storage';
-  $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">${storage ? 'ТВОИ ДАННЫЕ' : 'ПРАКТИКА БЕЗ СПЕШКИ'}</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">${storage ? 'Только в этом браузере' : 'Два навыка, понемногу'}</h2>${storage ? `<p>Результаты, награды, до ${MAX_SAVED} фраз и последние 14 текстов для повторения хранятся в небольшом cookie на год с последнего сохранения. Аккаунт не нужен.</p><p>На другом устройстве прогресс будет отдельным. Открой там ссылку для переноса — данные сохранятся в cookies того браузера.</p><p>Очистка cookies или закрытие приватного окна может удалить прогресс. У приложения нет аналитики. Шрифты загружаются с Google Fonts, а YouGlish открывается только по твоему клику.</p><button id="transfer-progress" class="primary-button">Перенести прогресс</button><button id="reset-progress" class="danger-button">Сбросить мой прогресс</button>` : `<ol><li><strong>Сначала точность.</strong> Поставь пальцы на A S D F и J K L ;. Найди выступы на F и J. Смотри на текст, а не на руки. Экранная клавиатура подскажет палец.</li><li><strong>Коротко, но регулярно.</strong> Начни с 3 текстов в день. A1–B1 — повседневный английский; B2–C2 — более сложные конструкции и оттенки смысла. Уставшим рукам дай отдохнуть.</li><li><strong>Замечай выражения.</strong> Нажми на подчёркнутые слова, прочитай разбор и послушай их на YouGlish. Придумай собственный пример.</li><li><strong>Вспоминай без подсказки.</strong> По желанию скрывай перевод. В копилке сначала вспоминай значение выражения, затем открывай разбор.</li><li><strong>Возвращайся через паузу.</strong> В практике тексты выбираются случайно, без повторов за круг. Для знакомых текстов открой «Повторение»: они будут готовы через 1, 3, 7 и 14 дней. Между текстами ничего нажимать не нужно.</li></ol><p>Опечатка подсвечивается: исправь её Backspace. Паузы при уходе со страницы и чтении разбора не снижают темп. После 15 секунд без ввода отсчёт приостанавливается.</p><p class="source-links">О методике: <a href="https://www.typing.com/blog/typing-accuracy/" target="_blank" rel="noopener noreferrer">точность печати</a> · <a href="https://www.retrievalpractice.org/retrievalpractice/" target="_blank" rel="noopener noreferrer">активное вспоминание</a> · <a href="https://www.retrievalpractice.org/spacing/" target="_blank" rel="noopener noreferrer">практика с интервалами</a></p>`}`;
+  $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">${storage ? 'ТВОИ ДАННЫЕ' : 'ПРАКТИКА БЕЗ СПЕШКИ'}</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">${storage ? 'Только в этом браузере' : 'Два навыка, понемногу'}</h2>${storage ? `<p>Результаты, награды, до ${MAX_SAVED} фраз и последние 14 текстов для повторения хранятся в небольшом cookie на год с последнего сохранения. Аккаунт не нужен.</p><p>На другом устройстве прогресс будет отдельным. Открой там ссылку для переноса — данные сохранятся в cookies того браузера.</p><p>Очистка cookies или закрытие приватного окна может удалить прогресс. У приложения нет аналитики. Шрифты загружаются с Google Fonts, а YouGlish открывается только по твоему клику.</p><button id="transfer-progress" class="primary-button">Перенести прогресс</button><button id="reset-progress" class="danger-button">Сбросить мой прогресс</button>` : `<ol><li><strong>Сначала точность.</strong> Поставь пальцы на A S D F и J K L ;. Найди выступы на F и J. Смотри на текст, а не на руки. Экранная клавиатура подскажет палец.</li><li><strong>Коротко, но регулярно.</strong> Начни с 3 текстов в день. A1–B1 — повседневный английский; B2–C2 — более сложные конструкции и оттенки смысла. Уставшим рукам дай отдохнуть.</li><li><strong>Замечай выражения.</strong> Нажми на подчёркнутые слова, прочитай разбор и послушай их на YouGlish. Придумай собственный пример.</li><li><strong>Вспоминай без подсказки.</strong> По желанию скрывай перевод. В копилке сначала вспоминай значение выражения, затем открывай разбор.</li><li><strong>Возвращайся через паузу.</strong> В практике тексты выбираются случайно, без повторов за круг. Для знакомых текстов открой «Повторение»: они будут готовы через 1, 3, 7 и 14 дней. Между текстами ничего нажимать не нужно.</li></ol><p>Опечатка подсвечивается: Backspace удаляет символ, Ctrl+Backspace (на Mac — Option+Backspace) — последнее слово и пробелы после него. Исправленные ошибки и повторный набор остаются в расчёте точности. Паузы при уходе со страницы и чтении разбора не снижают темп. После 15 секунд без ввода отсчёт приостанавливается.</p><p class="source-links">О методике: <a href="https://www.typing.com/blog/typing-accuracy/" target="_blank" rel="noopener noreferrer">точность печати</a> · <a href="https://www.retrievalpractice.org/retrievalpractice/" target="_blank" rel="noopener noreferrer">активное вспоминание</a> · <a href="https://www.retrievalpractice.org/spacing/" target="_blank" rel="noopener noreferrer">практика с интервалами</a></p>`}`;
   if (storage) $('#transfer-progress').addEventListener('click', openTransfer);
   if (storage) $('#reset-progress').addEventListener('click', () => {
     $('#info-dialog').innerHTML = `<div class="dialog-top"><span class="dialog-eyebrow">НАЧАТЬ С ЧИСТОГО ЛИСТА</span><button class="dialog-close" data-close="info-dialog" aria-label="Закрыть">${icon('close')}</button></div><h2 id="info-title">Сбросить прогресс?</h2><p>Сохранённые фразы, награды и результаты будут удалены из этого браузера. Настройки останутся.</p><div class="result-actions"><button class="secondary-button" data-close="info-dialog">Оставить</button><button id="confirm-reset" class="danger-button">Да, сбросить</button></div>`;
@@ -386,14 +386,15 @@ soundToggle.addEventListener('click', () => {
 });
 // Typing can resume after clicking empty space. Native controls keep their keys.
 document.addEventListener('keydown', event => {
-  if (view !== 'practice' || !session || session.completed || document.querySelector('dialog[open]') || event.ctrlKey || event.altKey || event.metaKey || event.isComposing) return;
+  if (view !== 'practice' || !session || session.completed || document.querySelector('dialog[open]') || event.metaKey || event.isComposing) return;
+  if ((event.ctrlKey || event.altKey) && event.key !== 'Backspace') return;
   if (event.target.closest('input, textarea, select, button, a, [contenteditable="true"]')) return;
   if (event.key.length === 1 || event.key === 'Backspace') {
     animatePhysicalKey(event);
     event.preventDefault(); focusTyping();
     if (event.key === 'Backspace') {
       if (session.typed.length) playKeySound(false, true);
-      session.backspace(); paintTyping();
+      session.backspace(event.ctrlKey || event.altKey); paintTyping(); feedback('');
     } else {
       const input = $('#typing-input'); if (input) { input.value = event.key; onInput({ target: input }); }
     }
